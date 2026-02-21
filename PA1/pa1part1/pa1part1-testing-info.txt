@@ -1,0 +1,70 @@
+# INFO
+    Om Khadka
+    U51801771
+
+# EXECUTION STEPS
+    The files are already coded out to be run on their own. To run the files, do the following:
+    1. In one linux terminal, initiate the server code.
+    - ~~~$ python3 server.py <port> (any port from 58000-58999)
+    - EXAMPLE:  python3 server.py 58805
+
+    2. In another linux terminal, run the client file.
+    - ~~~$ python3 client.py <hostname> <port> (same port restrictions, 58000-58999)
+    - EXAMPLE:  python3 client.py localhost 58005 
+        OR
+        python3 client.py csa1.bu.edu 58005'
+
+    3. Look at both terminals.
+    - Server should read something like:
+        Server listening on port XXXXX...
+        Connection from ('XXX.X.X.X', XXXXX)
+        Received: ~~~~~~~~~~.
+        Sent: ~~~~~~~~.
+        Connection closed
+    - Client should be something like:
+        Connected to XXXXXXXX:YYYYY
+        Sent: ~~~~~~~~~.
+        Received: ~~~~~~~~~.
+
+# TESTING ENVIRONMENT
+    Server: csa1.bu.edu
+
+    Client: local machine (WSL)
+
+    Code: Python 3.12.12
+
+# TESTS DONE
+    1.
+        Server on port 58005, client on localhost 58005.
+        - Client prints msg, server logs connection.
+        GOOD
+
+    2. 
+        Server on csa1 port 58005, client on csa2 targeting csa1.
+        - Client prints msg, server logs connection.
+        GOOD
+
+    3.
+        Server on port 80.
+        - Warning printed, code breaks (PermissionError: [Errno 13] Permission denied).
+        EHH (Shouldn't work, but should custom error)
+
+    4. 
+        Client same as (2), no server started up.
+        - Client sends message, times out after 5 seconds.
+        GOOD
+
+    5. 
+        Server on ~~~ (no args).
+        - Prints Using msg, then exits.
+        GOOD (Should exit if args bad)
+
+    6. Client on localhost ~~~ (no port arg).
+        - Prints Using msg, exits.
+        GOOD (Same idea as (5))
+
+
+# KNOWN PROBLEMS
+    Server will only handle 1 client at a time. May cause blocking issues.
+
+    Msgs >1024 bytes will not work properly. Will later need to implement truncated/looped logic.

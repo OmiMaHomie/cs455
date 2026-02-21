@@ -1,0 +1,67 @@
+# INFO
+    Om Khadka
+    U51801771
+
+
+# SERVER DESIGN
+    The server is just a textbook server implementation, using the socket library to operate. It is a single-threaded, TCP echo server.
+    
+    ## DESIGN EXPLANATION
+        The server accepts a 1-command-line argument: the port #. It also makes sure its within the valid range (58000-58999).
+    
+        Creates a TCP socket (AF_INET, SOCK_STREAM).
+
+        Binds to all available interfaces ('') on the specified port, and then listens for incoming connection requests.
+
+        Enters an inf. loop to accept all client connections.
+
+        Upon accepting a client, it gets the client's data (max 1024 bytes), prints the recieved message to stdout, 
+        and then sends the exact same data back to client.
+
+        Closes the client connection socket, and then goes back to listening.
+
+        Error checking:
+        - Should catch socket exceptions during bind/accept.
+        - Also catches decoding errors (like if non-UTF-8 data is recieved).
+        - Finally, ensures that the sockets are closed in a "finally" block to prevent resource leaking.
+
+# CLIENT DESIGN
+    Also just a textbook, one-shot client implementation, using the socket library. It connects, sends, recieves, and exits from the server.
+
+    ## DESIGN EXPLANATION
+        Takes in 2 command-line args: hostname (or IP), and port #.
+        
+        Creates a TCP socket (AF_INET, SOCK_STREAM).
+        
+        Attempts to connect to the specified server address.
+        
+        Sends a premade text string, encoded in UTF-8.
+
+        Waits for a response (max 1024 bytes), decodes it, and prints it to stdout.
+        
+        Closes the socket and exits.
+
+        Error checking:
+        - Handles connection refused errors (like if the server is down).
+        - Catches timeout errors (server does not respond).
+        - Ensures valid args count before execution.
+
+# TRADEOFFS, PROS & CONS
+    ## SINGLE-THREADED
+    Currently, this design is single-threaded. It handles one client at a time. This simlifies code logic and means I don't have to worry about
+    race conditions, but it does block other clients while one is connected.
+    
+    I might go back to implement multi-threading later on.
+
+    ## BUFFER SIZE
+    The code handles up to a 1024-byte buffer for recv(). This should be sufficient, but this might eventually require looping for 
+    very large msgs (especially for Part 2).
+
+    ## POSSIBLE IMPROVEMENTS
+    Implementing some sort of threading to handle multiple clients simultaneously.
+
+    Allow for the client to put in their own message, via input(), instead of a hardcoded string.
+
+    Extending the msg format to support the Part 2 measurement protocol (like CSP, MP, CTP phases).
+
+    Adding TLS/SSL encryption using the ssl library to secure the echo traffic.
