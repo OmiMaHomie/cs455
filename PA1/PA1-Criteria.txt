@@ -1,0 +1,61 @@
+PA #1 Grade Criteria (Total Score is out of 100)
+
+Name ____________________________
+
+
+==============================================
+Getting The Client and Server Working
+Score is out of 45 + (5)
+==============================================
+
+Logistics (20 pts)
+___ Designed well, e.g. allows for address/port specification (4 pts)
+___ Code is readable, i.e. commented & formatted (4 pts)
+___ The overall design & how it works described (4 pts)
+___ Possible tradeoffs & extensions discussed (4 pts)
+___ Has compilation instructions (4 pts)
+
+
+Echoing Works (15 pts)
+___ Client correctly sends a text message (5 pts)
+___ Server correctly echoes the text message (5 pts)
+___ Client interoperates with given remote servers (5 pts)
+
+Error Conditions (10 pts)
+___ Well tested, e.g. catches socket errors correctly, server catches client misbehavior, etc.
+
+Multi-threading support (bonus 5 pts: will not exceed 100 pts in total)
+___ Implement the multi-thread version of the server to support concurrent user connects.
+
+Score _____
+
+
+==============================================
+Performance and Results
+Score is out of 55
+==============================================
+
+Methodology (20 pts)
+___ Client runs on a different machine than server (5 pts)
+___ Code calculates round-trip time for different message sizes (5 pts)
+___ Code calculates throughput for different message sizes (5 pts)
+___ Describes evaluation environment (5 pts)
+
+Graphs (how well each shows expected behavior) (20 pts)
+___ Latency vs. message size (5 pts)
+___ Throughput vs. message size (5 pts)
+___ Effect of different server delay values (5 pts)
+___ Each point is averaged over many experiments (5 pts)
+
+Discussion (15 pts)
+___ How well 1-2 page paper is written (5 pts)
+___ Explains graphs in detail (10 pts)
+
+Multi-threading support (bonus 5 pts: will not exceed 100 pts in total)
+___ Implement the multi-thread version of the server to support concurrent user connects.
+
+Score _____
+
+
+
+Total Score _____
