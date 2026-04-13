@@ -1,0 +1,55 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ javac PA2_helper/PA2-Java/*.java
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0.1
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.1
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 10
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 15
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 12013
+Simulator terminated at time 991.1850337229528
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 100
+Number of retransmissions by A: 77
+Number of data packets delivered to layer 5 at B: 98
+Number of ACK packets sent by B: 145
+Number of corrupted packets: 31
+Ratio of lost packets: 0.2391304347826087
+Ratio of corrupted packets: 0.09627329192546584
+==================================================
+
+EXTRA:
+Total packets sent (original + retransmissions): 177
+Window Size: 8
+Retransmission Timeout: 15.0
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0.2
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.2
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 10
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 15
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 1801
+Simulator terminated at time 961.1212500381481
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 63
+Number of retransmissions by A: 68
+Number of data packets delivered to layer 5 at B: 61
+Number of ACK packets sent by B: 83
+Number of corrupted packets: 30
+Ratio of lost packets: 0.3177570093457944
+Ratio of corrupted packets: 0.14018691588785046
+==================================================
+
+EXTRA:
+Total packets sent (original + retransmissions): 131
+Window Size: 8
+Retransmission Timeout: 15.0

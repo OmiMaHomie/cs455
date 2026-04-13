@@ -1,0 +1,2107 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0.25
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 200
+Enter window size (> 0): [8] 4
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 3
+Enter random seed: [0] 0195
+generateNextArrival(): called
+generateNextArrival(): time is 0.0
+generateNextArrival(): future time for event 1 at entity 0 will be 81.4111758781701
+
+EVENT time: 81.4111758781701  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 81.4111758781701
+generateNextArrival(): future time for event 1 at entity 0 will be 149.27213354899746
+toLayer3: seqnum: 0  acknum: -1  checksum: 1939  payload: aaaaaaaaaaaaaaaaaaaa
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 81.4111758781701
+
+EVENT time: 84.49259926145206  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 87.38999603259376  type: 2  entity: 0
+stopTimer: stopping timer at 87.38999603259376
+
+EVENT time: 149.27213354899746  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 149.27213354899746
+generateNextArrival(): future time for event 1 at entity 0 will be 170.4886013367107
+toLayer3: seqnum: 1  acknum: -1  checksum: 1960  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: packet being lost
+startTimer: starting timer at 149.27213354899746
+
+EVENT time: 170.4886013367107  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 170.4886013367107
+generateNextArrival(): future time for event 1 at entity 0 will be 287.17917416913355
+toLayer3: seqnum: 2  acknum: -1  checksum: 1981  payload: cccccccccccccccccccc
+toLayer3: packet being lost
+
+EVENT time: 179.27213354899746  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 1
+toLayer3: seqnum: 1  acknum: -1  checksum: 1960  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 179.27213354899746
+
+EVENT time: 180.81872005371258  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 181.91650135807367  type: 2  entity: 0
+stopTimer: stopping timer at 181.91650135807367
+startTimer: starting timer at 181.91650135807367
+
+EVENT time: 211.91650135807367  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 2
+toLayer3: seqnum: 2  acknum: -1  checksum: 1981  payload: cccccccccccccccccccc
+toLayer3: packet being lost
+startTimer: starting timer at 211.91650135807367
+
+EVENT time: 241.91650135807367  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 2
+toLayer3: seqnum: 2  acknum: -1  checksum: 1981  payload: cccccccccccccccccccc
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 241.91650135807367
+
+EVENT time: 249.72136600848415  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 255.97244178594318  type: 2  entity: 0
+stopTimer: stopping timer at 255.97244178594318
+
+EVENT time: 287.17917416913355  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 287.17917416913355
+generateNextArrival(): future time for event 1 at entity 0 will be 316.9164098025452
+toLayer3: seqnum: 3  acknum: -1  checksum: 2002  payload: dddddddddddddddddddd
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 287.17917416913355
+
+EVENT time: 291.46363719595934  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 297.16428113650926  type: 2  entity: 0
+stopTimer: stopping timer at 297.16428113650926
+
+EVENT time: 316.9164098025452  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 316.9164098025452
+generateNextArrival(): future time for event 1 at entity 0 will be 426.1726737266152
+toLayer3: seqnum: 4  acknum: -1  checksum: 2023  payload: eeeeeeeeeeeeeeeeeeee
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 316.9164098025452
+
+EVENT time: 326.5497299111911  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 329.9181798760948  type: 2  entity: 0
+stopTimer: stopping timer at 329.9181798760948
+
+EVENT time: 426.1726737266152  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 426.1726737266152
+generateNextArrival(): future time for event 1 at entity 0 will be 802.0996734519485
+toLayer3: seqnum: 5  acknum: -1  checksum: 2044  payload: ffffffffffffffffffff
+toLayer3: packet being lost
+startTimer: starting timer at 426.1726737266152
+
+EVENT time: 456.1726737266152  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 5
+toLayer3: seqnum: 5  acknum: -1  checksum: 2044  payload: ffffffffffffffffffff
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 456.1726737266152
+
+EVENT time: 458.8676412244026  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 468.3801080355235  type: 2  entity: 0
+stopTimer: stopping timer at 468.3801080355235
+
+EVENT time: 802.0996734519485  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 802.0996734519485
+generateNextArrival(): future time for event 1 at entity 0 will be 911.8442335276344
+toLayer3: seqnum: 6  acknum: -1  checksum: 2065  payload: gggggggggggggggggggg
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 802.0996734519485
+
+EVENT time: 809.9432660908841  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 812.1924497207556  type: 2  entity: 0
+stopTimer: stopping timer at 812.1924497207556
+
+EVENT time: 911.8442335276344  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 911.8442335276344
+generateNextArrival(): future time for event 1 at entity 0 will be 1195.690786461989
+toLayer3: seqnum: 7  acknum: -1  checksum: 2086  payload: hhhhhhhhhhhhhhhhhhhh
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 911.8442335276344
+
+EVENT time: 918.290322580645  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 925.5996887112032  type: 2  entity: 0
+stopTimer: stopping timer at 925.5996887112032
+
+EVENT time: 1195.690786461989  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1195.690786461989
+generateNextArrival(): future time for event 1 at entity 0 will be 1406.5126499221776
+toLayer3: seqnum: 0  acknum: -1  checksum: 2099  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 1195.690786461989
+
+EVENT time: 1198.7455671864984  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: packet being lost
+
+EVENT time: 1225.690786461989  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 8
+toLayer3: seqnum: 0  acknum: -1  checksum: 2099  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 1225.690786461989
+
+EVENT time: 1230.680593279824  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: packet being lost
+
+EVENT time: 1255.690786461989  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 8
+toLayer3: seqnum: 0  acknum: -1  checksum: 2099  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 1255.690786461989
+
+EVENT time: 1257.8781701101718  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1259.4445326090274  type: 2  entity: 0
+stopTimer: stopping timer at 1259.4445326090274
+
+EVENT time: 1406.5126499221776  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1406.5126499221776
+generateNextArrival(): future time for event 1 at entity 0 will be 1714.0781884212774
+toLayer3: seqnum: 1  acknum: -1  checksum: 2120  payload: jjjjjjjjjjjjjjjjjjjj
+toLayer3: packet being lost
+startTimer: starting timer at 1406.5126499221776
+
+EVENT time: 1436.5126499221776  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 9
+toLayer3: seqnum: 1  acknum: -1  checksum: 2120  payload: jjjjjjjjjjjjjjjjjjjj
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 1436.5126499221776
+
+EVENT time: 1442.2358165227208  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1451.6260567033903  type: 2  entity: 0
+stopTimer: stopping timer at 1451.6260567033903
+
+EVENT time: 1714.0781884212774  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1714.0781884212774
+generateNextArrival(): future time for event 1 at entity 0 will be 2041.163365581225
+toLayer3: seqnum: 2  acknum: -1  checksum: 2141  payload: kkkkkkkkkkkkkkkkkkkk
+toLayer3: packet being lost
+startTimer: starting timer at 1714.0781884212774
+
+EVENT time: 1744.0781884212774  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+toLayer3: seqnum: 2  acknum: -1  checksum: 2141  payload: kkkkkkkkkkkkkkkkkkkk
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 1744.0781884212774
+
+EVENT time: 1747.3897824030273  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1753.8018127994628  type: 2  entity: 0
+stopTimer: stopping timer at 1753.8018127994628
+
+EVENT time: 2041.163365581225  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 2041.163365581225
+generateNextArrival(): future time for event 1 at entity 0 will be 2261.7145298623614
+toLayer3: seqnum: 3  acknum: -1  checksum: 2162  payload: llllllllllllllllllll
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 2041.163365581225
+
+EVENT time: 2045.3500473036897  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 2048.159276100955  type: 2  entity: 0
+stopTimer: stopping timer at 2048.159276100955
+
+EVENT time: 2261.7145298623614  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 2261.7145298623614
+generateNextArrival(): future time for event 1 at entity 0 will be 2661.030915250099
+toLayer3: seqnum: 4  acknum: -1  checksum: 2183  payload: mmmmmmmmmmmmmmmmmmmm
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 2261.7145298623614
+
+EVENT time: 2263.4616229743337  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 2266.087649159215  type: 2  entity: 0
+stopTimer: stopping timer at 2266.087649159215
+
+EVENT time: 2661.030915250099  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 2661.030915250099
+generateNextArrival(): future time for event 1 at entity 0 will be 3031.159398174993
+toLayer3: seqnum: 5  acknum: -1  checksum: 2204  payload: nnnnnnnnnnnnnnnnnnnn
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 2661.030915250099
+
+EVENT time: 2666.6392712179936  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: packet being lost
+
+EVENT time: 2691.030915250099  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 13
+toLayer3: seqnum: 5  acknum: -1  checksum: 2204  payload: nnnnnnnnnnnnnnnnnnnn
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 2691.030915250099
+
+EVENT time: 2699.7682729575486  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: packet being lost
+
+EVENT time: 2721.030915250099  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 13
+toLayer3: seqnum: 5  acknum: -1  checksum: 2204  payload: nnnnnnnnnnnnnnnnnnnn
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 2721.030915250099
+
+EVENT time: 2725.9166234321115  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 2735.820490127262  type: 2  entity: 0
+stopTimer: stopping timer at 2735.820490127262
+
+EVENT time: 3031.159398174993  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 3031.159398174993
+generateNextArrival(): future time for event 1 at entity 0 will be 3114.9754325998715
+toLayer3: seqnum: 6  acknum: -1  checksum: 2225  payload: oooooooooooooooooooo
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 3031.159398174993
+
+EVENT time: 3037.8200018311104  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: packet being lost
+
+EVENT time: 3061.159398174993  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 14
+toLayer3: seqnum: 6  acknum: -1  checksum: 2225  payload: oooooooooooooooooooo
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 3061.159398174993
+
+EVENT time: 3069.212836085085  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 3072.4453260902733  type: 2  entity: 0
+stopTimer: stopping timer at 3072.4453260902733
+
+EVENT time: 3114.9754325998715  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 3114.9754325998715
+generateNextArrival(): future time for event 1 at entity 0 will be 3384.0144047364724
+toLayer3: seqnum: 7  acknum: -1  checksum: 2246  payload: pppppppppppppppppppp
+toLayer3: packet being lost
+startTimer: starting timer at 3114.9754325998715
+
+EVENT time: 3144.9754325998715  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 15
+toLayer3: seqnum: 7  acknum: -1  checksum: 2246  payload: pppppppppppppppppppp
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 3144.9754325998715
+
+EVENT time: 3151.0746177556684  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 3158.364207892086  type: 2  entity: 0
+stopTimer: stopping timer at 3158.364207892086
+
+EVENT time: 3384.0144047364724  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 3384.0144047364724
+generateNextArrival(): future time for event 1 at entity 0 will be 3684.621723075045
+toLayer3: seqnum: 0  acknum: -1  checksum: 2259  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: packet being lost
+startTimer: starting timer at 3384.0144047364724
+
+EVENT time: 3414.0144047364724  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 16
+toLayer3: seqnum: 0  acknum: -1  checksum: 2259  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 3414.0144047364724
+
+EVENT time: 3416.4520096438487  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: packet being lost
+
+EVENT time: 3444.0144047364724  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 16
+toLayer3: seqnum: 0  acknum: -1  checksum: 2259  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: packet being lost
+startTimer: starting timer at 3444.0144047364724
+
+EVENT time: 3474.0144047364724  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 16
+toLayer3: seqnum: 0  acknum: -1  checksum: 2259  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 3474.0144047364724
+
+EVENT time: 3480.8903469954525  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 3484.563127536851  type: 2  entity: 0
+stopTimer: stopping timer at 3484.563127536851
+
+EVENT time: 3684.621723075045  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 3684.621723075045
+generateNextArrival(): future time for event 1 at entity 0 will be 3895.1017792291022
+toLayer3: seqnum: 1  acknum: -1  checksum: 2280  payload: rrrrrrrrrrrrrrrrrrrr
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 3684.621723075045
+
+EVENT time: 3690.034241767632  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: packet being lost
+
+EVENT time: 3714.621723075045  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+toLayer3: seqnum: 1  acknum: -1  checksum: 2280  payload: rrrrrrrrrrrrrrrrrrrr
+toLayer3: packet being lost
+startTimer: starting timer at 3714.621723075045
+
+EVENT time: 3744.621723075045  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+toLayer3: seqnum: 1  acknum: -1  checksum: 2280  payload: rrrrrrrrrrrrrrrrrrrr
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 3744.621723075045
+
+EVENT time: 3750.5280922879724  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 3755.895840327158  type: 2  entity: 0
+stopTimer: stopping timer at 3755.895840327158
+
+EVENT time: 3895.1017792291022  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 3895.1017792291022
+generateNextArrival(): future time for event 1 at entity 0 will be 4127.286599322489
+toLayer3: seqnum: 2  acknum: -1  checksum: 2301  payload: ssssssssssssssssssss
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 3895.1017792291022
+
+EVENT time: 3899.1585436567275  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 3904.041230506302  type: 2  entity: 0
+stopTimer: stopping timer at 3904.041230506302
+
+EVENT time: 4127.286599322489  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 4127.286599322489
+generateNextArrival(): future time for event 1 at entity 0 will be 4179.241309854427
+toLayer3: seqnum: 3  acknum: -1  checksum: 2322  payload: tttttttttttttttttttt
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4127.286599322489
+
+EVENT time: 4134.224341563157  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 4141.335673085726  type: 2  entity: 0
+stopTimer: stopping timer at 4141.335673085726
+
+EVENT time: 4179.241309854427  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 4179.241309854427
+generateNextArrival(): future time for event 1 at entity 0 will be 4230.585650196845
+toLayer3: seqnum: 4  acknum: -1  checksum: 2343  payload: uuuuuuuuuuuuuuuuuuuu
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4179.241309854427
+
+EVENT time: 4184.400585955382  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 4185.970519119846  type: 2  entity: 0
+stopTimer: stopping timer at 4185.970519119846
+
+EVENT time: 4230.585650196845  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 4230.585650196845
+generateNextArrival(): future time for event 1 at entity 0 will be 4396.057008575702
+toLayer3: seqnum: 5  acknum: -1  checksum: 2364  payload: vvvvvvvvvvvvvvvvvvvv
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4230.585650196845
+
+EVENT time: 4232.746391186255  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: packet being lost
+
+EVENT time: 4260.585650196845  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+toLayer3: seqnum: 5  acknum: -1  checksum: 2364  payload: vvvvvvvvvvvvvvvvvvvv
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4260.585650196845
+
+EVENT time: 4264.433118686484  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: packet being lost
+
+EVENT time: 4290.585650196845  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+toLayer3: seqnum: 5  acknum: -1  checksum: 2364  payload: vvvvvvvvvvvvvvvvvvvv
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4290.585650196845
+
+EVENT time: 4298.314157536546  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: packet being lost
+
+EVENT time: 4320.585650196845  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+toLayer3: seqnum: 5  acknum: -1  checksum: 2364  payload: vvvvvvvvvvvvvvvvvvvv
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4320.585650196845
+
+EVENT time: 4327.489333780938  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 4336.560960722678  type: 2  entity: 0
+stopTimer: stopping timer at 4336.560960722678
+
+EVENT time: 4396.057008575702  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 4396.057008575702
+generateNextArrival(): future time for event 1 at entity 0 will be 4557.866145817439
+toLayer3: seqnum: 6  acknum: -1  checksum: 2385  payload: wwwwwwwwwwwwwwwwwwww
+toLayer3: packet being lost
+startTimer: starting timer at 4396.057008575702
+
+EVENT time: 4426.057008575702  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+toLayer3: seqnum: 6  acknum: -1  checksum: 2385  payload: wwwwwwwwwwwwwwwwwwww
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4426.057008575702
+
+EVENT time: 4433.392468031862  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: packet being lost
+
+EVENT time: 4456.057008575702  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+toLayer3: seqnum: 6  acknum: -1  checksum: 2385  payload: wwwwwwwwwwwwwwwwwwww
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4456.057008575702
+
+EVENT time: 4462.845606860562  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 4464.558091982789  type: 2  entity: 0
+stopTimer: stopping timer at 4464.558091982789
+
+EVENT time: 4557.866145817439  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 4557.866145817439
+generateNextArrival(): future time for event 1 at entity 0 will be 4805.590990936003
+toLayer3: seqnum: 7  acknum: -1  checksum: 2406  payload: xxxxxxxxxxxxxxxxxxxx
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4557.866145817439
+
+EVENT time: 4563.612933744317  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 4567.431836909087  type: 2  entity: 0
+stopTimer: stopping timer at 4567.431836909087
+
+EVENT time: 4805.590990936003  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 4805.590990936003
+generateNextArrival(): future time for event 1 at entity 0 will be 4815.454573198645
+toLayer3: seqnum: 0  acknum: -1  checksum: 2419  payload: yyyyyyyyyyyyyyyyyyyy
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4805.590990936003
+
+EVENT time: 4809.465376751  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 4815.1827753532525  type: 2  entity: 0
+stopTimer: stopping timer at 4815.1827753532525
+
+EVENT time: 4815.454573198645  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 4815.454573198645
+generateNextArrival(): future time for event 1 at entity 0 will be 5189.2330698568685
+toLayer3: seqnum: 1  acknum: -1  checksum: 2440  payload: zzzzzzzzzzzzzzzzzzzz
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 4815.454573198645
+
+EVENT time: 4817.481276894437  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 4826.85613574633  type: 2  entity: 0
+stopTimer: stopping timer at 4826.85613574633
+
+EVENT time: 5189.2330698568685  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 5189.2330698568685
+generateNextArrival(): future time for event 1 at entity 0 will be 5507.309183019502
+toLayer3: seqnum: 2  acknum: -1  checksum: 1941  payload: aaaaaaaaaaaaaaaaaaaa
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 5189.2330698568685
+
+EVENT time: 5197.5122837000645  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 5200.020752586444  type: 2  entity: 0
+stopTimer: stopping timer at 5200.020752586444
+
+EVENT time: 5507.309183019502  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 5507.309183019502
+generateNextArrival(): future time for event 1 at entity 0 will be 5818.646809289835
+toLayer3: seqnum: 3  acknum: -1  checksum: 1962  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 5507.309183019502
+
+EVENT time: 5508.441572313609  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 5517.1770073549615  type: 2  entity: 0
+stopTimer: stopping timer at 5517.1770073549615
+
+EVENT time: 5818.646809289835  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 5818.646809289835
+generateNextArrival(): future time for event 1 at entity 0 will be 6072.426526688437
+toLayer3: seqnum: 4  acknum: -1  checksum: 1983  payload: cccccccccccccccccccc
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 5818.646809289835
+
+EVENT time: 5827.678334910123  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 5832.040253914  type: 2  entity: 0
+stopTimer: stopping timer at 5832.040253914
+
+EVENT time: 6072.426526688437  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 6072.426526688437
+generateNextArrival(): future time for event 1 at entity 0 will be 6312.472914822841
+toLayer3: seqnum: 5  acknum: -1  checksum: 2004  payload: dddddddddddddddddddd
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 6072.426526688437
+
+EVENT time: 6074.611713003937  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: packet being lost
+
+EVENT time: 6102.426526688437  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+toLayer3: seqnum: 5  acknum: -1  checksum: 2004  payload: dddddddddddddddddddd
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 6102.426526688437
+
+EVENT time: 6108.10657063509  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 6110.934202093569  type: 2  entity: 0
+stopTimer: stopping timer at 6110.934202093569
+
+EVENT time: 6312.472914822841  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 6312.472914822841
+generateNextArrival(): future time for event 1 at entity 0 will be 6638.325144199958
+toLayer3: seqnum: 6  acknum: -1  checksum: 2025  payload: eeeeeeeeeeeeeeeeeeee
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 6312.472914822841
+
+EVENT time: 6318.201025421919  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 6327.8041322061845  type: 2  entity: 0
+stopTimer: stopping timer at 6327.8041322061845
+
+EVENT time: 6638.325144199958  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 6638.325144199958
+generateNextArrival(): future time for event 1 at entity 0 will be 7029.657887508775
+toLayer3: seqnum: 7  acknum: -1  checksum: 2046  payload: ffffffffffffffffffff
+toLayer3: packet being lost
+startTimer: starting timer at 6638.325144199958
+
+EVENT time: 6668.325144199958  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+toLayer3: seqnum: 7  acknum: -1  checksum: 2046  payload: ffffffffffffffffffff
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 6668.325144199958
+
+EVENT time: 6671.913052766504  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 6677.545579393904  type: 2  entity: 0
+stopTimer: stopping timer at 6677.545579393904
+
+EVENT time: 7029.657887508775  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 7029.657887508775
+generateNextArrival(): future time for event 1 at entity 0 will be 7281.472212897123
+toLayer3: seqnum: 0  acknum: -1  checksum: 2059  payload: gggggggggggggggggggg
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 7029.657887508775
+
+EVENT time: 7031.405529953919  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 7033.241065706353  type: 2  entity: 0
+stopTimer: stopping timer at 7033.241065706353
+
+EVENT time: 7281.472212897123  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 7281.472212897123
+generateNextArrival(): future time for event 1 at entity 0 will be 7370.537430951874
+toLayer3: seqnum: 1  acknum: -1  checksum: 2080  payload: hhhhhhhhhhhhhhhhhhhh
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 7281.472212897123
+
+EVENT time: 7290.719077120275  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: packet being lost
+
+EVENT time: 7311.472212897123  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 33
+toLayer3: seqnum: 1  acknum: -1  checksum: 2080  payload: hhhhhhhhhhhhhhhhhhhh
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 7311.472212897123
+
+EVENT time: 7318.639027069919  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 7328.267677846616  type: 2  entity: 0
+stopTimer: stopping timer at 7328.267677846616
+
+EVENT time: 7370.537430951874  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 7370.537430951874
+generateNextArrival(): future time for event 1 at entity 0 will be 7576.818140202034
+toLayer3: seqnum: 2  acknum: -1  checksum: 2101  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 7370.537430951874
+
+EVENT time: 7375.94940031129  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: packet being lost
+
+EVENT time: 7400.537430951874  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 34
+toLayer3: seqnum: 2  acknum: -1  checksum: 2101  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 7400.537430951874
+
+EVENT time: 7405.048493911559  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 7408.053285317546  type: 2  entity: 0
+stopTimer: stopping timer at 7408.053285317546
+
+EVENT time: 7576.818140202034  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 7576.818140202034
+generateNextArrival(): future time for event 1 at entity 0 will be 7957.13980529191
+toLayer3: seqnum: 3  acknum: -1  checksum: 2122  payload: jjjjjjjjjjjjjjjjjjjj
+toLayer3: packet being lost
+startTimer: starting timer at 7576.818140202034
+
+EVENT time: 7606.818140202034  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 35
+toLayer3: seqnum: 3  acknum: -1  checksum: 2122  payload: jjjjjjjjjjjjjjjjjjjj
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 7606.818140202034
+
+EVENT time: 7615.050660725731  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 7616.815881832333  type: 2  entity: 0
+stopTimer: stopping timer at 7616.815881832333
+
+EVENT time: 7957.13980529191  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 7957.13980529191
+generateNextArrival(): future time for event 1 at entity 0 will be 8054.493850520342
+toLayer3: seqnum: 4  acknum: -1  checksum: 2143  payload: kkkkkkkkkkkkkkkkkkkk
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 7957.13980529191
+
+EVENT time: 7963.045350505082  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: packet being lost
+
+EVENT time: 7987.13980529191  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+toLayer3: seqnum: 4  acknum: -1  checksum: 2143  payload: kkkkkkkkkkkkkkkkkkkk
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 7987.13980529191
+
+EVENT time: 7996.637989440596  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: packet being lost
+
+EVENT time: 8017.13980529191  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+toLayer3: seqnum: 4  acknum: -1  checksum: 2143  payload: kkkkkkkkkkkkkkkkkkkk
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 8017.13980529191
+
+EVENT time: 8020.855983153783  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 8022.664601580859  type: 2  entity: 0
+stopTimer: stopping timer at 8022.664601580859
+
+EVENT time: 8054.493850520342  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 8054.493850520342
+generateNextArrival(): future time for event 1 at entity 0 will be 8301.547288430434
+toLayer3: seqnum: 5  acknum: -1  checksum: 2164  payload: llllllllllllllllllll
+toLayer3: packet being lost
+startTimer: starting timer at 8054.493850520342
+
+EVENT time: 8084.493850520342  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 37
+toLayer3: seqnum: 5  acknum: -1  checksum: 2164  payload: llllllllllllllllllll
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 8084.493850520342
+
+EVENT time: 8088.255897701957  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 8095.496322519609  type: 2  entity: 0
+stopTimer: stopping timer at 8095.496322519609
+
+EVENT time: 8301.547288430434  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 8301.547288430434
+generateNextArrival(): future time for event 1 at entity 0 will be 8675.569933164466
+toLayer3: seqnum: 6  acknum: -1  checksum: 2185  payload: mmmmmmmmmmmmmmmmmmmm
+toLayer3: packet being lost
+startTimer: starting timer at 8301.547288430434
+
+EVENT time: 8331.547288430434  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+toLayer3: seqnum: 6  acknum: -1  checksum: 2185  payload: mmmmmmmmmmmmmmmmmmmm
+toLayer3: packet being lost
+startTimer: starting timer at 8331.547288430434
+
+EVENT time: 8361.547288430434  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+toLayer3: seqnum: 6  acknum: -1  checksum: 2185  payload: mmmmmmmmmmmmmmmmmmmm
+toLayer3: packet being lost
+startTimer: starting timer at 8361.547288430434
+
+EVENT time: 8391.547288430434  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+toLayer3: seqnum: 6  acknum: -1  checksum: 2185  payload: mmmmmmmmmmmmmmmmmmmm
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 8391.547288430434
+
+EVENT time: 8393.115573595387  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 8399.83989989929  type: 2  entity: 0
+stopTimer: stopping timer at 8399.83989989929
+
+EVENT time: 8675.569933164466  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 8675.569933164466
+generateNextArrival(): future time for event 1 at entity 0 will be 8712.192144535664
+toLayer3: seqnum: 7  acknum: -1  checksum: 2206  payload: nnnnnnnnnnnnnnnnnnnn
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 8675.569933164466
+
+EVENT time: 8684.56163212989  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 8690.863521225627  type: 2  entity: 0
+stopTimer: stopping timer at 8690.863521225627
+
+EVENT time: 8712.192144535664  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 8712.192144535664
+generateNextArrival(): future time for event 1 at entity 0 will be 8803.381450849944
+toLayer3: seqnum: 0  acknum: -1  checksum: 2219  payload: oooooooooooooooooooo
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 8712.192144535664
+
+EVENT time: 8715.076631977297  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 8725.017853328047  type: 2  entity: 0
+stopTimer: stopping timer at 8725.017853328047
+
+EVENT time: 8803.381450849944  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 8803.381450849944
+generateNextArrival(): future time for event 1 at entity 0 will be 8991.351054414505
+toLayer3: seqnum: 1  acknum: -1  checksum: 2240  payload: pppppppppppppppppppp
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 8803.381450849944
+
+EVENT time: 8811.458784752956  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 8819.399884029668  type: 2  entity: 0
+stopTimer: stopping timer at 8819.399884029668
+
+EVENT time: 8991.351054414505  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 8991.351054414505
+generateNextArrival(): future time for event 1 at entity 0 will be 9293.679616687523
+toLayer3: seqnum: 2  acknum: -1  checksum: 2261  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 8991.351054414505
+
+EVENT time: 8994.580248420669  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 8996.3449201941  type: 2  entity: 0
+stopTimer: stopping timer at 8996.3449201941
+
+EVENT time: 9293.679616687523  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 9293.679616687523
+generateNextArrival(): future time for event 1 at entity 0 will be 9608.20337534715
+toLayer3: seqnum: 3  acknum: -1  checksum: 2282  payload: rrrrrrrrrrrrrrrrrrrr
+toLayer3: packet being lost
+startTimer: starting timer at 9293.679616687523
+
+EVENT time: 9323.679616687523  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+toLayer3: seqnum: 3  acknum: -1  checksum: 2282  payload: rrrrrrrrrrrrrrrrrrrr
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 9323.679616687523
+
+EVENT time: 9333.067384868926  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 9335.087771233255  type: 2  entity: 0
+stopTimer: stopping timer at 9335.087771233255
+
+EVENT time: 9608.20337534715  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 9608.20337534715
+generateNextArrival(): future time for event 1 at entity 0 will be 9669.228186895354
+toLayer3: seqnum: 4  acknum: -1  checksum: 2303  payload: ssssssssssssssssssss
+toLayer3: packet being lost
+startTimer: starting timer at 9608.20337534715
+
+EVENT time: 9638.20337534715  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+toLayer3: seqnum: 4  acknum: -1  checksum: 2303  payload: ssssssssssssssssssss
+toLayer3: packet being lost
+startTimer: starting timer at 9638.20337534715
+
+EVENT time: 9668.20337534715  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+toLayer3: seqnum: 4  acknum: -1  checksum: 2303  payload: ssssssssssssssssssss
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 9668.20337534715
+
+EVENT time: 9669.228186895354  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 9669.228186895354
+generateNextArrival(): future time for event 1 at entity 0 will be 9851.277199621572
+toLayer3: seqnum: 5  acknum: -1  checksum: 2324  payload: tttttttttttttttttttt
+toLayer3: packet being lost
+
+EVENT time: 9672.127475814083  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 9677.759727774897  type: 2  entity: 0
+stopTimer: stopping timer at 9677.759727774897
+startTimer: starting timer at 9677.759727774897
+
+EVENT time: 9707.759727774897  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 45
+toLayer3: seqnum: 5  acknum: -1  checksum: 2324  payload: tttttttttttttttttttt
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 9707.759727774897
+
+EVENT time: 9716.1619922483  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 9725.003173924988  type: 2  entity: 0
+stopTimer: stopping timer at 9725.003173924988
+
+EVENT time: 9851.277199621572  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 9851.277199621572
+generateNextArrival(): future time for event 1 at entity 0 will be 10195.110934781947
+toLayer3: seqnum: 6  acknum: -1  checksum: 2345  payload: uuuuuuuuuuuuuuuuuuuu
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 9851.277199621572
+
+EVENT time: 9856.384838404494  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 9864.841761528369  type: 2  entity: 0
+stopTimer: stopping timer at 9864.841761528369
+
+EVENT time: 10195.110934781947  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 10195.110934781947
+generateNextArrival(): future time for event 1 at entity 0 will be 10435.621204260386
+toLayer3: seqnum: 7  acknum: -1  checksum: 2366  payload: vvvvvvvvvvvvvvvvvvvv
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 10195.110934781947
+
+EVENT time: 10205.052430799282  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 10212.668599505601  type: 2  entity: 0
+stopTimer: stopping timer at 10212.668599505601
+
+EVENT time: 10435.621204260386  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 10435.621204260386
+generateNextArrival(): future time for event 1 at entity 0 will be 10440.797143467515
+toLayer3: seqnum: 0  acknum: -1  checksum: 2379  payload: wwwwwwwwwwwwwwwwwwww
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 10435.621204260386
+
+EVENT time: 10440.797143467515  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 10440.797143467515
+generateNextArrival(): future time for event 1 at entity 0 will be 10525.064851832638
+toLayer3: seqnum: 1  acknum: -1  checksum: 2400  payload: xxxxxxxxxxxxxxxxxxxx
+toLayer3: scheduling arrival on other side
+
+EVENT time: 10444.031434064762  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: packet being lost
+
+EVENT time: 10447.065614795376  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 10454.063234351637  type: 2  entity: 0
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 48 to 50)
+stopTimer: stopping timer at 10454.063234351637
+
+EVENT time: 10525.064851832638  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 10525.064851832638
+generateNextArrival(): future time for event 1 at entity 0 will be 10719.125949888608
+toLayer3: seqnum: 2  acknum: -1  checksum: 2421  payload: yyyyyyyyyyyyyyyyyyyy
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 10525.064851832638
+
+EVENT time: 10528.366557817317  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 10535.955534531695  type: 2  entity: 0
+stopTimer: stopping timer at 10535.955534531695
+
+EVENT time: 10719.125949888608  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 10719.125949888608
+generateNextArrival(): future time for event 1 at entity 0 will be 10992.376476332896
+toLayer3: seqnum: 3  acknum: -1  checksum: 2442  payload: zzzzzzzzzzzzzzzzzzzz
+toLayer3: packet being lost
+startTimer: starting timer at 10719.125949888608
+
+EVENT time: 10749.125949888608  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 51
+toLayer3: seqnum: 3  acknum: -1  checksum: 2442  payload: zzzzzzzzzzzzzzzzzzzz
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 10749.125949888608
+
+EVENT time: 10754.103946043277  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: packet being lost
+
+EVENT time: 10779.125949888608  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 51
+toLayer3: seqnum: 3  acknum: -1  checksum: 2442  payload: zzzzzzzzzzzzzzzzzzzz
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 10779.125949888608
+
+EVENT time: 10788.384899441513  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 10790.389904477068  type: 2  entity: 0
+stopTimer: stopping timer at 10790.389904477068
+
+EVENT time: 10992.376476332896  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 10992.376476332896
+generateNextArrival(): future time for event 1 at entity 0 will be 11240.333262123479
+toLayer3: seqnum: 4  acknum: -1  checksum: 1943  payload: aaaaaaaaaaaaaaaaaaaa
+toLayer3: packet being lost
+startTimer: starting timer at 10992.376476332896
+
+EVENT time: 11022.376476332896  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 52
+toLayer3: seqnum: 4  acknum: -1  checksum: 1943  payload: aaaaaaaaaaaaaaaaaaaa
+toLayer3: packet being lost
+startTimer: starting timer at 11022.376476332896
+
+EVENT time: 11052.376476332896  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 52
+toLayer3: seqnum: 4  acknum: -1  checksum: 1943  payload: aaaaaaaaaaaaaaaaaaaa
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 11052.376476332896
+
+EVENT time: 11056.340678121282  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 11057.49394207587  type: 2  entity: 0
+stopTimer: stopping timer at 11057.49394207587
+
+EVENT time: 11240.333262123479  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 11240.333262123479
+generateNextArrival(): future time for event 1 at entity 0 will be 11340.43397320475
+toLayer3: seqnum: 5  acknum: -1  checksum: 1964  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: packet being lost
+startTimer: starting timer at 11240.333262123479
+
+EVENT time: 11270.333262123479  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 53
+toLayer3: seqnum: 5  acknum: -1  checksum: 1964  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 11270.333262123479
+
+EVENT time: 11273.252632221443  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 11275.936887722404  type: 2  entity: 0
+stopTimer: stopping timer at 11275.936887722404
+
+EVENT time: 11340.43397320475  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 11340.43397320475
+generateNextArrival(): future time for event 1 at entity 0 will be 11426.044495986818
+toLayer3: seqnum: 6  acknum: -1  checksum: 1985  payload: cccccccccccccccccccc
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 11340.43397320475
+
+EVENT time: 11347.436536759546  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 11354.51380962554  type: 2  entity: 0
+stopTimer: stopping timer at 11354.51380962554
+
+EVENT time: 11426.044495986818  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 11426.044495986818
+generateNextArrival(): future time for event 1 at entity 0 will be 11510.629596850493
+toLayer3: seqnum: 7  acknum: -1  checksum: 2006  payload: dddddddddddddddddddd
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 11426.044495986818
+
+EVENT time: 11432.916592913605  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 11442.282937101356  type: 2  entity: 0
+stopTimer: stopping timer at 11442.282937101356
+
+EVENT time: 11510.629596850493  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 11510.629596850493
+generateNextArrival(): future time for event 1 at entity 0 will be 11804.974517044591
+toLayer3: seqnum: 0  acknum: -1  checksum: 2019  payload: eeeeeeeeeeeeeeeeeeee
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 11510.629596850493
+
+EVENT time: 11513.520126957003  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 11514.77419354839  type: 2  entity: 0
+stopTimer: stopping timer at 11514.77419354839
+
+EVENT time: 11804.974517044591  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 11804.974517044591
+generateNextArrival(): future time for event 1 at entity 0 will be 11971.09286782434
+toLayer3: seqnum: 1  acknum: -1  checksum: 2040  payload: ffffffffffffffffffff
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 11804.974517044591
+
+EVENT time: 11812.848597674494  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 11822.442640461444  type: 2  entity: 0
+stopTimer: stopping timer at 11822.442640461444
+
+EVENT time: 11971.09286782434  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 11971.09286782434
+generateNextArrival(): future time for event 1 at entity 0 will be 12171.25766777551
+toLayer3: seqnum: 2  acknum: -1  checksum: 2061  payload: gggggggggggggggggggg
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 11971.09286782434
+
+EVENT time: 11975.536362804045  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 11979.452497940005  type: 2  entity: 0
+stopTimer: stopping timer at 11979.452497940005
+
+EVENT time: 12171.25766777551  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 12171.25766777551
+generateNextArrival(): future time for event 1 at entity 0 will be 12270.369579149758
+toLayer3: seqnum: 3  acknum: -1  checksum: 2082  payload: hhhhhhhhhhhhhhhhhhhh
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 12171.25766777551
+
+EVENT time: 12174.039704580831  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 12178.364818262278  type: 2  entity: 0
+stopTimer: stopping timer at 12178.364818262278
+
+EVENT time: 12270.369579149758  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 12270.369579149758
+generateNextArrival(): future time for event 1 at entity 0 will be 12441.724906155587
+toLayer3: seqnum: 4  acknum: -1  checksum: 2103  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: packet being lost
+startTimer: starting timer at 12270.369579149758
+
+EVENT time: 12300.369579149758  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+toLayer3: seqnum: 4  acknum: -1  checksum: 2103  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: packet being lost
+startTimer: starting timer at 12300.369579149758
+
+EVENT time: 12330.369579149758  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+toLayer3: seqnum: 4  acknum: -1  checksum: 2103  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 12330.369579149758
+
+EVENT time: 12333.558397167886  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: packet being lost
+
+EVENT time: 12360.369579149758  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+toLayer3: seqnum: 4  acknum: -1  checksum: 2103  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 12360.369579149758
+
+EVENT time: 12365.506057924134  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 12367.955198828093  type: 2  entity: 0
+stopTimer: stopping timer at 12367.955198828093
+
+EVENT time: 12441.724906155587  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 12441.724906155587
+generateNextArrival(): future time for event 1 at entity 0 will be 12824.71999267556
+toLayer3: seqnum: 5  acknum: -1  checksum: 2124  payload: jjjjjjjjjjjjjjjjjjjj
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 12441.724906155587
+
+EVENT time: 12449.727530747401  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 12458.702200384536  type: 2  entity: 0
+stopTimer: stopping timer at 12458.702200384536
+
+EVENT time: 12824.71999267556  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 12824.71999267556
+generateNextArrival(): future time for event 1 at entity 0 will be 13210.730307931763
+toLayer3: seqnum: 6  acknum: -1  checksum: 2145  payload: kkkkkkkkkkkkkkkkkkkk
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 12824.71999267556
+
+EVENT time: 12834.503555406356  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 12843.881160924102  type: 2  entity: 0
+stopTimer: stopping timer at 12843.881160924102
+
+EVENT time: 13210.730307931763  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 13210.730307931763
+generateNextArrival(): future time for event 1 at entity 0 will be 13540.647602771083
+toLayer3: seqnum: 7  acknum: -1  checksum: 2166  payload: llllllllllllllllllll
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 13210.730307931763
+
+EVENT time: 13215.74153874325  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 13222.681203650016  type: 2  entity: 0
+stopTimer: stopping timer at 13222.681203650016
+
+EVENT time: 13540.647602771083  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 13540.647602771083
+generateNextArrival(): future time for event 1 at entity 0 will be 13784.246345408494
+toLayer3: seqnum: 0  acknum: -1  checksum: 2179  payload: mmmmmmmmmmmmmmmmmmmm
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 13540.647602771083
+
+EVENT time: 13543.934476760158  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 13547.65422528764  type: 2  entity: 0
+stopTimer: stopping timer at 13547.65422528764
+
+EVENT time: 13784.246345408494  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 13784.246345408494
+generateNextArrival(): future time for event 1 at entity 0 will be 14122.476882229075
+toLayer3: seqnum: 1  acknum: -1  checksum: 2200  payload: nnnnnnnnnnnnnnnnnnnn
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 13784.246345408494
+
+EVENT time: 13790.490279854735  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 13798.687643055517  type: 2  entity: 0
+stopTimer: stopping timer at 13798.687643055517
+
+EVENT time: 14122.476882229075  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 14122.476882229075
+generateNextArrival(): future time for event 1 at entity 0 will be 14191.033661915955
+toLayer3: seqnum: 2  acknum: -1  checksum: 2221  payload: oooooooooooooooooooo
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 14122.476882229075
+
+EVENT time: 14129.160008545186  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14132.886349070715  type: 2  entity: 0
+stopTimer: stopping timer at 14132.886349070715
+
+EVENT time: 14191.033661915955  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 14191.033661915955
+generateNextArrival(): future time for event 1 at entity 0 will be 14438.831751457263
+toLayer3: seqnum: 3  acknum: -1  checksum: 2242  payload: pppppppppppppppppppp
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 14191.033661915955
+
+EVENT time: 14194.02636799219  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: packet being lost
+
+EVENT time: 14221.033661915955  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 67
+toLayer3: seqnum: 3  acknum: -1  checksum: 2242  payload: pppppppppppppppppppp
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 14221.033661915955
+
+EVENT time: 14227.100161748103  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14234.007415997807  type: 2  entity: 0
+stopTimer: stopping timer at 14234.007415997807
+
+EVENT time: 14438.831751457263  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 14438.831751457263
+generateNextArrival(): future time for event 1 at entity 0 will be 14529.36185796686
+toLayer3: seqnum: 4  acknum: -1  checksum: 2263  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 14438.831751457263
+
+EVENT time: 14440.058626056707  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: packet being lost
+
+EVENT time: 14468.831751457263  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+toLayer3: seqnum: 4  acknum: -1  checksum: 2263  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 14468.831751457263
+
+EVENT time: 14475.717307046727  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: packet being lost
+
+EVENT time: 14498.831751457263  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+toLayer3: seqnum: 4  acknum: -1  checksum: 2263  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: packet being lost
+startTimer: starting timer at 14498.831751457263
+
+EVENT time: 14528.831751457263  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+toLayer3: seqnum: 4  acknum: -1  checksum: 2263  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 14528.831751457263
+
+EVENT time: 14529.36185796686  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 14529.36185796686
+generateNextArrival(): future time for event 1 at entity 0 will be 14685.75090792566
+toLayer3: seqnum: 5  acknum: -1  checksum: 2284  payload: rrrrrrrrrrrrrrrrrrrr
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14534.035523545033  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: packet being lost
+
+EVENT time: 14536.837885677667  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14546.083101901308  type: 2  entity: 0
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 68 to 70)
+stopTimer: stopping timer at 14546.083101901308
+
+EVENT time: 14685.75090792566  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 14685.75090792566
+generateNextArrival(): future time for event 1 at entity 0 will be 14727.07296975616
+toLayer3: seqnum: 6  acknum: -1  checksum: 2305  payload: ssssssssssssssssssss
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 14685.75090792566
+
+EVENT time: 14694.836268196665  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14702.309335612052  type: 2  entity: 0
+stopTimer: stopping timer at 14702.309335612052
+
+EVENT time: 14727.07296975616  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 14727.07296975616
+generateNextArrival(): future time for event 1 at entity 0 will be 14748.7655262917
+toLayer3: seqnum: 7  acknum: -1  checksum: 2326  payload: tttttttttttttttttttt
+toLayer3: packet being lost
+startTimer: starting timer at 14727.07296975616
+
+EVENT time: 14748.7655262917  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 14748.7655262917
+generateNextArrival(): future time for event 1 at entity 0 will be 14781.83538315989
+toLayer3: seqnum: 0  acknum: -1  checksum: 2339  payload: uuuuuuuuuuuuuuuuuuuu
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14755.581591235088  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14757.07296975616  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+toLayer3: seqnum: 7  acknum: -1  checksum: 2326  payload: tttttttttttttttttttt
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 14757.07296975616
+
+EVENT time: 14759.546555986208  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: packet being lost
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 72
+
+EVENT time: 14759.917142246777  type: 2  entity: 0
+
+EVENT time: 14781.83538315989  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 14781.83538315989
+generateNextArrival(): future time for event 1 at entity 0 will be 15095.870845667901
+toLayer3: seqnum: 1  acknum: -1  checksum: 2360  payload: vvvvvvvvvvvvvvvvvvvv
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14786.735374004338  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: packet being lost
+
+EVENT time: 14787.07296975616  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+toLayer3: seqnum: 7  acknum: -1  checksum: 2326  payload: tttttttttttttttttttt
+toLayer3: packet being lost
+startTimer: starting timer at 14787.07296975616
+
+EVENT time: 14817.07296975616  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+toLayer3: seqnum: 7  acknum: -1  checksum: 2326  payload: tttttttttttttttttttt
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 14817.07296975616
+
+EVENT time: 14825.921567430649  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14835.662831507312  type: 2  entity: 0
+TRACE_CASE_2: Cumulative ACK 1 moved window by 3 (from 71 to 74)
+stopTimer: stopping timer at 14835.662831507312
+
+EVENT time: 15095.870845667901  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 15095.870845667901
+generateNextArrival(): future time for event 1 at entity 0 will be 15120.712912381363
+toLayer3: seqnum: 2  acknum: -1  checksum: 2381  payload: wwwwwwwwwwwwwwwwwwww
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 15095.870845667901
+
+EVENT time: 15103.905056917025  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 15111.459700308242  type: 2  entity: 0
+stopTimer: stopping timer at 15111.459700308242
+
+EVENT time: 15120.712912381363  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 15120.712912381363
+generateNextArrival(): future time for event 1 at entity 0 will be 15188.390758995334
+toLayer3: seqnum: 3  acknum: -1  checksum: 2402  payload: xxxxxxxxxxxxxxxxxxxx
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 15120.712912381363
+
+EVENT time: 15123.939359721675  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 15126.90185247353  type: 2  entity: 0
+stopTimer: stopping timer at 15126.90185247353
+
+EVENT time: 15188.390758995334  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 15188.390758995334
+generateNextArrival(): future time for event 1 at entity 0 will be 15485.14053773614
+toLayer3: seqnum: 4  acknum: -1  checksum: 2423  payload: yyyyyyyyyyyyyyyyyyyy
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 15188.390758995334
+
+EVENT time: 15194.5465254677  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 15198.250892666407  type: 2  entity: 0
+stopTimer: stopping timer at 15198.250892666407
+
+EVENT time: 15485.14053773614  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 15485.14053773614
+generateNextArrival(): future time for event 1 at entity 0 will be 15742.19183935057
+toLayer3: seqnum: 5  acknum: -1  checksum: 2444  payload: zzzzzzzzzzzzzzzzzzzz
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 15485.14053773614
+
+EVENT time: 15489.406323435167  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 15491.23718985565  type: 2  entity: 0
+stopTimer: stopping timer at 15491.23718985565
+
+EVENT time: 15742.19183935057  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 15742.19183935057
+generateNextArrival(): future time for event 1 at entity 0 will be 15823.26120792261
+toLayer3: seqnum: 6  acknum: -1  checksum: 1945  payload: aaaaaaaaaaaaaaaaaaaa
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 15742.19183935057
+
+EVENT time: 15744.2663350322  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 15750.350962858976  type: 2  entity: 0
+stopTimer: stopping timer at 15750.350962858976
+
+EVENT time: 15823.26120792261  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 15823.26120792261
+generateNextArrival(): future time for event 1 at entity 0 will be 15867.207861568046
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: packet being lost
+startTimer: starting timer at 15823.26120792261
+
+EVENT time: 15853.26120792261  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 79
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: packet being lost
+startTimer: starting timer at 15853.26120792261
+
+EVENT time: 15867.207861568046  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 15867.207861568046
+generateNextArrival(): future time for event 1 at entity 0 will be 16066.371654408404
+toLayer3: seqnum: 0  acknum: -1  checksum: 1979  payload: cccccccccccccccccccc
+toLayer3: scheduling arrival on other side
+
+EVENT time: 15874.606219672236  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 15878.29026154363  type: 2  entity: 0
+
+EVENT time: 15883.26120792261  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 79
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: packet being lost
+startTimer: starting timer at 15883.26120792261
+
+EVENT time: 15913.26120792261  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 79
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: packet being lost
+startTimer: starting timer at 15913.26120792261
+
+EVENT time: 15943.26120792261  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 79
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: packet being lost
+startTimer: starting timer at 15943.26120792261
+
+EVENT time: 15973.26120792261  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 79
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 15973.26120792261
+
+EVENT time: 15982.436109500417  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: packet being lost
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 80
+
+EVENT time: 16003.26120792261  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 79
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 16003.26120792261
+
+EVENT time: 16012.885189367355  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16014.20929593799  type: 2  entity: 0
+TRACE_CASE_2: Cumulative ACK 0 moved window by 2 (from 79 to 81)
+stopTimer: stopping timer at 16014.20929593799
+
+EVENT time: 16066.371654408404  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 16066.371654408404
+generateNextArrival(): future time for event 1 at entity 0 will be 16124.271370586266
+toLayer3: seqnum: 1  acknum: -1  checksum: 2000  payload: dddddddddddddddddddd
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 16066.371654408404
+
+EVENT time: 16072.104159672846  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: packet being lost
+
+EVENT time: 16096.371654408404  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 81
+toLayer3: seqnum: 1  acknum: -1  checksum: 2000  payload: dddddddddddddddddddd
+toLayer3: packet being lost
+startTimer: starting timer at 16096.371654408404
+
+EVENT time: 16124.271370586266  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 16124.271370586266
+generateNextArrival(): future time for event 1 at entity 0 will be 16295.040742210156
+toLayer3: seqnum: 2  acknum: -1  checksum: 2021  payload: eeeeeeeeeeeeeeeeeeee
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16126.371654408404  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 81
+toLayer3: seqnum: 1  acknum: -1  checksum: 2000  payload: dddddddddddddddddddd
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 16126.371654408404
+
+EVENT time: 16132.635181737729  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16138.111972411272  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16138.800836207165  type: 2  entity: 0
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 81 to 83)
+stopTimer: stopping timer at 16138.800836207165
+
+EVENT time: 16145.015930661952  type: 2  entity: 0
+TRACE_CASE_4: Triple Duplicate ACK (2). Fast Retransmitting base.
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16154.258400219738  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16156.958586382645  type: 2  entity: 0
+TRACE_CASE_4: Triple Duplicate ACK (2). Fast Retransmitting base.
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16166.043671987065  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16173.477736747342  type: 2  entity: 0
+TRACE_CASE_4: Triple Duplicate ACK (2). Fast Retransmitting base.
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16174.768333994572  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16179.189306314285  type: 2  entity: 0
+TRACE_CASE_4: Triple Duplicate ACK (2). Fast Retransmitting base.
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16185.528275399036  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16186.793328653835  type: 2  entity: 0
+TRACE_CASE_4: Triple Duplicate ACK (2). Fast Retransmitting base.
+toLayer3: seqnum: 7  acknum: -1  checksum: 1966  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16188.57695242165  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: packet being lost
+
+EVENT time: 16295.040742210156  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 16295.040742210156
+generateNextArrival(): future time for event 1 at entity 0 will be 16524.6131778924
+toLayer3: seqnum: 3  acknum: -1  checksum: 2042  payload: ffffffffffffffffffff
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 16295.040742210156
+
+EVENT time: 16301.877956480612  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: packet being lost
+
+EVENT time: 16325.040742210156  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 83
+toLayer3: seqnum: 3  acknum: -1  checksum: 2042  payload: ffffffffffffffffffff
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 16325.040742210156
+
+EVENT time: 16330.279946287428  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16333.516556291395  type: 2  entity: 0
+stopTimer: stopping timer at 16333.516556291395
+
+EVENT time: 16524.6131778924  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 16524.6131778924
+generateNextArrival(): future time for event 1 at entity 0 will be 16873.818170720548
+toLayer3: seqnum: 4  acknum: -1  checksum: 2063  payload: gggggggggggggggggggg
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 16524.6131778924
+
+EVENT time: 16531.272682882176  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16535.169042023994  type: 2  entity: 0
+stopTimer: stopping timer at 16535.169042023994
+
+EVENT time: 16873.818170720548  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 16873.818170720548
+generateNextArrival(): future time for event 1 at entity 0 will be 17223.853267006445
+toLayer3: seqnum: 5  acknum: -1  checksum: 2084  payload: hhhhhhhhhhhhhhhhhhhh
+toLayer3: packet being lost
+startTimer: starting timer at 16873.818170720548
+
+EVENT time: 16903.818170720548  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 85
+toLayer3: seqnum: 5  acknum: -1  checksum: 2084  payload: hhhhhhhhhhhhhhhhhhhh
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 16903.818170720548
+
+EVENT time: 16909.800347911012  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 16917.56923123875  type: 2  entity: 0
+stopTimer: stopping timer at 16917.56923123875
+
+EVENT time: 17223.853267006445  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 17223.853267006445
+generateNextArrival(): future time for event 1 at entity 0 will be 17565.18448438979
+toLayer3: seqnum: 6  acknum: -1  checksum: 2105  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: packet being lost
+startTimer: starting timer at 17223.853267006445
+
+EVENT time: 17253.853267006445  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 86
+toLayer3: seqnum: 6  acknum: -1  checksum: 2105  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: packet being lost
+startTimer: starting timer at 17253.853267006445
+
+EVENT time: 17283.853267006445  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 86
+toLayer3: seqnum: 6  acknum: -1  checksum: 2105  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 17283.853267006445
+
+EVENT time: 17289.911526841035  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 17292.90945158239  type: 2  entity: 0
+stopTimer: stopping timer at 17292.90945158239
+
+EVENT time: 17565.18448438979  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 17565.18448438979
+generateNextArrival(): future time for event 1 at entity 0 will be 17589.36735129857
+toLayer3: seqnum: 7  acknum: -1  checksum: 2126  payload: jjjjjjjjjjjjjjjjjjjj
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 17565.18448438979
+
+EVENT time: 17571.008728293717  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 17573.68062379834  type: 2  entity: 0
+stopTimer: stopping timer at 17573.68062379834
+
+EVENT time: 17589.36735129857  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 17589.36735129857
+generateNextArrival(): future time for event 1 at entity 0 will be 17834.736167485586
+toLayer3: seqnum: 0  acknum: -1  checksum: 2139  payload: kkkkkkkkkkkkkkkkkkkk
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 17589.36735129857
+
+EVENT time: 17595.114688558617  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 17602.671529282517  type: 2  entity: 0
+stopTimer: stopping timer at 17602.671529282517
+
+EVENT time: 17834.736167485586  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 17834.736167485586
+generateNextArrival(): future time for event 1 at entity 0 will be 18212.067018646816
+toLayer3: seqnum: 1  acknum: -1  checksum: 2160  payload: llllllllllllllllllll
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 17834.736167485586
+
+EVENT time: 17844.301919614252  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 17849.79299295023  type: 2  entity: 0
+stopTimer: stopping timer at 17849.79299295023
+
+EVENT time: 18212.067018646816  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 18212.067018646816
+generateNextArrival(): future time for event 1 at entity 0 will be 18444.679097872868
+toLayer3: seqnum: 2  acknum: -1  checksum: 2181  payload: mmmmmmmmmmmmmmmmmmmm
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 18212.067018646816
+
+EVENT time: 18221.223792229994  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 18229.003662221145  type: 2  entity: 0
+stopTimer: stopping timer at 18229.003662221145
+
+EVENT time: 18444.679097872868  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 18444.679097872868
+generateNextArrival(): future time for event 1 at entity 0 will be 18551.066621906193
+toLayer3: seqnum: 3  acknum: -1  checksum: 2202  payload: nnnnnnnnnnnnnnnnnnnn
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 18444.679097872868
+
+EVENT time: 18452.49247718742  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 18460.28827784052  type: 2  entity: 0
+stopTimer: stopping timer at 18460.28827784052
+
+EVENT time: 18551.066621906193  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 18551.066621906193
+generateNextArrival(): future time for event 1 at entity 0 will be 18811.99987792597
+toLayer3: seqnum: 4  acknum: -1  checksum: 2223  payload: oooooooooooooooooooo
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 18551.066621906193
+
+EVENT time: 18560.305246131786  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: packet being lost
+
+EVENT time: 18581.066621906193  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 92
+toLayer3: seqnum: 4  acknum: -1  checksum: 2223  payload: oooooooooooooooooooo
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 18581.066621906193
+
+EVENT time: 18588.55946531572  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 4  checksum: 3  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 18594.552629169597  type: 2  entity: 0
+stopTimer: stopping timer at 18594.552629169597
+
+EVENT time: 18811.99987792597  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 18811.99987792597
+generateNextArrival(): future time for event 1 at entity 0 will be 19007.794427320176
+toLayer3: seqnum: 5  acknum: -1  checksum: 2244  payload: pppppppppppppppppppp
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 18811.99987792597
+
+EVENT time: 18818.007324442282  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: packet being lost
+
+EVENT time: 18841.99987792597  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 93
+toLayer3: seqnum: 5  acknum: -1  checksum: 2244  payload: pppppppppppppppppppp
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 18841.99987792597
+
+EVENT time: 18849.872035889774  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: packet being lost
+
+EVENT time: 18871.99987792597  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 93
+toLayer3: seqnum: 5  acknum: -1  checksum: 2244  payload: pppppppppppppppppppp
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 18871.99987792597
+
+EVENT time: 18874.363597521904  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 5  checksum: 4  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 18876.942381054116  type: 2  entity: 0
+stopTimer: stopping timer at 18876.942381054116
+
+EVENT time: 19007.794427320176  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 19007.794427320176
+generateNextArrival(): future time for event 1 at entity 0 will be 19396.00207525865
+toLayer3: seqnum: 6  acknum: -1  checksum: 2265  payload: qqqqqqqqqqqqqqqqqqqq
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 19007.794427320176
+
+EVENT time: 19012.649922177807  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 6  checksum: 5  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 19016.683065279096  type: 2  entity: 0
+stopTimer: stopping timer at 19016.683065279096
+
+EVENT time: 19396.00207525865  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 19396.00207525865
+generateNextArrival(): future time for event 1 at entity 0 will be 19584.130375072487
+toLayer3: seqnum: 7  acknum: -1  checksum: 2286  payload: rrrrrrrrrrrrrrrrrrrr
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 19396.00207525865
+
+EVENT time: 19405.370891445666  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: packet being lost
+
+EVENT time: 19426.00207525865  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 95
+toLayer3: seqnum: 7  acknum: -1  checksum: 2286  payload: rrrrrrrrrrrrrrrrrrrr
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 19426.00207525865
+
+EVENT time: 19434.506790368363  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 7  checksum: 6  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 19435.567217017124  type: 2  entity: 0
+stopTimer: stopping timer at 19435.567217017124
+
+EVENT time: 19584.130375072487  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 19584.130375072487
+generateNextArrival(): future time for event 1 at entity 0 will be 19587.377544480732
+toLayer3: seqnum: 0  acknum: -1  checksum: 2299  payload: ssssssssssssssssssss
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 19584.130375072487
+
+EVENT time: 19587.377544480732  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 19587.377544480732
+generateNextArrival(): future time for event 1 at entity 0 will be 19652.47962889493
+toLayer3: seqnum: 1  acknum: -1  checksum: 2320  payload: tttttttttttttttttttt
+toLayer3: scheduling arrival on other side
+
+EVENT time: 19588.575518051704  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 0  checksum: -1  payload:
+toLayer3: packet being lost
+
+EVENT time: 19597.413678395955  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: packet being lost
+
+EVENT time: 19614.130375072487  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 96
+toLayer3: seqnum: 0  acknum: -1  checksum: 2299  payload: ssssssssssssssssssss
+toLayer3: packet being lost
+startTimer: starting timer at 19614.130375072487
+
+EVENT time: 19644.130375072487  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 96
+toLayer3: seqnum: 0  acknum: -1  checksum: 2299  payload: ssssssssssssssssssss
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 19644.130375072487
+
+EVENT time: 19650.36442152166  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 1  checksum: 0  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 19652.47962889493  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 19652.47962889493
+generateNextArrival(): future time for event 1 at entity 0 will be 19712.149418622397
+toLayer3: seqnum: 2  acknum: -1  checksum: 2341  payload: uuuuuuuuuuuuuuuuuuuu
+toLayer3: scheduling arrival on other side
+
+EVENT time: 19654.697775200664  type: 2  entity: 0
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 96 to 98)
+stopTimer: stopping timer at 19654.697775200664
+startTimer: starting timer at 19654.697775200664
+
+EVENT time: 19659.41077913755  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 2  checksum: 1  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 19666.345225379195  type: 2  entity: 0
+stopTimer: stopping timer at 19666.345225379195
+
+EVENT time: 19712.149418622397  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 19712.149418622397
+generateNextArrival(): future time for event 1 at entity 0 will be 19814.947965941345
+toLayer3: seqnum: 3  acknum: -1  checksum: 2362  payload: vvvvvvvvvvvvvvvvvvvv
+toLayer3: packet being lost
+startTimer: starting timer at 19712.149418622397
+
+EVENT time: 19742.149418622397  type: 0  entity: 0
+TRACE_CASE_3: Timeout. Retransmitting packet 99
+toLayer3: seqnum: 3  acknum: -1  checksum: 2362  payload: vvvvvvvvvvvvvvvvvvvv
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 19742.149418622397
+
+EVENT time: 19745.601641895813  type: 2  entity: 1
+toLayer3: seqnum: -1  acknum: 3  checksum: 2  payload:
+toLayer3: scheduling arrival on other side
+
+EVENT time: 19749.89077425459  type: 2  entity: 0
+stopTimer: stopping timer at 19749.89077425459
+
+EVENT time: 19814.947965941345  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 19814.947965941345
+generateNextArrival(): future time for event 1 at entity 0 will be 19849.72685934019
+Simulator terminated at time 19814.947965941345
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 100
+Number of retransmissions by A: 76
+Number of data packets delivered to layer 5 at B: 100
+Number of ACK packets sent by B: 135
+Number of corrupted packets: 0
+Ratio of lost packets: 0.24437299035369775
+Ratio of corrupted packets: 0.0
+Average RTT: 16.933602585900637
+Average communication time: 35.86717398602251
+==================================================

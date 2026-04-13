@@ -1,0 +1,3273 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 1000
+Enter packet loss probability (0.0 for no loss): [0.0] 0
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 200
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 100
+Simulator terminated at time 202787.7925962094
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 1000
+Number of retransmissions by A: 0
+Number of data packets delivered to layer 5 at B: 1000
+Number of ACK packets sent by B: 1000
+Number of corrupted packets: 0
+Ratio of lost packets: 0.0
+Ratio of corrupted packets: 0.0
+Average RTT: 10.913303903317317
+Average communication time: 10.913303903317317
+==================================================
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 1000
+Enter packet loss probability (0.0 for no loss): [0.0] 0.05
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.05
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 200
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 200
+TRACE_CASE_3: Timeout. Retransmitting packet 3
+TRACE_CASE_3: Timeout. Retransmitting packet 4
+TRACE_CASE_3: Timeout. Retransmitting packet 8
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 17 to 19)
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 42
+TRACE_CASE_3: Timeout. Retransmitting packet 42
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 73
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 74
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 73 to 75)
+TRACE_CASE_3: Timeout. Retransmitting packet 75
+TRACE_CASE_3: Timeout. Retransmitting packet 75
+TRACE_CASE_3: Timeout. Retransmitting packet 75
+TRACE_CASE_3: Timeout. Retransmitting packet 76
+TRACE_CASE_3: Timeout. Retransmitting packet 78
+TRACE_CASE_3: Timeout. Retransmitting packet 91
+TRACE_CASE_3: Timeout. Retransmitting packet 91
+TRACE_CASE_3: Timeout. Retransmitting packet 91
+TRACE_CASE_3: Timeout. Retransmitting packet 95
+TRACE_CASE_3: Timeout. Retransmitting packet 102
+TRACE_CASE_3: Timeout. Retransmitting packet 108
+TRACE_CASE_3: Timeout. Retransmitting packet 116
+TRACE_CASE_3: Timeout. Retransmitting packet 118
+TRACE_CASE_3: Timeout. Retransmitting packet 121
+TRACE_CASE_3: Timeout. Retransmitting packet 122
+TRACE_CASE_3: Timeout. Retransmitting packet 123
+TRACE_CASE_3: Timeout. Retransmitting packet 123
+TRACE_CASE_3: Timeout. Retransmitting packet 139
+TRACE_CASE_3: Timeout. Retransmitting packet 139
+TRACE_CASE_3: Timeout. Retransmitting packet 141
+TRACE_CASE_3: Timeout. Retransmitting packet 142
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 143
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 142 to 144)
+TRACE_CASE_3: Timeout. Retransmitting packet 145
+TRACE_CASE_3: Timeout. Retransmitting packet 150
+TRACE_CASE_3: Timeout. Retransmitting packet 153
+TRACE_CASE_3: Timeout. Retransmitting packet 154
+TRACE_CASE_3: Timeout. Retransmitting packet 171
+TRACE_CASE_3: Timeout. Retransmitting packet 190
+TRACE_CASE_3: Timeout. Retransmitting packet 190
+TRACE_CASE_3: Timeout. Retransmitting packet 198
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_3: Timeout. Retransmitting packet 207
+TRACE_CASE_3: Timeout. Retransmitting packet 208
+TRACE_CASE_3: Timeout. Retransmitting packet 225
+TRACE_CASE_3: Timeout. Retransmitting packet 226
+TRACE_CASE_3: Timeout. Retransmitting packet 226
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 227
+TRACE_CASE_2: Cumulative ACK 3 moved window by 2 (from 226 to 228)
+TRACE_CASE_3: Timeout. Retransmitting packet 228
+TRACE_CASE_3: Timeout. Retransmitting packet 229
+TRACE_CASE_3: Timeout. Retransmitting packet 229
+TRACE_CASE_3: Timeout. Retransmitting packet 240
+TRACE_CASE_3: Timeout. Retransmitting packet 244
+TRACE_CASE_3: Timeout. Retransmitting packet 246
+TRACE_CASE_3: Timeout. Retransmitting packet 247
+TRACE_CASE_3: Timeout. Retransmitting packet 250
+TRACE_CASE_3: Timeout. Retransmitting packet 261
+TRACE_CASE_3: Timeout. Retransmitting packet 267
+TRACE_CASE_3: Timeout. Retransmitting packet 269
+TRACE_CASE_3: Timeout. Retransmitting packet 270
+TRACE_CASE_3: Timeout. Retransmitting packet 273
+TRACE_CASE_3: Timeout. Retransmitting packet 275
+TRACE_CASE_3: Timeout. Retransmitting packet 275
+TRACE_CASE_3: Timeout. Retransmitting packet 287
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 288
+TRACE_CASE_2: Cumulative ACK 0 moved window by 2 (from 287 to 289)
+TRACE_CASE_3: Timeout. Retransmitting packet 291
+TRACE_CASE_3: Timeout. Retransmitting packet 292
+TRACE_CASE_3: Timeout. Retransmitting packet 292
+TRACE_CASE_3: Timeout. Retransmitting packet 301
+TRACE_CASE_3: Timeout. Retransmitting packet 305
+TRACE_CASE_3: Timeout. Retransmitting packet 307
+TRACE_CASE_2: Cumulative ACK 4 moved window by 2 (from 307 to 309)
+TRACE_CASE_3: Timeout. Retransmitting packet 311
+TRACE_CASE_3: Timeout. Retransmitting packet 316
+TRACE_CASE_3: Timeout. Retransmitting packet 316
+TRACE_CASE_3: Timeout. Retransmitting packet 321
+TRACE_CASE_3: Timeout. Retransmitting packet 328
+TRACE_CASE_3: Timeout. Retransmitting packet 340
+TRACE_CASE_3: Timeout. Retransmitting packet 342
+TRACE_CASE_3: Timeout. Retransmitting packet 349
+TRACE_CASE_3: Timeout. Retransmitting packet 353
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 353 to 355)
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 365
+TRACE_CASE_3: Timeout. Retransmitting packet 369
+TRACE_CASE_3: Timeout. Retransmitting packet 375
+TRACE_CASE_3: Timeout. Retransmitting packet 381
+TRACE_CASE_3: Timeout. Retransmitting packet 387
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 388
+TRACE_CASE_2: Cumulative ACK 4 moved window by 2 (from 387 to 389)
+TRACE_CASE_3: Timeout. Retransmitting packet 396
+TRACE_CASE_3: Timeout. Retransmitting packet 396
+TRACE_CASE_3: Timeout. Retransmitting packet 406
+TRACE_CASE_3: Timeout. Retransmitting packet 407
+TRACE_CASE_3: Timeout. Retransmitting packet 409
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 423 to 425)
+TRACE_CASE_3: Timeout. Retransmitting packet 428
+TRACE_CASE_3: Timeout. Retransmitting packet 428
+TRACE_CASE_3: Timeout. Retransmitting packet 431
+TRACE_CASE_2: Cumulative ACK 0 moved window by 2 (from 431 to 433)
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 437
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 436 to 438)
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 450
+TRACE_CASE_3: Timeout. Retransmitting packet 453
+TRACE_CASE_3: Timeout. Retransmitting packet 456
+TRACE_CASE_3: Timeout. Retransmitting packet 460
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 461
+TRACE_CASE_4: Triple Duplicate ACK (11). Fast Retransmitting base.
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 460 to 462)
+TRACE_CASE_4: Triple Duplicate ACK (13). Fast Retransmitting base.
+TRACE_CASE_4: Triple Duplicate ACK (13). Fast Retransmitting base.
+TRACE_CASE_4: Triple Duplicate ACK (13). Fast Retransmitting base.
+TRACE_CASE_4: Triple Duplicate ACK (13). Fast Retransmitting base.
+TRACE_CASE_4: Triple Duplicate ACK (13). Fast Retransmitting base.
+TRACE_CASE_4: Triple Duplicate ACK (13). Fast Retransmitting base.
+TRACE_CASE_4: Triple Duplicate ACK (13). Fast Retransmitting base.
+TRACE_CASE_4: Triple Duplicate ACK (13). Fast Retransmitting base.
+TRACE_CASE_3: Timeout. Retransmitting packet 472
+TRACE_CASE_3: Timeout. Retransmitting packet 477
+TRACE_CASE_3: Timeout. Retransmitting packet 480
+TRACE_CASE_3: Timeout. Retransmitting packet 482
+TRACE_CASE_3: Timeout. Retransmitting packet 482
+TRACE_CASE_3: Timeout. Retransmitting packet 491
+TRACE_CASE_3: Timeout. Retransmitting packet 493
+TRACE_CASE_3: Timeout. Retransmitting packet 502
+TRACE_CASE_3: Timeout. Retransmitting packet 505
+TRACE_CASE_3: Timeout. Retransmitting packet 505
+TRACE_CASE_3: Timeout. Retransmitting packet 527
+TRACE_CASE_3: Timeout. Retransmitting packet 528
+TRACE_CASE_3: Timeout. Retransmitting packet 530
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 531
+TRACE_CASE_2: Cumulative ACK 3 moved window by 2 (from 530 to 532)
+TRACE_CASE_3: Timeout. Retransmitting packet 533
+TRACE_CASE_3: Timeout. Retransmitting packet 537
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 537 to 539)
+TRACE_CASE_3: Timeout. Retransmitting packet 539
+TRACE_CASE_3: Timeout. Retransmitting packet 540
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 540 to 542)
+TRACE_CASE_3: Timeout. Retransmitting packet 542
+TRACE_CASE_3: Timeout. Retransmitting packet 542
+TRACE_CASE_3: Timeout. Retransmitting packet 547
+TRACE_CASE_3: Timeout. Retransmitting packet 556
+TRACE_CASE_3: Timeout. Retransmitting packet 559
+TRACE_CASE_3: Timeout. Retransmitting packet 576
+TRACE_CASE_3: Timeout. Retransmitting packet 580
+TRACE_CASE_3: Timeout. Retransmitting packet 580
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 580 to 582)
+TRACE_CASE_3: Timeout. Retransmitting packet 587
+TRACE_CASE_3: Timeout. Retransmitting packet 596
+TRACE_CASE_3: Timeout. Retransmitting packet 598
+TRACE_CASE_3: Timeout. Retransmitting packet 598
+TRACE_CASE_3: Timeout. Retransmitting packet 613
+TRACE_CASE_3: Timeout. Retransmitting packet 618
+TRACE_CASE_3: Timeout. Retransmitting packet 620
+TRACE_CASE_3: Timeout. Retransmitting packet 625
+TRACE_CASE_3: Timeout. Retransmitting packet 631
+TRACE_CASE_3: Timeout. Retransmitting packet 641
+TRACE_CASE_3: Timeout. Retransmitting packet 643
+TRACE_CASE_3: Timeout. Retransmitting packet 646
+TRACE_CASE_3: Timeout. Retransmitting packet 653
+TRACE_CASE_3: Timeout. Retransmitting packet 653
+TRACE_CASE_3: Timeout. Retransmitting packet 654
+TRACE_CASE_3: Timeout. Retransmitting packet 659
+TRACE_CASE_3: Timeout. Retransmitting packet 660
+TRACE_CASE_3: Timeout. Retransmitting packet 661
+TRACE_CASE_3: Timeout. Retransmitting packet 663
+TRACE_CASE_3: Timeout. Retransmitting packet 664
+TRACE_CASE_3: Timeout. Retransmitting packet 674
+TRACE_CASE_3: Timeout. Retransmitting packet 687
+TRACE_CASE_3: Timeout. Retransmitting packet 696
+TRACE_CASE_3: Timeout. Retransmitting packet 696
+TRACE_CASE_3: Timeout. Retransmitting packet 701
+TRACE_CASE_3: Timeout. Retransmitting packet 710
+TRACE_CASE_3: Timeout. Retransmitting packet 711
+TRACE_CASE_3: Timeout. Retransmitting packet 717
+TRACE_CASE_3: Timeout. Retransmitting packet 720
+TRACE_CASE_3: Timeout. Retransmitting packet 720
+TRACE_CASE_3: Timeout. Retransmitting packet 721
+TRACE_CASE_3: Timeout. Retransmitting packet 725
+TRACE_CASE_3: Timeout. Retransmitting packet 730
+TRACE_CASE_3: Timeout. Retransmitting packet 739
+TRACE_CASE_3: Timeout. Retransmitting packet 741
+TRACE_CASE_3: Timeout. Retransmitting packet 742
+TRACE_CASE_3: Timeout. Retransmitting packet 744
+TRACE_CASE_3: Timeout. Retransmitting packet 750
+TRACE_CASE_3: Timeout. Retransmitting packet 751
+TRACE_CASE_3: Timeout. Retransmitting packet 751
+TRACE_CASE_3: Timeout. Retransmitting packet 751
+TRACE_CASE_3: Timeout. Retransmitting packet 769
+TRACE_CASE_3: Timeout. Retransmitting packet 777
+TRACE_CASE_3: Timeout. Retransmitting packet 777
+TRACE_CASE_3: Timeout. Retransmitting packet 777
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 777 to 779)
+TRACE_CASE_3: Timeout. Retransmitting packet 780
+TRACE_CASE_3: Timeout. Retransmitting packet 791
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 791 to 793)
+TRACE_CASE_3: Timeout. Retransmitting packet 802
+TRACE_CASE_3: Timeout. Retransmitting packet 804
+TRACE_CASE_3: Timeout. Retransmitting packet 809
+TRACE_CASE_3: Timeout. Retransmitting packet 816
+TRACE_CASE_3: Timeout. Retransmitting packet 816
+TRACE_CASE_3: Timeout. Retransmitting packet 816
+TRACE_CASE_3: Timeout. Retransmitting packet 827
+TRACE_CASE_3: Timeout. Retransmitting packet 828
+TRACE_CASE_3: Timeout. Retransmitting packet 830
+TRACE_CASE_3: Timeout. Retransmitting packet 836
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 836 to 838)
+TRACE_CASE_3: Timeout. Retransmitting packet 840
+TRACE_CASE_3: Timeout. Retransmitting packet 847
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 848
+TRACE_CASE_2: Cumulative ACK 0 moved window by 2 (from 847 to 849)
+TRACE_CASE_3: Timeout. Retransmitting packet 851
+TRACE_CASE_3: Timeout. Retransmitting packet 854
+TRACE_CASE_3: Timeout. Retransmitting packet 854
+TRACE_CASE_3: Timeout. Retransmitting packet 869
+TRACE_CASE_3: Timeout. Retransmitting packet 870
+TRACE_CASE_3: Timeout. Retransmitting packet 879
+TRACE_CASE_3: Timeout. Retransmitting packet 881
+TRACE_CASE_3: Timeout. Retransmitting packet 889
+TRACE_CASE_3: Timeout. Retransmitting packet 893
+TRACE_CASE_3: Timeout. Retransmitting packet 899
+TRACE_CASE_3: Timeout. Retransmitting packet 902
+TRACE_CASE_3: Timeout. Retransmitting packet 912
+TRACE_CASE_3: Timeout. Retransmitting packet 912
+TRACE_CASE_3: Timeout. Retransmitting packet 917
+TRACE_CASE_3: Timeout. Retransmitting packet 918
+TRACE_CASE_3: Timeout. Retransmitting packet 922
+TRACE_CASE_3: Timeout. Retransmitting packet 923
+TRACE_CASE_3: Timeout. Retransmitting packet 929
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 930
+TRACE_CASE_3: Timeout. Retransmitting packet 929
+TRACE_CASE_3: Timeout. Retransmitting packet 929
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 929 to 931)
+TRACE_CASE_3: Timeout. Retransmitting packet 933
+TRACE_CASE_3: Timeout. Retransmitting packet 933
+TRACE_CASE_3: Timeout. Retransmitting packet 934
+TRACE_CASE_3: Timeout. Retransmitting packet 935
+TRACE_CASE_3: Timeout. Retransmitting packet 937
+TRACE_CASE_3: Timeout. Retransmitting packet 938
+TRACE_CASE_3: Timeout. Retransmitting packet 945
+TRACE_CASE_3: Timeout. Retransmitting packet 951
+TRACE_CASE_3: Timeout. Retransmitting packet 951
+TRACE_CASE_3: Timeout. Retransmitting packet 954
+TRACE_CASE_3: Timeout. Retransmitting packet 954
+TRACE_CASE_3: Timeout. Retransmitting packet 955
+TRACE_CASE_3: Timeout. Retransmitting packet 955
+TRACE_CASE_3: Timeout. Retransmitting packet 974
+TRACE_CASE_3: Timeout. Retransmitting packet 977
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 978
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 977 to 979)
+TRACE_CASE_3: Timeout. Retransmitting packet 979
+TRACE_CASE_3: Timeout. Retransmitting packet 985
+TRACE_CASE_3: Timeout. Retransmitting packet 986
+TRACE_CASE_3: Timeout. Retransmitting packet 986
+TRACE_CASE_3: Timeout. Retransmitting packet 993
+Simulator terminated at time 196811.18198187213
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 1000
+Number of retransmissions by A: 233
+Number of data packets delivered to layer 5 at B: 1000
+Number of ACK packets sent by B: 1109
+Number of corrupted packets: 114
+Ratio of lost packets: 0.05081127241673783
+Ratio of corrupted packets: 0.05128205128205128
+Average RTT: 11.41209303772826
+Average communication time: 18.12221848200928
+==================================================
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 1000
+Enter packet loss probability (0.0 for no loss): [0.0] 0.1
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.1
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 200
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 300
+TRACE_CASE_3: Timeout. Retransmitting packet 2
+TRACE_CASE_3: Timeout. Retransmitting packet 9
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_2: Cumulative ACK 11 moved window by 2 (from 10 to 12)
+TRACE_CASE_3: Timeout. Retransmitting packet 13
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+TRACE_CASE_3: Timeout. Retransmitting packet 18
+TRACE_CASE_3: Timeout. Retransmitting packet 19
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 24
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 35
+TRACE_CASE_3: Timeout. Retransmitting packet 37
+TRACE_CASE_3: Timeout. Retransmitting packet 37
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 45
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 48 to 50)
+TRACE_CASE_3: Timeout. Retransmitting packet 53
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 53 to 55)
+TRACE_CASE_3: Timeout. Retransmitting packet 56
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 66
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 75
+TRACE_CASE_3: Timeout. Retransmitting packet 76
+TRACE_CASE_3: Timeout. Retransmitting packet 76
+TRACE_CASE_3: Timeout. Retransmitting packet 80
+TRACE_CASE_3: Timeout. Retransmitting packet 80
+TRACE_CASE_3: Timeout. Retransmitting packet 80
+TRACE_CASE_3: Timeout. Retransmitting packet 83
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_3: Timeout. Retransmitting packet 95
+TRACE_CASE_3: Timeout. Retransmitting packet 95
+TRACE_CASE_3: Timeout. Retransmitting packet 95
+TRACE_CASE_3: Timeout. Retransmitting packet 95
+TRACE_CASE_3: Timeout. Retransmitting packet 96
+TRACE_CASE_3: Timeout. Retransmitting packet 98
+TRACE_CASE_3: Timeout. Retransmitting packet 99
+TRACE_CASE_3: Timeout. Retransmitting packet 102
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 103 to 105)
+TRACE_CASE_3: Timeout. Retransmitting packet 107
+TRACE_CASE_3: Timeout. Retransmitting packet 107
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 109
+TRACE_CASE_2: Cumulative ACK 13 moved window by 3 (from 107 to 110)
+TRACE_CASE_3: Timeout. Retransmitting packet 114
+TRACE_CASE_3: Timeout. Retransmitting packet 115
+TRACE_CASE_3: Timeout. Retransmitting packet 118
+TRACE_CASE_3: Timeout. Retransmitting packet 119
+TRACE_CASE_3: Timeout. Retransmitting packet 119
+TRACE_CASE_3: Timeout. Retransmitting packet 121
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 121 to 123)
+TRACE_CASE_3: Timeout. Retransmitting packet 125
+TRACE_CASE_3: Timeout. Retransmitting packet 126
+TRACE_CASE_2: Cumulative ACK 11 moved window by 2 (from 138 to 140)
+TRACE_CASE_3: Timeout. Retransmitting packet 143
+TRACE_CASE_3: Timeout. Retransmitting packet 143
+TRACE_CASE_3: Timeout. Retransmitting packet 143
+TRACE_CASE_3: Timeout. Retransmitting packet 143
+TRACE_CASE_3: Timeout. Retransmitting packet 143
+TRACE_CASE_3: Timeout. Retransmitting packet 144
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 144 to 146)
+TRACE_CASE_3: Timeout. Retransmitting packet 149
+TRACE_CASE_3: Timeout. Retransmitting packet 149
+TRACE_CASE_3: Timeout. Retransmitting packet 149
+TRACE_CASE_3: Timeout. Retransmitting packet 150
+TRACE_CASE_3: Timeout. Retransmitting packet 151
+TRACE_CASE_3: Timeout. Retransmitting packet 154
+TRACE_CASE_3: Timeout. Retransmitting packet 154
+TRACE_CASE_3: Timeout. Retransmitting packet 155
+TRACE_CASE_3: Timeout. Retransmitting packet 155
+TRACE_CASE_3: Timeout. Retransmitting packet 157
+TRACE_CASE_3: Timeout. Retransmitting packet 157
+TRACE_CASE_3: Timeout. Retransmitting packet 161
+TRACE_CASE_3: Timeout. Retransmitting packet 162
+TRACE_CASE_3: Timeout. Retransmitting packet 164
+TRACE_CASE_3: Timeout. Retransmitting packet 164
+TRACE_CASE_3: Timeout. Retransmitting packet 166
+TRACE_CASE_3: Timeout. Retransmitting packet 173
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_2: Cumulative ACK 0 moved window by 3 (from 174 to 177)
+TRACE_CASE_3: Timeout. Retransmitting packet 179
+TRACE_CASE_3: Timeout. Retransmitting packet 191
+TRACE_CASE_3: Timeout. Retransmitting packet 192
+TRACE_CASE_3: Timeout. Retransmitting packet 193
+TRACE_CASE_3: Timeout. Retransmitting packet 193
+TRACE_CASE_3: Timeout. Retransmitting packet 194
+TRACE_CASE_3: Timeout. Retransmitting packet 194
+TRACE_CASE_3: Timeout. Retransmitting packet 196
+TRACE_CASE_3: Timeout. Retransmitting packet 196
+TRACE_CASE_3: Timeout. Retransmitting packet 204
+TRACE_CASE_3: Timeout. Retransmitting packet 206
+TRACE_CASE_3: Timeout. Retransmitting packet 206
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 206 to 208)
+TRACE_CASE_3: Timeout. Retransmitting packet 210
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 211
+TRACE_CASE_3: Timeout. Retransmitting packet 210
+TRACE_CASE_2: Cumulative ACK 3 moved window by 2 (from 210 to 212)
+TRACE_CASE_3: Timeout. Retransmitting packet 212
+TRACE_CASE_3: Timeout. Retransmitting packet 217
+TRACE_CASE_3: Timeout. Retransmitting packet 217
+TRACE_CASE_3: Timeout. Retransmitting packet 222
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 223
+TRACE_CASE_3: Timeout. Retransmitting packet 222
+TRACE_CASE_3: Timeout. Retransmitting packet 222
+TRACE_CASE_3: Timeout. Retransmitting packet 222
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 222 to 224)
+TRACE_CASE_3: Timeout. Retransmitting packet 225
+TRACE_CASE_3: Timeout. Retransmitting packet 228
+TRACE_CASE_3: Timeout. Retransmitting packet 230
+TRACE_CASE_3: Timeout. Retransmitting packet 236
+TRACE_CASE_3: Timeout. Retransmitting packet 237
+TRACE_CASE_3: Timeout. Retransmitting packet 240
+TRACE_CASE_3: Timeout. Retransmitting packet 240
+TRACE_CASE_3: Timeout. Retransmitting packet 246
+TRACE_CASE_3: Timeout. Retransmitting packet 246
+TRACE_CASE_3: Timeout. Retransmitting packet 247
+TRACE_CASE_3: Timeout. Retransmitting packet 256
+TRACE_CASE_3: Timeout. Retransmitting packet 257
+TRACE_CASE_3: Timeout. Retransmitting packet 257
+TRACE_CASE_3: Timeout. Retransmitting packet 262
+TRACE_CASE_3: Timeout. Retransmitting packet 264
+TRACE_CASE_3: Timeout. Retransmitting packet 265
+TRACE_CASE_3: Timeout. Retransmitting packet 269
+TRACE_CASE_3: Timeout. Retransmitting packet 271
+TRACE_CASE_3: Timeout. Retransmitting packet 273
+TRACE_CASE_2: Cumulative ACK 3 moved window by 2 (from 274 to 276)
+TRACE_CASE_3: Timeout. Retransmitting packet 277
+TRACE_CASE_3: Timeout. Retransmitting packet 280
+TRACE_CASE_3: Timeout. Retransmitting packet 282
+TRACE_CASE_3: Timeout. Retransmitting packet 289
+TRACE_CASE_3: Timeout. Retransmitting packet 290
+TRACE_CASE_3: Timeout. Retransmitting packet 293
+TRACE_CASE_3: Timeout. Retransmitting packet 294
+TRACE_CASE_3: Timeout. Retransmitting packet 297
+TRACE_CASE_3: Timeout. Retransmitting packet 297
+TRACE_CASE_3: Timeout. Retransmitting packet 300
+TRACE_CASE_3: Timeout. Retransmitting packet 300
+TRACE_CASE_3: Timeout. Retransmitting packet 301
+TRACE_CASE_3: Timeout. Retransmitting packet 301
+TRACE_CASE_3: Timeout. Retransmitting packet 301
+TRACE_CASE_3: Timeout. Retransmitting packet 302
+TRACE_CASE_3: Timeout. Retransmitting packet 303
+TRACE_CASE_3: Timeout. Retransmitting packet 303
+TRACE_CASE_3: Timeout. Retransmitting packet 303
+TRACE_CASE_3: Timeout. Retransmitting packet 304
+TRACE_CASE_3: Timeout. Retransmitting packet 304
+TRACE_CASE_3: Timeout. Retransmitting packet 305
+TRACE_CASE_3: Timeout. Retransmitting packet 305
+TRACE_CASE_3: Timeout. Retransmitting packet 307
+TRACE_CASE_3: Timeout. Retransmitting packet 309
+TRACE_CASE_3: Timeout. Retransmitting packet 309
+TRACE_CASE_3: Timeout. Retransmitting packet 309
+TRACE_CASE_3: Timeout. Retransmitting packet 312
+TRACE_CASE_3: Timeout. Retransmitting packet 316
+TRACE_CASE_3: Timeout. Retransmitting packet 318
+TRACE_CASE_3: Timeout. Retransmitting packet 321
+TRACE_CASE_3: Timeout. Retransmitting packet 321
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 321 to 323)
+TRACE_CASE_3: Timeout. Retransmitting packet 324
+TRACE_CASE_3: Timeout. Retransmitting packet 324
+TRACE_CASE_3: Timeout. Retransmitting packet 328
+TRACE_CASE_3: Timeout. Retransmitting packet 330
+TRACE_CASE_3: Timeout. Retransmitting packet 330
+TRACE_CASE_3: Timeout. Retransmitting packet 330
+TRACE_CASE_2: Cumulative ACK 11 moved window by 2 (from 330 to 332)
+TRACE_CASE_3: Timeout. Retransmitting packet 337
+TRACE_CASE_3: Timeout. Retransmitting packet 339
+TRACE_CASE_3: Timeout. Retransmitting packet 339
+TRACE_CASE_3: Timeout. Retransmitting packet 340
+TRACE_CASE_3: Timeout. Retransmitting packet 343
+TRACE_CASE_3: Timeout. Retransmitting packet 344
+TRACE_CASE_3: Timeout. Retransmitting packet 345
+TRACE_CASE_3: Timeout. Retransmitting packet 346
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 347
+TRACE_CASE_2: Cumulative ACK 11 moved window by 2 (from 346 to 348)
+TRACE_CASE_3: Timeout. Retransmitting packet 349
+TRACE_CASE_3: Timeout. Retransmitting packet 350
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 357
+TRACE_CASE_3: Timeout. Retransmitting packet 359
+TRACE_CASE_3: Timeout. Retransmitting packet 359
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 361
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_2: Cumulative ACK 9 moved window by 2 (from 360 to 362)
+TRACE_CASE_3: Timeout. Retransmitting packet 362
+TRACE_CASE_3: Timeout. Retransmitting packet 367
+TRACE_CASE_3: Timeout. Retransmitting packet 367
+TRACE_CASE_3: Timeout. Retransmitting packet 368
+TRACE_CASE_3: Timeout. Retransmitting packet 368
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 375 to 377)
+TRACE_CASE_3: Timeout. Retransmitting packet 377
+TRACE_CASE_3: Timeout. Retransmitting packet 377
+TRACE_CASE_3: Timeout. Retransmitting packet 378
+TRACE_CASE_3: Timeout. Retransmitting packet 382
+TRACE_CASE_3: Timeout. Retransmitting packet 393
+TRACE_CASE_3: Timeout. Retransmitting packet 397
+TRACE_CASE_3: Timeout. Retransmitting packet 397
+TRACE_CASE_3: Timeout. Retransmitting packet 397
+TRACE_CASE_3: Timeout. Retransmitting packet 399
+TRACE_CASE_3: Timeout. Retransmitting packet 400
+TRACE_CASE_3: Timeout. Retransmitting packet 405
+TRACE_CASE_3: Timeout. Retransmitting packet 415
+TRACE_CASE_3: Timeout. Retransmitting packet 418
+TRACE_CASE_3: Timeout. Retransmitting packet 419
+TRACE_CASE_3: Timeout. Retransmitting packet 419
+TRACE_CASE_3: Timeout. Retransmitting packet 423
+TRACE_CASE_3: Timeout. Retransmitting packet 426
+TRACE_CASE_3: Timeout. Retransmitting packet 428
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 428 to 430)
+TRACE_CASE_3: Timeout. Retransmitting packet 430
+TRACE_CASE_3: Timeout. Retransmitting packet 431
+TRACE_CASE_3: Timeout. Retransmitting packet 435
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_3: Timeout. Retransmitting packet 437
+TRACE_CASE_3: Timeout. Retransmitting packet 437
+TRACE_CASE_3: Timeout. Retransmitting packet 441
+TRACE_CASE_3: Timeout. Retransmitting packet 441
+TRACE_CASE_3: Timeout. Retransmitting packet 442
+TRACE_CASE_3: Timeout. Retransmitting packet 443
+TRACE_CASE_3: Timeout. Retransmitting packet 446
+TRACE_CASE_3: Timeout. Retransmitting packet 447
+TRACE_CASE_3: Timeout. Retransmitting packet 449
+TRACE_CASE_3: Timeout. Retransmitting packet 454
+TRACE_CASE_3: Timeout. Retransmitting packet 455
+TRACE_CASE_3: Timeout. Retransmitting packet 455
+TRACE_CASE_3: Timeout. Retransmitting packet 455
+TRACE_CASE_3: Timeout. Retransmitting packet 461
+TRACE_CASE_3: Timeout. Retransmitting packet 461
+TRACE_CASE_3: Timeout. Retransmitting packet 462
+TRACE_CASE_3: Timeout. Retransmitting packet 462
+TRACE_CASE_3: Timeout. Retransmitting packet 462
+TRACE_CASE_3: Timeout. Retransmitting packet 466
+TRACE_CASE_3: Timeout. Retransmitting packet 469
+TRACE_CASE_3: Timeout. Retransmitting packet 470
+TRACE_CASE_3: Timeout. Retransmitting packet 470
+TRACE_CASE_3: Timeout. Retransmitting packet 471
+TRACE_CASE_3: Timeout. Retransmitting packet 474
+TRACE_CASE_3: Timeout. Retransmitting packet 475
+TRACE_CASE_3: Timeout. Retransmitting packet 475
+TRACE_CASE_3: Timeout. Retransmitting packet 475
+TRACE_CASE_3: Timeout. Retransmitting packet 476
+TRACE_CASE_3: Timeout. Retransmitting packet 478
+TRACE_CASE_3: Timeout. Retransmitting packet 486
+TRACE_CASE_3: Timeout. Retransmitting packet 488
+TRACE_CASE_3: Timeout. Retransmitting packet 492
+TRACE_CASE_3: Timeout. Retransmitting packet 492
+TRACE_CASE_3: Timeout. Retransmitting packet 494
+TRACE_CASE_3: Timeout. Retransmitting packet 494
+TRACE_CASE_3: Timeout. Retransmitting packet 494
+TRACE_CASE_3: Timeout. Retransmitting packet 497
+TRACE_CASE_3: Timeout. Retransmitting packet 499
+TRACE_CASE_3: Timeout. Retransmitting packet 499
+TRACE_CASE_3: Timeout. Retransmitting packet 502
+TRACE_CASE_3: Timeout. Retransmitting packet 505
+TRACE_CASE_3: Timeout. Retransmitting packet 505
+TRACE_CASE_3: Timeout. Retransmitting packet 506
+TRACE_CASE_3: Timeout. Retransmitting packet 508
+TRACE_CASE_3: Timeout. Retransmitting packet 510
+TRACE_CASE_3: Timeout. Retransmitting packet 511
+TRACE_CASE_3: Timeout. Retransmitting packet 514
+TRACE_CASE_3: Timeout. Retransmitting packet 516
+TRACE_CASE_3: Timeout. Retransmitting packet 517
+TRACE_CASE_3: Timeout. Retransmitting packet 517
+TRACE_CASE_3: Timeout. Retransmitting packet 517
+TRACE_CASE_3: Timeout. Retransmitting packet 522
+TRACE_CASE_3: Timeout. Retransmitting packet 523
+TRACE_CASE_3: Timeout. Retransmitting packet 523
+TRACE_CASE_3: Timeout. Retransmitting packet 523
+TRACE_CASE_3: Timeout. Retransmitting packet 525
+TRACE_CASE_3: Timeout. Retransmitting packet 526
+TRACE_CASE_3: Timeout. Retransmitting packet 533
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 534
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 533 to 535)
+TRACE_CASE_3: Timeout. Retransmitting packet 536
+TRACE_CASE_3: Timeout. Retransmitting packet 536
+TRACE_CASE_2: Cumulative ACK 9 moved window by 2 (from 536 to 538)
+TRACE_CASE_3: Timeout. Retransmitting packet 538
+TRACE_CASE_3: Timeout. Retransmitting packet 540
+TRACE_CASE_3: Timeout. Retransmitting packet 544
+TRACE_CASE_3: Timeout. Retransmitting packet 545
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 545 to 547)
+TRACE_CASE_3: Timeout. Retransmitting packet 550
+TRACE_CASE_3: Timeout. Retransmitting packet 551
+TRACE_CASE_3: Timeout. Retransmitting packet 553
+TRACE_CASE_3: Timeout. Retransmitting packet 556
+TRACE_CASE_3: Timeout. Retransmitting packet 558
+TRACE_CASE_3: Timeout. Retransmitting packet 562
+TRACE_CASE_3: Timeout. Retransmitting packet 563
+TRACE_CASE_3: Timeout. Retransmitting packet 570
+TRACE_CASE_3: Timeout. Retransmitting packet 575
+TRACE_CASE_3: Timeout. Retransmitting packet 575
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 576
+TRACE_CASE_2: Cumulative ACK 0 moved window by 2 (from 575 to 577)
+TRACE_CASE_3: Timeout. Retransmitting packet 585
+TRACE_CASE_3: Timeout. Retransmitting packet 587
+TRACE_CASE_3: Timeout. Retransmitting packet 587
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 591
+TRACE_CASE_3: Timeout. Retransmitting packet 593
+TRACE_CASE_3: Timeout. Retransmitting packet 593
+TRACE_CASE_3: Timeout. Retransmitting packet 595
+TRACE_CASE_3: Timeout. Retransmitting packet 600
+TRACE_CASE_3: Timeout. Retransmitting packet 600
+TRACE_CASE_3: Timeout. Retransmitting packet 602
+TRACE_CASE_3: Timeout. Retransmitting packet 608
+TRACE_CASE_3: Timeout. Retransmitting packet 608
+TRACE_CASE_3: Timeout. Retransmitting packet 609
+TRACE_CASE_3: Timeout. Retransmitting packet 611
+TRACE_CASE_3: Timeout. Retransmitting packet 614
+TRACE_CASE_3: Timeout. Retransmitting packet 615
+TRACE_CASE_3: Timeout. Retransmitting packet 615
+TRACE_CASE_3: Timeout. Retransmitting packet 615
+TRACE_CASE_3: Timeout. Retransmitting packet 616
+TRACE_CASE_3: Timeout. Retransmitting packet 618
+TRACE_CASE_3: Timeout. Retransmitting packet 622
+TRACE_CASE_3: Timeout. Retransmitting packet 629
+TRACE_CASE_3: Timeout. Retransmitting packet 633
+TRACE_CASE_3: Timeout. Retransmitting packet 633
+TRACE_CASE_3: Timeout. Retransmitting packet 633
+TRACE_CASE_3: Timeout. Retransmitting packet 634
+TRACE_CASE_3: Timeout. Retransmitting packet 635
+TRACE_CASE_3: Timeout. Retransmitting packet 635
+TRACE_CASE_3: Timeout. Retransmitting packet 638
+TRACE_CASE_3: Timeout. Retransmitting packet 638
+TRACE_CASE_3: Timeout. Retransmitting packet 638
+TRACE_CASE_3: Timeout. Retransmitting packet 639
+TRACE_CASE_3: Timeout. Retransmitting packet 639
+TRACE_CASE_3: Timeout. Retransmitting packet 641
+TRACE_CASE_3: Timeout. Retransmitting packet 646
+TRACE_CASE_3: Timeout. Retransmitting packet 650
+TRACE_CASE_3: Timeout. Retransmitting packet 650
+TRACE_CASE_3: Timeout. Retransmitting packet 655
+TRACE_CASE_3: Timeout. Retransmitting packet 656
+TRACE_CASE_3: Timeout. Retransmitting packet 657
+TRACE_CASE_3: Timeout. Retransmitting packet 664
+TRACE_CASE_3: Timeout. Retransmitting packet 664
+TRACE_CASE_3: Timeout. Retransmitting packet 665
+TRACE_CASE_3: Timeout. Retransmitting packet 665
+TRACE_CASE_3: Timeout. Retransmitting packet 666
+TRACE_CASE_3: Timeout. Retransmitting packet 667
+TRACE_CASE_3: Timeout. Retransmitting packet 669
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 669 to 671)
+TRACE_CASE_3: Timeout. Retransmitting packet 672
+TRACE_CASE_3: Timeout. Retransmitting packet 672
+TRACE_CASE_3: Timeout. Retransmitting packet 673
+TRACE_CASE_3: Timeout. Retransmitting packet 676
+TRACE_CASE_3: Timeout. Retransmitting packet 676
+TRACE_CASE_3: Timeout. Retransmitting packet 678
+TRACE_CASE_3: Timeout. Retransmitting packet 680
+TRACE_CASE_3: Timeout. Retransmitting packet 683
+TRACE_CASE_3: Timeout. Retransmitting packet 686
+TRACE_CASE_3: Timeout. Retransmitting packet 687
+TRACE_CASE_3: Timeout. Retransmitting packet 689
+TRACE_CASE_3: Timeout. Retransmitting packet 691
+TRACE_CASE_3: Timeout. Retransmitting packet 700
+TRACE_CASE_3: Timeout. Retransmitting packet 700
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 701
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 700 to 702)
+TRACE_CASE_3: Timeout. Retransmitting packet 703
+TRACE_CASE_3: Timeout. Retransmitting packet 704
+TRACE_CASE_3: Timeout. Retransmitting packet 704
+TRACE_CASE_3: Timeout. Retransmitting packet 704
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 704 to 706)
+TRACE_CASE_3: Timeout. Retransmitting packet 706
+TRACE_CASE_3: Timeout. Retransmitting packet 706
+TRACE_CASE_3: Timeout. Retransmitting packet 706
+TRACE_CASE_3: Timeout. Retransmitting packet 707
+TRACE_CASE_3: Timeout. Retransmitting packet 710
+TRACE_CASE_3: Timeout. Retransmitting packet 710
+TRACE_CASE_3: Timeout. Retransmitting packet 712
+TRACE_CASE_3: Timeout. Retransmitting packet 712
+TRACE_CASE_3: Timeout. Retransmitting packet 717
+TRACE_CASE_3: Timeout. Retransmitting packet 717
+TRACE_CASE_3: Timeout. Retransmitting packet 717
+TRACE_CASE_3: Timeout. Retransmitting packet 718
+TRACE_CASE_3: Timeout. Retransmitting packet 718
+TRACE_CASE_3: Timeout. Retransmitting packet 718
+TRACE_CASE_3: Timeout. Retransmitting packet 724
+TRACE_CASE_3: Timeout. Retransmitting packet 728
+TRACE_CASE_3: Timeout. Retransmitting packet 735
+TRACE_CASE_3: Timeout. Retransmitting packet 742
+TRACE_CASE_3: Timeout. Retransmitting packet 743
+TRACE_CASE_3: Timeout. Retransmitting packet 743
+TRACE_CASE_3: Timeout. Retransmitting packet 743
+TRACE_CASE_3: Timeout. Retransmitting packet 743
+TRACE_CASE_3: Timeout. Retransmitting packet 745
+TRACE_CASE_3: Timeout. Retransmitting packet 746
+TRACE_CASE_3: Timeout. Retransmitting packet 746
+TRACE_CASE_3: Timeout. Retransmitting packet 747
+TRACE_CASE_3: Timeout. Retransmitting packet 749
+TRACE_CASE_3: Timeout. Retransmitting packet 755
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 756
+TRACE_CASE_2: Cumulative ACK 4 moved window by 2 (from 755 to 757)
+TRACE_CASE_3: Timeout. Retransmitting packet 758
+TRACE_CASE_3: Timeout. Retransmitting packet 762
+TRACE_CASE_3: Timeout. Retransmitting packet 764
+TRACE_CASE_3: Timeout. Retransmitting packet 766
+TRACE_CASE_3: Timeout. Retransmitting packet 766
+TRACE_CASE_3: Timeout. Retransmitting packet 768
+TRACE_CASE_3: Timeout. Retransmitting packet 769
+TRACE_CASE_3: Timeout. Retransmitting packet 771
+TRACE_CASE_3: Timeout. Retransmitting packet 771
+TRACE_CASE_3: Timeout. Retransmitting packet 774
+TRACE_CASE_3: Timeout. Retransmitting packet 774
+TRACE_CASE_3: Timeout. Retransmitting packet 775
+TRACE_CASE_3: Timeout. Retransmitting packet 775
+TRACE_CASE_3: Timeout. Retransmitting packet 775
+TRACE_CASE_3: Timeout. Retransmitting packet 775
+TRACE_CASE_3: Timeout. Retransmitting packet 775
+TRACE_CASE_3: Timeout. Retransmitting packet 775
+TRACE_CASE_3: Timeout. Retransmitting packet 775
+TRACE_CASE_3: Timeout. Retransmitting packet 779
+TRACE_CASE_3: Timeout. Retransmitting packet 781
+TRACE_CASE_3: Timeout. Retransmitting packet 788
+TRACE_CASE_3: Timeout. Retransmitting packet 791
+TRACE_CASE_3: Timeout. Retransmitting packet 794
+TRACE_CASE_3: Timeout. Retransmitting packet 795
+TRACE_CASE_3: Timeout. Retransmitting packet 796
+TRACE_CASE_3: Timeout. Retransmitting packet 798
+TRACE_CASE_3: Timeout. Retransmitting packet 798
+TRACE_CASE_3: Timeout. Retransmitting packet 798
+TRACE_CASE_3: Timeout. Retransmitting packet 802
+TRACE_CASE_3: Timeout. Retransmitting packet 806
+TRACE_CASE_3: Timeout. Retransmitting packet 807
+TRACE_CASE_3: Timeout. Retransmitting packet 808
+TRACE_CASE_3: Timeout. Retransmitting packet 808
+TRACE_CASE_3: Timeout. Retransmitting packet 810
+TRACE_CASE_3: Timeout. Retransmitting packet 811
+TRACE_CASE_3: Timeout. Retransmitting packet 812
+TRACE_CASE_3: Timeout. Retransmitting packet 812
+TRACE_CASE_3: Timeout. Retransmitting packet 813
+TRACE_CASE_3: Timeout. Retransmitting packet 814
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 820
+TRACE_CASE_3: Timeout. Retransmitting packet 820
+TRACE_CASE_3: Timeout. Retransmitting packet 822
+TRACE_CASE_3: Timeout. Retransmitting packet 822
+TRACE_CASE_3: Timeout. Retransmitting packet 822
+TRACE_CASE_3: Timeout. Retransmitting packet 826
+TRACE_CASE_3: Timeout. Retransmitting packet 831
+TRACE_CASE_3: Timeout. Retransmitting packet 835
+TRACE_CASE_3: Timeout. Retransmitting packet 842
+TRACE_CASE_3: Timeout. Retransmitting packet 846
+TRACE_CASE_3: Timeout. Retransmitting packet 846
+TRACE_CASE_3: Timeout. Retransmitting packet 847
+TRACE_CASE_3: Timeout. Retransmitting packet 852
+TRACE_CASE_3: Timeout. Retransmitting packet 853
+TRACE_CASE_3: Timeout. Retransmitting packet 853
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 854
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 853 to 855)
+TRACE_CASE_3: Timeout. Retransmitting packet 857
+TRACE_CASE_3: Timeout. Retransmitting packet 858
+TRACE_CASE_3: Timeout. Retransmitting packet 865
+TRACE_CASE_3: Timeout. Retransmitting packet 865
+TRACE_CASE_3: Timeout. Retransmitting packet 866
+TRACE_CASE_3: Timeout. Retransmitting packet 869
+TRACE_CASE_3: Timeout. Retransmitting packet 870
+TRACE_CASE_3: Timeout. Retransmitting packet 871
+TRACE_CASE_3: Timeout. Retransmitting packet 871
+TRACE_CASE_3: Timeout. Retransmitting packet 876
+TRACE_CASE_3: Timeout. Retransmitting packet 876
+TRACE_CASE_3: Timeout. Retransmitting packet 877
+TRACE_CASE_3: Timeout. Retransmitting packet 880
+TRACE_CASE_2: Cumulative ACK 3 moved window by 2 (from 882 to 884)
+TRACE_CASE_3: Timeout. Retransmitting packet 887
+TRACE_CASE_3: Timeout. Retransmitting packet 889
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 891 to 893)
+TRACE_CASE_3: Timeout. Retransmitting packet 893
+TRACE_CASE_3: Timeout. Retransmitting packet 899
+TRACE_CASE_3: Timeout. Retransmitting packet 903
+TRACE_CASE_3: Timeout. Retransmitting packet 907
+TRACE_CASE_3: Timeout. Retransmitting packet 914
+TRACE_CASE_3: Timeout. Retransmitting packet 915
+TRACE_CASE_3: Timeout. Retransmitting packet 916
+TRACE_CASE_3: Timeout. Retransmitting packet 916
+TRACE_CASE_3: Timeout. Retransmitting packet 916
+TRACE_CASE_3: Timeout. Retransmitting packet 925
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 926
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 925 to 927)
+TRACE_CASE_3: Timeout. Retransmitting packet 934
+TRACE_CASE_3: Timeout. Retransmitting packet 934
+TRACE_CASE_3: Timeout. Retransmitting packet 939
+TRACE_CASE_3: Timeout. Retransmitting packet 941
+TRACE_CASE_3: Timeout. Retransmitting packet 943
+TRACE_CASE_3: Timeout. Retransmitting packet 943
+TRACE_CASE_3: Timeout. Retransmitting packet 945
+TRACE_CASE_3: Timeout. Retransmitting packet 947
+TRACE_CASE_3: Timeout. Retransmitting packet 947
+TRACE_CASE_3: Timeout. Retransmitting packet 947
+TRACE_CASE_3: Timeout. Retransmitting packet 951
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 952
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 951 to 953)
+TRACE_CASE_3: Timeout. Retransmitting packet 953
+TRACE_CASE_3: Timeout. Retransmitting packet 961
+TRACE_CASE_3: Timeout. Retransmitting packet 961
+TRACE_CASE_3: Timeout. Retransmitting packet 962
+TRACE_CASE_3: Timeout. Retransmitting packet 963
+TRACE_CASE_3: Timeout. Retransmitting packet 963
+TRACE_CASE_3: Timeout. Retransmitting packet 966
+TRACE_CASE_3: Timeout. Retransmitting packet 966
+TRACE_CASE_3: Timeout. Retransmitting packet 966
+TRACE_CASE_3: Timeout. Retransmitting packet 966
+TRACE_CASE_3: Timeout. Retransmitting packet 969
+TRACE_CASE_3: Timeout. Retransmitting packet 970
+TRACE_CASE_3: Timeout. Retransmitting packet 973
+TRACE_CASE_3: Timeout. Retransmitting packet 975
+TRACE_CASE_3: Timeout. Retransmitting packet 977
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 978
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 977 to 979)
+TRACE_CASE_3: Timeout. Retransmitting packet 980
+TRACE_CASE_3: Timeout. Retransmitting packet 980
+TRACE_CASE_3: Timeout. Retransmitting packet 985
+TRACE_CASE_3: Timeout. Retransmitting packet 985
+TRACE_CASE_3: Timeout. Retransmitting packet 985
+TRACE_CASE_3: Timeout. Retransmitting packet 987
+TRACE_CASE_3: Timeout. Retransmitting packet 987
+TRACE_CASE_3: Timeout. Retransmitting packet 989
+TRACE_CASE_2: Cumulative ACK 0 moved window by 2 (from 991 to 993)
+TRACE_CASE_3: Timeout. Retransmitting packet 993
+TRACE_CASE_3: Timeout. Retransmitting packet 993
+TRACE_CASE_3: Timeout. Retransmitting packet 993
+TRACE_CASE_3: Timeout. Retransmitting packet 997
+TRACE_CASE_3: Timeout. Retransmitting packet 997
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+Simulator terminated at time 200835.01083407097
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 1000
+Number of retransmissions by A: 502
+Number of data packets delivered to layer 5 at B: 1000
+Number of ACK packets sent by B: 1221
+Number of corrupted packets: 236
+Ratio of lost packets: 0.09768637532133675
+Ratio of corrupted packets: 0.09605209605209605
+Average RTT: 12.046634775670508
+Average communication time: 27.138144108401324
+==================================================
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 1000
+Enter packet loss probability (0.0 for no loss): [0.0] 0.15
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.15
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 200
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 400
+TRACE_CASE_3: Timeout. Retransmitting packet 0
+TRACE_CASE_3: Timeout. Retransmitting packet 0
+TRACE_CASE_3: Timeout. Retransmitting packet 1
+TRACE_CASE_3: Timeout. Retransmitting packet 2
+TRACE_CASE_3: Timeout. Retransmitting packet 2
+TRACE_CASE_3: Timeout. Retransmitting packet 2
+TRACE_CASE_3: Timeout. Retransmitting packet 2
+TRACE_CASE_3: Timeout. Retransmitting packet 2
+TRACE_CASE_3: Timeout. Retransmitting packet 3
+TRACE_CASE_3: Timeout. Retransmitting packet 7
+TRACE_CASE_3: Timeout. Retransmitting packet 7
+TRACE_CASE_3: Timeout. Retransmitting packet 8
+TRACE_CASE_3: Timeout. Retransmitting packet 8
+TRACE_CASE_3: Timeout. Retransmitting packet 8
+TRACE_CASE_3: Timeout. Retransmitting packet 8
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 12
+TRACE_CASE_3: Timeout. Retransmitting packet 12
+TRACE_CASE_3: Timeout. Retransmitting packet 13
+TRACE_CASE_3: Timeout. Retransmitting packet 14
+TRACE_CASE_3: Timeout. Retransmitting packet 15
+TRACE_CASE_3: Timeout. Retransmitting packet 16
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+TRACE_CASE_3: Timeout. Retransmitting packet 19
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 32
+TRACE_CASE_3: Timeout. Retransmitting packet 33
+TRACE_CASE_3: Timeout. Retransmitting packet 33
+TRACE_CASE_3: Timeout. Retransmitting packet 33
+TRACE_CASE_3: Timeout. Retransmitting packet 33
+TRACE_CASE_3: Timeout. Retransmitting packet 34
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 44 to 46)
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 50
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 58
+TRACE_CASE_3: Timeout. Retransmitting packet 58
+TRACE_CASE_3: Timeout. Retransmitting packet 58
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 66
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 72
+TRACE_CASE_3: Timeout. Retransmitting packet 73
+TRACE_CASE_3: Timeout. Retransmitting packet 73
+TRACE_CASE_3: Timeout. Retransmitting packet 73
+TRACE_CASE_3: Timeout. Retransmitting packet 74
+TRACE_CASE_3: Timeout. Retransmitting packet 78
+TRACE_CASE_3: Timeout. Retransmitting packet 78
+TRACE_CASE_3: Timeout. Retransmitting packet 82
+TRACE_CASE_3: Timeout. Retransmitting packet 83
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 84
+TRACE_CASE_2: Cumulative ACK 4 moved window by 2 (from 83 to 85)
+TRACE_CASE_3: Timeout. Retransmitting packet 86
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_3: Timeout. Retransmitting packet 91
+TRACE_CASE_3: Timeout. Retransmitting packet 91
+TRACE_CASE_3: Timeout. Retransmitting packet 94
+TRACE_CASE_3: Timeout. Retransmitting packet 94
+TRACE_CASE_3: Timeout. Retransmitting packet 95
+TRACE_CASE_3: Timeout. Retransmitting packet 96
+TRACE_CASE_3: Timeout. Retransmitting packet 100
+TRACE_CASE_3: Timeout. Retransmitting packet 102
+TRACE_CASE_3: Timeout. Retransmitting packet 105
+TRACE_CASE_3: Timeout. Retransmitting packet 106
+TRACE_CASE_3: Timeout. Retransmitting packet 107
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 108
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 107 to 109)
+TRACE_CASE_3: Timeout. Retransmitting packet 109
+TRACE_CASE_3: Timeout. Retransmitting packet 109
+TRACE_CASE_3: Timeout. Retransmitting packet 111
+TRACE_CASE_3: Timeout. Retransmitting packet 113
+TRACE_CASE_3: Timeout. Retransmitting packet 117
+TRACE_CASE_3: Timeout. Retransmitting packet 117
+TRACE_CASE_3: Timeout. Retransmitting packet 119
+TRACE_CASE_3: Timeout. Retransmitting packet 119
+TRACE_CASE_3: Timeout. Retransmitting packet 119
+TRACE_CASE_3: Timeout. Retransmitting packet 119
+TRACE_CASE_3: Timeout. Retransmitting packet 119
+TRACE_CASE_3: Timeout. Retransmitting packet 119
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 119 to 121)
+TRACE_CASE_3: Timeout. Retransmitting packet 121
+TRACE_CASE_3: Timeout. Retransmitting packet 121
+TRACE_CASE_3: Timeout. Retransmitting packet 121
+TRACE_CASE_3: Timeout. Retransmitting packet 122
+TRACE_CASE_3: Timeout. Retransmitting packet 122
+TRACE_CASE_2: Cumulative ACK 11 moved window by 2 (from 122 to 124)
+TRACE_CASE_3: Timeout. Retransmitting packet 124
+TRACE_CASE_3: Timeout. Retransmitting packet 125
+TRACE_CASE_3: Timeout. Retransmitting packet 128
+TRACE_CASE_3: Timeout. Retransmitting packet 128
+TRACE_CASE_3: Timeout. Retransmitting packet 130
+TRACE_CASE_3: Timeout. Retransmitting packet 131
+TRACE_CASE_3: Timeout. Retransmitting packet 138
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 139
+TRACE_CASE_2: Cumulative ACK 11 moved window by 2 (from 138 to 140)
+TRACE_CASE_3: Timeout. Retransmitting packet 149
+TRACE_CASE_3: Timeout. Retransmitting packet 149
+TRACE_CASE_3: Timeout. Retransmitting packet 149
+TRACE_CASE_3: Timeout. Retransmitting packet 150
+TRACE_CASE_3: Timeout. Retransmitting packet 151
+TRACE_CASE_3: Timeout. Retransmitting packet 151
+TRACE_CASE_3: Timeout. Retransmitting packet 151
+TRACE_CASE_3: Timeout. Retransmitting packet 152
+TRACE_CASE_3: Timeout. Retransmitting packet 158
+TRACE_CASE_3: Timeout. Retransmitting packet 158
+TRACE_CASE_3: Timeout. Retransmitting packet 159
+TRACE_CASE_3: Timeout. Retransmitting packet 160
+TRACE_CASE_3: Timeout. Retransmitting packet 162
+TRACE_CASE_3: Timeout. Retransmitting packet 164
+TRACE_CASE_3: Timeout. Retransmitting packet 164
+TRACE_CASE_3: Timeout. Retransmitting packet 165
+TRACE_CASE_3: Timeout. Retransmitting packet 166
+TRACE_CASE_3: Timeout. Retransmitting packet 166
+TRACE_CASE_3: Timeout. Retransmitting packet 166
+TRACE_CASE_3: Timeout. Retransmitting packet 167
+TRACE_CASE_3: Timeout. Retransmitting packet 168
+TRACE_CASE_2: Cumulative ACK 9 moved window by 2 (from 168 to 170)
+TRACE_CASE_3: Timeout. Retransmitting packet 170
+TRACE_CASE_3: Timeout. Retransmitting packet 170
+TRACE_CASE_3: Timeout. Retransmitting packet 171
+TRACE_CASE_3: Timeout. Retransmitting packet 172
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 179
+TRACE_CASE_3: Timeout. Retransmitting packet 181
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 181 to 183)
+TRACE_CASE_3: Timeout. Retransmitting packet 183
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 184
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 183 to 185)
+TRACE_CASE_3: Timeout. Retransmitting packet 185
+TRACE_CASE_3: Timeout. Retransmitting packet 185
+TRACE_CASE_3: Timeout. Retransmitting packet 185
+TRACE_CASE_3: Timeout. Retransmitting packet 185
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 187
+TRACE_CASE_3: Timeout. Retransmitting packet 189
+TRACE_CASE_3: Timeout. Retransmitting packet 190
+TRACE_CASE_3: Timeout. Retransmitting packet 190
+TRACE_CASE_3: Timeout. Retransmitting packet 190
+TRACE_CASE_3: Timeout. Retransmitting packet 191
+TRACE_CASE_3: Timeout. Retransmitting packet 191
+TRACE_CASE_3: Timeout. Retransmitting packet 191
+TRACE_CASE_3: Timeout. Retransmitting packet 191
+TRACE_CASE_3: Timeout. Retransmitting packet 192
+TRACE_CASE_3: Timeout. Retransmitting packet 193
+TRACE_CASE_3: Timeout. Retransmitting packet 193
+TRACE_CASE_3: Timeout. Retransmitting packet 193
+TRACE_CASE_3: Timeout. Retransmitting packet 195
+TRACE_CASE_3: Timeout. Retransmitting packet 195
+TRACE_CASE_3: Timeout. Retransmitting packet 195
+TRACE_CASE_3: Timeout. Retransmitting packet 196
+TRACE_CASE_3: Timeout. Retransmitting packet 196
+TRACE_CASE_3: Timeout. Retransmitting packet 196
+TRACE_CASE_3: Timeout. Retransmitting packet 197
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 198
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 197 to 199)
+TRACE_CASE_3: Timeout. Retransmitting packet 199
+TRACE_CASE_3: Timeout. Retransmitting packet 202
+TRACE_CASE_3: Timeout. Retransmitting packet 205
+TRACE_CASE_3: Timeout. Retransmitting packet 205
+TRACE_CASE_3: Timeout. Retransmitting packet 207
+TRACE_CASE_3: Timeout. Retransmitting packet 210
+TRACE_CASE_3: Timeout. Retransmitting packet 213
+TRACE_CASE_3: Timeout. Retransmitting packet 214
+TRACE_CASE_3: Timeout. Retransmitting packet 216
+TRACE_CASE_3: Timeout. Retransmitting packet 216
+TRACE_CASE_3: Timeout. Retransmitting packet 217
+TRACE_CASE_3: Timeout. Retransmitting packet 217
+TRACE_CASE_3: Timeout. Retransmitting packet 219
+TRACE_CASE_3: Timeout. Retransmitting packet 220
+TRACE_CASE_3: Timeout. Retransmitting packet 220
+TRACE_CASE_3: Timeout. Retransmitting packet 221
+TRACE_CASE_3: Timeout. Retransmitting packet 221
+TRACE_CASE_3: Timeout. Retransmitting packet 222
+TRACE_CASE_3: Timeout. Retransmitting packet 222
+TRACE_CASE_3: Timeout. Retransmitting packet 224
+TRACE_CASE_3: Timeout. Retransmitting packet 225
+TRACE_CASE_3: Timeout. Retransmitting packet 230
+TRACE_CASE_3: Timeout. Retransmitting packet 232
+TRACE_CASE_3: Timeout. Retransmitting packet 233
+TRACE_CASE_3: Timeout. Retransmitting packet 233
+TRACE_CASE_3: Timeout. Retransmitting packet 236
+TRACE_CASE_3: Timeout. Retransmitting packet 237
+TRACE_CASE_3: Timeout. Retransmitting packet 237
+TRACE_CASE_3: Timeout. Retransmitting packet 237
+TRACE_CASE_3: Timeout. Retransmitting packet 237
+TRACE_CASE_3: Timeout. Retransmitting packet 237
+TRACE_CASE_3: Timeout. Retransmitting packet 237
+TRACE_CASE_3: Timeout. Retransmitting packet 238
+TRACE_CASE_3: Timeout. Retransmitting packet 238
+TRACE_CASE_3: Timeout. Retransmitting packet 240
+TRACE_CASE_3: Timeout. Retransmitting packet 242
+TRACE_CASE_3: Timeout. Retransmitting packet 247
+TRACE_CASE_3: Timeout. Retransmitting packet 247
+TRACE_CASE_3: Timeout. Retransmitting packet 249
+TRACE_CASE_3: Timeout. Retransmitting packet 253
+TRACE_CASE_3: Timeout. Retransmitting packet 253
+TRACE_CASE_3: Timeout. Retransmitting packet 253
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 253 to 255)
+TRACE_CASE_3: Timeout. Retransmitting packet 255
+TRACE_CASE_3: Timeout. Retransmitting packet 255
+TRACE_CASE_3: Timeout. Retransmitting packet 255
+TRACE_CASE_3: Timeout. Retransmitting packet 256
+TRACE_CASE_3: Timeout. Retransmitting packet 260
+TRACE_CASE_3: Timeout. Retransmitting packet 262
+TRACE_CASE_3: Timeout. Retransmitting packet 269
+TRACE_CASE_3: Timeout. Retransmitting packet 270
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 270 to 272)
+TRACE_CASE_3: Timeout. Retransmitting packet 272
+TRACE_CASE_3: Timeout. Retransmitting packet 273
+TRACE_CASE_3: Timeout. Retransmitting packet 273
+TRACE_CASE_3: Timeout. Retransmitting packet 273
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 273 to 275)
+TRACE_CASE_3: Timeout. Retransmitting packet 275
+TRACE_CASE_3: Timeout. Retransmitting packet 277
+TRACE_CASE_3: Timeout. Retransmitting packet 278
+TRACE_CASE_3: Timeout. Retransmitting packet 278
+TRACE_CASE_3: Timeout. Retransmitting packet 278
+TRACE_CASE_3: Timeout. Retransmitting packet 279
+TRACE_CASE_3: Timeout. Retransmitting packet 282
+TRACE_CASE_3: Timeout. Retransmitting packet 282
+TRACE_CASE_3: Timeout. Retransmitting packet 282
+TRACE_CASE_3: Timeout. Retransmitting packet 282
+TRACE_CASE_3: Timeout. Retransmitting packet 283
+TRACE_CASE_3: Timeout. Retransmitting packet 284
+TRACE_CASE_3: Timeout. Retransmitting packet 284
+TRACE_CASE_3: Timeout. Retransmitting packet 284
+TRACE_CASE_3: Timeout. Retransmitting packet 284
+TRACE_CASE_3: Timeout. Retransmitting packet 285
+TRACE_CASE_3: Timeout. Retransmitting packet 285
+TRACE_CASE_3: Timeout. Retransmitting packet 287
+TRACE_CASE_3: Timeout. Retransmitting packet 287
+TRACE_CASE_3: Timeout. Retransmitting packet 287
+TRACE_CASE_3: Timeout. Retransmitting packet 287
+TRACE_CASE_3: Timeout. Retransmitting packet 287
+TRACE_CASE_3: Timeout. Retransmitting packet 288
+TRACE_CASE_3: Timeout. Retransmitting packet 290
+TRACE_CASE_3: Timeout. Retransmitting packet 292
+TRACE_CASE_3: Timeout. Retransmitting packet 292
+TRACE_CASE_3: Timeout. Retransmitting packet 293
+TRACE_CASE_3: Timeout. Retransmitting packet 294
+TRACE_CASE_3: Timeout. Retransmitting packet 294
+TRACE_CASE_3: Timeout. Retransmitting packet 300
+TRACE_CASE_3: Timeout. Retransmitting packet 300
+TRACE_CASE_3: Timeout. Retransmitting packet 302
+TRACE_CASE_3: Timeout. Retransmitting packet 303
+TRACE_CASE_3: Timeout. Retransmitting packet 303
+TRACE_CASE_3: Timeout. Retransmitting packet 304
+TRACE_CASE_3: Timeout. Retransmitting packet 304
+TRACE_CASE_3: Timeout. Retransmitting packet 304
+TRACE_CASE_3: Timeout. Retransmitting packet 304
+TRACE_CASE_3: Timeout. Retransmitting packet 304
+TRACE_CASE_3: Timeout. Retransmitting packet 306
+TRACE_CASE_3: Timeout. Retransmitting packet 306
+TRACE_CASE_3: Timeout. Retransmitting packet 311
+TRACE_CASE_3: Timeout. Retransmitting packet 313
+TRACE_CASE_3: Timeout. Retransmitting packet 313
+TRACE_CASE_3: Timeout. Retransmitting packet 313
+TRACE_CASE_3: Timeout. Retransmitting packet 313
+TRACE_CASE_3: Timeout. Retransmitting packet 314
+TRACE_CASE_3: Timeout. Retransmitting packet 314
+TRACE_CASE_3: Timeout. Retransmitting packet 315
+TRACE_CASE_3: Timeout. Retransmitting packet 316
+TRACE_CASE_3: Timeout. Retransmitting packet 316
+TRACE_CASE_3: Timeout. Retransmitting packet 318
+TRACE_CASE_3: Timeout. Retransmitting packet 318
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 319
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 318 to 320)
+TRACE_CASE_3: Timeout. Retransmitting packet 322
+TRACE_CASE_3: Timeout. Retransmitting packet 323
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 324 to 326)
+TRACE_CASE_3: Timeout. Retransmitting packet 326
+TRACE_CASE_3: Timeout. Retransmitting packet 329
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 330
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 329 to 331)
+TRACE_CASE_3: Timeout. Retransmitting packet 332
+TRACE_CASE_3: Timeout. Retransmitting packet 334
+TRACE_CASE_3: Timeout. Retransmitting packet 334
+TRACE_CASE_3: Timeout. Retransmitting packet 337
+TRACE_CASE_3: Timeout. Retransmitting packet 337
+TRACE_CASE_3: Timeout. Retransmitting packet 338
+TRACE_CASE_3: Timeout. Retransmitting packet 339
+TRACE_CASE_3: Timeout. Retransmitting packet 339
+TRACE_CASE_3: Timeout. Retransmitting packet 340
+TRACE_CASE_3: Timeout. Retransmitting packet 340
+TRACE_CASE_3: Timeout. Retransmitting packet 341
+TRACE_CASE_3: Timeout. Retransmitting packet 345
+TRACE_CASE_3: Timeout. Retransmitting packet 345
+TRACE_CASE_3: Timeout. Retransmitting packet 345
+TRACE_CASE_3: Timeout. Retransmitting packet 347
+TRACE_CASE_3: Timeout. Retransmitting packet 352
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 359
+TRACE_CASE_3: Timeout. Retransmitting packet 359
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_3: Timeout. Retransmitting packet 363
+TRACE_CASE_3: Timeout. Retransmitting packet 364
+TRACE_CASE_3: Timeout. Retransmitting packet 364
+TRACE_CASE_3: Timeout. Retransmitting packet 365
+TRACE_CASE_3: Timeout. Retransmitting packet 365
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 365 to 367)
+TRACE_CASE_3: Timeout. Retransmitting packet 368
+TRACE_CASE_3: Timeout. Retransmitting packet 370
+TRACE_CASE_3: Timeout. Retransmitting packet 371
+TRACE_CASE_3: Timeout. Retransmitting packet 371
+TRACE_CASE_3: Timeout. Retransmitting packet 371
+TRACE_CASE_3: Timeout. Retransmitting packet 373
+TRACE_CASE_3: Timeout. Retransmitting packet 373
+TRACE_CASE_3: Timeout. Retransmitting packet 373
+TRACE_CASE_3: Timeout. Retransmitting packet 373
+TRACE_CASE_3: Timeout. Retransmitting packet 373
+TRACE_CASE_3: Timeout. Retransmitting packet 374
+TRACE_CASE_3: Timeout. Retransmitting packet 374
+TRACE_CASE_3: Timeout. Retransmitting packet 377
+TRACE_CASE_3: Timeout. Retransmitting packet 378
+TRACE_CASE_3: Timeout. Retransmitting packet 382
+TRACE_CASE_3: Timeout. Retransmitting packet 383
+TRACE_CASE_3: Timeout. Retransmitting packet 383
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 384
+TRACE_CASE_2: Cumulative ACK 0 moved window by 2 (from 383 to 385)
+TRACE_CASE_3: Timeout. Retransmitting packet 387
+TRACE_CASE_3: Timeout. Retransmitting packet 387
+TRACE_CASE_3: Timeout. Retransmitting packet 387
+TRACE_CASE_3: Timeout. Retransmitting packet 389
+TRACE_CASE_3: Timeout. Retransmitting packet 389
+TRACE_CASE_3: Timeout. Retransmitting packet 389
+TRACE_CASE_3: Timeout. Retransmitting packet 390
+TRACE_CASE_3: Timeout. Retransmitting packet 390
+TRACE_CASE_3: Timeout. Retransmitting packet 391
+TRACE_CASE_3: Timeout. Retransmitting packet 391
+TRACE_CASE_3: Timeout. Retransmitting packet 393
+TRACE_CASE_3: Timeout. Retransmitting packet 395
+TRACE_CASE_3: Timeout. Retransmitting packet 395
+TRACE_CASE_3: Timeout. Retransmitting packet 395
+TRACE_CASE_3: Timeout. Retransmitting packet 395
+TRACE_CASE_3: Timeout. Retransmitting packet 397
+TRACE_CASE_3: Timeout. Retransmitting packet 398
+TRACE_CASE_3: Timeout. Retransmitting packet 398
+TRACE_CASE_3: Timeout. Retransmitting packet 401
+TRACE_CASE_3: Timeout. Retransmitting packet 401
+TRACE_CASE_3: Timeout. Retransmitting packet 401
+TRACE_CASE_3: Timeout. Retransmitting packet 402
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 404
+TRACE_CASE_2: Cumulative ACK 4 moved window by 3 (from 402 to 405)
+TRACE_CASE_3: Timeout. Retransmitting packet 405
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 406
+TRACE_CASE_3: Timeout. Retransmitting packet 405
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 405 to 407)
+TRACE_CASE_3: Timeout. Retransmitting packet 410
+TRACE_CASE_3: Timeout. Retransmitting packet 410
+TRACE_CASE_3: Timeout. Retransmitting packet 411
+TRACE_CASE_3: Timeout. Retransmitting packet 411
+TRACE_CASE_3: Timeout. Retransmitting packet 412
+TRACE_CASE_3: Timeout. Retransmitting packet 412
+TRACE_CASE_3: Timeout. Retransmitting packet 414
+TRACE_CASE_3: Timeout. Retransmitting packet 415
+TRACE_CASE_4: Triple Duplicate ACK (14). Fast Retransmitting base.
+TRACE_CASE_3: Timeout. Retransmitting packet 415
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 417
+TRACE_CASE_2: Cumulative ACK 1 moved window by 3 (from 415 to 418)
+TRACE_CASE_3: Timeout. Retransmitting packet 419
+TRACE_CASE_3: Timeout. Retransmitting packet 420
+TRACE_CASE_3: Timeout. Retransmitting packet 420
+TRACE_CASE_3: Timeout. Retransmitting packet 420
+TRACE_CASE_3: Timeout. Retransmitting packet 420
+TRACE_CASE_3: Timeout. Retransmitting packet 420
+TRACE_CASE_3: Timeout. Retransmitting packet 420
+TRACE_CASE_3: Timeout. Retransmitting packet 421
+TRACE_CASE_3: Timeout. Retransmitting packet 421
+TRACE_CASE_3: Timeout. Retransmitting packet 423
+TRACE_CASE_3: Timeout. Retransmitting packet 428
+TRACE_CASE_3: Timeout. Retransmitting packet 430
+TRACE_CASE_3: Timeout. Retransmitting packet 433
+TRACE_CASE_3: Timeout. Retransmitting packet 433
+TRACE_CASE_3: Timeout. Retransmitting packet 433
+TRACE_CASE_3: Timeout. Retransmitting packet 434
+TRACE_CASE_3: Timeout. Retransmitting packet 435
+TRACE_CASE_3: Timeout. Retransmitting packet 435
+TRACE_CASE_3: Timeout. Retransmitting packet 435
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 436 to 438)
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 444
+TRACE_CASE_3: Timeout. Retransmitting packet 444
+TRACE_CASE_3: Timeout. Retransmitting packet 447
+TRACE_CASE_3: Timeout. Retransmitting packet 448
+TRACE_CASE_3: Timeout. Retransmitting packet 449
+TRACE_CASE_3: Timeout. Retransmitting packet 449
+TRACE_CASE_3: Timeout. Retransmitting packet 451
+TRACE_CASE_3: Timeout. Retransmitting packet 451
+TRACE_CASE_3: Timeout. Retransmitting packet 457
+TRACE_CASE_3: Timeout. Retransmitting packet 459
+TRACE_CASE_3: Timeout. Retransmitting packet 459
+TRACE_CASE_3: Timeout. Retransmitting packet 459
+TRACE_CASE_3: Timeout. Retransmitting packet 459
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 460
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 459 to 461)
+TRACE_CASE_3: Timeout. Retransmitting packet 461
+TRACE_CASE_3: Timeout. Retransmitting packet 462
+TRACE_CASE_2: Cumulative ACK 0 moved window by 2 (from 463 to 465)
+TRACE_CASE_3: Timeout. Retransmitting packet 466
+TRACE_CASE_3: Timeout. Retransmitting packet 467
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 468 to 470)
+TRACE_CASE_3: Timeout. Retransmitting packet 471
+TRACE_CASE_3: Timeout. Retransmitting packet 472
+TRACE_CASE_3: Timeout. Retransmitting packet 472
+TRACE_CASE_3: Timeout. Retransmitting packet 473
+TRACE_CASE_3: Timeout. Retransmitting packet 473
+TRACE_CASE_3: Timeout. Retransmitting packet 473
+TRACE_CASE_3: Timeout. Retransmitting packet 476
+TRACE_CASE_3: Timeout. Retransmitting packet 478
+TRACE_CASE_3: Timeout. Retransmitting packet 480
+TRACE_CASE_3: Timeout. Retransmitting packet 480
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 481
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 480 to 482)
+TRACE_CASE_3: Timeout. Retransmitting packet 482
+TRACE_CASE_3: Timeout. Retransmitting packet 483
+TRACE_CASE_3: Timeout. Retransmitting packet 484
+TRACE_CASE_3: Timeout. Retransmitting packet 484
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 485
+TRACE_CASE_3: Timeout. Retransmitting packet 484
+TRACE_CASE_3: Timeout. Retransmitting packet 484
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 484 to 486)
+TRACE_CASE_3: Timeout. Retransmitting packet 489
+TRACE_CASE_3: Timeout. Retransmitting packet 490
+TRACE_CASE_3: Timeout. Retransmitting packet 490
+TRACE_CASE_3: Timeout. Retransmitting packet 490
+TRACE_CASE_3: Timeout. Retransmitting packet 490
+TRACE_CASE_3: Timeout. Retransmitting packet 493
+TRACE_CASE_3: Timeout. Retransmitting packet 493
+TRACE_CASE_3: Timeout. Retransmitting packet 494
+TRACE_CASE_3: Timeout. Retransmitting packet 495
+TRACE_CASE_3: Timeout. Retransmitting packet 495
+TRACE_CASE_3: Timeout. Retransmitting packet 497
+TRACE_CASE_3: Timeout. Retransmitting packet 497
+TRACE_CASE_3: Timeout. Retransmitting packet 498
+TRACE_CASE_3: Timeout. Retransmitting packet 498
+TRACE_CASE_3: Timeout. Retransmitting packet 498
+TRACE_CASE_3: Timeout. Retransmitting packet 500
+TRACE_CASE_3: Timeout. Retransmitting packet 500
+TRACE_CASE_3: Timeout. Retransmitting packet 501
+TRACE_CASE_3: Timeout. Retransmitting packet 501
+TRACE_CASE_3: Timeout. Retransmitting packet 502
+TRACE_CASE_3: Timeout. Retransmitting packet 503
+TRACE_CASE_3: Timeout. Retransmitting packet 503
+TRACE_CASE_3: Timeout. Retransmitting packet 503
+TRACE_CASE_3: Timeout. Retransmitting packet 503
+TRACE_CASE_3: Timeout. Retransmitting packet 503
+TRACE_CASE_3: Timeout. Retransmitting packet 504
+TRACE_CASE_3: Timeout. Retransmitting packet 507
+TRACE_CASE_3: Timeout. Retransmitting packet 508
+TRACE_CASE_3: Timeout. Retransmitting packet 513
+TRACE_CASE_3: Timeout. Retransmitting packet 514
+TRACE_CASE_3: Timeout. Retransmitting packet 516
+TRACE_CASE_3: Timeout. Retransmitting packet 517
+TRACE_CASE_3: Timeout. Retransmitting packet 520
+TRACE_CASE_3: Timeout. Retransmitting packet 522
+TRACE_CASE_3: Timeout. Retransmitting packet 527
+TRACE_CASE_3: Timeout. Retransmitting packet 527
+TRACE_CASE_3: Timeout. Retransmitting packet 529
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 535
+TRACE_CASE_3: Timeout. Retransmitting packet 537
+TRACE_CASE_3: Timeout. Retransmitting packet 538
+TRACE_CASE_3: Timeout. Retransmitting packet 539
+TRACE_CASE_3: Timeout. Retransmitting packet 540
+TRACE_CASE_3: Timeout. Retransmitting packet 540
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 541
+TRACE_CASE_3: Timeout. Retransmitting packet 540
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 540 to 542)
+TRACE_CASE_3: Timeout. Retransmitting packet 542
+TRACE_CASE_3: Timeout. Retransmitting packet 546
+TRACE_CASE_3: Timeout. Retransmitting packet 547
+TRACE_CASE_3: Timeout. Retransmitting packet 547
+TRACE_CASE_3: Timeout. Retransmitting packet 547
+TRACE_CASE_3: Timeout. Retransmitting packet 547
+TRACE_CASE_3: Timeout. Retransmitting packet 549
+TRACE_CASE_3: Timeout. Retransmitting packet 551
+TRACE_CASE_3: Timeout. Retransmitting packet 551
+TRACE_CASE_3: Timeout. Retransmitting packet 552
+TRACE_CASE_3: Timeout. Retransmitting packet 554
+TRACE_CASE_3: Timeout. Retransmitting packet 556
+TRACE_CASE_3: Timeout. Retransmitting packet 556
+TRACE_CASE_3: Timeout. Retransmitting packet 556
+TRACE_CASE_3: Timeout. Retransmitting packet 559
+TRACE_CASE_3: Timeout. Retransmitting packet 559
+TRACE_CASE_3: Timeout. Retransmitting packet 559
+TRACE_CASE_3: Timeout. Retransmitting packet 560
+TRACE_CASE_3: Timeout. Retransmitting packet 560
+TRACE_CASE_3: Timeout. Retransmitting packet 560
+TRACE_CASE_3: Timeout. Retransmitting packet 563
+TRACE_CASE_3: Timeout. Retransmitting packet 567
+TRACE_CASE_3: Timeout. Retransmitting packet 570
+TRACE_CASE_3: Timeout. Retransmitting packet 571
+TRACE_CASE_3: Timeout. Retransmitting packet 571
+TRACE_CASE_3: Timeout. Retransmitting packet 571
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 571 to 573)
+TRACE_CASE_3: Timeout. Retransmitting packet 574
+TRACE_CASE_3: Timeout. Retransmitting packet 574
+TRACE_CASE_3: Timeout. Retransmitting packet 575
+TRACE_CASE_3: Timeout. Retransmitting packet 577
+TRACE_CASE_3: Timeout. Retransmitting packet 581
+TRACE_CASE_3: Timeout. Retransmitting packet 581
+TRACE_CASE_3: Timeout. Retransmitting packet 584
+TRACE_CASE_3: Timeout. Retransmitting packet 585
+TRACE_CASE_3: Timeout. Retransmitting packet 585
+TRACE_CASE_3: Timeout. Retransmitting packet 585
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 585 to 587)
+TRACE_CASE_3: Timeout. Retransmitting packet 588
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 588 to 590)
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 593
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 595
+TRACE_CASE_3: Timeout. Retransmitting packet 596
+TRACE_CASE_3: Timeout. Retransmitting packet 596
+TRACE_CASE_3: Timeout. Retransmitting packet 597
+TRACE_CASE_3: Timeout. Retransmitting packet 597
+TRACE_CASE_3: Timeout. Retransmitting packet 600
+TRACE_CASE_3: Timeout. Retransmitting packet 602
+TRACE_CASE_3: Timeout. Retransmitting packet 602
+TRACE_CASE_3: Timeout. Retransmitting packet 605
+TRACE_CASE_3: Timeout. Retransmitting packet 607
+TRACE_CASE_3: Timeout. Retransmitting packet 607
+TRACE_CASE_3: Timeout. Retransmitting packet 611
+TRACE_CASE_3: Timeout. Retransmitting packet 612
+TRACE_CASE_3: Timeout. Retransmitting packet 612
+TRACE_CASE_3: Timeout. Retransmitting packet 612
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 612 to 614)
+TRACE_CASE_3: Timeout. Retransmitting packet 618
+TRACE_CASE_3: Timeout. Retransmitting packet 618
+TRACE_CASE_3: Timeout. Retransmitting packet 619
+TRACE_CASE_3: Timeout. Retransmitting packet 619
+TRACE_CASE_3: Timeout. Retransmitting packet 619
+TRACE_CASE_3: Timeout. Retransmitting packet 619
+TRACE_CASE_3: Timeout. Retransmitting packet 620
+TRACE_CASE_3: Timeout. Retransmitting packet 620
+TRACE_CASE_3: Timeout. Retransmitting packet 620
+TRACE_CASE_3: Timeout. Retransmitting packet 622
+TRACE_CASE_3: Timeout. Retransmitting packet 626
+TRACE_CASE_3: Timeout. Retransmitting packet 627
+TRACE_CASE_3: Timeout. Retransmitting packet 628
+TRACE_CASE_3: Timeout. Retransmitting packet 628
+TRACE_CASE_3: Timeout. Retransmitting packet 630
+TRACE_CASE_3: Timeout. Retransmitting packet 635
+TRACE_CASE_3: Timeout. Retransmitting packet 635
+TRACE_CASE_3: Timeout. Retransmitting packet 636
+TRACE_CASE_3: Timeout. Retransmitting packet 638
+TRACE_CASE_3: Timeout. Retransmitting packet 639
+TRACE_CASE_3: Timeout. Retransmitting packet 640
+TRACE_CASE_3: Timeout. Retransmitting packet 641
+TRACE_CASE_3: Timeout. Retransmitting packet 641
+TRACE_CASE_3: Timeout. Retransmitting packet 642
+TRACE_CASE_3: Timeout. Retransmitting packet 642
+TRACE_CASE_3: Timeout. Retransmitting packet 647
+TRACE_CASE_3: Timeout. Retransmitting packet 647
+TRACE_CASE_3: Timeout. Retransmitting packet 649
+TRACE_CASE_3: Timeout. Retransmitting packet 649
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 650
+TRACE_CASE_3: Timeout. Retransmitting packet 649
+TRACE_CASE_2: Cumulative ACK 11 moved window by 3 (from 649 to 652)
+TRACE_CASE_3: Timeout. Retransmitting packet 654
+TRACE_CASE_3: Timeout. Retransmitting packet 654
+TRACE_CASE_3: Timeout. Retransmitting packet 655
+TRACE_CASE_3: Timeout. Retransmitting packet 655
+TRACE_CASE_3: Timeout. Retransmitting packet 658
+TRACE_CASE_3: Timeout. Retransmitting packet 661
+TRACE_CASE_3: Timeout. Retransmitting packet 663
+TRACE_CASE_3: Timeout. Retransmitting packet 663
+TRACE_CASE_3: Timeout. Retransmitting packet 664
+TRACE_CASE_3: Timeout. Retransmitting packet 665
+TRACE_CASE_3: Timeout. Retransmitting packet 665
+TRACE_CASE_3: Timeout. Retransmitting packet 665
+TRACE_CASE_3: Timeout. Retransmitting packet 665
+TRACE_CASE_3: Timeout. Retransmitting packet 666
+TRACE_CASE_3: Timeout. Retransmitting packet 667
+TRACE_CASE_3: Timeout. Retransmitting packet 667
+TRACE_CASE_3: Timeout. Retransmitting packet 667
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 668
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 667 to 669)
+TRACE_CASE_3: Timeout. Retransmitting packet 669
+TRACE_CASE_3: Timeout. Retransmitting packet 669
+TRACE_CASE_3: Timeout. Retransmitting packet 669
+TRACE_CASE_3: Timeout. Retransmitting packet 671
+TRACE_CASE_3: Timeout. Retransmitting packet 672
+TRACE_CASE_3: Timeout. Retransmitting packet 672
+TRACE_CASE_3: Timeout. Retransmitting packet 672
+TRACE_CASE_3: Timeout. Retransmitting packet 674
+TRACE_CASE_2: Cumulative ACK 3 moved window by 2 (from 674 to 676)
+TRACE_CASE_3: Timeout. Retransmitting packet 676
+TRACE_CASE_3: Timeout. Retransmitting packet 679
+TRACE_CASE_3: Timeout. Retransmitting packet 681
+TRACE_CASE_3: Timeout. Retransmitting packet 685
+TRACE_CASE_3: Timeout. Retransmitting packet 690
+TRACE_CASE_3: Timeout. Retransmitting packet 690
+TRACE_CASE_3: Timeout. Retransmitting packet 693
+TRACE_CASE_3: Timeout. Retransmitting packet 695
+TRACE_CASE_3: Timeout. Retransmitting packet 695
+TRACE_CASE_3: Timeout. Retransmitting packet 696
+TRACE_CASE_3: Timeout. Retransmitting packet 696
+TRACE_CASE_3: Timeout. Retransmitting packet 697
+TRACE_CASE_3: Timeout. Retransmitting packet 697
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 697 to 699)
+TRACE_CASE_3: Timeout. Retransmitting packet 703
+TRACE_CASE_3: Timeout. Retransmitting packet 704
+TRACE_CASE_3: Timeout. Retransmitting packet 705
+TRACE_CASE_3: Timeout. Retransmitting packet 709
+TRACE_CASE_3: Timeout. Retransmitting packet 709
+TRACE_CASE_3: Timeout. Retransmitting packet 710
+TRACE_CASE_3: Timeout. Retransmitting packet 711
+TRACE_CASE_3: Timeout. Retransmitting packet 711
+TRACE_CASE_3: Timeout. Retransmitting packet 715
+TRACE_CASE_3: Timeout. Retransmitting packet 717
+TRACE_CASE_3: Timeout. Retransmitting packet 717
+TRACE_CASE_3: Timeout. Retransmitting packet 718
+TRACE_CASE_3: Timeout. Retransmitting packet 719
+TRACE_CASE_3: Timeout. Retransmitting packet 719
+TRACE_CASE_3: Timeout. Retransmitting packet 720
+TRACE_CASE_3: Timeout. Retransmitting packet 720
+TRACE_CASE_3: Timeout. Retransmitting packet 720
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 720 to 722)
+TRACE_CASE_3: Timeout. Retransmitting packet 722
+TRACE_CASE_3: Timeout. Retransmitting packet 722
+TRACE_CASE_3: Timeout. Retransmitting packet 722
+TRACE_CASE_3: Timeout. Retransmitting packet 722
+TRACE_CASE_3: Timeout. Retransmitting packet 724
+TRACE_CASE_3: Timeout. Retransmitting packet 727
+TRACE_CASE_3: Timeout. Retransmitting packet 730
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 731
+TRACE_CASE_3: Timeout. Retransmitting packet 730
+TRACE_CASE_3: Timeout. Retransmitting packet 730
+TRACE_CASE_2: Cumulative ACK 11 moved window by 2 (from 730 to 732)
+TRACE_CASE_3: Timeout. Retransmitting packet 734
+TRACE_CASE_3: Timeout. Retransmitting packet 735
+TRACE_CASE_3: Timeout. Retransmitting packet 735
+TRACE_CASE_3: Timeout. Retransmitting packet 737
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 738
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 737 to 739)
+TRACE_CASE_3: Timeout. Retransmitting packet 739
+TRACE_CASE_3: Timeout. Retransmitting packet 743
+TRACE_CASE_3: Timeout. Retransmitting packet 745
+TRACE_CASE_3: Timeout. Retransmitting packet 747
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 749 to 751)
+TRACE_CASE_3: Timeout. Retransmitting packet 752
+TRACE_CASE_3: Timeout. Retransmitting packet 752
+TRACE_CASE_3: Timeout. Retransmitting packet 753
+TRACE_CASE_3: Timeout. Retransmitting packet 754
+TRACE_CASE_3: Timeout. Retransmitting packet 755
+TRACE_CASE_3: Timeout. Retransmitting packet 758
+TRACE_CASE_3: Timeout. Retransmitting packet 760
+TRACE_CASE_3: Timeout. Retransmitting packet 763
+TRACE_CASE_3: Timeout. Retransmitting packet 763
+TRACE_CASE_3: Timeout. Retransmitting packet 764
+TRACE_CASE_3: Timeout. Retransmitting packet 764
+TRACE_CASE_3: Timeout. Retransmitting packet 767
+TRACE_CASE_3: Timeout. Retransmitting packet 768
+TRACE_CASE_3: Timeout. Retransmitting packet 768
+TRACE_CASE_3: Timeout. Retransmitting packet 770
+TRACE_CASE_3: Timeout. Retransmitting packet 770
+TRACE_CASE_3: Timeout. Retransmitting packet 772
+TRACE_CASE_3: Timeout. Retransmitting packet 774
+TRACE_CASE_3: Timeout. Retransmitting packet 777
+TRACE_CASE_3: Timeout. Retransmitting packet 779
+TRACE_CASE_3: Timeout. Retransmitting packet 779
+TRACE_CASE_3: Timeout. Retransmitting packet 781
+TRACE_CASE_3: Timeout. Retransmitting packet 782
+TRACE_CASE_3: Timeout. Retransmitting packet 783
+TRACE_CASE_3: Timeout. Retransmitting packet 783
+TRACE_CASE_3: Timeout. Retransmitting packet 784
+TRACE_CASE_3: Timeout. Retransmitting packet 786
+TRACE_CASE_3: Timeout. Retransmitting packet 786
+TRACE_CASE_3: Timeout. Retransmitting packet 786
+TRACE_CASE_2: Cumulative ACK 3 moved window by 2 (from 786 to 788)
+TRACE_CASE_3: Timeout. Retransmitting packet 789
+TRACE_CASE_3: Timeout. Retransmitting packet 790
+TRACE_CASE_2: Cumulative ACK 7 moved window by 2 (from 790 to 792)
+TRACE_CASE_3: Timeout. Retransmitting packet 793
+TRACE_CASE_3: Timeout. Retransmitting packet 795
+TRACE_CASE_3: Timeout. Retransmitting packet 795
+TRACE_CASE_3: Timeout. Retransmitting packet 799
+TRACE_CASE_3: Timeout. Retransmitting packet 799
+TRACE_CASE_3: Timeout. Retransmitting packet 801
+TRACE_CASE_3: Timeout. Retransmitting packet 801
+TRACE_CASE_3: Timeout. Retransmitting packet 802
+TRACE_CASE_3: Timeout. Retransmitting packet 807
+TRACE_CASE_3: Timeout. Retransmitting packet 812
+TRACE_CASE_3: Timeout. Retransmitting packet 813
+TRACE_CASE_3: Timeout. Retransmitting packet 813
+TRACE_CASE_3: Timeout. Retransmitting packet 813
+TRACE_CASE_3: Timeout. Retransmitting packet 814
+TRACE_CASE_3: Timeout. Retransmitting packet 818
+TRACE_CASE_3: Timeout. Retransmitting packet 818
+TRACE_CASE_3: Timeout. Retransmitting packet 819
+TRACE_CASE_3: Timeout. Retransmitting packet 819
+TRACE_CASE_3: Timeout. Retransmitting packet 819
+TRACE_CASE_3: Timeout. Retransmitting packet 819
+TRACE_CASE_3: Timeout. Retransmitting packet 819
+TRACE_CASE_3: Timeout. Retransmitting packet 819
+TRACE_CASE_3: Timeout. Retransmitting packet 819
+TRACE_CASE_3: Timeout. Retransmitting packet 822
+TRACE_CASE_3: Timeout. Retransmitting packet 823
+TRACE_CASE_3: Timeout. Retransmitting packet 825
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 825 to 827)
+TRACE_CASE_3: Timeout. Retransmitting packet 827
+TRACE_CASE_3: Timeout. Retransmitting packet 827
+TRACE_CASE_3: Timeout. Retransmitting packet 827
+TRACE_CASE_3: Timeout. Retransmitting packet 827
+TRACE_CASE_3: Timeout. Retransmitting packet 828
+TRACE_CASE_3: Timeout. Retransmitting packet 828
+TRACE_CASE_3: Timeout. Retransmitting packet 833
+TRACE_CASE_3: Timeout. Retransmitting packet 833
+TRACE_CASE_3: Timeout. Retransmitting packet 835
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 836
+TRACE_CASE_2: Cumulative ACK 4 moved window by 2 (from 835 to 837)
+TRACE_CASE_3: Timeout. Retransmitting packet 837
+TRACE_CASE_3: Timeout. Retransmitting packet 839
+TRACE_CASE_3: Timeout. Retransmitting packet 840
+TRACE_CASE_3: Timeout. Retransmitting packet 840
+TRACE_CASE_3: Timeout. Retransmitting packet 841
+TRACE_CASE_3: Timeout. Retransmitting packet 842
+TRACE_CASE_3: Timeout. Retransmitting packet 842
+TRACE_CASE_3: Timeout. Retransmitting packet 842
+TRACE_CASE_3: Timeout. Retransmitting packet 846
+TRACE_CASE_3: Timeout. Retransmitting packet 846
+TRACE_CASE_3: Timeout. Retransmitting packet 847
+TRACE_CASE_3: Timeout. Retransmitting packet 848
+TRACE_CASE_3: Timeout. Retransmitting packet 851
+TRACE_CASE_3: Timeout. Retransmitting packet 851
+TRACE_CASE_3: Timeout. Retransmitting packet 852
+TRACE_CASE_3: Timeout. Retransmitting packet 853
+TRACE_CASE_3: Timeout. Retransmitting packet 854
+TRACE_CASE_3: Timeout. Retransmitting packet 856
+TRACE_CASE_3: Timeout. Retransmitting packet 857
+TRACE_CASE_3: Timeout. Retransmitting packet 857
+TRACE_CASE_3: Timeout. Retransmitting packet 858
+TRACE_CASE_3: Timeout. Retransmitting packet 858
+TRACE_CASE_3: Timeout. Retransmitting packet 860
+TRACE_CASE_3: Timeout. Retransmitting packet 860
+TRACE_CASE_3: Timeout. Retransmitting packet 863
+TRACE_CASE_3: Timeout. Retransmitting packet 866
+TRACE_CASE_3: Timeout. Retransmitting packet 869
+TRACE_CASE_3: Timeout. Retransmitting packet 870
+TRACE_CASE_3: Timeout. Retransmitting packet 872
+TRACE_CASE_3: Timeout. Retransmitting packet 872
+TRACE_CASE_3: Timeout. Retransmitting packet 872
+TRACE_CASE_3: Timeout. Retransmitting packet 872
+TRACE_CASE_3: Timeout. Retransmitting packet 876
+TRACE_CASE_3: Timeout. Retransmitting packet 880
+TRACE_CASE_3: Timeout. Retransmitting packet 880
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 881
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 880 to 882)
+TRACE_CASE_3: Timeout. Retransmitting packet 884
+TRACE_CASE_2: Cumulative ACK 9 moved window by 2 (from 888 to 890)
+TRACE_CASE_3: Timeout. Retransmitting packet 890
+TRACE_CASE_3: Timeout. Retransmitting packet 890
+TRACE_CASE_3: Timeout. Retransmitting packet 891
+TRACE_CASE_3: Timeout. Retransmitting packet 891
+TRACE_CASE_3: Timeout. Retransmitting packet 892
+TRACE_CASE_3: Timeout. Retransmitting packet 892
+TRACE_CASE_3: Timeout. Retransmitting packet 894
+TRACE_CASE_3: Timeout. Retransmitting packet 894
+TRACE_CASE_3: Timeout. Retransmitting packet 895
+TRACE_CASE_3: Timeout. Retransmitting packet 896
+TRACE_CASE_3: Timeout. Retransmitting packet 896
+TRACE_CASE_3: Timeout. Retransmitting packet 897
+TRACE_CASE_3: Timeout. Retransmitting packet 898
+TRACE_CASE_3: Timeout. Retransmitting packet 898
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 899
+TRACE_CASE_2: Cumulative ACK 3 moved window by 2 (from 898 to 900)
+TRACE_CASE_3: Timeout. Retransmitting packet 900
+TRACE_CASE_3: Timeout. Retransmitting packet 902
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 903 to 905)
+TRACE_CASE_3: Timeout. Retransmitting packet 905
+TRACE_CASE_3: Timeout. Retransmitting packet 906
+TRACE_CASE_3: Timeout. Retransmitting packet 907
+TRACE_CASE_3: Timeout. Retransmitting packet 910
+TRACE_CASE_3: Timeout. Retransmitting packet 910
+TRACE_CASE_3: Timeout. Retransmitting packet 910
+TRACE_CASE_3: Timeout. Retransmitting packet 910
+TRACE_CASE_3: Timeout. Retransmitting packet 917
+TRACE_CASE_3: Timeout. Retransmitting packet 919
+TRACE_CASE_3: Timeout. Retransmitting packet 919
+TRACE_CASE_3: Timeout. Retransmitting packet 919
+TRACE_CASE_3: Timeout. Retransmitting packet 919
+TRACE_CASE_3: Timeout. Retransmitting packet 920
+TRACE_CASE_3: Timeout. Retransmitting packet 920
+TRACE_CASE_3: Timeout. Retransmitting packet 923
+TRACE_CASE_3: Timeout. Retransmitting packet 928
+TRACE_CASE_3: Timeout. Retransmitting packet 929
+TRACE_CASE_3: Timeout. Retransmitting packet 929
+TRACE_CASE_3: Timeout. Retransmitting packet 932
+TRACE_CASE_3: Timeout. Retransmitting packet 933
+TRACE_CASE_3: Timeout. Retransmitting packet 935
+TRACE_CASE_3: Timeout. Retransmitting packet 940
+TRACE_CASE_3: Timeout. Retransmitting packet 944
+TRACE_CASE_3: Timeout. Retransmitting packet 945
+TRACE_CASE_3: Timeout. Retransmitting packet 945
+TRACE_CASE_3: Timeout. Retransmitting packet 945
+TRACE_CASE_3: Timeout. Retransmitting packet 947
+TRACE_CASE_3: Timeout. Retransmitting packet 948
+TRACE_CASE_3: Timeout. Retransmitting packet 949
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 950
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 949 to 951)
+TRACE_CASE_3: Timeout. Retransmitting packet 952
+TRACE_CASE_3: Timeout. Retransmitting packet 952
+TRACE_CASE_3: Timeout. Retransmitting packet 953
+TRACE_CASE_3: Timeout. Retransmitting packet 954
+TRACE_CASE_3: Timeout. Retransmitting packet 955
+TRACE_CASE_3: Timeout. Retransmitting packet 956
+TRACE_CASE_3: Timeout. Retransmitting packet 958
+TRACE_CASE_3: Timeout. Retransmitting packet 964
+TRACE_CASE_3: Timeout. Retransmitting packet 967
+TRACE_CASE_3: Timeout. Retransmitting packet 968
+TRACE_CASE_3: Timeout. Retransmitting packet 968
+TRACE_CASE_3: Timeout. Retransmitting packet 968
+TRACE_CASE_3: Timeout. Retransmitting packet 968
+TRACE_CASE_3: Timeout. Retransmitting packet 969
+TRACE_CASE_3: Timeout. Retransmitting packet 970
+TRACE_CASE_3: Timeout. Retransmitting packet 970
+TRACE_CASE_3: Timeout. Retransmitting packet 971
+TRACE_CASE_3: Timeout. Retransmitting packet 972
+TRACE_CASE_3: Timeout. Retransmitting packet 973
+TRACE_CASE_3: Timeout. Retransmitting packet 973
+TRACE_CASE_3: Timeout. Retransmitting packet 973
+TRACE_CASE_3: Timeout. Retransmitting packet 973
+TRACE_CASE_3: Timeout. Retransmitting packet 977
+TRACE_CASE_3: Timeout. Retransmitting packet 977
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 979
+TRACE_CASE_2: Cumulative ACK 3 moved window by 3 (from 977 to 980)
+TRACE_CASE_3: Timeout. Retransmitting packet 980
+TRACE_CASE_3: Timeout. Retransmitting packet 981
+TRACE_CASE_3: Timeout. Retransmitting packet 981
+TRACE_CASE_3: Timeout. Retransmitting packet 982
+TRACE_CASE_3: Timeout. Retransmitting packet 982
+TRACE_CASE_3: Timeout. Retransmitting packet 984
+TRACE_CASE_3: Timeout. Retransmitting packet 984
+TRACE_CASE_3: Timeout. Retransmitting packet 985
+TRACE_CASE_3: Timeout. Retransmitting packet 985
+TRACE_CASE_3: Timeout. Retransmitting packet 987
+TRACE_CASE_3: Timeout. Retransmitting packet 988
+TRACE_CASE_3: Timeout. Retransmitting packet 988
+TRACE_CASE_3: Timeout. Retransmitting packet 988
+TRACE_CASE_3: Timeout. Retransmitting packet 994
+TRACE_CASE_3: Timeout. Retransmitting packet 994
+TRACE_CASE_3: Timeout. Retransmitting packet 994
+TRACE_CASE_3: Timeout. Retransmitting packet 994
+TRACE_CASE_3: Timeout. Retransmitting packet 995
+TRACE_CASE_3: Timeout. Retransmitting packet 995
+TRACE_CASE_3: Timeout. Retransmitting packet 997
+TRACE_CASE_3: Timeout. Retransmitting packet 998
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+Simulator terminated at time 200458.54670857874
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 1000
+Number of retransmissions by A: 827
+Number of data packets delivered to layer 5 at B: 1000
+Number of ACK packets sent by B: 1350
+Number of corrupted packets: 409
+Ratio of lost packets: 0.13157066414856783
+Ratio of corrupted packets: 0.14824211670895251
+Average RTT: 13.60881304929724
+Average communication time: 38.11609958907574
+==================================================
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 1000
+Enter packet loss probability (0.0 for no loss): [0.0] 0.2
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.2
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 200
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 500
+TRACE_CASE_3: Timeout. Retransmitting packet 1
+TRACE_CASE_3: Timeout. Retransmitting packet 1
+TRACE_CASE_3: Timeout. Retransmitting packet 1
+TRACE_CASE_3: Timeout. Retransmitting packet 1
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 1 to 3)
+TRACE_CASE_3: Timeout. Retransmitting packet 7
+TRACE_CASE_3: Timeout. Retransmitting packet 8
+TRACE_CASE_3: Timeout. Retransmitting packet 8
+TRACE_CASE_3: Timeout. Retransmitting packet 9
+TRACE_CASE_3: Timeout. Retransmitting packet 9
+TRACE_CASE_3: Timeout. Retransmitting packet 9
+TRACE_CASE_3: Timeout. Retransmitting packet 9
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 11
+TRACE_CASE_3: Timeout. Retransmitting packet 12
+TRACE_CASE_3: Timeout. Retransmitting packet 15
+TRACE_CASE_3: Timeout. Retransmitting packet 16
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+TRACE_CASE_3: Timeout. Retransmitting packet 18
+TRACE_CASE_3: Timeout. Retransmitting packet 19
+TRACE_CASE_3: Timeout. Retransmitting packet 19
+TRACE_CASE_3: Timeout. Retransmitting packet 20
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 24
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 33
+TRACE_CASE_3: Timeout. Retransmitting packet 33
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+TRACE_CASE_3: Timeout. Retransmitting packet 37
+TRACE_CASE_3: Timeout. Retransmitting packet 37
+TRACE_CASE_3: Timeout. Retransmitting packet 37
+TRACE_CASE_3: Timeout. Retransmitting packet 37
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 41
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 45
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 50
+TRACE_CASE_3: Timeout. Retransmitting packet 50
+TRACE_CASE_3: Timeout. Retransmitting packet 50
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 52
+TRACE_CASE_2: Cumulative ACK 4 moved window by 3 (from 50 to 53)
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 55 to 57)
+TRACE_CASE_3: Timeout. Retransmitting packet 57
+TRACE_CASE_3: Timeout. Retransmitting packet 57
+TRACE_CASE_3: Timeout. Retransmitting packet 57
+TRACE_CASE_3: Timeout. Retransmitting packet 59
+TRACE_CASE_3: Timeout. Retransmitting packet 59
+TRACE_CASE_3: Timeout. Retransmitting packet 59
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 72
+TRACE_CASE_3: Timeout. Retransmitting packet 72
+TRACE_CASE_3: Timeout. Retransmitting packet 72
+TRACE_CASE_3: Timeout. Retransmitting packet 72
+TRACE_CASE_3: Timeout. Retransmitting packet 73
+TRACE_CASE_3: Timeout. Retransmitting packet 73
+TRACE_CASE_3: Timeout. Retransmitting packet 73
+TRACE_CASE_3: Timeout. Retransmitting packet 74
+TRACE_CASE_3: Timeout. Retransmitting packet 74
+TRACE_CASE_3: Timeout. Retransmitting packet 75
+TRACE_CASE_3: Timeout. Retransmitting packet 75
+TRACE_CASE_3: Timeout. Retransmitting packet 75
+TRACE_CASE_3: Timeout. Retransmitting packet 75
+TRACE_CASE_3: Timeout. Retransmitting packet 75
+TRACE_CASE_3: Timeout. Retransmitting packet 76
+TRACE_CASE_3: Timeout. Retransmitting packet 80
+TRACE_CASE_3: Timeout. Retransmitting packet 80
+TRACE_CASE_3: Timeout. Retransmitting packet 83
+TRACE_CASE_3: Timeout. Retransmitting packet 84
+TRACE_CASE_3: Timeout. Retransmitting packet 85
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 87
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 89
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_3: Timeout. Retransmitting packet 88
+TRACE_CASE_2: Cumulative ACK 9 moved window by 2 (from 88 to 90)
+TRACE_CASE_3: Timeout. Retransmitting packet 90
+TRACE_CASE_3: Timeout. Retransmitting packet 91
+TRACE_CASE_3: Timeout. Retransmitting packet 91
+TRACE_CASE_3: Timeout. Retransmitting packet 94
+TRACE_CASE_3: Timeout. Retransmitting packet 96
+TRACE_CASE_3: Timeout. Retransmitting packet 99
+TRACE_CASE_3: Timeout. Retransmitting packet 99
+TRACE_CASE_3: Timeout. Retransmitting packet 99
+TRACE_CASE_3: Timeout. Retransmitting packet 101
+TRACE_CASE_3: Timeout. Retransmitting packet 102
+TRACE_CASE_3: Timeout. Retransmitting packet 102
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_3: Timeout. Retransmitting packet 103
+TRACE_CASE_3: Timeout. Retransmitting packet 108
+TRACE_CASE_3: Timeout. Retransmitting packet 109
+TRACE_CASE_3: Timeout. Retransmitting packet 109
+TRACE_CASE_3: Timeout. Retransmitting packet 109
+TRACE_CASE_3: Timeout. Retransmitting packet 109
+TRACE_CASE_3: Timeout. Retransmitting packet 110
+TRACE_CASE_3: Timeout. Retransmitting packet 112
+TRACE_CASE_3: Timeout. Retransmitting packet 112
+TRACE_CASE_3: Timeout. Retransmitting packet 112
+TRACE_CASE_3: Timeout. Retransmitting packet 113
+TRACE_CASE_3: Timeout. Retransmitting packet 113
+TRACE_CASE_3: Timeout. Retransmitting packet 113
+TRACE_CASE_3: Timeout. Retransmitting packet 113
+TRACE_CASE_3: Timeout. Retransmitting packet 113
+TRACE_CASE_3: Timeout. Retransmitting packet 115
+TRACE_CASE_3: Timeout. Retransmitting packet 115
+TRACE_CASE_3: Timeout. Retransmitting packet 117
+TRACE_CASE_3: Timeout. Retransmitting packet 117
+TRACE_CASE_3: Timeout. Retransmitting packet 118
+TRACE_CASE_3: Timeout. Retransmitting packet 120
+TRACE_CASE_3: Timeout. Retransmitting packet 120
+TRACE_CASE_3: Timeout. Retransmitting packet 123
+TRACE_CASE_3: Timeout. Retransmitting packet 123
+TRACE_CASE_3: Timeout. Retransmitting packet 123
+TRACE_CASE_3: Timeout. Retransmitting packet 123
+TRACE_CASE_3: Timeout. Retransmitting packet 123
+TRACE_CASE_3: Timeout. Retransmitting packet 123
+TRACE_CASE_3: Timeout. Retransmitting packet 123
+TRACE_CASE_3: Timeout. Retransmitting packet 126
+TRACE_CASE_3: Timeout. Retransmitting packet 126
+TRACE_CASE_3: Timeout. Retransmitting packet 126
+TRACE_CASE_3: Timeout. Retransmitting packet 126
+TRACE_CASE_3: Timeout. Retransmitting packet 127
+TRACE_CASE_3: Timeout. Retransmitting packet 128
+TRACE_CASE_3: Timeout. Retransmitting packet 131
+TRACE_CASE_3: Timeout. Retransmitting packet 131
+TRACE_CASE_3: Timeout. Retransmitting packet 131
+TRACE_CASE_3: Timeout. Retransmitting packet 131
+TRACE_CASE_3: Timeout. Retransmitting packet 131
+TRACE_CASE_2: Cumulative ACK 4 moved window by 2 (from 131 to 133)
+TRACE_CASE_3: Timeout. Retransmitting packet 135
+TRACE_CASE_3: Timeout. Retransmitting packet 135
+TRACE_CASE_3: Timeout. Retransmitting packet 135
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 136
+TRACE_CASE_3: Timeout. Retransmitting packet 135
+TRACE_CASE_3: Timeout. Retransmitting packet 135
+TRACE_CASE_3: Timeout. Retransmitting packet 135
+TRACE_CASE_3: Timeout. Retransmitting packet 135
+TRACE_CASE_2: Cumulative ACK 9 moved window by 3 (from 135 to 138)
+TRACE_CASE_3: Timeout. Retransmitting packet 139
+TRACE_CASE_3: Timeout. Retransmitting packet 140
+TRACE_CASE_3: Timeout. Retransmitting packet 140
+TRACE_CASE_3: Timeout. Retransmitting packet 140
+TRACE_CASE_3: Timeout. Retransmitting packet 141
+TRACE_CASE_3: Timeout. Retransmitting packet 141
+TRACE_CASE_3: Timeout. Retransmitting packet 142
+TRACE_CASE_3: Timeout. Retransmitting packet 144
+TRACE_CASE_3: Timeout. Retransmitting packet 144
+TRACE_CASE_3: Timeout. Retransmitting packet 147
+TRACE_CASE_3: Timeout. Retransmitting packet 147
+TRACE_CASE_3: Timeout. Retransmitting packet 148
+TRACE_CASE_3: Timeout. Retransmitting packet 148
+TRACE_CASE_3: Timeout. Retransmitting packet 148
+TRACE_CASE_3: Timeout. Retransmitting packet 148
+TRACE_CASE_3: Timeout. Retransmitting packet 148
+TRACE_CASE_3: Timeout. Retransmitting packet 150
+TRACE_CASE_3: Timeout. Retransmitting packet 151
+TRACE_CASE_3: Timeout. Retransmitting packet 151
+TRACE_CASE_3: Timeout. Retransmitting packet 151
+TRACE_CASE_3: Timeout. Retransmitting packet 152
+TRACE_CASE_3: Timeout. Retransmitting packet 154
+TRACE_CASE_3: Timeout. Retransmitting packet 156
+TRACE_CASE_3: Timeout. Retransmitting packet 156
+TRACE_CASE_3: Timeout. Retransmitting packet 156
+TRACE_CASE_3: Timeout. Retransmitting packet 156
+TRACE_CASE_3: Timeout. Retransmitting packet 157
+TRACE_CASE_3: Timeout. Retransmitting packet 157
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 158
+TRACE_CASE_3: Timeout. Retransmitting packet 157
+TRACE_CASE_3: Timeout. Retransmitting packet 157
+TRACE_CASE_3: Timeout. Retransmitting packet 157
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 157 to 159)
+TRACE_CASE_3: Timeout. Retransmitting packet 160
+TRACE_CASE_3: Timeout. Retransmitting packet 160
+TRACE_CASE_3: Timeout. Retransmitting packet 160
+TRACE_CASE_3: Timeout. Retransmitting packet 161
+TRACE_CASE_3: Timeout. Retransmitting packet 161
+TRACE_CASE_3: Timeout. Retransmitting packet 162
+TRACE_CASE_3: Timeout. Retransmitting packet 162
+TRACE_CASE_3: Timeout. Retransmitting packet 162
+TRACE_CASE_3: Timeout. Retransmitting packet 163
+TRACE_CASE_3: Timeout. Retransmitting packet 164
+TRACE_CASE_3: Timeout. Retransmitting packet 165
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 166
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 165 to 167)
+TRACE_CASE_3: Timeout. Retransmitting packet 167
+TRACE_CASE_3: Timeout. Retransmitting packet 167
+TRACE_CASE_3: Timeout. Retransmitting packet 167
+TRACE_CASE_3: Timeout. Retransmitting packet 167
+TRACE_CASE_2: Cumulative ACK 8 moved window by 2 (from 167 to 169)
+TRACE_CASE_3: Timeout. Retransmitting packet 169
+TRACE_CASE_3: Timeout. Retransmitting packet 169
+TRACE_CASE_3: Timeout. Retransmitting packet 170
+TRACE_CASE_3: Timeout. Retransmitting packet 171
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 172
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 171 to 173)
+TRACE_CASE_3: Timeout. Retransmitting packet 173
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 174
+TRACE_CASE_3: Timeout. Retransmitting packet 175
+TRACE_CASE_3: Timeout. Retransmitting packet 175
+TRACE_CASE_3: Timeout. Retransmitting packet 176
+TRACE_CASE_3: Timeout. Retransmitting packet 176
+TRACE_CASE_3: Timeout. Retransmitting packet 179
+TRACE_CASE_3: Timeout. Retransmitting packet 179
+TRACE_CASE_3: Timeout. Retransmitting packet 179
+TRACE_CASE_3: Timeout. Retransmitting packet 182
+TRACE_CASE_3: Timeout. Retransmitting packet 182
+TRACE_CASE_3: Timeout. Retransmitting packet 184
+TRACE_CASE_3: Timeout. Retransmitting packet 184
+TRACE_CASE_3: Timeout. Retransmitting packet 184
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 186
+TRACE_CASE_3: Timeout. Retransmitting packet 188
+TRACE_CASE_3: Timeout. Retransmitting packet 190
+TRACE_CASE_3: Timeout. Retransmitting packet 190
+TRACE_CASE_3: Timeout. Retransmitting packet 190
+TRACE_CASE_3: Timeout. Retransmitting packet 192
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 192 to 194)
+TRACE_CASE_3: Timeout. Retransmitting packet 194
+TRACE_CASE_3: Timeout. Retransmitting packet 195
+TRACE_CASE_3: Timeout. Retransmitting packet 195
+TRACE_CASE_3: Timeout. Retransmitting packet 197
+TRACE_CASE_3: Timeout. Retransmitting packet 199
+TRACE_CASE_3: Timeout. Retransmitting packet 199
+TRACE_CASE_3: Timeout. Retransmitting packet 199
+TRACE_CASE_3: Timeout. Retransmitting packet 200
+TRACE_CASE_3: Timeout. Retransmitting packet 200
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 202
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_3: Timeout. Retransmitting packet 201
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 201 to 203)
+TRACE_CASE_3: Timeout. Retransmitting packet 205
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 205 to 207)
+TRACE_CASE_3: Timeout. Retransmitting packet 208
+TRACE_CASE_3: Timeout. Retransmitting packet 208
+TRACE_CASE_3: Timeout. Retransmitting packet 208
+TRACE_CASE_3: Timeout. Retransmitting packet 208
+TRACE_CASE_3: Timeout. Retransmitting packet 209
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 210
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 209 to 211)
+TRACE_CASE_3: Timeout. Retransmitting packet 211
+TRACE_CASE_3: Timeout. Retransmitting packet 211
+TRACE_CASE_3: Timeout. Retransmitting packet 211
+TRACE_CASE_3: Timeout. Retransmitting packet 211
+TRACE_CASE_3: Timeout. Retransmitting packet 211
+TRACE_CASE_3: Timeout. Retransmitting packet 213
+TRACE_CASE_3: Timeout. Retransmitting packet 214
+TRACE_CASE_3: Timeout. Retransmitting packet 214
+TRACE_CASE_3: Timeout. Retransmitting packet 214
+TRACE_CASE_3: Timeout. Retransmitting packet 214
+TRACE_CASE_3: Timeout. Retransmitting packet 214
+TRACE_CASE_3: Timeout. Retransmitting packet 214
+TRACE_CASE_3: Timeout. Retransmitting packet 216
+TRACE_CASE_3: Timeout. Retransmitting packet 216
+TRACE_CASE_3: Timeout. Retransmitting packet 218
+TRACE_CASE_3: Timeout. Retransmitting packet 219
+TRACE_CASE_3: Timeout. Retransmitting packet 219
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 220
+TRACE_CASE_3: Timeout. Retransmitting packet 219
+TRACE_CASE_3: Timeout. Retransmitting packet 219
+TRACE_CASE_2: Cumulative ACK 13 moved window by 3 (from 219 to 222)
+TRACE_CASE_3: Timeout. Retransmitting packet 222
+TRACE_CASE_3: Timeout. Retransmitting packet 222
+TRACE_CASE_3: Timeout. Retransmitting packet 222
+TRACE_CASE_3: Timeout. Retransmitting packet 223
+TRACE_CASE_3: Timeout. Retransmitting packet 223
+TRACE_CASE_3: Timeout. Retransmitting packet 223
+TRACE_CASE_3: Timeout. Retransmitting packet 223
+TRACE_CASE_3: Timeout. Retransmitting packet 223
+TRACE_CASE_3: Timeout. Retransmitting packet 225
+TRACE_CASE_3: Timeout. Retransmitting packet 225
+TRACE_CASE_3: Timeout. Retransmitting packet 225
+TRACE_CASE_3: Timeout. Retransmitting packet 225
+TRACE_CASE_3: Timeout. Retransmitting packet 226
+TRACE_CASE_3: Timeout. Retransmitting packet 228
+TRACE_CASE_3: Timeout. Retransmitting packet 231
+TRACE_CASE_3: Timeout. Retransmitting packet 232
+TRACE_CASE_3: Timeout. Retransmitting packet 232
+TRACE_CASE_3: Timeout. Retransmitting packet 232
+TRACE_CASE_3: Timeout. Retransmitting packet 232
+TRACE_CASE_3: Timeout. Retransmitting packet 233
+TRACE_CASE_3: Timeout. Retransmitting packet 233
+TRACE_CASE_3: Timeout. Retransmitting packet 233
+TRACE_CASE_3: Timeout. Retransmitting packet 233
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 233 to 235)
+TRACE_CASE_3: Timeout. Retransmitting packet 236
+TRACE_CASE_3: Timeout. Retransmitting packet 236
+TRACE_CASE_3: Timeout. Retransmitting packet 236
+TRACE_CASE_3: Timeout. Retransmitting packet 236
+TRACE_CASE_3: Timeout. Retransmitting packet 236
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 236 to 238)
+TRACE_CASE_3: Timeout. Retransmitting packet 238
+TRACE_CASE_3: Timeout. Retransmitting packet 238
+TRACE_CASE_3: Timeout. Retransmitting packet 238
+TRACE_CASE_3: Timeout. Retransmitting packet 238
+TRACE_CASE_3: Timeout. Retransmitting packet 239
+TRACE_CASE_3: Timeout. Retransmitting packet 240
+TRACE_CASE_3: Timeout. Retransmitting packet 241
+TRACE_CASE_3: Timeout. Retransmitting packet 242
+TRACE_CASE_3: Timeout. Retransmitting packet 242
+TRACE_CASE_3: Timeout. Retransmitting packet 242
+TRACE_CASE_3: Timeout. Retransmitting packet 245
+TRACE_CASE_3: Timeout. Retransmitting packet 245
+TRACE_CASE_3: Timeout. Retransmitting packet 245
+TRACE_CASE_3: Timeout. Retransmitting packet 245
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 245 to 247)
+TRACE_CASE_3: Timeout. Retransmitting packet 247
+TRACE_CASE_3: Timeout. Retransmitting packet 247
+TRACE_CASE_3: Timeout. Retransmitting packet 247
+TRACE_CASE_3: Timeout. Retransmitting packet 247
+TRACE_CASE_3: Timeout. Retransmitting packet 247
+TRACE_CASE_3: Timeout. Retransmitting packet 248
+TRACE_CASE_3: Timeout. Retransmitting packet 248
+TRACE_CASE_3: Timeout. Retransmitting packet 248
+TRACE_CASE_3: Timeout. Retransmitting packet 248
+TRACE_CASE_3: Timeout. Retransmitting packet 249
+TRACE_CASE_3: Timeout. Retransmitting packet 249
+TRACE_CASE_3: Timeout. Retransmitting packet 250
+TRACE_CASE_3: Timeout. Retransmitting packet 253
+TRACE_CASE_3: Timeout. Retransmitting packet 255
+TRACE_CASE_3: Timeout. Retransmitting packet 255
+TRACE_CASE_3: Timeout. Retransmitting packet 256
+TRACE_CASE_3: Timeout. Retransmitting packet 256
+TRACE_CASE_3: Timeout. Retransmitting packet 257
+TRACE_CASE_3: Timeout. Retransmitting packet 258
+TRACE_CASE_3: Timeout. Retransmitting packet 258
+TRACE_CASE_3: Timeout. Retransmitting packet 258
+TRACE_CASE_3: Timeout. Retransmitting packet 258
+TRACE_CASE_3: Timeout. Retransmitting packet 259
+TRACE_CASE_3: Timeout. Retransmitting packet 260
+TRACE_CASE_3: Timeout. Retransmitting packet 260
+TRACE_CASE_3: Timeout. Retransmitting packet 261
+TRACE_CASE_3: Timeout. Retransmitting packet 261
+TRACE_CASE_3: Timeout. Retransmitting packet 261
+TRACE_CASE_3: Timeout. Retransmitting packet 262
+TRACE_CASE_3: Timeout. Retransmitting packet 262
+TRACE_CASE_3: Timeout. Retransmitting packet 262
+TRACE_CASE_3: Timeout. Retransmitting packet 263
+TRACE_CASE_3: Timeout. Retransmitting packet 263
+TRACE_CASE_3: Timeout. Retransmitting packet 263
+TRACE_CASE_3: Timeout. Retransmitting packet 263
+TRACE_CASE_3: Timeout. Retransmitting packet 266
+TRACE_CASE_3: Timeout. Retransmitting packet 266
+TRACE_CASE_3: Timeout. Retransmitting packet 266
+TRACE_CASE_3: Timeout. Retransmitting packet 270
+TRACE_CASE_3: Timeout. Retransmitting packet 270
+TRACE_CASE_3: Timeout. Retransmitting packet 270
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 271
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 270 to 272)
+TRACE_CASE_3: Timeout. Retransmitting packet 273
+TRACE_CASE_3: Timeout. Retransmitting packet 273
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 273 to 275)
+TRACE_CASE_3: Timeout. Retransmitting packet 278
+TRACE_CASE_3: Timeout. Retransmitting packet 279
+TRACE_CASE_3: Timeout. Retransmitting packet 279
+TRACE_CASE_3: Timeout. Retransmitting packet 281
+TRACE_CASE_3: Timeout. Retransmitting packet 281
+TRACE_CASE_3: Timeout. Retransmitting packet 281
+TRACE_CASE_3: Timeout. Retransmitting packet 281
+TRACE_CASE_3: Timeout. Retransmitting packet 281
+TRACE_CASE_3: Timeout. Retransmitting packet 281
+TRACE_CASE_3: Timeout. Retransmitting packet 281
+TRACE_CASE_3: Timeout. Retransmitting packet 281
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 281 to 283)
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 285 to 287)
+TRACE_CASE_3: Timeout. Retransmitting packet 287
+TRACE_CASE_3: Timeout. Retransmitting packet 287
+TRACE_CASE_3: Timeout. Retransmitting packet 288
+TRACE_CASE_3: Timeout. Retransmitting packet 289
+TRACE_CASE_3: Timeout. Retransmitting packet 291
+TRACE_CASE_3: Timeout. Retransmitting packet 292
+TRACE_CASE_3: Timeout. Retransmitting packet 292
+TRACE_CASE_3: Timeout. Retransmitting packet 293
+TRACE_CASE_3: Timeout. Retransmitting packet 293
+TRACE_CASE_3: Timeout. Retransmitting packet 293
+TRACE_CASE_3: Timeout. Retransmitting packet 293
+TRACE_CASE_3: Timeout. Retransmitting packet 293
+TRACE_CASE_3: Timeout. Retransmitting packet 294
+TRACE_CASE_3: Timeout. Retransmitting packet 295
+TRACE_CASE_3: Timeout. Retransmitting packet 297
+TRACE_CASE_3: Timeout. Retransmitting packet 299
+TRACE_CASE_3: Timeout. Retransmitting packet 300
+TRACE_CASE_3: Timeout. Retransmitting packet 307
+TRACE_CASE_3: Timeout. Retransmitting packet 308
+TRACE_CASE_3: Timeout. Retransmitting packet 310
+TRACE_CASE_3: Timeout. Retransmitting packet 311
+TRACE_CASE_3: Timeout. Retransmitting packet 311
+TRACE_CASE_3: Timeout. Retransmitting packet 311
+TRACE_CASE_2: Cumulative ACK 9 moved window by 3 (from 311 to 314)
+TRACE_CASE_3: Timeout. Retransmitting packet 314
+TRACE_CASE_3: Timeout. Retransmitting packet 317
+TRACE_CASE_3: Timeout. Retransmitting packet 317
+TRACE_CASE_3: Timeout. Retransmitting packet 317
+TRACE_CASE_3: Timeout. Retransmitting packet 318
+TRACE_CASE_3: Timeout. Retransmitting packet 318
+TRACE_CASE_3: Timeout. Retransmitting packet 318
+TRACE_CASE_3: Timeout. Retransmitting packet 318
+TRACE_CASE_3: Timeout. Retransmitting packet 320
+TRACE_CASE_3: Timeout. Retransmitting packet 320
+TRACE_CASE_3: Timeout. Retransmitting packet 320
+TRACE_CASE_3: Timeout. Retransmitting packet 320
+TRACE_CASE_3: Timeout. Retransmitting packet 321
+TRACE_CASE_3: Timeout. Retransmitting packet 321
+TRACE_CASE_3: Timeout. Retransmitting packet 325
+TRACE_CASE_3: Timeout. Retransmitting packet 325
+TRACE_CASE_3: Timeout. Retransmitting packet 327
+TRACE_CASE_3: Timeout. Retransmitting packet 327
+TRACE_CASE_3: Timeout. Retransmitting packet 327
+TRACE_CASE_3: Timeout. Retransmitting packet 329
+TRACE_CASE_3: Timeout. Retransmitting packet 329
+TRACE_CASE_3: Timeout. Retransmitting packet 330
+TRACE_CASE_3: Timeout. Retransmitting packet 330
+TRACE_CASE_3: Timeout. Retransmitting packet 331
+TRACE_CASE_3: Timeout. Retransmitting packet 333
+TRACE_CASE_3: Timeout. Retransmitting packet 333
+TRACE_CASE_3: Timeout. Retransmitting packet 333
+TRACE_CASE_3: Timeout. Retransmitting packet 333
+TRACE_CASE_3: Timeout. Retransmitting packet 333
+TRACE_CASE_3: Timeout. Retransmitting packet 333
+TRACE_CASE_3: Timeout. Retransmitting packet 334
+TRACE_CASE_3: Timeout. Retransmitting packet 334
+TRACE_CASE_3: Timeout. Retransmitting packet 335
+TRACE_CASE_3: Timeout. Retransmitting packet 335
+TRACE_CASE_3: Timeout. Retransmitting packet 335
+TRACE_CASE_3: Timeout. Retransmitting packet 335
+TRACE_CASE_3: Timeout. Retransmitting packet 335
+TRACE_CASE_3: Timeout. Retransmitting packet 336
+TRACE_CASE_3: Timeout. Retransmitting packet 339
+TRACE_CASE_3: Timeout. Retransmitting packet 340
+TRACE_CASE_3: Timeout. Retransmitting packet 341
+TRACE_CASE_3: Timeout. Retransmitting packet 341
+TRACE_CASE_3: Timeout. Retransmitting packet 346
+TRACE_CASE_3: Timeout. Retransmitting packet 346
+TRACE_CASE_3: Timeout. Retransmitting packet 346
+TRACE_CASE_3: Timeout. Retransmitting packet 347
+TRACE_CASE_3: Timeout. Retransmitting packet 347
+TRACE_CASE_3: Timeout. Retransmitting packet 348
+TRACE_CASE_3: Timeout. Retransmitting packet 348
+TRACE_CASE_3: Timeout. Retransmitting packet 348
+TRACE_CASE_3: Timeout. Retransmitting packet 348
+TRACE_CASE_3: Timeout. Retransmitting packet 348
+TRACE_CASE_3: Timeout. Retransmitting packet 348
+TRACE_CASE_3: Timeout. Retransmitting packet 348
+TRACE_CASE_3: Timeout. Retransmitting packet 350
+TRACE_CASE_3: Timeout. Retransmitting packet 350
+TRACE_CASE_3: Timeout. Retransmitting packet 353
+TRACE_CASE_3: Timeout. Retransmitting packet 353
+TRACE_CASE_3: Timeout. Retransmitting packet 354
+TRACE_CASE_3: Timeout. Retransmitting packet 354
+TRACE_CASE_3: Timeout. Retransmitting packet 354
+TRACE_CASE_3: Timeout. Retransmitting packet 354
+TRACE_CASE_3: Timeout. Retransmitting packet 354
+TRACE_CASE_2: Cumulative ACK 3 moved window by 2 (from 354 to 356)
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 356
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_3: Timeout. Retransmitting packet 360
+TRACE_CASE_3: Timeout. Retransmitting packet 361
+TRACE_CASE_3: Timeout. Retransmitting packet 361
+TRACE_CASE_3: Timeout. Retransmitting packet 362
+TRACE_CASE_3: Timeout. Retransmitting packet 363
+TRACE_CASE_3: Timeout. Retransmitting packet 365
+TRACE_CASE_3: Timeout. Retransmitting packet 365
+TRACE_CASE_3: Timeout. Retransmitting packet 365
+TRACE_CASE_3: Timeout. Retransmitting packet 365
+TRACE_CASE_3: Timeout. Retransmitting packet 366
+TRACE_CASE_3: Timeout. Retransmitting packet 366
+TRACE_CASE_3: Timeout. Retransmitting packet 367
+TRACE_CASE_3: Timeout. Retransmitting packet 369
+TRACE_CASE_3: Timeout. Retransmitting packet 373
+TRACE_CASE_3: Timeout. Retransmitting packet 373
+TRACE_CASE_3: Timeout. Retransmitting packet 375
+TRACE_CASE_3: Timeout. Retransmitting packet 375
+TRACE_CASE_3: Timeout. Retransmitting packet 377
+TRACE_CASE_3: Timeout. Retransmitting packet 378
+TRACE_CASE_3: Timeout. Retransmitting packet 379
+TRACE_CASE_3: Timeout. Retransmitting packet 380
+TRACE_CASE_3: Timeout. Retransmitting packet 382
+TRACE_CASE_3: Timeout. Retransmitting packet 385
+TRACE_CASE_3: Timeout. Retransmitting packet 388
+TRACE_CASE_3: Timeout. Retransmitting packet 388
+TRACE_CASE_3: Timeout. Retransmitting packet 388
+TRACE_CASE_3: Timeout. Retransmitting packet 388
+TRACE_CASE_3: Timeout. Retransmitting packet 390
+TRACE_CASE_3: Timeout. Retransmitting packet 391
+TRACE_CASE_3: Timeout. Retransmitting packet 393
+TRACE_CASE_3: Timeout. Retransmitting packet 393
+TRACE_CASE_3: Timeout. Retransmitting packet 393
+TRACE_CASE_3: Timeout. Retransmitting packet 393
+TRACE_CASE_3: Timeout. Retransmitting packet 393
+TRACE_CASE_3: Timeout. Retransmitting packet 395
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 395 to 397)
+TRACE_CASE_3: Timeout. Retransmitting packet 397
+TRACE_CASE_3: Timeout. Retransmitting packet 397
+TRACE_CASE_3: Timeout. Retransmitting packet 397
+TRACE_CASE_3: Timeout. Retransmitting packet 397
+TRACE_CASE_3: Timeout. Retransmitting packet 399
+TRACE_CASE_3: Timeout. Retransmitting packet 399
+TRACE_CASE_3: Timeout. Retransmitting packet 400
+TRACE_CASE_3: Timeout. Retransmitting packet 405
+TRACE_CASE_3: Timeout. Retransmitting packet 411
+TRACE_CASE_3: Timeout. Retransmitting packet 411
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 412
+TRACE_CASE_3: Timeout. Retransmitting packet 411
+TRACE_CASE_2: Cumulative ACK 13 moved window by 3 (from 411 to 414)
+TRACE_CASE_3: Timeout. Retransmitting packet 415
+TRACE_CASE_3: Timeout. Retransmitting packet 415
+TRACE_CASE_3: Timeout. Retransmitting packet 416
+TRACE_CASE_3: Timeout. Retransmitting packet 419
+TRACE_CASE_3: Timeout. Retransmitting packet 420
+TRACE_CASE_3: Timeout. Retransmitting packet 420
+TRACE_CASE_3: Timeout. Retransmitting packet 421
+TRACE_CASE_3: Timeout. Retransmitting packet 421
+TRACE_CASE_3: Timeout. Retransmitting packet 421
+TRACE_CASE_3: Timeout. Retransmitting packet 421
+TRACE_CASE_3: Timeout. Retransmitting packet 421
+TRACE_CASE_3: Timeout. Retransmitting packet 423
+TRACE_CASE_3: Timeout. Retransmitting packet 423
+TRACE_CASE_3: Timeout. Retransmitting packet 424
+TRACE_CASE_3: Timeout. Retransmitting packet 424
+TRACE_CASE_3: Timeout. Retransmitting packet 425
+TRACE_CASE_3: Timeout. Retransmitting packet 427
+TRACE_CASE_3: Timeout. Retransmitting packet 427
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 427 to 429)
+TRACE_CASE_3: Timeout. Retransmitting packet 432
+TRACE_CASE_3: Timeout. Retransmitting packet 433
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_3: Timeout. Retransmitting packet 436
+TRACE_CASE_3: Timeout. Retransmitting packet 437
+TRACE_CASE_3: Timeout. Retransmitting packet 437
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 439
+TRACE_CASE_3: Timeout. Retransmitting packet 440
+TRACE_CASE_3: Timeout. Retransmitting packet 440
+TRACE_CASE_3: Timeout. Retransmitting packet 440
+TRACE_CASE_3: Timeout. Retransmitting packet 440
+TRACE_CASE_3: Timeout. Retransmitting packet 440
+TRACE_CASE_3: Timeout. Retransmitting packet 441
+TRACE_CASE_3: Timeout. Retransmitting packet 441
+TRACE_CASE_3: Timeout. Retransmitting packet 441
+TRACE_CASE_3: Timeout. Retransmitting packet 441
+TRACE_CASE_3: Timeout. Retransmitting packet 441
+TRACE_CASE_3: Timeout. Retransmitting packet 441
+TRACE_CASE_3: Timeout. Retransmitting packet 441
+TRACE_CASE_3: Timeout. Retransmitting packet 442
+TRACE_CASE_3: Timeout. Retransmitting packet 443
+TRACE_CASE_3: Timeout. Retransmitting packet 443
+TRACE_CASE_3: Timeout. Retransmitting packet 446
+TRACE_CASE_3: Timeout. Retransmitting packet 447
+TRACE_CASE_3: Timeout. Retransmitting packet 447
+TRACE_CASE_3: Timeout. Retransmitting packet 448
+TRACE_CASE_3: Timeout. Retransmitting packet 449
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 449 to 451)
+TRACE_CASE_3: Timeout. Retransmitting packet 453
+TRACE_CASE_3: Timeout. Retransmitting packet 453
+TRACE_CASE_3: Timeout. Retransmitting packet 454
+TRACE_CASE_3: Timeout. Retransmitting packet 454
+TRACE_CASE_3: Timeout. Retransmitting packet 455
+TRACE_CASE_3: Timeout. Retransmitting packet 455
+TRACE_CASE_3: Timeout. Retransmitting packet 455
+TRACE_CASE_3: Timeout. Retransmitting packet 457
+TRACE_CASE_3: Timeout. Retransmitting packet 457
+TRACE_CASE_3: Timeout. Retransmitting packet 458
+TRACE_CASE_3: Timeout. Retransmitting packet 459
+TRACE_CASE_3: Timeout. Retransmitting packet 460
+TRACE_CASE_3: Timeout. Retransmitting packet 460
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 461
+TRACE_CASE_3: Timeout. Retransmitting packet 460
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 460 to 462)
+TRACE_CASE_3: Timeout. Retransmitting packet 462
+TRACE_CASE_3: Timeout. Retransmitting packet 462
+TRACE_CASE_3: Timeout. Retransmitting packet 462
+TRACE_CASE_3: Timeout. Retransmitting packet 462
+TRACE_CASE_3: Timeout. Retransmitting packet 462
+TRACE_CASE_3: Timeout. Retransmitting packet 466
+TRACE_CASE_3: Timeout. Retransmitting packet 467
+TRACE_CASE_3: Timeout. Retransmitting packet 469
+TRACE_CASE_3: Timeout. Retransmitting packet 470
+TRACE_CASE_3: Timeout. Retransmitting packet 471
+TRACE_CASE_3: Timeout. Retransmitting packet 472
+TRACE_CASE_3: Timeout. Retransmitting packet 472
+TRACE_CASE_3: Timeout. Retransmitting packet 472
+TRACE_CASE_3: Timeout. Retransmitting packet 472
+TRACE_CASE_3: Timeout. Retransmitting packet 472
+TRACE_CASE_3: Timeout. Retransmitting packet 474
+TRACE_CASE_3: Timeout. Retransmitting packet 475
+TRACE_CASE_3: Timeout. Retransmitting packet 475
+TRACE_CASE_3: Timeout. Retransmitting packet 476
+TRACE_CASE_3: Timeout. Retransmitting packet 479
+TRACE_CASE_3: Timeout. Retransmitting packet 479
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 480
+TRACE_CASE_2: Cumulative ACK 0 moved window by 2 (from 479 to 481)
+TRACE_CASE_3: Timeout. Retransmitting packet 481
+TRACE_CASE_3: Timeout. Retransmitting packet 482
+TRACE_CASE_3: Timeout. Retransmitting packet 482
+TRACE_CASE_3: Timeout. Retransmitting packet 482
+TRACE_CASE_3: Timeout. Retransmitting packet 483
+TRACE_CASE_3: Timeout. Retransmitting packet 484
+TRACE_CASE_3: Timeout. Retransmitting packet 484
+TRACE_CASE_3: Timeout. Retransmitting packet 484
+TRACE_CASE_3: Timeout. Retransmitting packet 484
+TRACE_CASE_3: Timeout. Retransmitting packet 485
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 486
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 485 to 487)
+TRACE_CASE_3: Timeout. Retransmitting packet 487
+TRACE_CASE_3: Timeout. Retransmitting packet 488
+TRACE_CASE_3: Timeout. Retransmitting packet 488
+TRACE_CASE_3: Timeout. Retransmitting packet 488
+TRACE_CASE_3: Timeout. Retransmitting packet 489
+TRACE_CASE_3: Timeout. Retransmitting packet 489
+TRACE_CASE_3: Timeout. Retransmitting packet 489
+TRACE_CASE_3: Timeout. Retransmitting packet 489
+TRACE_CASE_3: Timeout. Retransmitting packet 491
+TRACE_CASE_3: Timeout. Retransmitting packet 494
+TRACE_CASE_3: Timeout. Retransmitting packet 494
+TRACE_CASE_3: Timeout. Retransmitting packet 495
+TRACE_CASE_3: Timeout. Retransmitting packet 496
+TRACE_CASE_3: Timeout. Retransmitting packet 499
+TRACE_CASE_3: Timeout. Retransmitting packet 499
+TRACE_CASE_3: Timeout. Retransmitting packet 500
+TRACE_CASE_3: Timeout. Retransmitting packet 501
+TRACE_CASE_3: Timeout. Retransmitting packet 503
+TRACE_CASE_3: Timeout. Retransmitting packet 504
+TRACE_CASE_3: Timeout. Retransmitting packet 505
+TRACE_CASE_3: Timeout. Retransmitting packet 506
+TRACE_CASE_3: Timeout. Retransmitting packet 506
+TRACE_CASE_3: Timeout. Retransmitting packet 506
+TRACE_CASE_3: Timeout. Retransmitting packet 506
+TRACE_CASE_3: Timeout. Retransmitting packet 507
+TRACE_CASE_3: Timeout. Retransmitting packet 508
+TRACE_CASE_3: Timeout. Retransmitting packet 508
+TRACE_CASE_3: Timeout. Retransmitting packet 509
+TRACE_CASE_3: Timeout. Retransmitting packet 509
+TRACE_CASE_3: Timeout. Retransmitting packet 509
+TRACE_CASE_3: Timeout. Retransmitting packet 509
+TRACE_CASE_3: Timeout. Retransmitting packet 509
+TRACE_CASE_3: Timeout. Retransmitting packet 509
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 509 to 511)
+TRACE_CASE_3: Timeout. Retransmitting packet 511
+TRACE_CASE_3: Timeout. Retransmitting packet 512
+TRACE_CASE_3: Timeout. Retransmitting packet 513
+TRACE_CASE_3: Timeout. Retransmitting packet 513
+TRACE_CASE_3: Timeout. Retransmitting packet 513
+TRACE_CASE_3: Timeout. Retransmitting packet 518
+TRACE_CASE_3: Timeout. Retransmitting packet 518
+TRACE_CASE_3: Timeout. Retransmitting packet 518
+TRACE_CASE_3: Timeout. Retransmitting packet 518
+TRACE_CASE_3: Timeout. Retransmitting packet 518
+TRACE_CASE_3: Timeout. Retransmitting packet 518
+TRACE_CASE_3: Timeout. Retransmitting packet 520
+TRACE_CASE_3: Timeout. Retransmitting packet 521
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 522
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 521 to 523)
+TRACE_CASE_3: Timeout. Retransmitting packet 524
+TRACE_CASE_3: Timeout. Retransmitting packet 525
+TRACE_CASE_3: Timeout. Retransmitting packet 526
+TRACE_CASE_3: Timeout. Retransmitting packet 531
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 532
+TRACE_CASE_3: Timeout. Retransmitting packet 533
+TRACE_CASE_3: Timeout. Retransmitting packet 536
+TRACE_CASE_3: Timeout. Retransmitting packet 536
+TRACE_CASE_3: Timeout. Retransmitting packet 536
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 537
+TRACE_CASE_3: Timeout. Retransmitting packet 536
+TRACE_CASE_3: Timeout. Retransmitting packet 536
+TRACE_CASE_2: Cumulative ACK 9 moved window by 2 (from 536 to 538)
+TRACE_CASE_3: Timeout. Retransmitting packet 538
+TRACE_CASE_3: Timeout. Retransmitting packet 538
+TRACE_CASE_3: Timeout. Retransmitting packet 539
+TRACE_CASE_3: Timeout. Retransmitting packet 539
+TRACE_CASE_3: Timeout. Retransmitting packet 540
+TRACE_CASE_3: Timeout. Retransmitting packet 540
+TRACE_CASE_3: Timeout. Retransmitting packet 543
+TRACE_CASE_3: Timeout. Retransmitting packet 543
+TRACE_CASE_3: Timeout. Retransmitting packet 548
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 548 to 550)
+TRACE_CASE_3: Timeout. Retransmitting packet 550
+TRACE_CASE_3: Timeout. Retransmitting packet 550
+TRACE_CASE_3: Timeout. Retransmitting packet 550
+TRACE_CASE_3: Timeout. Retransmitting packet 550
+TRACE_CASE_3: Timeout. Retransmitting packet 550
+TRACE_CASE_3: Timeout. Retransmitting packet 551
+TRACE_CASE_3: Timeout. Retransmitting packet 552
+TRACE_CASE_3: Timeout. Retransmitting packet 552
+TRACE_CASE_3: Timeout. Retransmitting packet 552
+TRACE_CASE_3: Timeout. Retransmitting packet 552
+TRACE_CASE_3: Timeout. Retransmitting packet 552
+TRACE_CASE_3: Timeout. Retransmitting packet 552
+TRACE_CASE_3: Timeout. Retransmitting packet 553
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 554
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 553 to 555)
+TRACE_CASE_3: Timeout. Retransmitting packet 555
+TRACE_CASE_3: Timeout. Retransmitting packet 555
+TRACE_CASE_3: Timeout. Retransmitting packet 555
+TRACE_CASE_3: Timeout. Retransmitting packet 555
+TRACE_CASE_3: Timeout. Retransmitting packet 555
+TRACE_CASE_3: Timeout. Retransmitting packet 556
+TRACE_CASE_3: Timeout. Retransmitting packet 556
+TRACE_CASE_3: Timeout. Retransmitting packet 556
+TRACE_CASE_3: Timeout. Retransmitting packet 557
+TRACE_CASE_3: Timeout. Retransmitting packet 558
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 559
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 558 to 560)
+TRACE_CASE_3: Timeout. Retransmitting packet 560
+TRACE_CASE_3: Timeout. Retransmitting packet 561
+TRACE_CASE_3: Timeout. Retransmitting packet 562
+TRACE_CASE_3: Timeout. Retransmitting packet 563
+TRACE_CASE_3: Timeout. Retransmitting packet 565
+TRACE_CASE_3: Timeout. Retransmitting packet 565
+TRACE_CASE_3: Timeout. Retransmitting packet 566
+TRACE_CASE_3: Timeout. Retransmitting packet 566
+TRACE_CASE_3: Timeout. Retransmitting packet 567
+TRACE_CASE_3: Timeout. Retransmitting packet 568
+TRACE_CASE_3: Timeout. Retransmitting packet 571
+TRACE_CASE_3: Timeout. Retransmitting packet 571
+TRACE_CASE_3: Timeout. Retransmitting packet 575
+TRACE_CASE_3: Timeout. Retransmitting packet 576
+TRACE_CASE_3: Timeout. Retransmitting packet 576
+TRACE_CASE_3: Timeout. Retransmitting packet 576
+TRACE_CASE_3: Timeout. Retransmitting packet 577
+TRACE_CASE_3: Timeout. Retransmitting packet 577
+TRACE_CASE_3: Timeout. Retransmitting packet 577
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 578
+TRACE_CASE_2: Cumulative ACK 2 moved window by 2 (from 577 to 579)
+TRACE_CASE_3: Timeout. Retransmitting packet 579
+TRACE_CASE_3: Timeout. Retransmitting packet 584
+TRACE_CASE_3: Timeout. Retransmitting packet 586
+TRACE_CASE_3: Timeout. Retransmitting packet 586
+TRACE_CASE_3: Timeout. Retransmitting packet 586
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 587
+TRACE_CASE_3: Timeout. Retransmitting packet 586
+TRACE_CASE_3: Timeout. Retransmitting packet 586
+TRACE_CASE_2: Cumulative ACK 11 moved window by 2 (from 586 to 588)
+TRACE_CASE_3: Timeout. Retransmitting packet 589
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 590
+TRACE_CASE_3: Timeout. Retransmitting packet 591
+TRACE_CASE_3: Timeout. Retransmitting packet 591
+TRACE_CASE_3: Timeout. Retransmitting packet 592
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 594
+TRACE_CASE_3: Timeout. Retransmitting packet 595
+TRACE_CASE_3: Timeout. Retransmitting packet 597
+TRACE_CASE_3: Timeout. Retransmitting packet 601
+TRACE_CASE_3: Timeout. Retransmitting packet 601
+TRACE_CASE_3: Timeout. Retransmitting packet 601
+TRACE_CASE_3: Timeout. Retransmitting packet 601
+TRACE_CASE_3: Timeout. Retransmitting packet 604
+TRACE_CASE_3: Timeout. Retransmitting packet 605
+TRACE_CASE_3: Timeout. Retransmitting packet 605
+TRACE_CASE_3: Timeout. Retransmitting packet 605
+TRACE_CASE_3: Timeout. Retransmitting packet 605
+TRACE_CASE_3: Timeout. Retransmitting packet 606
+TRACE_CASE_3: Timeout. Retransmitting packet 606
+TRACE_CASE_3: Timeout. Retransmitting packet 606
+TRACE_CASE_3: Timeout. Retransmitting packet 606
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 606 to 608)
+TRACE_CASE_3: Timeout. Retransmitting packet 611
+TRACE_CASE_3: Timeout. Retransmitting packet 611
+TRACE_CASE_3: Timeout. Retransmitting packet 611
+TRACE_CASE_3: Timeout. Retransmitting packet 611
+TRACE_CASE_3: Timeout. Retransmitting packet 611
+TRACE_CASE_3: Timeout. Retransmitting packet 612
+TRACE_CASE_3: Timeout. Retransmitting packet 612
+TRACE_CASE_3: Timeout. Retransmitting packet 613
+TRACE_CASE_3: Timeout. Retransmitting packet 615
+TRACE_CASE_3: Timeout. Retransmitting packet 615
+TRACE_CASE_3: Timeout. Retransmitting packet 615
+TRACE_CASE_3: Timeout. Retransmitting packet 615
+TRACE_CASE_3: Timeout. Retransmitting packet 615
+TRACE_CASE_3: Timeout. Retransmitting packet 616
+TRACE_CASE_3: Timeout. Retransmitting packet 616
+TRACE_CASE_3: Timeout. Retransmitting packet 616
+TRACE_CASE_3: Timeout. Retransmitting packet 617
+TRACE_CASE_3: Timeout. Retransmitting packet 617
+TRACE_CASE_3: Timeout. Retransmitting packet 617
+TRACE_CASE_3: Timeout. Retransmitting packet 620
+TRACE_CASE_3: Timeout. Retransmitting packet 621
+TRACE_CASE_3: Timeout. Retransmitting packet 622
+TRACE_CASE_3: Timeout. Retransmitting packet 622
+TRACE_CASE_3: Timeout. Retransmitting packet 622
+TRACE_CASE_3: Timeout. Retransmitting packet 622
+TRACE_CASE_3: Timeout. Retransmitting packet 622
+TRACE_CASE_3: Timeout. Retransmitting packet 623
+TRACE_CASE_3: Timeout. Retransmitting packet 625
+TRACE_CASE_3: Timeout. Retransmitting packet 625
+TRACE_CASE_3: Timeout. Retransmitting packet 626
+TRACE_CASE_3: Timeout. Retransmitting packet 626
+TRACE_CASE_3: Timeout. Retransmitting packet 627
+TRACE_CASE_3: Timeout. Retransmitting packet 628
+TRACE_CASE_3: Timeout. Retransmitting packet 628
+TRACE_CASE_3: Timeout. Retransmitting packet 628
+TRACE_CASE_3: Timeout. Retransmitting packet 630
+TRACE_CASE_3: Timeout. Retransmitting packet 630
+TRACE_CASE_3: Timeout. Retransmitting packet 630
+TRACE_CASE_3: Timeout. Retransmitting packet 631
+TRACE_CASE_3: Timeout. Retransmitting packet 632
+TRACE_CASE_3: Timeout. Retransmitting packet 632
+TRACE_CASE_3: Timeout. Retransmitting packet 632
+TRACE_CASE_3: Timeout. Retransmitting packet 632
+TRACE_CASE_3: Timeout. Retransmitting packet 634
+TRACE_CASE_3: Timeout. Retransmitting packet 635
+TRACE_CASE_3: Timeout. Retransmitting packet 637
+TRACE_CASE_3: Timeout. Retransmitting packet 637
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 637 to 639)
+TRACE_CASE_3: Timeout. Retransmitting packet 642
+TRACE_CASE_3: Timeout. Retransmitting packet 642
+TRACE_CASE_3: Timeout. Retransmitting packet 642
+TRACE_CASE_3: Timeout. Retransmitting packet 644
+TRACE_CASE_3: Timeout. Retransmitting packet 644
+TRACE_CASE_3: Timeout. Retransmitting packet 644
+TRACE_CASE_3: Timeout. Retransmitting packet 646
+TRACE_CASE_3: Timeout. Retransmitting packet 646
+TRACE_CASE_3: Timeout. Retransmitting packet 646
+TRACE_CASE_3: Timeout. Retransmitting packet 646
+TRACE_CASE_3: Timeout. Retransmitting packet 647
+TRACE_CASE_3: Timeout. Retransmitting packet 647
+TRACE_CASE_3: Timeout. Retransmitting packet 648
+TRACE_CASE_3: Timeout. Retransmitting packet 648
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 649
+TRACE_CASE_3: Timeout. Retransmitting packet 648
+TRACE_CASE_3: Timeout. Retransmitting packet 648
+TRACE_CASE_3: Timeout. Retransmitting packet 648
+TRACE_CASE_3: Timeout. Retransmitting packet 648
+TRACE_CASE_3: Timeout. Retransmitting packet 648
+TRACE_CASE_2: Cumulative ACK 9 moved window by 2 (from 648 to 650)
+TRACE_CASE_3: Timeout. Retransmitting packet 650
+TRACE_CASE_3: Timeout. Retransmitting packet 650
+TRACE_CASE_3: Timeout. Retransmitting packet 652
+TRACE_CASE_3: Timeout. Retransmitting packet 653
+TRACE_CASE_3: Timeout. Retransmitting packet 658
+TRACE_CASE_3: Timeout. Retransmitting packet 660
+TRACE_CASE_3: Timeout. Retransmitting packet 661
+TRACE_CASE_3: Timeout. Retransmitting packet 661
+TRACE_CASE_3: Timeout. Retransmitting packet 661
+TRACE_CASE_3: Timeout. Retransmitting packet 661
+TRACE_CASE_3: Timeout. Retransmitting packet 663
+TRACE_CASE_3: Timeout. Retransmitting packet 664
+TRACE_CASE_3: Timeout. Retransmitting packet 664
+TRACE_CASE_3: Timeout. Retransmitting packet 664
+TRACE_CASE_3: Timeout. Retransmitting packet 664
+TRACE_CASE_3: Timeout. Retransmitting packet 665
+TRACE_CASE_3: Timeout. Retransmitting packet 666
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 667
+TRACE_CASE_3: Timeout. Retransmitting packet 666
+TRACE_CASE_3: Timeout. Retransmitting packet 666
+TRACE_CASE_2: Cumulative ACK 11 moved window by 2 (from 666 to 668)
+TRACE_CASE_3: Timeout. Retransmitting packet 668
+TRACE_CASE_3: Timeout. Retransmitting packet 670
+TRACE_CASE_3: Timeout. Retransmitting packet 671
+TRACE_CASE_3: Timeout. Retransmitting packet 671
+TRACE_CASE_3: Timeout. Retransmitting packet 672
+TRACE_CASE_3: Timeout. Retransmitting packet 672
+TRACE_CASE_3: Timeout. Retransmitting packet 672
+TRACE_CASE_3: Timeout. Retransmitting packet 672
+TRACE_CASE_3: Timeout. Retransmitting packet 673
+TRACE_CASE_3: Timeout. Retransmitting packet 673
+TRACE_CASE_3: Timeout. Retransmitting packet 674
+TRACE_CASE_3: Timeout. Retransmitting packet 678
+TRACE_CASE_3: Timeout. Retransmitting packet 680
+TRACE_CASE_3: Timeout. Retransmitting packet 681
+TRACE_CASE_3: Timeout. Retransmitting packet 682
+TRACE_CASE_3: Timeout. Retransmitting packet 685
+TRACE_CASE_3: Timeout. Retransmitting packet 685
+TRACE_CASE_3: Timeout. Retransmitting packet 685
+TRACE_CASE_3: Timeout. Retransmitting packet 688
+TRACE_CASE_3: Timeout. Retransmitting packet 688
+TRACE_CASE_3: Timeout. Retransmitting packet 689
+TRACE_CASE_3: Timeout. Retransmitting packet 690
+TRACE_CASE_3: Timeout. Retransmitting packet 690
+TRACE_CASE_3: Timeout. Retransmitting packet 690
+TRACE_CASE_3: Timeout. Retransmitting packet 691
+TRACE_CASE_3: Timeout. Retransmitting packet 691
+TRACE_CASE_3: Timeout. Retransmitting packet 691
+TRACE_CASE_3: Timeout. Retransmitting packet 692
+TRACE_CASE_3: Timeout. Retransmitting packet 694
+TRACE_CASE_3: Timeout. Retransmitting packet 694
+TRACE_CASE_3: Timeout. Retransmitting packet 698
+TRACE_CASE_3: Timeout. Retransmitting packet 698
+TRACE_CASE_3: Timeout. Retransmitting packet 701
+TRACE_CASE_3: Timeout. Retransmitting packet 701
+TRACE_CASE_3: Timeout. Retransmitting packet 702
+TRACE_CASE_3: Timeout. Retransmitting packet 704
+TRACE_CASE_3: Timeout. Retransmitting packet 704
+TRACE_CASE_3: Timeout. Retransmitting packet 705
+TRACE_CASE_3: Timeout. Retransmitting packet 706
+TRACE_CASE_3: Timeout. Retransmitting packet 711
+TRACE_CASE_3: Timeout. Retransmitting packet 711
+TRACE_CASE_3: Timeout. Retransmitting packet 711
+TRACE_CASE_3: Timeout. Retransmitting packet 712
+TRACE_CASE_3: Timeout. Retransmitting packet 714
+TRACE_CASE_3: Timeout. Retransmitting packet 716
+TRACE_CASE_3: Timeout. Retransmitting packet 716
+TRACE_CASE_3: Timeout. Retransmitting packet 716
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 717
+TRACE_CASE_2: Cumulative ACK 13 moved window by 2 (from 716 to 718)
+TRACE_CASE_3: Timeout. Retransmitting packet 718
+TRACE_CASE_3: Timeout. Retransmitting packet 718
+TRACE_CASE_3: Timeout. Retransmitting packet 718
+TRACE_CASE_3: Timeout. Retransmitting packet 719
+TRACE_CASE_3: Timeout. Retransmitting packet 719
+TRACE_CASE_3: Timeout. Retransmitting packet 720
+TRACE_CASE_3: Timeout. Retransmitting packet 720
+TRACE_CASE_3: Timeout. Retransmitting packet 720
+TRACE_CASE_3: Timeout. Retransmitting packet 721
+TRACE_CASE_3: Timeout. Retransmitting packet 722
+TRACE_CASE_3: Timeout. Retransmitting packet 722
+TRACE_CASE_3: Timeout. Retransmitting packet 722
+TRACE_CASE_3: Timeout. Retransmitting packet 722
+TRACE_CASE_3: Timeout. Retransmitting packet 722
+TRACE_CASE_3: Timeout. Retransmitting packet 725
+TRACE_CASE_3: Timeout. Retransmitting packet 725
+TRACE_CASE_3: Timeout. Retransmitting packet 725
+TRACE_CASE_3: Timeout. Retransmitting packet 726
+TRACE_CASE_3: Timeout. Retransmitting packet 726
+TRACE_CASE_3: Timeout. Retransmitting packet 727
+TRACE_CASE_3: Timeout. Retransmitting packet 727
+TRACE_CASE_3: Timeout. Retransmitting packet 727
+TRACE_CASE_3: Timeout. Retransmitting packet 727
+TRACE_CASE_3: Timeout. Retransmitting packet 728
+TRACE_CASE_3: Timeout. Retransmitting packet 728
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 729
+TRACE_CASE_3: Timeout. Retransmitting packet 728
+TRACE_CASE_2: Cumulative ACK 9 moved window by 2 (from 728 to 730)
+TRACE_CASE_3: Timeout. Retransmitting packet 732
+TRACE_CASE_3: Timeout. Retransmitting packet 732
+TRACE_CASE_3: Timeout. Retransmitting packet 732
+TRACE_CASE_3: Timeout. Retransmitting packet 732
+TRACE_CASE_3: Timeout. Retransmitting packet 732
+TRACE_CASE_3: Timeout. Retransmitting packet 733
+TRACE_CASE_3: Timeout. Retransmitting packet 734
+TRACE_CASE_3: Timeout. Retransmitting packet 734
+TRACE_CASE_3: Timeout. Retransmitting packet 734
+TRACE_CASE_3: Timeout. Retransmitting packet 734
+TRACE_CASE_3: Timeout. Retransmitting packet 734
+TRACE_CASE_3: Timeout. Retransmitting packet 734
+TRACE_CASE_3: Timeout. Retransmitting packet 736
+TRACE_CASE_3: Timeout. Retransmitting packet 736
+TRACE_CASE_3: Timeout. Retransmitting packet 737
+TRACE_CASE_3: Timeout. Retransmitting packet 738
+TRACE_CASE_3: Timeout. Retransmitting packet 739
+TRACE_CASE_3: Timeout. Retransmitting packet 739
+TRACE_CASE_3: Timeout. Retransmitting packet 739
+TRACE_CASE_2: Cumulative ACK 4 moved window by 2 (from 739 to 741)
+TRACE_CASE_3: Timeout. Retransmitting packet 742
+TRACE_CASE_3: Timeout. Retransmitting packet 742
+TRACE_CASE_3: Timeout. Retransmitting packet 742
+TRACE_CASE_3: Timeout. Retransmitting packet 742
+TRACE_CASE_3: Timeout. Retransmitting packet 742
+TRACE_CASE_3: Timeout. Retransmitting packet 742
+TRACE_CASE_3: Timeout. Retransmitting packet 742
+TRACE_CASE_3: Timeout. Retransmitting packet 744
+TRACE_CASE_3: Timeout. Retransmitting packet 745
+TRACE_CASE_3: Timeout. Retransmitting packet 745
+TRACE_CASE_2: Cumulative ACK 10 moved window by 2 (from 745 to 747)
+TRACE_CASE_3: Timeout. Retransmitting packet 747
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 747 to 749)
+TRACE_CASE_3: Timeout. Retransmitting packet 749
+TRACE_CASE_3: Timeout. Retransmitting packet 749
+TRACE_CASE_3: Timeout. Retransmitting packet 749
+TRACE_CASE_3: Timeout. Retransmitting packet 749
+TRACE_CASE_3: Timeout. Retransmitting packet 749
+TRACE_CASE_3: Timeout. Retransmitting packet 750
+TRACE_CASE_3: Timeout. Retransmitting packet 750
+TRACE_CASE_3: Timeout. Retransmitting packet 750
+TRACE_CASE_3: Timeout. Retransmitting packet 750
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 750 to 752)
+TRACE_CASE_3: Timeout. Retransmitting packet 753
+TRACE_CASE_3: Timeout. Retransmitting packet 753
+TRACE_CASE_3: Timeout. Retransmitting packet 755
+TRACE_CASE_3: Timeout. Retransmitting packet 756
+TRACE_CASE_3: Timeout. Retransmitting packet 756
+TRACE_CASE_3: Timeout. Retransmitting packet 757
+TRACE_CASE_3: Timeout. Retransmitting packet 758
+TRACE_CASE_3: Timeout. Retransmitting packet 758
+TRACE_CASE_3: Timeout. Retransmitting packet 758
+TRACE_CASE_3: Timeout. Retransmitting packet 758
+TRACE_CASE_3: Timeout. Retransmitting packet 758
+TRACE_CASE_3: Timeout. Retransmitting packet 758
+TRACE_CASE_3: Timeout. Retransmitting packet 759
+TRACE_CASE_3: Timeout. Retransmitting packet 760
+TRACE_CASE_3: Timeout. Retransmitting packet 761
+TRACE_CASE_3: Timeout. Retransmitting packet 761
+TRACE_CASE_3: Timeout. Retransmitting packet 762
+TRACE_CASE_3: Timeout. Retransmitting packet 764
+TRACE_CASE_3: Timeout. Retransmitting packet 764
+TRACE_CASE_3: Timeout. Retransmitting packet 768
+TRACE_CASE_3: Timeout. Retransmitting packet 772
+TRACE_CASE_3: Timeout. Retransmitting packet 773
+TRACE_CASE_3: Timeout. Retransmitting packet 773
+TRACE_CASE_3: Timeout. Retransmitting packet 773
+TRACE_CASE_3: Timeout. Retransmitting packet 776
+TRACE_CASE_3: Timeout. Retransmitting packet 777
+TRACE_CASE_3: Timeout. Retransmitting packet 777
+TRACE_CASE_3: Timeout. Retransmitting packet 779
+TRACE_CASE_3: Timeout. Retransmitting packet 779
+TRACE_CASE_3: Timeout. Retransmitting packet 779
+TRACE_CASE_3: Timeout. Retransmitting packet 779
+TRACE_CASE_3: Timeout. Retransmitting packet 780
+TRACE_CASE_3: Timeout. Retransmitting packet 783
+TRACE_CASE_3: Timeout. Retransmitting packet 787
+TRACE_CASE_3: Timeout. Retransmitting packet 787
+TRACE_CASE_3: Timeout. Retransmitting packet 789
+TRACE_CASE_3: Timeout. Retransmitting packet 790
+TRACE_CASE_3: Timeout. Retransmitting packet 790
+TRACE_CASE_3: Timeout. Retransmitting packet 793
+TRACE_CASE_3: Timeout. Retransmitting packet 795
+TRACE_CASE_3: Timeout. Retransmitting packet 795
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 797
+TRACE_CASE_3: Timeout. Retransmitting packet 795
+TRACE_CASE_2: Cumulative ACK 13 moved window by 3 (from 795 to 798)
+TRACE_CASE_3: Timeout. Retransmitting packet 798
+TRACE_CASE_3: Timeout. Retransmitting packet 799
+TRACE_CASE_3: Timeout. Retransmitting packet 800
+TRACE_CASE_3: Timeout. Retransmitting packet 800
+TRACE_CASE_3: Timeout. Retransmitting packet 800
+TRACE_CASE_3: Timeout. Retransmitting packet 800
+TRACE_CASE_3: Timeout. Retransmitting packet 800
+TRACE_CASE_3: Timeout. Retransmitting packet 801
+TRACE_CASE_3: Timeout. Retransmitting packet 801
+TRACE_CASE_3: Timeout. Retransmitting packet 802
+TRACE_CASE_3: Timeout. Retransmitting packet 802
+TRACE_CASE_3: Timeout. Retransmitting packet 804
+TRACE_CASE_3: Timeout. Retransmitting packet 804
+TRACE_CASE_3: Timeout. Retransmitting packet 804
+TRACE_CASE_3: Timeout. Retransmitting packet 806
+TRACE_CASE_3: Timeout. Retransmitting packet 806
+TRACE_CASE_3: Timeout. Retransmitting packet 807
+TRACE_CASE_3: Timeout. Retransmitting packet 808
+TRACE_CASE_3: Timeout. Retransmitting packet 808
+TRACE_CASE_3: Timeout. Retransmitting packet 808
+TRACE_CASE_3: Timeout. Retransmitting packet 808
+TRACE_CASE_3: Timeout. Retransmitting packet 808
+TRACE_CASE_3: Timeout. Retransmitting packet 809
+TRACE_CASE_3: Timeout. Retransmitting packet 809
+TRACE_CASE_3: Timeout. Retransmitting packet 809
+TRACE_CASE_3: Timeout. Retransmitting packet 809
+TRACE_CASE_3: Timeout. Retransmitting packet 810
+TRACE_CASE_3: Timeout. Retransmitting packet 813
+TRACE_CASE_3: Timeout. Retransmitting packet 813
+TRACE_CASE_3: Timeout. Retransmitting packet 814
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 815
+TRACE_CASE_2: Cumulative ACK 15 moved window by 2 (from 814 to 816)
+TRACE_CASE_3: Timeout. Retransmitting packet 816
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 817
+TRACE_CASE_3: Timeout. Retransmitting packet 818
+TRACE_CASE_3: Timeout. Retransmitting packet 819
+TRACE_CASE_3: Timeout. Retransmitting packet 819
+TRACE_CASE_2: Cumulative ACK 4 moved window by 2 (from 819 to 821)
+TRACE_CASE_3: Timeout. Retransmitting packet 821
+TRACE_CASE_3: Timeout. Retransmitting packet 821
+TRACE_CASE_3: Timeout. Retransmitting packet 821
+TRACE_CASE_3: Timeout. Retransmitting packet 821
+TRACE_CASE_3: Timeout. Retransmitting packet 821
+TRACE_CASE_3: Timeout. Retransmitting packet 821
+TRACE_CASE_3: Timeout. Retransmitting packet 822
+TRACE_CASE_3: Timeout. Retransmitting packet 822
+TRACE_CASE_3: Timeout. Retransmitting packet 824
+TRACE_CASE_3: Timeout. Retransmitting packet 824
+TRACE_CASE_3: Timeout. Retransmitting packet 825
+TRACE_CASE_3: Timeout. Retransmitting packet 825
+TRACE_CASE_3: Timeout. Retransmitting packet 825
+TRACE_CASE_3: Timeout. Retransmitting packet 826
+TRACE_CASE_3: Timeout. Retransmitting packet 826
+TRACE_CASE_3: Timeout. Retransmitting packet 829
+TRACE_CASE_3: Timeout. Retransmitting packet 830
+TRACE_CASE_3: Timeout. Retransmitting packet 830
+TRACE_CASE_3: Timeout. Retransmitting packet 830
+TRACE_CASE_3: Timeout. Retransmitting packet 830
+TRACE_CASE_3: Timeout. Retransmitting packet 830
+TRACE_CASE_3: Timeout. Retransmitting packet 830
+TRACE_CASE_3: Timeout. Retransmitting packet 831
+TRACE_CASE_3: Timeout. Retransmitting packet 831
+TRACE_CASE_3: Timeout. Retransmitting packet 831
+TRACE_CASE_3: Timeout. Retransmitting packet 832
+TRACE_CASE_3: Timeout. Retransmitting packet 832
+TRACE_CASE_3: Timeout. Retransmitting packet 832
+TRACE_CASE_3: Timeout. Retransmitting packet 832
+TRACE_CASE_3: Timeout. Retransmitting packet 832
+TRACE_CASE_3: Timeout. Retransmitting packet 837
+TRACE_CASE_3: Timeout. Retransmitting packet 841
+TRACE_CASE_3: Timeout. Retransmitting packet 843
+TRACE_CASE_3: Timeout. Retransmitting packet 843
+TRACE_CASE_3: Timeout. Retransmitting packet 843
+TRACE_CASE_3: Timeout. Retransmitting packet 843
+TRACE_CASE_3: Timeout. Retransmitting packet 843
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 843 to 845)
+TRACE_CASE_3: Timeout. Retransmitting packet 846
+TRACE_CASE_3: Timeout. Retransmitting packet 851
+TRACE_CASE_3: Timeout. Retransmitting packet 852
+TRACE_CASE_3: Timeout. Retransmitting packet 853
+TRACE_CASE_3: Timeout. Retransmitting packet 853
+TRACE_CASE_3: Timeout. Retransmitting packet 854
+TRACE_CASE_3: Timeout. Retransmitting packet 856
+TRACE_CASE_3: Timeout. Retransmitting packet 856
+TRACE_CASE_3: Timeout. Retransmitting packet 856
+TRACE_CASE_3: Timeout. Retransmitting packet 857
+TRACE_CASE_3: Timeout. Retransmitting packet 858
+TRACE_CASE_3: Timeout. Retransmitting packet 859
+TRACE_CASE_3: Timeout. Retransmitting packet 860
+TRACE_CASE_3: Timeout. Retransmitting packet 861
+TRACE_CASE_3: Timeout. Retransmitting packet 861
+TRACE_CASE_3: Timeout. Retransmitting packet 861
+TRACE_CASE_3: Timeout. Retransmitting packet 861
+TRACE_CASE_3: Timeout. Retransmitting packet 861
+TRACE_CASE_3: Timeout. Retransmitting packet 862
+TRACE_CASE_3: Timeout. Retransmitting packet 863
+TRACE_CASE_3: Timeout. Retransmitting packet 863
+TRACE_CASE_3: Timeout. Retransmitting packet 866
+TRACE_CASE_3: Timeout. Retransmitting packet 866
+TRACE_CASE_3: Timeout. Retransmitting packet 866
+TRACE_CASE_3: Timeout. Retransmitting packet 867
+TRACE_CASE_3: Timeout. Retransmitting packet 868
+TRACE_CASE_3: Timeout. Retransmitting packet 868
+TRACE_CASE_3: Timeout. Retransmitting packet 868
+TRACE_CASE_3: Timeout. Retransmitting packet 869
+TRACE_CASE_3: Timeout. Retransmitting packet 869
+TRACE_CASE_3: Timeout. Retransmitting packet 869
+TRACE_CASE_3: Timeout. Retransmitting packet 873
+TRACE_CASE_3: Timeout. Retransmitting packet 875
+TRACE_CASE_3: Timeout. Retransmitting packet 875
+TRACE_CASE_3: Timeout. Retransmitting packet 875
+TRACE_CASE_3: Timeout. Retransmitting packet 875
+TRACE_CASE_3: Timeout. Retransmitting packet 876
+TRACE_CASE_3: Timeout. Retransmitting packet 876
+TRACE_CASE_3: Timeout. Retransmitting packet 876
+TRACE_CASE_3: Timeout. Retransmitting packet 877
+TRACE_CASE_3: Timeout. Retransmitting packet 877
+TRACE_CASE_3: Timeout. Retransmitting packet 877
+TRACE_CASE_3: Timeout. Retransmitting packet 880
+TRACE_CASE_3: Timeout. Retransmitting packet 881
+TRACE_CASE_3: Timeout. Retransmitting packet 882
+TRACE_CASE_3: Timeout. Retransmitting packet 883
+TRACE_CASE_3: Timeout. Retransmitting packet 885
+TRACE_CASE_3: Timeout. Retransmitting packet 885
+TRACE_CASE_3: Timeout. Retransmitting packet 885
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 885 to 887)
+TRACE_CASE_3: Timeout. Retransmitting packet 887
+TRACE_CASE_3: Timeout. Retransmitting packet 887
+TRACE_CASE_3: Timeout. Retransmitting packet 889
+TRACE_CASE_3: Timeout. Retransmitting packet 890
+TRACE_CASE_3: Timeout. Retransmitting packet 891
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 892
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 891 to 893)
+TRACE_CASE_3: Timeout. Retransmitting packet 893
+TRACE_CASE_3: Timeout. Retransmitting packet 893
+TRACE_CASE_3: Timeout. Retransmitting packet 893
+TRACE_CASE_3: Timeout. Retransmitting packet 894
+TRACE_CASE_3: Timeout. Retransmitting packet 895
+TRACE_CASE_3: Timeout. Retransmitting packet 895
+TRACE_CASE_3: Timeout. Retransmitting packet 896
+TRACE_CASE_3: Timeout. Retransmitting packet 900
+TRACE_CASE_3: Timeout. Retransmitting packet 900
+TRACE_CASE_3: Timeout. Retransmitting packet 900
+TRACE_CASE_3: Timeout. Retransmitting packet 900
+TRACE_CASE_3: Timeout. Retransmitting packet 901
+TRACE_CASE_3: Timeout. Retransmitting packet 901
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 902
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 901 to 903)
+TRACE_CASE_3: Timeout. Retransmitting packet 903
+TRACE_CASE_3: Timeout. Retransmitting packet 903
+TRACE_CASE_3: Timeout. Retransmitting packet 904
+TRACE_CASE_3: Timeout. Retransmitting packet 904
+TRACE_CASE_3: Timeout. Retransmitting packet 905
+TRACE_CASE_3: Timeout. Retransmitting packet 905
+TRACE_CASE_3: Timeout. Retransmitting packet 905
+TRACE_CASE_3: Timeout. Retransmitting packet 905
+TRACE_CASE_3: Timeout. Retransmitting packet 905
+TRACE_CASE_3: Timeout. Retransmitting packet 905
+TRACE_CASE_3: Timeout. Retransmitting packet 906
+TRACE_CASE_3: Timeout. Retransmitting packet 909
+TRACE_CASE_3: Timeout. Retransmitting packet 911
+TRACE_CASE_3: Timeout. Retransmitting packet 911
+TRACE_CASE_3: Timeout. Retransmitting packet 911
+TRACE_CASE_3: Timeout. Retransmitting packet 911
+TRACE_CASE_3: Timeout. Retransmitting packet 911
+TRACE_CASE_3: Timeout. Retransmitting packet 911
+TRACE_CASE_3: Timeout. Retransmitting packet 911
+TRACE_CASE_3: Timeout. Retransmitting packet 912
+TRACE_CASE_3: Timeout. Retransmitting packet 912
+TRACE_CASE_3: Timeout. Retransmitting packet 913
+TRACE_CASE_3: Timeout. Retransmitting packet 913
+TRACE_CASE_3: Timeout. Retransmitting packet 913
+TRACE_CASE_3: Timeout. Retransmitting packet 914
+TRACE_CASE_3: Timeout. Retransmitting packet 915
+TRACE_CASE_3: Timeout. Retransmitting packet 917
+TRACE_CASE_3: Timeout. Retransmitting packet 919
+TRACE_CASE_3: Timeout. Retransmitting packet 919
+TRACE_CASE_3: Timeout. Retransmitting packet 919
+TRACE_CASE_3: Timeout. Retransmitting packet 919
+TRACE_CASE_3: Timeout. Retransmitting packet 920
+TRACE_CASE_2: Cumulative ACK 9 moved window by 2 (from 920 to 922)
+TRACE_CASE_3: Timeout. Retransmitting packet 922
+TRACE_CASE_3: Timeout. Retransmitting packet 922
+TRACE_CASE_3: Timeout. Retransmitting packet 923
+TRACE_CASE_3: Timeout. Retransmitting packet 923
+TRACE_CASE_3: Timeout. Retransmitting packet 925
+TRACE_CASE_3: Timeout. Retransmitting packet 925
+TRACE_CASE_3: Timeout. Retransmitting packet 925
+TRACE_CASE_2: Cumulative ACK 14 moved window by 2 (from 925 to 927)
+TRACE_CASE_3: Timeout. Retransmitting packet 927
+TRACE_CASE_3: Timeout. Retransmitting packet 927
+TRACE_CASE_3: Timeout. Retransmitting packet 929
+TRACE_CASE_3: Timeout. Retransmitting packet 929
+TRACE_CASE_3: Timeout. Retransmitting packet 930
+TRACE_CASE_3: Timeout. Retransmitting packet 930
+TRACE_CASE_3: Timeout. Retransmitting packet 931
+TRACE_CASE_3: Timeout. Retransmitting packet 931
+TRACE_CASE_3: Timeout. Retransmitting packet 931
+TRACE_CASE_3: Timeout. Retransmitting packet 932
+TRACE_CASE_3: Timeout. Retransmitting packet 932
+TRACE_CASE_3: Timeout. Retransmitting packet 933
+TRACE_CASE_3: Timeout. Retransmitting packet 933
+TRACE_CASE_3: Timeout. Retransmitting packet 934
+TRACE_CASE_3: Timeout. Retransmitting packet 935
+TRACE_CASE_3: Timeout. Retransmitting packet 936
+TRACE_CASE_3: Timeout. Retransmitting packet 936
+TRACE_CASE_3: Timeout. Retransmitting packet 936
+TRACE_CASE_3: Timeout. Retransmitting packet 936
+TRACE_CASE_3: Timeout. Retransmitting packet 938
+TRACE_CASE_3: Timeout. Retransmitting packet 938
+TRACE_CASE_3: Timeout. Retransmitting packet 938
+TRACE_CASE_3: Timeout. Retransmitting packet 939
+TRACE_CASE_3: Timeout. Retransmitting packet 939
+TRACE_CASE_3: Timeout. Retransmitting packet 944
+TRACE_CASE_3: Timeout. Retransmitting packet 944
+TRACE_CASE_3: Timeout. Retransmitting packet 945
+TRACE_CASE_3: Timeout. Retransmitting packet 946
+TRACE_CASE_3: Timeout. Retransmitting packet 947
+TRACE_CASE_3: Timeout. Retransmitting packet 947
+TRACE_CASE_3: Timeout. Retransmitting packet 948
+TRACE_CASE_3: Timeout. Retransmitting packet 948
+TRACE_CASE_3: Timeout. Retransmitting packet 948
+TRACE_CASE_3: Timeout. Retransmitting packet 948
+TRACE_CASE_3: Timeout. Retransmitting packet 949
+TRACE_CASE_3: Timeout. Retransmitting packet 949
+TRACE_CASE_3: Timeout. Retransmitting packet 949
+TRACE_CASE_3: Timeout. Retransmitting packet 949
+TRACE_CASE_3: Timeout. Retransmitting packet 949
+TRACE_CASE_3: Timeout. Retransmitting packet 949
+TRACE_CASE_2: Cumulative ACK 6 moved window by 2 (from 949 to 951)
+TRACE_CASE_3: Timeout. Retransmitting packet 951
+TRACE_CASE_3: Timeout. Retransmitting packet 951
+TRACE_CASE_3: Timeout. Retransmitting packet 951
+TRACE_CASE_3: Timeout. Retransmitting packet 951
+TRACE_CASE_3: Timeout. Retransmitting packet 951
+TRACE_CASE_3: Timeout. Retransmitting packet 953
+TRACE_CASE_3: Timeout. Retransmitting packet 953
+TRACE_CASE_3: Timeout. Retransmitting packet 953
+TRACE_CASE_3: Timeout. Retransmitting packet 953
+TRACE_CASE_3: Timeout. Retransmitting packet 953
+TRACE_CASE_3: Timeout. Retransmitting packet 954
+TRACE_CASE_3: Timeout. Retransmitting packet 955
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 956
+TRACE_CASE_2: Cumulative ACK 12 moved window by 2 (from 955 to 957)
+TRACE_CASE_3: Timeout. Retransmitting packet 957
+TRACE_CASE_3: Timeout. Retransmitting packet 957
+TRACE_CASE_3: Timeout. Retransmitting packet 960
+TRACE_CASE_3: Timeout. Retransmitting packet 960
+TRACE_CASE_3: Timeout. Retransmitting packet 961
+TRACE_CASE_3: Timeout. Retransmitting packet 963
+TRACE_CASE_3: Timeout. Retransmitting packet 963
+TRACE_CASE_3: Timeout. Retransmitting packet 963
+TRACE_CASE_3: Timeout. Retransmitting packet 966
+TRACE_CASE_3: Timeout. Retransmitting packet 968
+TRACE_CASE_3: Timeout. Retransmitting packet 969
+TRACE_CASE_3: Timeout. Retransmitting packet 969
+TRACE_CASE_3: Timeout. Retransmitting packet 969
+TRACE_CASE_3: Timeout. Retransmitting packet 969
+TRACE_CASE_3: Timeout. Retransmitting packet 969
+TRACE_CASE_3: Timeout. Retransmitting packet 971
+TRACE_CASE_3: Timeout. Retransmitting packet 972
+TRACE_CASE_3: Timeout. Retransmitting packet 972
+TRACE_CASE_3: Timeout. Retransmitting packet 974
+TRACE_CASE_3: Timeout. Retransmitting packet 976
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 977
+TRACE_CASE_2: Cumulative ACK 1 moved window by 2 (from 976 to 978)
+TRACE_CASE_3: Timeout. Retransmitting packet 978
+TRACE_CASE_3: Timeout. Retransmitting packet 978
+TRACE_CASE_3: Timeout. Retransmitting packet 979
+TRACE_CASE_3: Timeout. Retransmitting packet 980
+TRACE_CASE_3: Timeout. Retransmitting packet 980
+TRACE_CASE_3: Timeout. Retransmitting packet 980
+TRACE_CASE_5: Delivered buffered packets. Cumulative ACK sent for 981
+TRACE_CASE_2: Cumulative ACK 5 moved window by 2 (from 980 to 982)
+TRACE_CASE_3: Timeout. Retransmitting packet 982
+TRACE_CASE_3: Timeout. Retransmitting packet 983
+TRACE_CASE_3: Timeout. Retransmitting packet 983
+TRACE_CASE_3: Timeout. Retransmitting packet 983
+TRACE_CASE_2: Cumulative ACK 9 moved window by 3 (from 983 to 986)
+TRACE_CASE_3: Timeout. Retransmitting packet 987
+TRACE_CASE_3: Timeout. Retransmitting packet 987
+TRACE_CASE_3: Timeout. Retransmitting packet 989
+TRACE_CASE_3: Timeout. Retransmitting packet 991
+TRACE_CASE_3: Timeout. Retransmitting packet 991
+TRACE_CASE_3: Timeout. Retransmitting packet 993
+TRACE_CASE_3: Timeout. Retransmitting packet 993
+TRACE_CASE_3: Timeout. Retransmitting packet 995
+TRACE_CASE_3: Timeout. Retransmitting packet 995
+TRACE_CASE_3: Timeout. Retransmitting packet 995
+TRACE_CASE_3: Timeout. Retransmitting packet 995
+TRACE_CASE_3: Timeout. Retransmitting packet 996
+TRACE_CASE_3: Timeout. Retransmitting packet 996
+TRACE_CASE_3: Timeout. Retransmitting packet 997
+TRACE_CASE_3: Timeout. Retransmitting packet 997
+TRACE_CASE_3: Timeout. Retransmitting packet 997
+TRACE_CASE_3: Timeout. Retransmitting packet 997
+TRACE_CASE_3: Timeout. Retransmitting packet 997
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+TRACE_CASE_3: Timeout. Retransmitting packet 999
+Simulator terminated at time 202481.9971312603
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 1000
+Number of retransmissions by A: 1343
+Number of data packets delivered to layer 5 at B: 1000
+Number of ACK packets sent by B: 1500
+Number of corrupted packets: 599
+Ratio of lost packets: 0.19359875097580015
+Ratio of corrupted packets: 0.19328815747015166
+Average RTT: 19.318188392888267
+Average communication time: 58.17879912717053
+==================================================

@@ -1,0 +1,619 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ javac PA2_helper/PA2-Java/*.java
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 100
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 1091
+Simulator terminated at time 9562.645344401377
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 100
+Number of retransmissions by A: 0
+Number of data packets delivered to layer 5 at B: 100
+Number of ACK packets sent by B: 100
+Number of corrupted packets: 0
+Ratio of lost packets: 0.0
+Ratio of corrupted packets: 0.0
+Average RTT: 11.135731376079516
+Average communication time: 11.135731376079516
+==================================================
+
+
+
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ javac PA2_helper/PA2-Java/*.java
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 100
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 15
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 1201
+TRACE_CASE_3: Timeout. Retransmitting packet 1
+TRACE_CASE_3: Timeout. Retransmitting packet 5
+TRACE_CASE_3: Timeout. Retransmitting packet 7
+TRACE_CASE_3: Timeout. Retransmitting packet 9
+TRACE_CASE_3: Timeout. Retransmitting packet 10
+TRACE_CASE_3: Timeout. Retransmitting packet 11
+TRACE_CASE_3: Timeout. Retransmitting packet 12
+TRACE_CASE_3: Timeout. Retransmitting packet 13
+TRACE_CASE_3: Timeout. Retransmitting packet 13
+TRACE_CASE_3: Timeout. Retransmitting packet 14
+TRACE_CASE_3: Timeout. Retransmitting packet 14
+TRACE_CASE_3: Timeout. Retransmitting packet 15
+TRACE_CASE_3: Timeout. Retransmitting packet 15
+TRACE_CASE_3: Timeout. Retransmitting packet 15
+TRACE_CASE_3: Timeout. Retransmitting packet 16
+TRACE_CASE_3: Timeout. Retransmitting packet 16
+TRACE_CASE_3: Timeout. Retransmitting packet 16
+TRACE_CASE_3: Timeout. Retransmitting packet 16
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+TRACE_CASE_3: Timeout. Retransmitting packet 17
+TRACE_CASE_3: Timeout. Retransmitting packet 18
+TRACE_CASE_3: Timeout. Retransmitting packet 18
+TRACE_CASE_3: Timeout. Retransmitting packet 18
+TRACE_CASE_3: Timeout. Retransmitting packet 18
+TRACE_CASE_3: Timeout. Retransmitting packet 19
+TRACE_CASE_3: Timeout. Retransmitting packet 19
+TRACE_CASE_3: Timeout. Retransmitting packet 19
+TRACE_CASE_3: Timeout. Retransmitting packet 20
+TRACE_CASE_3: Timeout. Retransmitting packet 20
+TRACE_CASE_3: Timeout. Retransmitting packet 20
+TRACE_CASE_3: Timeout. Retransmitting packet 20
+TRACE_CASE_3: Timeout. Retransmitting packet 20
+TRACE_CASE_3: Timeout. Retransmitting packet 20
+TRACE_CASE_3: Timeout. Retransmitting packet 20
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+TRACE_CASE_3: Timeout. Retransmitting packet 21
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 22
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 23
+TRACE_CASE_3: Timeout. Retransmitting packet 24
+TRACE_CASE_3: Timeout. Retransmitting packet 24
+TRACE_CASE_3: Timeout. Retransmitting packet 24
+TRACE_CASE_3: Timeout. Retransmitting packet 24
+TRACE_CASE_3: Timeout. Retransmitting packet 24
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 25
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 26
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 27
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 28
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 29
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 30
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 31
+TRACE_CASE_3: Timeout. Retransmitting packet 32
+TRACE_CASE_3: Timeout. Retransmitting packet 32
+TRACE_CASE_3: Timeout. Retransmitting packet 32
+TRACE_CASE_3: Timeout. Retransmitting packet 32
+TRACE_CASE_3: Timeout. Retransmitting packet 32
+TRACE_CASE_3: Timeout. Retransmitting packet 33
+TRACE_CASE_3: Timeout. Retransmitting packet 33
+TRACE_CASE_3: Timeout. Retransmitting packet 35
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+TRACE_CASE_3: Timeout. Retransmitting packet 36
+TRACE_CASE_3: Timeout. Retransmitting packet 37
+TRACE_CASE_3: Timeout. Retransmitting packet 37
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 38
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 39
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 40
+TRACE_CASE_3: Timeout. Retransmitting packet 41
+TRACE_CASE_3: Timeout. Retransmitting packet 41
+TRACE_CASE_3: Timeout. Retransmitting packet 41
+TRACE_CASE_3: Timeout. Retransmitting packet 42
+TRACE_CASE_3: Timeout. Retransmitting packet 42
+TRACE_CASE_3: Timeout. Retransmitting packet 42
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+TRACE_CASE_3: Timeout. Retransmitting packet 43
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 44
+TRACE_CASE_3: Timeout. Retransmitting packet 45
+TRACE_CASE_3: Timeout. Retransmitting packet 45
+TRACE_CASE_3: Timeout. Retransmitting packet 45
+TRACE_CASE_3: Timeout. Retransmitting packet 45
+TRACE_CASE_3: Timeout. Retransmitting packet 45
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 46
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 47
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 49
+TRACE_CASE_3: Timeout. Retransmitting packet 49
+TRACE_CASE_3: Timeout. Retransmitting packet 49
+TRACE_CASE_3: Timeout. Retransmitting packet 50
+TRACE_CASE_3: Timeout. Retransmitting packet 50
+TRACE_CASE_3: Timeout. Retransmitting packet 50
+TRACE_CASE_3: Timeout. Retransmitting packet 51
+TRACE_CASE_3: Timeout. Retransmitting packet 51
+TRACE_CASE_3: Timeout. Retransmitting packet 51
+TRACE_CASE_3: Timeout. Retransmitting packet 51
+TRACE_CASE_3: Timeout. Retransmitting packet 52
+TRACE_CASE_3: Timeout. Retransmitting packet 52
+TRACE_CASE_3: Timeout. Retransmitting packet 52
+TRACE_CASE_3: Timeout. Retransmitting packet 52
+TRACE_CASE_3: Timeout. Retransmitting packet 52
+TRACE_CASE_3: Timeout. Retransmitting packet 52
+TRACE_CASE_3: Timeout. Retransmitting packet 53
+TRACE_CASE_3: Timeout. Retransmitting packet 53
+TRACE_CASE_3: Timeout. Retransmitting packet 53
+TRACE_CASE_3: Timeout. Retransmitting packet 53
+TRACE_CASE_3: Timeout. Retransmitting packet 53
+TRACE_CASE_3: Timeout. Retransmitting packet 53
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 54
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_3: Timeout. Retransmitting packet 56
+TRACE_CASE_3: Timeout. Retransmitting packet 56
+TRACE_CASE_3: Timeout. Retransmitting packet 56
+TRACE_CASE_3: Timeout. Retransmitting packet 56
+TRACE_CASE_3: Timeout. Retransmitting packet 56
+TRACE_CASE_3: Timeout. Retransmitting packet 56
+TRACE_CASE_3: Timeout. Retransmitting packet 56
+TRACE_CASE_3: Timeout. Retransmitting packet 56
+TRACE_CASE_3: Timeout. Retransmitting packet 57
+TRACE_CASE_3: Timeout. Retransmitting packet 57
+TRACE_CASE_3: Timeout. Retransmitting packet 57
+TRACE_CASE_3: Timeout. Retransmitting packet 58
+TRACE_CASE_3: Timeout. Retransmitting packet 58
+TRACE_CASE_3: Timeout. Retransmitting packet 58
+TRACE_CASE_3: Timeout. Retransmitting packet 58
+TRACE_CASE_3: Timeout. Retransmitting packet 59
+TRACE_CASE_3: Timeout. Retransmitting packet 59
+TRACE_CASE_3: Timeout. Retransmitting packet 59
+TRACE_CASE_3: Timeout. Retransmitting packet 59
+TRACE_CASE_3: Timeout. Retransmitting packet 59
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+TRACE_CASE_3: Timeout. Retransmitting packet 60
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 61
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 62
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 63
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 64
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 66
+TRACE_CASE_3: Timeout. Retransmitting packet 66
+TRACE_CASE_3: Timeout. Retransmitting packet 66
+TRACE_CASE_3: Timeout. Retransmitting packet 66
+TRACE_CASE_3: Timeout. Retransmitting packet 66
+TRACE_CASE_3: Timeout. Retransmitting packet 67
+TRACE_CASE_3: Timeout. Retransmitting packet 67
+TRACE_CASE_3: Timeout. Retransmitting packet 67
+TRACE_CASE_3: Timeout. Retransmitting packet 67
+TRACE_CASE_3: Timeout. Retransmitting packet 67
+TRACE_CASE_3: Timeout. Retransmitting packet 67
+TRACE_CASE_3: Timeout. Retransmitting packet 67
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 68
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 69
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 70
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+TRACE_CASE_3: Timeout. Retransmitting packet 71
+Simulator terminated at time 10054.664754173404
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 79
+Number of retransmissions by A: 1935
+Number of data packets delivered to layer 5 at B: 71
+Number of ACK packets sent by B: 1611
+Number of corrupted packets: 0
+Ratio of lost packets: 0.5337931034482759
+Ratio of corrupted packets: 0.0
+Average RTT: 96.42920359769607
+Average communication time: 602.5406564574369
+==================================================
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 100
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 1010
+Simulator terminated at time 9598.461867122414
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 100
+Number of retransmissions by A: 0
+Number of data packets delivered to layer 5 at B: 100
+Number of ACK packets sent by B: 100
+Number of corrupted packets: 0
+Ratio of lost packets: 0.0
+Ratio of corrupted packets: 0.0
+Average RTT: 10.149599291970594
+Average communication time: 10.149599291970594
+==================================================
+
+
+
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 10
+Enter packet loss probability (0.0 for no loss): [0.0] 0
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 1000
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 15
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 0
+Enter random seed: [0] 291
+TRACE_CASE_3: Timeout. Retransmitting packet 4
+TRACE_CASE_3: Timeout. Retransmitting packet 5
+TRACE_CASE_3: Timeout. Retransmitting packet 6
+Simulator terminated at time 11705.618457594532
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 10
+Number of retransmissions by A: 3
+Number of data packets delivered to layer 5 at B: 10
+Number of ACK packets sent by B: 13
+Number of corrupted packets: 0
+Ratio of lost packets: 0.11538461538461539
+Ratio of corrupted packets: 0.0
+Average RTT: 10.904298314070404
+Average communication time: 12.52475661488702
+==================================================

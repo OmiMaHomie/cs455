@@ -1,0 +1,108 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 10
+Enter packet loss probability (0.0 for no loss): [0.0] 0.1
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.1
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 1000
+Enter window size (> 0): [8] 1
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 3
+Enter random seed: [0] 1048
+generateNextArrival(): called
+generateNextArrival(): time is 0.0
+generateNextArrival(): future time for event 1 at entity 0 will be 1.0596636860255746
+
+EVENT time: 1.0596636860255746  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1.0596636860255746
+generateNextArrival(): future time for event 1 at entity 0 will be 1.5208594012268442
+toLayer3: seqnum: 0  acknum: -1  checksum: 1939  payload: aaaaaaaaaaaaaaaaaaaa
+toLayer3: packet being lost
+startTimer: starting timer at 1.0596636860255746
+
+EVENT time: 1.5208594012268442  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1.5208594012268442
+generateNextArrival(): future time for event 1 at entity 0 will be 2.17322305978576
+toLayer3: seqnum: 1  acknum: -1  checksum: 1960  payload: bbbbbbbbbbbbbbbbbbbb
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 2.17322305978576  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 2.17322305978576
+generateNextArrival(): future time for event 1 at entity 0 will be 3.1886959440900906
+toLayer3: seqnum: 2  acknum: -1  checksum: 1981  payload: cccccccccccccccccccc
+toLayer3: scheduling arrival on other side
+
+EVENT time: 3.1886959440900906  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 3.1886959440900906
+generateNextArrival(): future time for event 1 at entity 0 will be 3.8436231574449904
+toLayer3: seqnum: 3  acknum: -1  checksum: 2002  payload: dddddddddddddddddddd
+toLayer3: scheduling arrival on other side
+
+EVENT time: 3.8436231574449904  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 3.8436231574449904
+generateNextArrival(): future time for event 1 at entity 0 will be 4.096011230811487
+toLayer3: seqnum: 4  acknum: -1  checksum: 2023  payload: eeeeeeeeeeeeeeeeeeee
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 4.096011230811487  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 4.096011230811487
+generateNextArrival(): future time for event 1 at entity 0 will be 4.611224707785272
+toLayer3: seqnum: 5  acknum: -1  checksum: 2044  payload: ffffffffffffffffffff
+toLayer3: scheduling arrival on other side
+
+EVENT time: 4.611224707785272  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 4.611224707785272
+generateNextArrival(): future time for event 1 at entity 0 will be 5.633167516098514
+toLayer3: seqnum: 6  acknum: -1  checksum: 2065  payload: gggggggggggggggggggg
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 5.633167516098514  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 5.633167516098514
+generateNextArrival(): future time for event 1 at entity 0 will be 5.993041779839473
+toLayer3: seqnum: 7  acknum: -1  checksum: 2086  payload: hhhhhhhhhhhhhhhhhhhh
+toLayer3: scheduling arrival on other side
+
+EVENT time: 5.993041779839473  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 5.993041779839473
+generateNextArrival(): future time for event 1 at entity 0 will be 7.946043275246437
+toLayer3: seqnum: 8  acknum: -1  checksum: 2107  payload: iiiiiiiiiiiiiiiiiiii
+toLayer3: scheduling arrival on other side
+
+EVENT time: 7.538743247779779  type: 2  entity: 1
+
+EVENT time: 7.946043275246437  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 7.946043275246437
+generateNextArrival(): future time for event 1 at entity 0 will be 8.260383922849208
+toLayer3: seqnum: 9  acknum: -1  checksum: 2128  payload: jjjjjjjjjjjjjjjjjjjj
+toLayer3: scheduling arrival on other side
+
+EVENT time: 8.260383922849208  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 8.260383922849208
+generateNextArrival(): future time for event 1 at entity 0 will be 10.185857722708823
+Simulator terminated at time 8.260383922849208
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 10
+Number of retransmissions by A: 0
+Number of data packets delivered to layer 5 at B: 0
+Number of ACK packets sent by B: 0
+Number of corrupted packets: 1
+Ratio of lost packets: 0.0
+Ratio of corrupted packets: 0.09090909090909091
+Average RTT: 0.0
+Average communication time: 0.0
+==================================================

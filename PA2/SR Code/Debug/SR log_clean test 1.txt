@@ -1,0 +1,1548 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ javac PA2_helper/PA2-Java/*.java
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/PA2-Java/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0.0
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.0
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 100
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 15
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 9271
+TRACE_CASE_3: Timeout. Retransmitting packet 4
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 5
+TRACE_CASE_3: Timeout. Retransmitting packet 9
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 10
+stopTimer: Warning: Unable to cancel your timer
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 10
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 11
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 11
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 11
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 11
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 11
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_3: Timeout. Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 13
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_3: Timeout. Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 14
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 15
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 16
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 17
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 17
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 17
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 18
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 19
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 19
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 19
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 20
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 20
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 20
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 20
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 20
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 20
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 20
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 21
+stopTimer: Warning: Unable to cancel your timer
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 21
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 21
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 21
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 22
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 23
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 24
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 25
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 26
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 26
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 26
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 26
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 26
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 26
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 26
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 26
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 26
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 27
+stopTimer: Warning: Unable to cancel your timer
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 27
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 27
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 27
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 28
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 29
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 30
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 31
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 32
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 33
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 33
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 33
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 33
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 33
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 33
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 33
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 34
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 35
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 36
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 37
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 38
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 39
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 40
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 41
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 42
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 42
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 42
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 42
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 42
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 42
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 42
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 42
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 43
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 43
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 44
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 44
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 44
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 44
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 44
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 44
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 45
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 46
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 47
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_3: Timeout. Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 48
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 49
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 50
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_3: Timeout. Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 51
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 52
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 53
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 54
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 54
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 54
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_3: Timeout. Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 55
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 56
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 57
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 58
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 59
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 59
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 60
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 60
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 60
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 60
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 60
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 60
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 60
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 60
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 61
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 61
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 61
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 61
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 61
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 62
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 63
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 64
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_3: Timeout. Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 65
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 66
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 67
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 68
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 69
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 70
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 71
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 72
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 73
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 74
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 74
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 74
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 75
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 76
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 77
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 78
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 79
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 80
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 80
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 80
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 80
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 81
+TRACE_CASE_3: Timeout. Retransmitting packet 81
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 1 received. Fast Retransmitting packet 82
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_3: Timeout. Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 2 received. Fast Retransmitting packet 83
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 3 received. Fast Retransmitting packet 84
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 85
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 85
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 85
+TRACE_CASE_4: Duplicate ACK 4 received. Fast Retransmitting packet 85
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 86
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 86
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 86
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 86
+TRACE_CASE_4: Duplicate ACK 5 received. Fast Retransmitting packet 86
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+TRACE_CASE_4: Duplicate ACK 6 received. Fast Retransmitting packet 87
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 88
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 88
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 88
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 88
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 88
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 88
+TRACE_CASE_4: Duplicate ACK 7 received. Fast Retransmitting packet 88
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 8 received. Fast Retransmitting packet 89
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 9 received. Fast Retransmitting packet 90
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 91
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 91
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 91
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 91
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 91
+TRACE_CASE_4: Duplicate ACK 10 received. Fast Retransmitting packet 91
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 11 received. Fast Retransmitting packet 92
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 12 received. Fast Retransmitting packet 93
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 13 received. Fast Retransmitting packet 94
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 95
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 95
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 95
+TRACE_CASE_4: Duplicate ACK 14 received. Fast Retransmitting packet 95
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 15 received. Fast Retransmitting packet 96
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+stopTimer: Warning: Unable to cancel your timer
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+startTimer: Warning: Attempting to start a timer that is already running
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+TRACE_CASE_4: Duplicate ACK 0 received. Fast Retransmitting packet 97
+Simulator terminated at time 9570.36652729881
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 100
+Number of retransmissions by A: 1380
+Number of data packets delivered to layer 5 at B: 99
+Number of ACK packets sent by B: 1474
+Number of corrupted packets: 0
+Ratio of lost packets: 0.46716316858496953
+Ratio of corrupted packets: 0.0
+Average RTT: 10.491802389260192
+Average communication time: 31.734786601678916
+==================================================
