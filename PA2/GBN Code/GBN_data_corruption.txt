@@ -1,0 +1,3061 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/GBN/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.2
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 15
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 3
+Enter random seed: [0] 13428790
+generateNextArrival(): called
+generateNextArrival(): time is 0.0
+generateNextArrival(): future time for event 1 at entity 0 will be 5.1005584887234106
+
+EVENT time: 5.1005584887234106  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 5.1005584887234106
+generateNextArrival(): future time for event 1 at entity 0 will be 22.388988921781063
+toLayer3: seqnum: 0 acknum: -1 checksum: 1939 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+startTimer: starting timer at 5.1005584887234106
+
+EVENT time: 7.880397961363567  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 0 checksum: 59 payload:    sack: [-1,-1,-1,-1,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 14.437726981414228  type: 2  entity: 0
+
+EVENT time: 22.388988921781063  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 22.388988921781063
+generateNextArrival(): future time for event 1 at entity 0 will be 27.260658589434495
+toLayer3: seqnum: 1 acknum: -1 checksum: 1960 payload: bbbbbbbbbbbbbbbbbbbb sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 24.919705801568654  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 0 checksum: 59 payload:    sack: [-1,-1,-1,-1,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 26.79973754081851  type: 2  entity: 0
+stopTimer: stopping timer at 26.79973754081851
+startTimer: starting timer at 26.79973754081851
+
+EVENT time: 27.260658589434495  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 27.260658589434495
+generateNextArrival(): future time for event 1 at entity 0 will be 38.61995300149541
+toLayer3: seqnum: 2 acknum: -1 checksum: 1981 payload: cccccccccccccccccccc sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 34.09814752647481  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 0 checksum: 62 payload:    sack: [-1,-1,-1,0,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 38.61995300149541  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 38.61995300149541
+generateNextArrival(): future time for event 1 at entity 0 will be 67.62749107333599
+toLayer3: seqnum: 3 acknum: -1 checksum: 2002 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 42.16257209997864  type: 2  entity: 0
+
+EVENT time: 42.82366405224769  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 0 checksum: 66 payload:    sack: [-1,-1,0,2,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 46.50660725730156  type: 2  entity: 0
+
+EVENT time: 56.79973754081851  type: 0  entity: 0
+toLayer3: seqnum: 1 acknum: -1 checksum: 1960 payload: bbbbbbbbbbbbbbbbbbbb sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 1981 payload: cccccccccccccccccccc sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2002 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 56.79973754081851
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 56.79973754081851
+
+EVENT time: 63.00659199804682  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 1 checksum: 69 payload:    sack: [-1,0,2,3,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 67.62749107333599  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 67.62749107333599
+generateNextArrival(): future time for event 1 at entity 0 will be 81.86529129917295
+toLayer3: seqnum: 4 acknum: -1 checksum: 2023 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 72.57811212500381  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 73 payload:    sack: [0,2,3,1,2]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 72.97802667317728  type: 2  entity: 0
+stopTimer: stopping timer at 72.97802667317728
+startTimer: starting timer at 72.97802667317728
+
+EVENT time: 74.11371196630756  type: 2  entity: 0
+
+EVENT time: 81.86529129917295  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 81.86529129917295
+generateNextArrival(): future time for event 1 at entity 0 will be 109.79064302499467
+toLayer3: seqnum: 5 acknum: -1 checksum: 2044 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 82.11172826319162  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 77 payload:    sack: [2,3,1,2,3]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 85.9523300881985  type: 2  entity: 0
+
+EVENT time: 91.22675252540665  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 77 payload:    sack: [2,3,1,2,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 98.51332132938627  type: 2  entity: 0
+stopTimer: stopping timer at 98.51332132938627
+startTimer: starting timer at 98.51332132938627
+
+EVENT time: 98.94701986754966  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 77 payload:    sack: [2,3,1,2,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 105.47413556321908  type: 2  entity: 0
+
+EVENT time: 109.79064302499467  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 109.79064302499467
+generateNextArrival(): future time for event 1 at entity 0 will be 111.29581591235085
+toLayer3: seqnum: 6 acknum: -1 checksum: 2065 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 111.29581591235085  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 111.29581591235085
+generateNextArrival(): future time for event 1 at entity 0 will be 121.1627552110355
+toLayer3: seqnum: 7 acknum: -1 checksum: 2086 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 119.63628040406508  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 81 payload:    sack: [3,1,2,3,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 120.69972838526567  type: 2  entity: 0
+
+EVENT time: 121.1627552110355  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 121.1627552110355
+generateNextArrival(): future time for event 1 at entity 0 will be 127.65037995544299
+toLayer3: seqnum: 8 acknum: -1 checksum: 2107 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 121.94067201757868  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 85 payload:    sack: [1,2,3,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 127.65037995544299  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 127.65037995544299
+generateNextArrival(): future time for event 1 at entity 0 will be 143.51237525559253
+toLayer3: seqnum: 9 acknum: -1 checksum: 2128 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 127.89510788293101  type: 2  entity: 0
+
+EVENT time: 128.51332132938626  type: 0  entity: 0
+toLayer3: seqnum: 4 acknum: -1 checksum: 2023 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2044 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2065 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2086 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2107 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2128 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 128.51332132938626
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 128.51332132938626
+
+EVENT time: 131.09579760124518  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 92 payload:    sack: [2,3,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 135.8801538132878  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 92 payload:    sack: [2,3,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 137.07330545976137  type: 2  entity: 0
+
+EVENT time: 143.51237525559253  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 143.51237525559253
+generateNextArrival(): future time for event 1 at entity 0 will be 169.57365642262033
+toLayer3: seqnum: 10 acknum: -1 checksum: 2149 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 144.07257301553395  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 92 payload:    sack: [2,3,6,7,8]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 145.92217780083624  type: 2  entity: 0
+
+EVENT time: 150.09320352793972  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 92 payload:    sack: [2,3,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 155.45442060609764  type: 2  entity: 0
+
+EVENT time: 157.57341227454452  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 96 payload:    sack: [3,6,7,8,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 158.51332132938626  type: 0  entity: 0
+toLayer3: seqnum: 4 acknum: -1 checksum: 2023 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2044 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2065 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2086 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2107 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2128 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2149 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 158.51332132938626
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 158.51332132938626
+
+EVENT time: 163.09118930631433  type: 2  entity: 0
+
+EVENT time: 167.4300363170263  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 100 payload:    sack: [6,7,8,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 167.4698629718925  type: 2  entity: 0
+
+EVENT time: 169.57365642262033  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 169.57365642262033
+generateNextArrival(): future time for event 1 at entity 0 will be 190.3530991546373
+toLayer3: seqnum: 11 acknum: -1 checksum: 2170 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 173.93023468733787  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 102 payload:    sack: [7,8,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 174.53340250862152  type: 2  entity: 0
+
+EVENT time: 175.4630878627888  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 104 payload:    sack: [8,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 177.11685537278365  type: 2  entity: 0
+
+EVENT time: 181.1153904843288  type: 2  entity: 0
+
+EVENT time: 183.64232306894132  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 106 payload:    sack: [6,7,8,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 184.98455763420515  type: 2  entity: 0
+
+EVENT time: 188.51332132938626  type: 0  entity: 0
+toLayer3: seqnum: 4 acknum: -1 checksum: 2023 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2044 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2065 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2086 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2107 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2128 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2149 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2170 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 188.51332132938626
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 188.51332132938626
+
+EVENT time: 190.3530991546373  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 190.3530991546373
+generateNextArrival(): future time for event 1 at entity 0 will be 216.59108249153113
+
+EVENT time: 192.54036072878202  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 105 payload:    sack: [7,8,9,10,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 193.90868861964782  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 104 payload:    sack: [8,9,10,4,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 195.45390179143652  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 104 payload:    sack: [8,9,10,4,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 196.34772789696953  type: 2  entity: 0
+stopTimer: stopping timer at 196.34772789696953
+startTimer: starting timer at 196.34772789696953
+toLayer3: seqnum: 12 acknum: -1 checksum: 2191 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 201.1449934385205  type: 2  entity: 0
+stopTimer: stopping timer at 201.1449934385205
+startTimer: starting timer at 201.1449934385205
+
+EVENT time: 202.8846705526902  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 103 payload:    sack: [9,10,4,5,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 209.0451673940245  type: 2  entity: 0
+
+EVENT time: 210.60136722922456  type: 2  entity: 0
+
+EVENT time: 212.33918271431622  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 102 payload:    sack: [10,4,5,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 215.71422467726674  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 101 payload:    sack: [4,5,7,8,9]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 216.59108249153113  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 216.59108249153113
+generateNextArrival(): future time for event 1 at entity 0 will be 218.59706411938842
+toLayer3: seqnum: 13 acknum: -1 checksum: 2212 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 216.74449903866693  type: 2  entity: 0
+
+EVENT time: 218.59706411938842  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 218.59706411938842
+generateNextArrival(): future time for event 1 at entity 0 will be 243.32163457136755
+
+EVENT time: 218.8794213690603  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 107 payload:    sack: [5,7,8,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 224.1395611438337  type: 2  entity: 0
+
+EVENT time: 225.07556382946254  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 113 payload:    sack: [7,8,9,10,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 228.99774163029875  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 110 payload:    sack: [8,9,10,11,4]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 231.1449934385205  type: 0  entity: 0
+toLayer3: seqnum: 6 acknum: -1 checksum: 2065 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2086 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2107 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2128 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2149 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2170 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2191 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 13 acknum: -1 checksum: 2212 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 231.1449934385205
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 231.1449934385205
+
+EVENT time: 232.288583025605  type: 2  entity: 0
+
+EVENT time: 237.0187688833277  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 107 payload:    sack: [9,10,11,4,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 241.9234290597247  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 6 checksum: 105 payload:    sack: [10,11,4,5,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 242.2526017029328  type: 2  entity: 0
+
+EVENT time: 243.32163457136755  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 243.32163457136755
+generateNextArrival(): future time for event 1 at entity 0 will be 247.6036866359447
+
+EVENT time: 243.74315622424996  type: 2  entity: 0
+
+EVENT time: 244.51182592242193  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 103 payload:    sack: [11,4,5,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 245.99523911252172  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 8 checksum: 101 payload:    sack: [4,5,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 247.6036866359447  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 247.6036866359447
+generateNextArrival(): future time for event 1 at entity 0 will be 275.27359843745234
+
+EVENT time: 253.39597766045102  type: 2  entity: 0
+
+EVENT time: 253.4312265388958  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 107 payload:    sack: [5,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 261.1449934385205  type: 0  entity: 0
+toLayer3: seqnum: 6 acknum: -1 checksum: 2065 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2086 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2107 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2128 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2149 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2170 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2191 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 13 acknum: -1 checksum: 2212 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 261.1449934385205
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 261.1449934385205
+
+EVENT time: 262.4731894894253  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 107 payload:    sack: [5,6,7,8,9]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 262.6557512131107  type: 2  entity: 0
+stopTimer: stopping timer at 262.6557512131107
+startTimer: starting timer at 262.6557512131107
+toLayer3: seqnum: 14 acknum: -1 checksum: 2233 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 265.32380138554026  type: 2  entity: 0
+stopTimer: stopping timer at 265.32380138554026
+startTimer: starting timer at 265.32380138554026
+toLayer3: seqnum: 15 acknum: -1 checksum: 2254 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 269.0162358470412  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 113 payload:    sack: [6,7,8,9,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 270.35041352580333  type: 2  entity: 0
+stopTimer: stopping timer at 270.35041352580333
+startTimer: starting timer at 270.35041352580333
+toLayer3: seqnum: 0 acknum: -1 checksum: 2259 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 275.27359843745234  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 275.27359843745234
+generateNextArrival(): future time for event 1 at entity 0 will be 286.5852839747307
+
+EVENT time: 277.8671529282509  type: 2  entity: 0
+stopTimer: stopping timer at 277.8671529282509
+startTimer: starting timer at 277.8671529282509
+toLayer3: seqnum: 1 acknum: -1 checksum: 2280 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 278.55012665181425  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 119 payload:    sack: [7,8,9,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 283.3233436078981  type: 2  entity: 0
+
+EVENT time: 286.5852839747307  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 286.5852839747307
+generateNextArrival(): future time for event 1 at entity 0 will be 306.45924253059485
+
+EVENT time: 287.79479354228334  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 125 payload:    sack: [8,9,11,12,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 288.94680623798325  type: 2  entity: 0
+
+EVENT time: 288.9700308236945  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 123 payload:    sack: [9,11,12,13,6]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 292.82256538590644  type: 2  entity: 0
+
+EVENT time: 294.32239753410437  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 121 payload:    sack: [11,12,13,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 295.35355693227933  type: 2  entity: 0
+
+EVENT time: 297.77709280678727  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 118 payload:    sack: [12,13,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 299.04226813562417  type: 2  entity: 0
+
+EVENT time: 301.0977507858516  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 115 payload:    sack: [13,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 306.45924253059485  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 306.45924253059485
+generateNextArrival(): future time for event 1 at entity 0 will be 324.8234504226814
+
+EVENT time: 306.4893948179571  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 113 payload:    sack: [6,7,8,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 307.8671529282509  type: 0  entity: 0
+toLayer3: seqnum: 10 acknum: -1 checksum: 2149 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2170 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2191 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 13 acknum: -1 checksum: 2212 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2233 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2254 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2259 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2280 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 307.8671529282509
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 307.8671529282509
+
+EVENT time: 308.99282815027306  type: 2  entity: 0
+
+EVENT time: 310.66261787774283  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 11 checksum: 119 payload:    sack: [7,8,9,10,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 311.43482772301394  type: 2  entity: 0
+
+EVENT time: 315.9107333597826  type: 2  entity: 0
+
+EVENT time: 318.82180242316963  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 125 payload:    sack: [8,9,10,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 324.0975371562853  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 131 payload:    sack: [9,10,11,12,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 324.8234504226814  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 324.8234504226814
+generateNextArrival(): future time for event 1 at entity 0 will be 327.88964506973485
+
+EVENT time: 325.1705069124423  type: 2  entity: 0
+stopTimer: stopping timer at 325.1705069124423
+startTimer: starting timer at 325.1705069124423
+toLayer3: seqnum: 2 acknum: -1 checksum: 2301 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 327.6357310708945  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 128 payload:    sack: [10,11,12,13,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 327.88964506973485  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 327.88964506973485
+generateNextArrival(): future time for event 1 at entity 0 will be 349.1085543382062
+
+EVENT time: 330.38114566484563  type: 2  entity: 0
+stopTimer: stopping timer at 330.38114566484563
+startTimer: starting timer at 330.38114566484563
+toLayer3: seqnum: 3 acknum: -1 checksum: 2322 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 333.86318552201914  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 128 payload:    sack: [10,11,12,13,6]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 338.81646168401136  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 128 payload:    sack: [10,11,12,13,6]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 340.3047883541367  type: 2  entity: 0
+stopTimer: stopping timer at 340.3047883541367
+startTimer: starting timer at 340.3047883541367
+toLayer3: seqnum: 4 acknum: -1 checksum: 2343 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 347.32831812494277  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 127 payload:    sack: [11,12,13,6,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 348.75319681386753  type: 2  entity: 0
+stopTimer: stopping timer at 348.75319681386753
+startTimer: starting timer at 348.75319681386753
+toLayer3: seqnum: 5 acknum: -1 checksum: 2364 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 349.1085543382062  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 349.1085543382062
+generateNextArrival(): future time for event 1 at entity 0 will be 355.8186590166937
+
+EVENT time: 349.62804040650656  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 126 payload:    sack: [12,13,6,9,10]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 352.88937040314954  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 125 payload:    sack: [13,6,9,10,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 354.67055269020653  type: 2  entity: 0
+
+EVENT time: 355.8186590166937  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 355.8186590166937
+generateNextArrival(): future time for event 1 at entity 0 will be 357.74956511124003
+
+EVENT time: 357.74956511124003  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 357.74956511124003
+generateNextArrival(): future time for event 1 at entity 0 will be 369.194006164739
+
+EVENT time: 357.83275856807154  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 124 payload:    sack: [6,9,10,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 361.4973296304208  type: 2  entity: 0
+
+EVENT time: 366.67693105868705  type: 2  entity: 0
+
+EVENT time: 367.804193243202  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 124 payload:    sack: [6,9,10,11,12]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 367.82113101596116  type: 2  entity: 0
+
+EVENT time: 369.194006164739  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 369.194006164739
+generateNextArrival(): future time for event 1 at entity 0 will be 386.3359477523119
+
+EVENT time: 369.3740348521378  type: 2  entity: 0
+
+EVENT time: 377.22052674947355  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 124 payload:    sack: [6,9,10,11,12]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 378.48246711630605  type: 2  entity: 0
+
+EVENT time: 378.75319681386753  type: 0  entity: 0
+toLayer3: seqnum: 14 acknum: -1 checksum: 2233 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2254 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2259 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2280 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2301 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2322 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2343 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2364 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 378.75319681386753
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 378.75319681386753
+
+EVENT time: 381.25669118320263  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 124 payload:    sack: [6,9,10,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 385.1969054231391  type: 2  entity: 0
+
+EVENT time: 386.3359477523119  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 386.3359477523119
+generateNextArrival(): future time for event 1 at entity 0 will be 404.29273354289387
+
+EVENT time: 386.44315927610097  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 118 payload:    sack: [9,10,11,12,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 394.47343363750116  type: 2  entity: 0
+
+EVENT time: 396.41294595171973  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 110 payload:    sack: [10,11,12,0,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 399.96121097445604  type: 2  entity: 0
+
+EVENT time: 404.2216559343242  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 110 payload:    sack: [11,12,0,1,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 404.29273354289387  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 404.29273354289387
+generateNextArrival(): future time for event 1 at entity 0 will be 430.61494796594144
+
+EVENT time: 408.71971800897245  type: 2  entity: 0
+
+EVENT time: 408.75319681386753  type: 0  entity: 0
+toLayer3: seqnum: 14 acknum: -1 checksum: 2233 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2254 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2259 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2280 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2301 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2322 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2343 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2364 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 408.75319681386753
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 408.75319681386753
+
+EVENT time: 411.2536088137456  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 110 payload:    sack: [12,0,1,10,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 411.86870937223426  type: 2  entity: 0
+
+EVENT time: 416.63042085024574  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 110 payload:    sack: [0,1,10,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 416.66020691549426  type: 2  entity: 0
+
+EVENT time: 418.04846339304794  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 123 payload:    sack: [1,10,11,12,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 419.622425000763  type: 2  entity: 0
+
+EVENT time: 424.0314645832698  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 14 checksum: 137 payload:    sack: [10,11,12,13,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 427.82692953276165  type: 2  entity: 0
+
+EVENT time: 430.61494796594144  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 430.61494796594144
+generateNextArrival(): future time for event 1 at entity 0 will be 455.63432721945867
+
+EVENT time: 432.64754173406175  type: 2  entity: 0
+
+EVENT time: 433.9880672627949  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 143 payload:    sack: [11,12,13,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 438.0276497695853  type: 2  entity: 0
+
+EVENT time: 438.75319681386753  type: 0  entity: 0
+toLayer3: seqnum: 14 acknum: -1 checksum: 2233 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2254 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2259 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2280 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2301 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2322 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2343 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2364 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 438.75319681386753
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 438.75319681386753
+
+EVENT time: 438.830927457503  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 0 checksum: 117 payload:    sack: [12,13,14,15,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 443.12417981505786  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 1 checksum: 107 payload:    sack: [13,14,15,0,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 445.037629322184  type: 2  entity: 0
+stopTimer: stopping timer at 445.037629322184
+startTimer: starting timer at 445.037629322184
+toLayer3: seqnum: 6 acknum: -1 checksum: 2385 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 450.11795403912475  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 97 payload:    sack: [14,15,0,1,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 454.0548722800379  type: 2  entity: 0
+stopTimer: stopping timer at 454.0548722800379
+startTimer: starting timer at 454.0548722800379
+toLayer3: seqnum: 7 acknum: -1 checksum: 2406 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 454.6921903134251  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 97 payload:    sack: [14,15,0,1,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 455.63432721945867  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 455.63432721945867
+generateNextArrival(): future time for event 1 at entity 0 will be 477.2771385845516
+
+EVENT time: 456.46336252937414  type: 2  entity: 0
+stopTimer: stopping timer at 456.46336252937414
+startTimer: starting timer at 456.46336252937414
+toLayer3: seqnum: 8 acknum: -1 checksum: 2427 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 463.2304147465438  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 87 payload:    sack: [15,0,1,2,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 463.36072878200633  type: 2  entity: 0
+stopTimer: stopping timer at 463.36072878200633
+startTimer: starting timer at 463.36072878200633
+toLayer3: seqnum: 9 acknum: -1 checksum: 2448 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 467.4074831385235  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 77 payload:    sack: [0,1,2,4,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 471.0625934629353  type: 2  entity: 0
+stopTimer: stopping timer at 471.0625934629353
+startTimer: starting timer at 471.0625934629353
+toLayer3: seqnum: 10 acknum: -1 checksum: 1949 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 475.942808313242  type: 2  entity: 0
+
+EVENT time: 476.37665944395275  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 91 payload:    sack: [1,2,4,5,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 477.2771385845516  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 477.2771385845516
+generateNextArrival(): future time for event 1 at entity 0 will be 498.1994079409162
+
+EVENT time: 477.41990417188026  type: 2  entity: 0
+
+EVENT time: 485.39967040009765  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 91 payload:    sack: [1,2,4,5,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 486.0542619098483  type: 2  entity: 0
+
+EVENT time: 490.9898983733634  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 90 payload:    sack: [2,4,5,14,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 493.75997192297126  type: 2  entity: 0
+
+EVENT time: 495.5070039979247  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 89 payload:    sack: [4,5,14,0,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 498.1994079409162  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 498.1994079409162
+generateNextArrival(): future time for event 1 at entity 0 will be 502.61055330057684
+
+EVENT time: 501.0625934629353  type: 0  entity: 0
+toLayer3: seqnum: 3 acknum: -1 checksum: 2322 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2343 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2364 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2385 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2406 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2427 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2448 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 1949 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 501.0625934629353
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 501.0625934629353
+
+EVENT time: 502.4992522965178  type: 2  entity: 0
+
+EVENT time: 502.61055330057684  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 502.61055330057684
+generateNextArrival(): future time for event 1 at entity 0 will be 526.425977355266
+
+EVENT time: 503.4415112765892  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 87 payload:    sack: [5,14,0,1,2]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 511.4121219519638  type: 2  entity: 0
+
+EVENT time: 511.7503891109958  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 86 payload:    sack: [14,0,1,2,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 514.3299966429639  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 77 payload:    sack: [0,1,2,3,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 516.2262337107455  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 77 payload:    sack: [0,1,2,3,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 518.4756920072024  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 91 payload:    sack: [1,2,3,4,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 518.7286294137394  type: 2  entity: 0
+
+EVENT time: 526.425977355266  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 526.425977355266
+generateNextArrival(): future time for event 1 at entity 0 will be 547.7867976928007
+
+EVENT time: 527.2438123722037  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 105 payload:    sack: [2,3,4,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 528.0210882900479  type: 2  entity: 0
+
+EVENT time: 531.0625934629353  type: 0  entity: 0
+toLayer3: seqnum: 3 acknum: -1 checksum: 2322 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2343 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2364 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2385 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2406 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2427 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2448 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 1949 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 531.0625934629353
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 531.0625934629353
+
+EVENT time: 535.2551957762383  type: 2  entity: 0
+stopTimer: stopping timer at 535.2551957762383
+startTimer: starting timer at 535.2551957762383
+toLayer3: seqnum: 11 acknum: -1 checksum: 1970 payload: bbbbbbbbbbbbbbbbbbbb sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 537.0762657551804  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 103 payload:    sack: [3,4,14,15,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 539.5789361247597  type: 2  entity: 0
+stopTimer: stopping timer at 539.5789361247597
+startTimer: starting timer at 539.5789361247597
+toLayer3: seqnum: 12 acknum: -1 checksum: 1991 payload: cccccccccccccccccccc sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 540.9176000244148  type: 2  entity: 0
+
+EVENT time: 545.2732016968291  type: 2  entity: 0
+
+EVENT time: 545.5801568651386  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 103 payload:    sack: [3,4,14,15,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 547.7867976928007  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 547.7867976928007
+generateNextArrival(): future time for event 1 at entity 0 will be 557.5228125858333
+
+EVENT time: 551.4560380870997  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 102 payload:    sack: [4,14,15,0,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 553.2325205236975  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 101 payload:    sack: [14,15,0,2,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 553.6169621875667  type: 2  entity: 0
+
+EVENT time: 557.5228125858333  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 557.5228125858333
+generateNextArrival(): future time for event 1 at entity 0 will be 561.4065981017487
+
+EVENT time: 560.0488601336709  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 91 payload:    sack: [15,0,2,3,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 561.1781975768304  type: 2  entity: 0
+
+EVENT time: 561.4065981017487  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 561.4065981017487
+generateNextArrival(): future time for event 1 at entity 0 will be 565.142979216895
+
+EVENT time: 565.142979216895  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 565.142979216895
+generateNextArrival(): future time for event 1 at entity 0 will be 565.9028901028473
+
+EVENT time: 565.9028901028473  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 565.9028901028473
+generateNextArrival(): future time for event 1 at entity 0 will be 576.4803003021332
+
+EVENT time: 565.9156773583177  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 82 payload:    sack: [0,2,3,4,5]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 568.5056917020173  type: 2  entity: 0
+
+EVENT time: 569.5789361247597  type: 0  entity: 0
+toLayer3: seqnum: 5 acknum: -1 checksum: 2364 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2385 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2406 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2427 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2448 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 1949 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 1970 payload: bbbbbbbbbbbbbbbbbbbb sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 1991 payload: cccccccccccccccccccc sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 569.5789361247597
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 569.5789361247597
+
+EVENT time: 571.0037232581561  type: 2  entity: 0
+
+EVENT time: 573.0157475508895  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 96 payload:    sack: [2,3,4,5,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 576.4803003021332  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 576.4803003021332
+generateNextArrival(): future time for event 1 at entity 0 will be 592.6993621631519
+
+EVENT time: 576.8785973693043  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 109 payload:    sack: [3,4,5,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 577.6385082552569  type: 2  entity: 0
+
+EVENT time: 580.0802331614125  type: 2  entity: 0
+
+EVENT time: 584.1088595233007  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 106 payload:    sack: [4,5,14,15,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 585.4479812005983  type: 2  entity: 0
+
+EVENT time: 590.5045319986573  type: 2  entity: 0
+stopTimer: stopping timer at 590.5045319986573
+startTimer: starting timer at 590.5045319986573
+toLayer3: seqnum: 13 acknum: -1 checksum: 2012 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 591.5574816125978  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 103 payload:    sack: [5,14,15,0,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 592.6993621631519  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 592.6993621631519
+generateNextArrival(): future time for event 1 at entity 0 will be 621.1017181920835
+
+EVENT time: 597.6653035065768  type: 2  entity: 0
+
+EVENT time: 597.7865840632342  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 103 payload:    sack: [5,14,15,0,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 603.4678487502671  type: 2  entity: 0
+
+EVENT time: 605.5244300668353  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 103 payload:    sack: [5,14,15,0,1]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 609.3007599108857  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 102 payload:    sack: [14,15,0,1,4]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 611.2906582842492  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 102 payload:    sack: [14,15,0,1,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 611.9170812097537  type: 2  entity: 0
+
+EVENT time: 613.3615833002714  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 6 checksum: 95 payload:    sack: [15,0,1,4,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 618.7392193365274  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 88 payload:    sack: [0,1,4,6,7]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 619.3665272988068  type: 2  entity: 0
+
+EVENT time: 620.5045319986573  type: 0  entity: 0
+toLayer3: seqnum: 6 acknum: -1 checksum: 2385 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2406 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2427 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2448 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 1949 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 1970 payload: bbbbbbbbbbbbbbbbbbbb sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 1991 payload: cccccccccccccccccccc sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 13 acknum: -1 checksum: 2012 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 620.5045319986573
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 620.5045319986573
+
+EVENT time: 621.1017181920835  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 621.1017181920835
+generateNextArrival(): future time for event 1 at entity 0 will be 627.857600634785
+
+EVENT time: 623.4980315561386  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 8 checksum: 97 payload:    sack: [1,4,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 624.4585100863675  type: 2  entity: 0
+
+EVENT time: 625.6096072267828  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 106 payload:    sack: [4,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 626.9070711386454  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 106 payload:    sack: [4,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 627.857600634785  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 627.857600634785
+generateNextArrival(): future time for event 1 at entity 0 will be 630.5548265022736
+
+EVENT time: 628.0795617542037  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 105 payload:    sack: [6,7,8,9,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 629.7217322305977  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 103 payload:    sack: [7,8,9,3,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 630.5548265022736  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 630.5548265022736
+generateNextArrival(): future time for event 1 at entity 0 will be 658.5232093264565
+
+EVENT time: 631.7491988891263  type: 2  entity: 0
+
+EVENT time: 633.6139713736379  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 101 payload:    sack: [8,9,3,4,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 639.2826929532762  type: 2  entity: 0
+
+EVENT time: 641.9562364574115  type: 2  entity: 0
+stopTimer: stopping timer at 641.9562364574115
+startTimer: starting timer at 641.9562364574115
+toLayer3: seqnum: 14 acknum: -1 checksum: 2033 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 643.0676595355081  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 99 payload:    sack: [9,3,4,5,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 644.6142460402233  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 97 payload:    sack: [3,4,5,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 645.6180303353984  type: 2  entity: 0
+
+EVENT time: 648.8278450880458  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 97 payload:    sack: [3,4,5,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 651.7913754692221  type: 2  entity: 0
+stopTimer: stopping timer at 651.7913754692221
+startTimer: starting timer at 651.7913754692221
+toLayer3: seqnum: 15 acknum: -1 checksum: 2054 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2059 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 654.9399395733511  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 103 payload:    sack: [4,5,6,7,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 658.3602404858547  type: 2  entity: 0
+stopTimer: stopping timer at 658.3602404858547
+startTimer: starting timer at 658.3602404858547
+toLayer3: seqnum: 1 acknum: -1 checksum: 2080 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 658.5232093264565  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 658.5232093264565
+generateNextArrival(): future time for event 1 at entity 0 will be 678.5876033814509
+
+EVENT time: 660.2633442182683  type: 2  entity: 0
+
+EVENT time: 663.8355052339242  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 110 payload:    sack: [5,6,7,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 668.1558275093844  type: 2  entity: 0
+
+EVENT time: 673.1815240943631  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 110 payload:    sack: [5,6,7,9,10]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 677.7765129551073  type: 2  entity: 0
+
+EVENT time: 678.5876033814509  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 678.5876033814509
+generateNextArrival(): future time for event 1 at entity 0 will be 681.8662068544572
+
+EVENT time: 678.7684560686055  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 109 payload:    sack: [6,7,9,10,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 681.8662068544572  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 681.8662068544572
+generateNextArrival(): future time for event 1 at entity 0 will be 694.929349650563
+
+EVENT time: 682.758354441969  type: 2  entity: 0
+
+EVENT time: 684.6707968382824  type: 2  entity: 0
+
+EVENT time: 687.1520737327189  type: 2  entity: 0
+
+EVENT time: 687.2314218573564  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 108 payload:    sack: [7,9,10,4,5]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 688.3602404858547  type: 0  entity: 0
+toLayer3: seqnum: 10 acknum: -1 checksum: 1949 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 1970 payload: bbbbbbbbbbbbbbbbbbbb sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 1991 payload: cccccccccccccccccccc sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 13 acknum: -1 checksum: 2012 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2033 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2054 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2059 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2080 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 688.3602404858547
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 688.3602404858547
+
+EVENT time: 688.3783989989929  type: 2  entity: 0
+
+EVENT time: 688.8046510208441  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 107 payload:    sack: [9,10,4,5,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 691.326029236732  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 105 payload:    sack: [10,4,5,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 694.929349650563  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 694.929349650563
+generateNextArrival(): future time for event 1 at entity 0 will be 720.8084353160191
+
+EVENT time: 696.8330332346567  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 103 payload:    sack: [4,5,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 697.2459486678671  type: 2  entity: 0
+
+EVENT time: 699.5937376018555  type: 2  entity: 0
+stopTimer: stopping timer at 699.5937376018555
+startTimer: starting timer at 699.5937376018555
+toLayer3: seqnum: 2 acknum: -1 checksum: 2101 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 704.4231391338847  type: 2  entity: 0
+
+EVENT time: 706.2147587511824  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 108 payload:    sack: [5,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 710.6192510757774  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 108 payload:    sack: [5,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 713.9976805932798  type: 2  entity: 0
+
+EVENT time: 716.4838709677418  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 11 checksum: 115 payload:    sack: [6,7,8,9,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 720.8084353160191  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 720.8084353160191
+generateNextArrival(): future time for event 1 at entity 0 will be 740.73091830195
+
+EVENT time: 722.7204809717093  type: 2  entity: 0
+
+EVENT time: 724.9622486037782  type: 2  entity: 0
+
+EVENT time: 725.4651326029235  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 122 payload:    sack: [7,8,9,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 729.5937376018555  type: 0  entity: 0
+toLayer3: seqnum: 11 acknum: -1 checksum: 1970 payload: bbbbbbbbbbbbbbbbbbbb sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 1991 payload: cccccccccccccccccccc sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 13 acknum: -1 checksum: 2012 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2033 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2054 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2059 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2080 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2101 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 729.5937376018555
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 729.5937376018555
+
+EVENT time: 732.9346293527022  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 120 payload:    sack: [8,9,11,12,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 734.6793420209357  type: 2  entity: 0
+
+EVENT time: 737.377056184576  type: 2  entity: 0
+
+EVENT time: 739.3155919064912  type: 2  entity: 0
+
+EVENT time: 740.73091830195  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 740.73091830195
+generateNextArrival(): future time for event 1 at entity 0 will be 750.575884273812
+
+EVENT time: 741.3108005005034  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 118 payload:    sack: [9,11,12,5,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 741.9443647572252  type: 2  entity: 0
+
+EVENT time: 747.7634815515609  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 118 payload:    sack: [9,11,12,5,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 747.938901944029  type: 2  entity: 0
+stopTimer: stopping timer at 747.938901944029
+startTimer: starting timer at 747.938901944029
+toLayer3: seqnum: 3 acknum: -1 checksum: 2122 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 750.575884273812  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 750.575884273812
+generateNextArrival(): future time for event 1 at entity 0 will be 777.9976805932797
+
+EVENT time: 751.5652638325143  type: 2  entity: 0
+stopTimer: stopping timer at 751.5652638325143
+startTimer: starting timer at 751.5652638325143
+toLayer3: seqnum: 4 acknum: -1 checksum: 2143 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 753.3094882045959  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 117 payload:    sack: [11,12,5,6,8]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 753.8103274636067  type: 2  entity: 0
+
+EVENT time: 761.8521073030792  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 115 payload:    sack: [12,5,6,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 763.4472182378612  type: 2  entity: 0
+
+EVENT time: 770.6218756675922  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 113 payload:    sack: [5,6,8,9,10]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 770.9620349742117  type: 2  entity: 0
+
+EVENT time: 775.460737937559  type: 2  entity: 0
+
+EVENT time: 777.3670766319772  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 113 payload:    sack: [5,6,8,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 777.9976805932797  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 777.9976805932797
+generateNextArrival(): future time for event 1 at entity 0 will be 780.4248176519058
+
+EVENT time: 780.4248176519058  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 780.4248176519058
+generateNextArrival(): future time for event 1 at entity 0 will be 793.5703604235968
+
+EVENT time: 781.5652638325143  type: 0  entity: 0
+toLayer3: seqnum: 13 acknum: -1 checksum: 2012 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2033 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2054 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2059 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2080 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2101 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2122 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2143 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 781.5652638325143
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 781.5652638325143
+
+EVENT time: 783.9327677236242  type: 2  entity: 0
+
+EVENT time: 785.1101413006987  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 120 payload:    sack: [6,8,9,10,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 789.1535691396831  type: 2  entity: 0
+
+EVENT time: 791.0486465041046  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 120 payload:    sack: [6,8,9,10,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 793.5703604235968  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 793.5703604235968
+generateNextArrival(): future time for event 1 at entity 0 will be 806.7662587359232
+
+EVENT time: 793.703085421308  type: 2  entity: 0
+
+EVENT time: 799.0757164220098  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 120 payload:    sack: [8,9,10,12,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 802.0537125766776  type: 2  entity: 0
+
+EVENT time: 803.8730430005797  type: 2  entity: 0
+
+EVENT time: 804.2009338663898  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 119 payload:    sack: [9,10,12,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 805.0697042756431  type: 2  entity: 0
+
+EVENT time: 806.7662587359232  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 806.7662587359232
+generateNextArrival(): future time for event 1 at entity 0 will be 812.3694570757162
+
+EVENT time: 808.1060823389384  type: 2  entity: 0
+
+EVENT time: 809.9002044740133  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 118 payload:    sack: [10,12,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 811.5652638325143  type: 0  entity: 0
+toLayer3: seqnum: 13 acknum: -1 checksum: 2012 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2033 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2054 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2059 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2080 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2101 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2122 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2143 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 811.5652638325143
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 811.5652638325143
+
+EVENT time: 812.3694570757162  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 812.3694570757162
+generateNextArrival(): future time for event 1 at entity 0 will be 825.6953642384104
+
+EVENT time: 812.924222540971  type: 2  entity: 0
+
+EVENT time: 819.3481246375925  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 118 payload:    sack: [10,12,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 823.61500900296  type: 2  entity: 0
+
+EVENT time: 823.9616382335885  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 118 payload:    sack: [12,6,7,8,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 825.6953642384104  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 825.6953642384104
+generateNextArrival(): future time for event 1 at entity 0 will be 844.6070741904964
+
+EVENT time: 827.0749229407634  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 117 payload:    sack: [6,7,8,10,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 831.311868648335  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 123 payload:    sack: [7,8,10,11,12]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 832.4423352763449  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 130 payload:    sack: [8,10,11,12,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 833.4655903805656  type: 2  entity: 0
+
+EVENT time: 837.494338816492  type: 2  entity: 0
+
+EVENT time: 837.9877925962094  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 130 payload:    sack: [8,10,11,12,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 841.1456953642382  type: 2  entity: 0
+
+EVENT time: 841.53697317423  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 137 payload:    sack: [10,11,12,13,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 841.5652638325143  type: 0  entity: 0
+toLayer3: seqnum: 13 acknum: -1 checksum: 2012 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2033 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2054 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2059 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2080 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2101 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2122 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2143 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 841.5652638325143
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 841.5652638325143
+
+EVENT time: 842.2264473403118  type: 2  entity: 0
+stopTimer: stopping timer at 842.2264473403118
+startTimer: starting timer at 842.2264473403118
+toLayer3: seqnum: 5 acknum: -1 checksum: 2164 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 844.6070741904964  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 844.6070741904964
+generateNextArrival(): future time for event 1 at entity 0 will be 870.671102023377
+
+EVENT time: 846.4825586718342  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 127 payload:    sack: [11,12,13,15,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 847.8234199041716  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 117 payload:    sack: [12,13,15,0,1]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 849.1364482558671  type: 2  entity: 0
+
+EVENT time: 851.6736350596634  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 115 payload:    sack: [13,15,0,1,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 853.937376018555  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 113 payload:    sack: [15,0,1,10,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 855.8898892178105  type: 2  entity: 0
+
+EVENT time: 857.7079378643144  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 113 payload:    sack: [15,0,1,10,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 863.6362498855555  type: 2  entity: 0
+
+EVENT time: 865.5345011749623  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 111 payload:    sack: [0,1,10,11,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 870.671102023377  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 870.671102023377
+generateNextArrival(): future time for event 1 at entity 0 will be 874.5475630970182
+
+EVENT time: 870.9862666707356  type: 2  entity: 0
+
+EVENT time: 872.2264473403118  type: 0  entity: 0
+toLayer3: seqnum: 14 acknum: -1 checksum: 2033 payload: eeeeeeeeeeeeeeeeeeee sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2054 payload: ffffffffffffffffffff sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2059 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2080 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2101 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2122 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2143 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2164 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 872.2264473403118
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 872.2264473403118
+
+EVENT time: 874.5429548020871  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 14 checksum: 126 payload:    sack: [1,10,11,13,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 874.5475630970182  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 874.5475630970182
+generateNextArrival(): future time for event 1 at entity 0 will be 898.1121250038146
+
+EVENT time: 879.3308511612291  type: 2  entity: 0
+
+EVENT time: 883.2481765190585  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 141 payload:    sack: [10,11,13,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 888.1838435010833  type: 2  entity: 0
+
+EVENT time: 890.4957426679277  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 141 payload:    sack: [10,11,13,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 890.7928403576768  type: 2  entity: 0
+
+EVENT time: 894.4543595690785  type: 2  entity: 0
+
+EVENT time: 897.0773644215216  type: 2  entity: 0
+stopTimer: stopping timer at 897.0773644215216
+startTimer: starting timer at 897.0773644215216
+toLayer3: seqnum: 6 acknum: -1 checksum: 2185 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 898.1121250038146  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 898.1121250038146
+generateNextArrival(): future time for event 1 at entity 0 will be 918.8924832911159
+
+EVENT time: 898.461012604144  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 132 payload:    sack: [11,13,14,15,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 902.0641499069185  type: 2  entity: 0
+stopTimer: stopping timer at 902.0641499069185
+startTimer: starting timer at 902.0641499069185
+toLayer3: seqnum: 7 acknum: -1 checksum: 2206 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 904.76235236671  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 123 payload:    sack: [13,14,15,1,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 908.0125431073945  type: 2  entity: 0
+
+EVENT time: 910.5135349589523  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 121 payload:    sack: [14,15,1,2,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 915.8036744285408  type: 2  entity: 0
+
+EVENT time: 916.349314859462  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 121 payload:    sack: [14,15,1,2,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 918.2346873378704  type: 2  entity: 0
+
+EVENT time: 918.8924832911159  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 918.8924832911159
+generateNextArrival(): future time for event 1 at entity 0 will be 941.0187078463086
+
+EVENT time: 919.2821436201053  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 120 payload:    sack: [15,1,2,11,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 921.1529587694936  type: 2  entity: 0
+
+EVENT time: 923.3038117618335  type: 2  entity: 0
+
+EVENT time: 923.3051240577407  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 119 payload:    sack: [1,2,11,13,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 925.7903073213903  type: 2  entity: 0
+
+EVENT time: 929.2112186040831  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 133 payload:    sack: [2,11,13,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 932.0641499069185  type: 0  entity: 0
+toLayer3: seqnum: 0 acknum: -1 checksum: 2059 payload: gggggggggggggggggggg sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2080 payload: hhhhhhhhhhhhhhhhhhhh sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2101 payload: iiiiiiiiiiiiiiiiiiii sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2122 payload: jjjjjjjjjjjjjjjjjjjj sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 2143 payload: kkkkkkkkkkkkkkkkkkkk sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 5 acknum: -1 checksum: 2164 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2185 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2206 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 932.0641499069185
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 932.0641499069185
+
+EVENT time: 933.8030335398416  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 0 checksum: 116 payload:    sack: [11,13,14,15,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 934.0046998504591  type: 2  entity: 0
+
+EVENT time: 935.2142094180117  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 1 checksum: 107 payload:    sack: [13,14,15,0,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 941.0187078463086  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 941.0187078463086
+generateNextArrival(): future time for event 1 at entity 0 will be 943.1867427594835
+
+EVENT time: 941.1723380230108  type: 2  entity: 0
+
+EVENT time: 941.2120426038389  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 2 checksum: 97 payload:    sack: [14,15,0,1,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 943.1867427594835  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 943.1867427594835
+generateNextArrival(): future time for event 1 at entity 0 will be 956.7314676351206
+
+EVENT time: 947.3991210669268  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 3 checksum: 87 payload:    sack: [15,0,1,2,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 947.8582110049744  type: 2  entity: 0
+
+EVENT time: 949.9307840205083  type: 2  entity: 0
+stopTimer: stopping timer at 949.9307840205083
+startTimer: starting timer at 949.9307840205083
+toLayer3: seqnum: 8 acknum: -1 checksum: 2227 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2248 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 953.0965300454725  type: 2  entity: 0
+stopTimer: stopping timer at 953.0965300454725
+startTimer: starting timer at 953.0965300454725
+toLayer3: seqnum: 10 acknum: -1 checksum: 2269 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 955.6179082613602  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 77 payload:    sack: [0,1,2,3,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 956.7314676351206  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 956.7314676351206
+generateNextArrival(): future time for event 1 at entity 0 will be 974.4383068330941
+
+EVENT time: 958.4392223883782  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 90 payload:    sack: [1,2,3,4,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 958.7482833338419  type: 2  entity: 0
+stopTimer: stopping timer at 958.7482833338419
+startTimer: starting timer at 958.7482833338419
+toLayer3: seqnum: 11 acknum: -1 checksum: 2290 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 961.1770989104891  type: 2  entity: 0
+stopTimer: stopping timer at 961.1770989104891
+startTimer: starting timer at 961.1770989104891
+toLayer3: seqnum: 12 acknum: -1 checksum: 2311 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 963.3927732169557  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 103 payload:    sack: [2,3,4,13,14]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 969.2124088259528  type: 2  entity: 0
+
+EVENT time: 970.6667073580126  type: 2  entity: 0
+
+EVENT time: 973.2378612628555  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 116 payload:    sack: [3,4,13,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 974.4383068330941  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 974.4383068330941
+generateNextArrival(): future time for event 1 at entity 0 will be 975.6559953611863
+
+EVENT time: 975.6559953611863  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 975.6559953611863
+generateNextArrival(): future time for event 1 at entity 0 will be 984.6110415967282
+
+EVENT time: 980.0206915494243  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 113 payload:    sack: [4,13,14,15,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 980.4744407483134  type: 2  entity: 0
+
+EVENT time: 984.6110415967282  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 984.6110415967282
+generateNextArrival(): future time for event 1 at entity 0 will be 1006.4983062227238
+
+EVENT time: 985.4749595629745  type: 2  entity: 0
+
+EVENT time: 989.5746330149232  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 110 payload:    sack: [13,14,15,0,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 991.1770989104891  type: 0  entity: 0
+toLayer3: seqnum: 5 acknum: -1 checksum: 2164 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2185 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2206 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2227 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2248 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2269 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2290 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2311 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 991.1770989104891
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 991.1770989104891
+
+EVENT time: 992.8994109927668  type: 2  entity: 0
+
+EVENT time: 994.2565385906548  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 99 payload:    sack: [14,15,0,1,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 997.1487166966762  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 88 payload:    sack: [15,0,1,2,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 999.9953611865592  type: 2  entity: 0
+
+EVENT time: 1000.5951719718005  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 77 payload:    sack: [0,1,2,3,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1006.2876369518108  type: 2  entity: 0
+
+EVENT time: 1006.4983062227238  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1006.4983062227238
+generateNextArrival(): future time for event 1 at entity 0 will be 1017.5197607348855
+
+EVENT time: 1007.7004608294927  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 90 payload:    sack: [1,2,3,4,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1009.7455671864983  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 90 payload:    sack: [1,2,3,4,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1009.7500228888816  type: 2  entity: 0
+
+EVENT time: 1017.1969969786671  type: 2  entity: 0
+
+EVENT time: 1017.5197607348855  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1017.5197607348855
+generateNextArrival(): future time for event 1 at entity 0 will be 1021.3834040345467
+
+EVENT time: 1019.2912686544386  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 104 payload:    sack: [2,3,4,13,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1020.6845912045652  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 102 payload:    sack: [3,4,13,15,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1021.1770989104891  type: 0  entity: 0
+toLayer3: seqnum: 5 acknum: -1 checksum: 2164 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2185 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2206 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2227 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2248 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2269 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2290 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2311 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1021.1770989104891
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1021.1770989104891
+
+EVENT time: 1021.3834040345467  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1021.3834040345467
+generateNextArrival(): future time for event 1 at entity 0 will be 1033.0292672505873
+
+EVENT time: 1023.0539262062437  type: 2  entity: 0
+
+EVENT time: 1027.989074373607  type: 2  entity: 0
+
+EVENT time: 1029.893276772362  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 100 payload:    sack: [4,13,15,0,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1031.15256202887  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 98 payload:    sack: [13,15,0,1,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1031.1968443861197  type: 2  entity: 0
+
+EVENT time: 1033.0292672505873  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1033.0292672505873
+generateNextArrival(): future time for event 1 at entity 0 will be 1059.4741660817283
+
+EVENT time: 1033.9112521744435  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 88 payload:    sack: [15,0,1,2,3]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1037.0460829493081  type: 2  entity: 0
+
+EVENT time: 1039.2853175450907  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 77 payload:    sack: [0,1,2,3,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1042.1561937314975  type: 2  entity: 0
+
+EVENT time: 1043.0652180547497  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 90 payload:    sack: [1,2,3,4,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1044.2139347514262  type: 2  entity: 0
+
+EVENT time: 1046.9945371868032  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 103 payload:    sack: [2,3,4,13,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1050.340861232337  type: 2  entity: 0
+
+EVENT time: 1051.1770989104891  type: 0  entity: 0
+toLayer3: seqnum: 5 acknum: -1 checksum: 2164 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2185 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2206 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2227 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2248 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2269 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2290 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2311 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1051.1770989104891
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1051.1770989104891
+
+EVENT time: 1052.608935819574  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 116 payload:    sack: [3,4,13,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1057.8819238868368  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 116 payload:    sack: [3,4,13,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1058.9398785363317  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 114 payload:    sack: [4,13,14,15,1]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1059.4741660817283  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1059.4741660817283
+generateNextArrival(): future time for event 1 at entity 0 will be 1087.1422467726672
+
+EVENT time: 1060.228797265541  type: 2  entity: 0
+
+EVENT time: 1064.4440443128753  type: 2  entity: 0
+
+EVENT time: 1065.41755424665  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 112 payload:    sack: [13,14,15,1,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1067.8682515945918  type: 2  entity: 0
+
+EVENT time: 1069.5148167363502  type: 2  entity: 0
+
+EVENT time: 1072.693746757408  type: 2  entity: 0
+
+EVENT time: 1072.719779045991  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 102 payload:    sack: [14,15,1,2,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1077.4737083040861  type: 2  entity: 0
+
+EVENT time: 1081.1770989104891  type: 0  entity: 0
+toLayer3: seqnum: 5 acknum: -1 checksum: 2164 payload: llllllllllllllllllll sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 6 acknum: -1 checksum: 2185 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2206 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2227 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2248 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2269 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2290 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2311 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1081.1770989104891
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1081.1770989104891
+
+EVENT time: 1082.1262245551923  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 4 checksum: 92 payload:    sack: [15,1,2,3,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1083.1081575975827  type: 2  entity: 0
+
+EVENT time: 1084.1400189214755  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 83 payload:    sack: [1,2,3,4,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1084.8838160344246  type: 2  entity: 0
+
+EVENT time: 1086.2057252723775  type: 2  entity: 0
+stopTimer: stopping timer at 1086.2057252723775
+startTimer: starting timer at 1086.2057252723775
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1087.1422467726672  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1087.1422467726672
+generateNextArrival(): future time for event 1 at entity 0 will be 1116.3200781273838
+
+EVENT time: 1089.2602923673205  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 96 payload:    sack: [2,3,4,5,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1090.9672841578415  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 109 payload:    sack: [3,4,5,14,15]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1091.7253639332253  type: 2  entity: 0
+
+EVENT time: 1093.7559129612107  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 106 payload:    sack: [4,5,14,15,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1094.7806939909053  type: 2  entity: 0
+
+EVENT time: 1102.548203985717  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 103 payload:    sack: [5,14,15,0,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1104.4164860988187  type: 2  entity: 0
+
+EVENT time: 1106.0012512588883  type: 2  entity: 0
+
+EVENT time: 1106.9202856532484  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 100 payload:    sack: [14,15,0,1,2]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1110.6026795251316  type: 2  entity: 0
+
+EVENT time: 1111.951292458876  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 100 payload:    sack: [14,15,0,1,2]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1116.2057252723775  type: 0  entity: 0
+toLayer3: seqnum: 6 acknum: -1 checksum: 2185 payload: mmmmmmmmmmmmmmmmmmmm sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 7 acknum: -1 checksum: 2206 payload: nnnnnnnnnnnnnnnnnnnn sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 8 acknum: -1 checksum: 2227 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2248 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2269 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2290 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2311 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1116.2057252723775
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1116.2057252723775
+
+EVENT time: 1116.3200781273838  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1116.3200781273838
+generateNextArrival(): future time for event 1 at entity 0 will be 1131.5842158268986
+
+EVENT time: 1116.7716299935908  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 90 payload:    sack: [15,0,1,2,4]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1118.1867122409737  type: 2  entity: 0
+
+EVENT time: 1122.2234260078735  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 5 checksum: 80 payload:    sack: [0,1,2,4,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1127.0528885769215  type: 2  entity: 0
+
+EVENT time: 1128.2086245307776  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 6 checksum: 87 payload:    sack: [1,2,4,5,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1130.2062746055478  type: 2  entity: 0
+
+EVENT time: 1130.374584185308  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 94 payload:    sack: [2,4,5,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1131.5842158268986  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1131.5842158268986
+generateNextArrival(): future time for event 1 at entity 0 will be 1131.699575792718
+
+EVENT time: 1131.699575792718  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1131.699575792718
+generateNextArrival(): future time for event 1 at entity 0 will be 1156.7308572649308
+
+EVENT time: 1131.8404187139497  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 94 payload:    sack: [2,4,5,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1132.9979247413553  type: 2  entity: 0
+stopTimer: stopping timer at 1132.9979247413553
+startTimer: starting timer at 1132.9979247413553
+toLayer3: seqnum: 14 acknum: -1 checksum: 2353 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1137.4517960142823  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 93 payload:    sack: [4,5,6,7,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1138.9016998809775  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 93 payload:    sack: [4,5,6,7,1]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1138.9435712759785  type: 2  entity: 0
+stopTimer: stopping timer at 1138.9435712759785
+startTimer: starting timer at 1138.9435712759785
+toLayer3: seqnum: 15 acknum: -1 checksum: 2374 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1140.1808832056638  type: 2  entity: 0
+
+EVENT time: 1143.2746665852835  type: 2  entity: 0
+
+EVENT time: 1144.907498397778  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 92 payload:    sack: [5,6,7,1,3]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1150.9765312662125  type: 2  entity: 0
+
+EVENT time: 1152.4154484694966  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 91 payload:    sack: [6,7,1,3,4]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1156.7308572649308  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1156.7308572649308
+generateNextArrival(): future time for event 1 at entity 0 will be 1161.9431134983363
+
+EVENT time: 1157.050996429334  type: 2  entity: 0
+
+EVENT time: 1161.9431134983363  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1161.9431134983363
+generateNextArrival(): future time for event 1 at entity 0 will be 1169.1897335734118
+
+EVENT time: 1162.149845881527  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 90 payload:    sack: [7,1,3,4,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1164.2999359111298  type: 2  entity: 0
+
+EVENT time: 1168.9052095095672  type: 2  entity: 0
+
+EVENT time: 1168.9435712759785  type: 0  entity: 0
+toLayer3: seqnum: 8 acknum: -1 checksum: 2227 payload: oooooooooooooooooooo sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 9 acknum: -1 checksum: 2248 payload: pppppppppppppppppppp sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 10 acknum: -1 checksum: 2269 payload: qqqqqqqqqqqqqqqqqqqq sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 11 acknum: -1 checksum: 2290 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2311 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2353 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2374 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1168.9435712759785
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1168.9435712759785
+
+EVENT time: 1169.1897335734118  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1169.1897335734118
+generateNextArrival(): future time for event 1 at entity 0 will be 1182.1860408337652
+
+EVENT time: 1169.9747611926632  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 89 payload:    sack: [1,3,4,5,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1171.3510544145022  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 7 checksum: 95 payload:    sack: [3,4,5,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1179.7890865810111  type: 2  entity: 0
+
+EVENT time: 1181.3496810815757  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 8 checksum: 101 payload:    sack: [4,5,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1181.9847102267522  type: 2  entity: 0
+
+EVENT time: 1182.1860408337652  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1182.1860408337652
+generateNextArrival(): future time for event 1 at entity 0 will be 1199.8425244911034
+
+EVENT time: 1184.8538163396097  type: 2  entity: 0
+stopTimer: stopping timer at 1184.8538163396097
+startTimer: starting timer at 1184.8538163396097
+toLayer3: seqnum: 0 acknum: -1 checksum: 2379 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1189.2635883663438  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 9 checksum: 107 payload:    sack: [5,6,7,8,9]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1192.756187627796  type: 2  entity: 0
+
+EVENT time: 1195.56025879696  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 113 payload:    sack: [6,7,8,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1199.8425244911034  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1199.8425244911034
+generateNextArrival(): future time for event 1 at entity 0 will be 1205.6581316568495
+
+EVENT time: 1201.1180761131623  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 113 payload:    sack: [6,7,8,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1201.8322092349006  type: 2  entity: 0
+stopTimer: stopping timer at 1201.8322092349006
+startTimer: starting timer at 1201.8322092349006
+toLayer3: seqnum: 1 acknum: -1 checksum: 2400 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2421 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1205.6581316568495  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1205.6581316568495
+generateNextArrival(): future time for event 1 at entity 0 will be 1206.8218024231692
+
+EVENT time: 1206.06695760979  type: 2  entity: 0
+
+EVENT time: 1206.8218024231692  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1206.8218024231692
+generateNextArrival(): future time for event 1 at entity 0 will be 1234.2655720694597
+
+EVENT time: 1209.7282631916253  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 119 payload:    sack: [7,8,9,10,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1216.0054322946862  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 119 payload:    sack: [7,8,9,10,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1218.9954527420875  type: 2  entity: 0
+
+EVENT time: 1219.1461836603896  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 118 payload:    sack: [8,9,10,12,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1220.5826899014246  type: 2  entity: 0
+
+EVENT time: 1226.8472243415627  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 117 payload:    sack: [9,10,12,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1230.3698232978295  type: 2  entity: 0
+
+EVENT time: 1230.7460554826498  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 116 payload:    sack: [10,12,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1231.8322092349006  type: 0  entity: 0
+toLayer3: seqnum: 11 acknum: -1 checksum: 2290 payload: rrrrrrrrrrrrrrrrrrrr sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 12 acknum: -1 checksum: 2311 payload: ssssssssssssssssssss sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2353 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2374 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2379 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2400 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2421 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1231.8322092349006
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1231.8322092349006
+
+EVENT time: 1232.746726889858  type: 2  entity: 0
+
+EVENT time: 1234.2655720694597  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1234.2655720694597
+generateNextArrival(): future time for event 1 at entity 0 will be 1235.4420606097594
+
+EVENT time: 1235.4420606097594  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1235.4420606097594
+generateNextArrival(): future time for event 1 at entity 0 will be 1258.4875026703692
+
+EVENT time: 1236.4612567522197  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 115 payload:    sack: [12,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1239.2902615436258  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 10 checksum: 115 payload:    sack: [12,6,7,8,9]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1240.565202795495  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 11 checksum: 115 payload:    sack: [6,7,8,9,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1242.0158391064174  type: 2  entity: 0
+
+EVENT time: 1246.9400006103695  type: 2  entity: 0
+
+EVENT time: 1249.127872554704  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 122 payload:    sack: [7,8,9,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1249.6736960966819  type: 2  entity: 0
+
+EVENT time: 1256.3990600299078  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 120 payload:    sack: [8,9,11,12,5]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1258.4875026703692  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1258.4875026703692
+generateNextArrival(): future time for event 1 at entity 0 will be 1285.664845728934
+
+EVENT time: 1259.5531174657422  type: 2  entity: 0
+stopTimer: stopping timer at 1259.5531174657422
+startTimer: starting timer at 1259.5531174657422
+toLayer3: seqnum: 3 acknum: -1 checksum: 2442 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1265.0023804437387  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 118 payload:    sack: [9,11,12,5,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1269.2600482192443  type: 2  entity: 0
+stopTimer: stopping timer at 1269.2600482192443
+startTimer: starting timer at 1269.2600482192443
+toLayer3: seqnum: 4 acknum: -1 checksum: 1943 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1270.9408856471446  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 116 payload:    sack: [11,12,5,6,7]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1273.1422772911767  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 113 payload:    sack: [12,5,6,7,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1276.8924222540963  type: 2  entity: 0
+
+EVENT time: 1279.350627155369  type: 2  entity: 0
+
+EVENT time: 1281.2001098666337  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 110 payload:    sack: [5,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1283.4168828394418  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 115 payload:    sack: [6,7,8,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1285.664845728934  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1285.664845728934
+generateNextArrival(): future time for event 1 at entity 0 will be 1293.278603473006
+
+EVENT time: 1286.62895596179  type: 2  entity: 0
+
+EVENT time: 1289.1150547807242  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 115 payload:    sack: [6,7,8,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1293.278603473006  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1293.278603473006
+generateNextArrival(): future time for event 1 at entity 0 will be 1307.039399395733
+
+EVENT time: 1293.8342234565257  type: 2  entity: 0
+
+EVENT time: 1293.8373363444925  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 121 payload:    sack: [7,8,9,10,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1298.3934446241642  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 119 payload:    sack: [8,9,10,12,5]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1299.2600482192443  type: 0  entity: 0
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2353 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2374 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2379 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2400 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2421 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2442 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 1943 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1299.2600482192443
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1299.2600482192443
+
+EVENT time: 1303.3455916013056  type: 2  entity: 0
+
+EVENT time: 1306.2241279335913  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 117 payload:    sack: [9,10,12,5,6]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1307.039399395733  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1307.039399395733
+generateNextArrival(): future time for event 1 at entity 0 will be 1336.2538529618207
+
+EVENT time: 1310.2245551927238  type: 2  entity: 0
+
+EVENT time: 1310.4580523087247  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 115 payload:    sack: [10,12,5,6,7]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1312.2655720694597  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 113 payload:    sack: [12,5,6,7,8]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1317.5226599932853  type: 2  entity: 0
+
+EVENT time: 1318.6712851344337  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 110 payload:    sack: [5,6,7,8,9]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1319.791589098788  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 115 payload:    sack: [6,7,8,9,10]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1320.2981048005608  type: 2  entity: 0
+
+EVENT time: 1324.078249458296  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 120 payload:    sack: [7,8,9,10,11]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1326.9748222296819  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 125 payload:    sack: [8,9,10,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1327.0820337534708  type: 2  entity: 0
+
+EVENT time: 1329.2600482192443  type: 0  entity: 0
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2353 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2374 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2379 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2400 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2421 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2442 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 1943 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1329.2600482192443
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1329.2600482192443
+
+EVENT time: 1331.9113437299718  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 122 payload:    sack: [9,10,11,12,5]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1335.424268318735  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 119 payload:    sack: [10,11,12,5,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1336.2033753471474  type: 2  entity: 0
+
+EVENT time: 1336.2538529618207  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1336.2538529618207
+generateNextArrival(): future time for event 1 at entity 0 will be 1348.3098849452188
+
+EVENT time: 1341.5615100558482  type: 2  entity: 0
+
+EVENT time: 1345.2745750297552  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 116 payload:    sack: [11,12,5,6,7]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1345.4839625232696  type: 2  entity: 0
+
+EVENT time: 1348.3098849452188  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1348.3098849452188
+generateNextArrival(): future time for event 1 at entity 0 will be 1368.3495590075377
+
+EVENT time: 1354.7022614215514  type: 2  entity: 0
+
+EVENT time: 1355.0284737693407  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 113 payload:    sack: [12,5,6,7,8]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1359.2600482192443  type: 0  entity: 0
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2353 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2374 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2379 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2400 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2421 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2442 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 1943 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1359.2600482192443
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1359.2600482192443
+
+EVENT time: 1362.800103762932  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 110 payload:    sack: [5,6,7,8,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1363.8499710074152  type: 2  entity: 0
+
+EVENT time: 1364.2068849757375  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 115 payload:    sack: [6,7,8,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1368.3495590075377  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1368.3495590075377
+generateNextArrival(): future time for event 1 at entity 0 will be 1368.736838892788
+
+EVENT time: 1368.736838892788  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1368.736838892788
+generateNextArrival(): future time for event 1 at entity 0 will be 1396.36921292764
+
+EVENT time: 1369.2133243812364  type: 2  entity: 0
+
+EVENT time: 1370.462355418561  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 120 payload:    sack: [7,8,9,10,11]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1374.7523117770925  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 125 payload:    sack: [8,9,10,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1376.7141331217374  type: 2  entity: 0
+
+EVENT time: 1378.4617755668803  type: 2  entity: 0
+
+EVENT time: 1384.252693258461  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 125 payload:    sack: [8,9,10,11,12]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1384.960051271095  type: 2  entity: 0
+
+EVENT time: 1387.869533371989  type: 2  entity: 0
+
+EVENT time: 1388.685201574755  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 123 payload:    sack: [9,10,11,12,6]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1389.2600482192443  type: 0  entity: 0
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2353 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2374 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2379 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2400 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2421 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2442 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 1943 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1389.2600482192443
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1389.2600482192443
+
+EVENT time: 1390.954802087465  type: 2  entity: 0
+
+EVENT time: 1393.4610431226538  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 121 payload:    sack: [10,11,12,6,7]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1396.36921292764  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1396.36921292764
+generateNextArrival(): future time for event 1 at entity 0 will be 1412.9151280251467
+
+EVENT time: 1398.2184820093385  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 121 payload:    sack: [10,11,12,6,7]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1398.8088320566412  type: 2  entity: 0
+
+EVENT time: 1402.4758445997486  type: 2  entity: 0
+
+EVENT time: 1403.8090151676981  type: 2  entity: 0
+
+EVENT time: 1405.953856013672  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 120 payload:    sack: [11,12,6,7,9]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1412.7617114780103  type: 2  entity: 0
+
+EVENT time: 1412.9151280251467  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1412.9151280251467
+generateNextArrival(): future time for event 1 at entity 0 will be 1429.705496383556
+
+EVENT time: 1415.4358348338264  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 119 payload:    sack: [12,6,7,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1419.2600482192443  type: 0  entity: 0
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2353 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2374 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2379 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2400 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2421 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2442 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 1943 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1419.2600482192443
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1419.2600482192443
+
+EVENT time: 1421.258186590166  type: 2  entity: 0
+
+EVENT time: 1423.939420758689  type: 2  entity: 0
+
+EVENT time: 1425.0348216193117  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 119 payload:    sack: [12,6,7,9,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1429.705496383556  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1429.705496383556
+generateNextArrival(): future time for event 1 at entity 0 will be 1429.98016296884
+
+EVENT time: 1429.98016296884  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1429.98016296884
+generateNextArrival(): future time for event 1 at entity 0 will be 1446.079287087618
+
+EVENT time: 1430.8631550035086  type: 2  entity: 0
+
+EVENT time: 1431.6676839503154  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 12 checksum: 119 payload:    sack: [12,6,7,9,10]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1436.2996002075254  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 13 checksum: 121 payload:    sack: [6,7,9,10,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1438.052766502883  type: 2  entity: 0
+
+EVENT time: 1442.6360972930077  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 14 checksum: 130 payload:    sack: [7,9,10,13,14]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1444.7973876155884  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 139 payload:    sack: [9,10,13,14,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1446.079287087618  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1446.079287087618
+generateNextArrival(): future time for event 1 at entity 0 will be 1469.0038758507028
+
+EVENT time: 1446.2457350382997  type: 2  entity: 0
+
+EVENT time: 1449.2600482192443  type: 0  entity: 0
+toLayer3: seqnum: 13 acknum: -1 checksum: 2332 payload: tttttttttttttttttttt sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 14 acknum: -1 checksum: 2353 payload: uuuuuuuuuuuuuuuuuuuu sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 15 acknum: -1 checksum: 2374 payload: vvvvvvvvvvvvvvvvvvvv sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 0 acknum: -1 checksum: 2379 payload: wwwwwwwwwwwwwwwwwwww sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 1 acknum: -1 checksum: 2400 payload: xxxxxxxxxxxxxxxxxxxx sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 2 acknum: -1 checksum: 2421 payload: yyyyyyyyyyyyyyyyyyyy sack: [0,0,0,0,0]
+toLayer3: packet being corrupted
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 3 acknum: -1 checksum: 2442 payload: zzzzzzzzzzzzzzzzzzzz sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+toLayer3: seqnum: 4 acknum: -1 checksum: 1943 payload: aaaaaaaaaaaaaaaaaaaa sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+stopTimer: stopping timer at 1449.2600482192443
+stopTimer: Warning: Unable to cancel your timer
+startTimer: starting timer at 1449.2600482192443
+
+EVENT time: 1450.3205969420449  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 138 payload:    sack: [10,13,14,15,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1454.6545915097497  type: 2  entity: 0
+
+EVENT time: 1456.473067415387  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 138 payload:    sack: [10,13,14,15,8]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1461.8472243415622  type: 2  entity: 0
+
+EVENT time: 1465.1195104831077  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 138 payload:    sack: [13,14,15,8,10]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1469.0038758507028  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1469.0038758507028
+generateNextArrival(): future time for event 1 at entity 0 will be 1496.8156987212737
+
+EVENT time: 1469.8753929258085  type: 2  entity: 0
+
+EVENT time: 1472.794457838679  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 136 payload:    sack: [14,15,8,10,11]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1473.1463362529364  type: 2  entity: 0
+stopTimer: stopping timer at 1473.1463362529364
+startTimer: starting timer at 1473.1463362529364
+toLayer3: seqnum: 5 acknum: -1 checksum: 1964 payload: bbbbbbbbbbbbbbbbbbbb sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1477.279732657856  type: 2  entity: 0
+stopTimer: stopping timer at 1477.279732657856
+startTimer: starting timer at 1477.279732657856
+toLayer3: seqnum: 6 acknum: -1 checksum: 1985 payload: cccccccccccccccccccc sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1482.2585833307899  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 134 payload:    sack: [15,8,10,11,12]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1483.9971617786184  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 132 payload:    sack: [8,10,11,12,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1484.8266853846847  type: 2  entity: 0
+stopTimer: stopping timer at 1484.8266853846847
+startTimer: starting timer at 1484.8266853846847
+toLayer3: seqnum: 7 acknum: -1 checksum: 2006 payload: dddddddddddddddddddd sack: [0,0,0,0,0]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1488.662892544327  type: 2  entity: 0
+
+EVENT time: 1489.761253700369  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 132 payload:    sack: [8,10,11,12,13]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1489.9306924649788  type: 2  entity: 0
+
+EVENT time: 1492.343028046509  type: 2  entity: 0
+
+EVENT time: 1495.4410229804373  type: 2  entity: 1
+toLayer3: seqnum: -1 acknum: 15 checksum: 139 payload:    sack: [10,11,12,13,15]
+toLayer3: scheduling arrival on other side
+
+EVENT time: 1496.8156987212737  type: 1  entity: 0
+generateNextArrival(): called
+generateNextArrival(): time is 1496.8156987212737
+generateNextArrival(): future time for event 1 at entity 0 will be 1519.5709097567667
+Simulator terminated at time 1496.8156987212737
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 56
+Number of retransmissions by A: 264
+Number of data packets delivered to layer 5 at B: 48
+Number of ACK packets sent by B: 256
+Number of corrupted packets: 96
+Ratio of lost packets: 0.2916666666666667
+Ratio of corrupted packets: 0.23529411764705882
+Average RTT: 21.699179052095097
+Average communication time: 204.33528969695112
+==================================================

@@ -1,0 +1,60 @@
+🚀 Starting GBN+SACK Automation...
+[1/35] loss=0.0 | corrupt=0.0 | seed=100
+[2/35] loss=0.0 | corrupt=0.0 | seed=200
+[3/35] loss=0.0 | corrupt=0.0 | seed=300
+[4/35] loss=0.0 | corrupt=0.0 | seed=400
+[5/35] loss=0.0 | corrupt=0.0 | seed=500
+[6/35] loss=0.1 | corrupt=0.0 | seed=100
+[7/35] loss=0.1 | corrupt=0.0 | seed=200
+[8/35] loss=0.1 | corrupt=0.0 | seed=300
+[9/35] loss=0.1 | corrupt=0.0 | seed=400
+[10/35] loss=0.1 | corrupt=0.0 | seed=500
+[11/35] loss=0.2 | corrupt=0.0 | seed=100
+[12/35] loss=0.2 | corrupt=0.0 | seed=200
+[13/35] loss=0.2 | corrupt=0.0 | seed=300
+[14/35] loss=0.2 | corrupt=0.0 | seed=400
+[15/35] loss=0.2 | corrupt=0.0 | seed=500
+[16/35] loss=0.3 | corrupt=0.0 | seed=100
+[17/35] loss=0.3 | corrupt=0.0 | seed=200
+[18/35] loss=0.3 | corrupt=0.0 | seed=300
+[19/35] loss=0.3 | corrupt=0.0 | seed=400
+[20/35] loss=0.3 | corrupt=0.0 | seed=500
+[21/35] loss=0.0 | corrupt=0.1 | seed=100
+[22/35] loss=0.0 | corrupt=0.1 | seed=200
+[23/35] loss=0.0 | corrupt=0.1 | seed=300
+[24/35] loss=0.0 | corrupt=0.1 | seed=400
+[25/35] loss=0.0 | corrupt=0.1 | seed=500
+[26/35] loss=0.0 | corrupt=0.2 | seed=100
+[27/35] loss=0.0 | corrupt=0.2 | seed=200
+[28/35] loss=0.0 | corrupt=0.2 | seed=300
+[29/35] loss=0.0 | corrupt=0.2 | seed=400
+[30/35] loss=0.0 | corrupt=0.2 | seed=500
+[31/35] loss=0.0 | corrupt=0.3 | seed=100
+[32/35] loss=0.0 | corrupt=0.3 | seed=200
+[33/35] loss=0.0 | corrupt=0.3 | seed=300
+[34/35] loss=0.0 | corrupt=0.3 | seed=400
+[35/35] loss=0.0 | corrupt=0.3 | seed=500
+💾 Saved CSV to gbn_sack_results.csv
+📊 Saved graph to gbn_sack_performance.png
+/home/omimahomie/cs455/PA2/PA2_helper/GBN/GBN_testAndGraph.py:168: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+======================================================================
+SUMMARY STATISTICS (90% Confidence Intervals)
+======================================================================
+
+Loss     Mean         90% CI          Samples
+--------------------------------------------------
+0.00     11.96        ±0.19           5
+0.10     26.08        ±3.37           5
+0.20     66.56        ±18.71          5
+0.30     161.87       ±13.19          5
+
+Corrupt  Mean         90% CI          Samples
+--------------------------------------------------
+0.00     11.96        ±0.19           5
+0.10     143.79       ±255.58         5
+0.20     340.22       ±196.53         5
+0.30     552.53       ±186.27         5
+======================================================================
+✅ Done!

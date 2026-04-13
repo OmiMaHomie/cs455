@@ -1,0 +1,543 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ javac PA2_helper/GBN/*.java
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/GBN/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 10
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 1578902
+[DEBUG A] Sent pkt 0 | base=0 | next=0
+[DEBUG TIMER] Starting timer for base=0
+[DEBUG B] In-order delivery. expectedseqnum advanced to 1
+[DEBUG ACK SENT] ACK=0 | SACK=[-1,-1,-1,-1,0]
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 1
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 1 | base=1 | next=1
+[DEBUG TIMER] Starting timer for base=1
+[DEBUG B] In-order delivery. expectedseqnum advanced to 2
+[DEBUG ACK SENT] ACK=1 | SACK=[-1,-1,-1,0,1]
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 2
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 2 | base=2 | next=2
+[DEBUG TIMER] Starting timer for base=2
+[DEBUG B] In-order delivery. expectedseqnum advanced to 3
+[DEBUG ACK SENT] ACK=2 | SACK=[-1,-1,0,1,2]
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 3
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 3 | base=3 | next=3
+[DEBUG TIMER] Starting timer for base=3
+[DEBUG B] In-order delivery. expectedseqnum advanced to 4
+[DEBUG ACK SENT] ACK=3 | SACK=[-1,0,1,2,3]
+[DEBUG WINDOW] ACK=3 >= base=3 | Advancing base to 4
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 4 | base=4 | next=4
+[DEBUG TIMER] Starting timer for base=4
+[DEBUG B] In-order delivery. expectedseqnum advanced to 5
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 5
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 5 | base=5 | next=5
+[DEBUG TIMER] Starting timer for base=5
+[DEBUG B] In-order delivery. expectedseqnum advanced to 6
+[DEBUG ACK SENT] ACK=5 | SACK=[1,2,3,4,5]
+[DEBUG A] Sent pkt 6 | base=5 | next=6
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 6
+[DEBUG TIMER] Restarting timer for new base=6
+[DEBUG B] In-order delivery. expectedseqnum advanced to 7
+[DEBUG ACK SENT] ACK=6 | SACK=[2,3,4,5,6]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 7
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 7 | base=7 | next=7
+[DEBUG TIMER] Starting timer for base=7
+[DEBUG B] In-order delivery. expectedseqnum advanced to 8
+[DEBUG ACK SENT] ACK=7 | SACK=[3,4,5,6,7]
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 8
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 8 | base=8 | next=8
+[DEBUG TIMER] Starting timer for base=8
+[DEBUG B] In-order delivery. expectedseqnum advanced to 9
+[DEBUG ACK SENT] ACK=8 | SACK=[4,5,6,7,8]
+[DEBUG WINDOW] ACK=8 >= base=8 | Advancing base to 9
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 9 | base=9 | next=9
+[DEBUG TIMER] Starting timer for base=9
+[DEBUG B] In-order delivery. expectedseqnum advanced to 10
+[DEBUG ACK SENT] ACK=9 | SACK=[5,6,7,8,9]
+[DEBUG A] Sent pkt 10 | base=9 | next=10
+[DEBUG B] In-order delivery. expectedseqnum advanced to 11
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,8,9,10]
+[DEBUG WINDOW] ACK=9 >= base=9 | Advancing base to 10
+[DEBUG TIMER] Restarting timer for new base=10
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 11
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 11 | base=11 | next=11
+[DEBUG TIMER] Starting timer for base=11
+[DEBUG B] In-order delivery. expectedseqnum advanced to 12
+[DEBUG ACK SENT] ACK=11 | SACK=[7,8,9,10,11]
+[DEBUG A] Sent pkt 12 | base=11 | next=12
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 12
+[DEBUG TIMER] Restarting timer for new base=12
+[DEBUG A] Sent pkt 13 | base=12 | next=13
+[DEBUG B] In-order delivery. expectedseqnum advanced to 13
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 14
+[DEBUG ACK SENT] ACK=13 | SACK=[9,10,11,12,13]
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 13
+[DEBUG TIMER] Restarting timer for new base=13
+[DEBUG A] Sent pkt 14 | base=13 | next=14
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 14
+[DEBUG TIMER] Restarting timer for new base=14
+[DEBUG A] Sent pkt 15 | base=14 | next=15
+[DEBUG B] In-order delivery. expectedseqnum advanced to 15
+[DEBUG ACK SENT] ACK=14 | SACK=[10,11,12,13,14]
+[DEBUG A] Sent pkt 0 | base=14 | next=16
+[DEBUG B] In-order delivery. expectedseqnum advanced to 16
+[DEBUG ACK SENT] ACK=15 | SACK=[11,12,13,14,15]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 17
+[DEBUG ACK SENT] ACK=0 | SACK=[12,13,14,15,0]
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 15
+[DEBUG TIMER] Restarting timer for new base=15
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 16
+[DEBUG TIMER] Restarting timer for new base=16
+[DEBUG A] Sent pkt 1 | base=16 | next=17
+[DEBUG A] Sent pkt 2 | base=16 | next=18
+[DEBUG B] In-order delivery. expectedseqnum advanced to 18
+[DEBUG ACK SENT] ACK=1 | SACK=[13,14,15,0,1]
+[DEBUG A] Sent pkt 3 | base=16 | next=19
+[DEBUG B] In-order delivery. expectedseqnum advanced to 19
+[DEBUG ACK SENT] ACK=2 | SACK=[14,15,0,1,2]
+[DEBUG A] Sent pkt 4 | base=16 | next=20
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 17
+[DEBUG TIMER] Restarting timer for new base=17
+[DEBUG B] In-order delivery. expectedseqnum advanced to 20
+[DEBUG ACK SENT] ACK=3 | SACK=[15,0,1,2,3]
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 18
+[DEBUG TIMER] Restarting timer for new base=18
+[DEBUG B] In-order delivery. expectedseqnum advanced to 21
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 19
+[DEBUG TIMER] Restarting timer for new base=19
+[DEBUG A] Sent pkt 5 | base=19 | next=21
+[DEBUG WINDOW] ACK=3 >= base=3 | Advancing base to 20
+[DEBUG TIMER] Restarting timer for new base=20
+[DEBUG B] In-order delivery. expectedseqnum advanced to 22
+[DEBUG ACK SENT] ACK=5 | SACK=[1,2,3,4,5]
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 21
+[DEBUG TIMER] Restarting timer for new base=21
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 22
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 6 | base=22 | next=22
+[DEBUG TIMER] Starting timer for base=22
+[DEBUG B] In-order delivery. expectedseqnum advanced to 23
+[DEBUG ACK SENT] ACK=6 | SACK=[2,3,4,5,6]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 23
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 7 | base=23 | next=23
+[DEBUG TIMER] Starting timer for base=23
+[DEBUG B] In-order delivery. expectedseqnum advanced to 24
+[DEBUG ACK SENT] ACK=7 | SACK=[3,4,5,6,7]
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 24
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 8 | base=24 | next=24
+[DEBUG TIMER] Starting timer for base=24
+[DEBUG A] Sent pkt 9 | base=24 | next=25
+[DEBUG B] In-order delivery. expectedseqnum advanced to 25
+[DEBUG ACK SENT] ACK=8 | SACK=[4,5,6,7,8]
+[DEBUG WINDOW] ACK=8 >= base=8 | Advancing base to 25
+[DEBUG TIMER] Restarting timer for new base=25
+[DEBUG B] In-order delivery. expectedseqnum advanced to 26
+[DEBUG ACK SENT] ACK=9 | SACK=[5,6,7,8,9]
+[DEBUG A] Sent pkt 10 | base=25 | next=26
+[DEBUG WINDOW] ACK=9 >= base=9 | Advancing base to 26
+[DEBUG TIMER] Restarting timer for new base=26
+[DEBUG A] Sent pkt 11 | base=26 | next=27
+[DEBUG B] In-order delivery. expectedseqnum advanced to 27
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,8,9,10]
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 27
+[DEBUG TIMER] Restarting timer for new base=27
+[DEBUG B] In-order delivery. expectedseqnum advanced to 28
+[DEBUG ACK SENT] ACK=11 | SACK=[7,8,9,10,11]
+[DEBUG A] Sent pkt 12 | base=27 | next=28
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 28
+[DEBUG TIMER] Restarting timer for new base=28
+[DEBUG A] Sent pkt 13 | base=28 | next=29
+[DEBUG B] In-order delivery. expectedseqnum advanced to 29
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG A] Sent pkt 14 | base=28 | next=30
+[DEBUG A] Sent pkt 15 | base=28 | next=31
+[DEBUG B] In-order delivery. expectedseqnum advanced to 30
+[DEBUG ACK SENT] ACK=13 | SACK=[9,10,11,12,13]
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 29
+[DEBUG TIMER] Restarting timer for new base=29
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 30
+[DEBUG TIMER] Restarting timer for new base=30
+[DEBUG B] In-order delivery. expectedseqnum advanced to 31
+[DEBUG ACK SENT] ACK=14 | SACK=[10,11,12,13,14]
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 31
+[DEBUG TIMER] Restarting timer for new base=31
+[DEBUG B] In-order delivery. expectedseqnum advanced to 32
+[DEBUG ACK SENT] ACK=15 | SACK=[11,12,13,14,15]
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 32
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 0 | base=32 | next=32
+[DEBUG TIMER] Starting timer for base=32
+[DEBUG B] In-order delivery. expectedseqnum advanced to 33
+[DEBUG ACK SENT] ACK=0 | SACK=[12,13,14,15,0]
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 33
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 1 | base=33 | next=33
+[DEBUG TIMER] Starting timer for base=33
+[DEBUG A] Sent pkt 2 | base=33 | next=34
+[DEBUG B] In-order delivery. expectedseqnum advanced to 34
+[DEBUG ACK SENT] ACK=1 | SACK=[13,14,15,0,1]
+[DEBUG A] Sent pkt 3 | base=33 | next=35
+[DEBUG B] In-order delivery. expectedseqnum advanced to 35
+[DEBUG ACK SENT] ACK=2 | SACK=[14,15,0,1,2]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 36
+[DEBUG ACK SENT] ACK=3 | SACK=[15,0,1,2,3]
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 34
+[DEBUG TIMER] Restarting timer for new base=34
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 35
+[DEBUG TIMER] Restarting timer for new base=35
+[DEBUG WINDOW] ACK=3 >= base=3 | Advancing base to 36
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 4 | base=36 | next=36
+[DEBUG TIMER] Starting timer for base=36
+[DEBUG B] In-order delivery. expectedseqnum advanced to 37
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG A] Sent pkt 5 | base=36 | next=37
+[DEBUG B] In-order delivery. expectedseqnum advanced to 38
+[DEBUG ACK SENT] ACK=5 | SACK=[1,2,3,4,5]
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 37
+[DEBUG TIMER] Restarting timer for new base=37
+[DEBUG A] Sent pkt 6 | base=37 | next=38
+[DEBUG A] Sent pkt 7 | base=37 | next=39
+[DEBUG A] Sent pkt 8 | base=37 | next=40
+[DEBUG A] Sent pkt 9 | base=37 | next=41
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 38
+[DEBUG TIMER] Restarting timer for new base=38
+[DEBUG B] In-order delivery. expectedseqnum advanced to 39
+[DEBUG ACK SENT] ACK=6 | SACK=[2,3,4,5,6]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 39
+[DEBUG TIMER] Restarting timer for new base=39
+[DEBUG B] In-order delivery. expectedseqnum advanced to 40
+[DEBUG ACK SENT] ACK=7 | SACK=[3,4,5,6,7]
+[DEBUG A] Sent pkt 10 | base=39 | next=42
+[DEBUG B] In-order delivery. expectedseqnum advanced to 41
+[DEBUG ACK SENT] ACK=8 | SACK=[4,5,6,7,8]
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 40
+[DEBUG TIMER] Restarting timer for new base=40
+[DEBUG B] In-order delivery. expectedseqnum advanced to 42
+[DEBUG ACK SENT] ACK=9 | SACK=[5,6,7,8,9]
+[DEBUG WINDOW] ACK=8 >= base=8 | Advancing base to 41
+[DEBUG TIMER] Restarting timer for new base=41
+[DEBUG A] Sent pkt 11 | base=41 | next=43
+[DEBUG B] In-order delivery. expectedseqnum advanced to 43
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,8,9,10]
+[DEBUG WINDOW] ACK=9 >= base=9 | Advancing base to 42
+[DEBUG TIMER] Restarting timer for new base=42
+[DEBUG B] In-order delivery. expectedseqnum advanced to 44
+[DEBUG ACK SENT] ACK=11 | SACK=[7,8,9,10,11]
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 43
+[DEBUG TIMER] Restarting timer for new base=43
+[DEBUG A] Sent pkt 12 | base=43 | next=44
+[DEBUG B] In-order delivery. expectedseqnum advanced to 45
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 44
+[DEBUG TIMER] Restarting timer for new base=44
+[DEBUG A] Sent pkt 13 | base=44 | next=45
+[DEBUG A] Sent pkt 14 | base=44 | next=46
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 45
+[DEBUG TIMER] Restarting timer for new base=45
+[DEBUG A] Sent pkt 15 | base=45 | next=47
+[DEBUG A] Sent pkt 0 | base=45 | next=48
+[DEBUG B] In-order delivery. expectedseqnum advanced to 46
+[DEBUG ACK SENT] ACK=13 | SACK=[9,10,11,12,13]
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 46
+[DEBUG TIMER] Restarting timer for new base=46
+[DEBUG B] In-order delivery. expectedseqnum advanced to 47
+[DEBUG ACK SENT] ACK=14 | SACK=[10,11,12,13,14]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 48
+[DEBUG ACK SENT] ACK=15 | SACK=[11,12,13,14,15]
+[DEBUG A] Sent pkt 1 | base=46 | next=49
+[DEBUG B] In-order delivery. expectedseqnum advanced to 49
+[DEBUG ACK SENT] ACK=0 | SACK=[12,13,14,15,0]
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 47
+[DEBUG TIMER] Restarting timer for new base=47
+[DEBUG A] Sent pkt 2 | base=47 | next=50
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 48
+[DEBUG TIMER] Restarting timer for new base=48
+[DEBUG A] Sent pkt 3 | base=48 | next=51
+[DEBUG B] In-order delivery. expectedseqnum advanced to 50
+[DEBUG ACK SENT] ACK=1 | SACK=[13,14,15,0,1]
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 49
+[DEBUG TIMER] Restarting timer for new base=49
+[DEBUG B] In-order delivery. expectedseqnum advanced to 51
+[DEBUG ACK SENT] ACK=2 | SACK=[14,15,0,1,2]
+[DEBUG A] Sent pkt 4 | base=49 | next=52
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 50
+[DEBUG TIMER] Restarting timer for new base=50
+[DEBUG B] In-order delivery. expectedseqnum advanced to 52
+[DEBUG ACK SENT] ACK=3 | SACK=[15,0,1,2,3]
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 51
+[DEBUG TIMER] Restarting timer for new base=51
+[DEBUG B] In-order delivery. expectedseqnum advanced to 53
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG A] Sent pkt 5 | base=51 | next=53
+[DEBUG B] In-order delivery. expectedseqnum advanced to 54
+[DEBUG ACK SENT] ACK=5 | SACK=[1,2,3,4,5]
+[DEBUG WINDOW] ACK=3 >= base=3 | Advancing base to 52
+[DEBUG TIMER] Restarting timer for new base=52
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 53
+[DEBUG TIMER] Restarting timer for new base=53
+[DEBUG A] Sent pkt 6 | base=53 | next=54
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 54
+[DEBUG TIMER] Restarting timer for new base=54
+[DEBUG B] In-order delivery. expectedseqnum advanced to 55
+[DEBUG ACK SENT] ACK=6 | SACK=[2,3,4,5,6]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 55
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 7 | base=55 | next=55
+[DEBUG TIMER] Starting timer for base=55
+[DEBUG A] Sent pkt 8 | base=55 | next=56
+[DEBUG A] Sent pkt 9 | base=55 | next=57
+[DEBUG B] In-order delivery. expectedseqnum advanced to 56
+[DEBUG ACK SENT] ACK=7 | SACK=[3,4,5,6,7]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 57
+[DEBUG ACK SENT] ACK=8 | SACK=[4,5,6,7,8]
+[DEBUG A] Sent pkt 10 | base=55 | next=58
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 56
+[DEBUG TIMER] Restarting timer for new base=56
+[DEBUG WINDOW] ACK=8 >= base=8 | Advancing base to 57
+[DEBUG TIMER] Restarting timer for new base=57
+[DEBUG B] In-order delivery. expectedseqnum advanced to 58
+[DEBUG ACK SENT] ACK=9 | SACK=[5,6,7,8,9]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 59
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,8,9,10]
+[DEBUG WINDOW] ACK=9 >= base=9 | Advancing base to 58
+[DEBUG TIMER] Restarting timer for new base=58
+[DEBUG A] Sent pkt 11 | base=58 | next=59
+[DEBUG B] In-order delivery. expectedseqnum advanced to 60
+[DEBUG ACK SENT] ACK=11 | SACK=[7,8,9,10,11]
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 59
+[DEBUG TIMER] Restarting timer for new base=59
+[DEBUG A] Sent pkt 12 | base=59 | next=60
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 60
+[DEBUG TIMER] Restarting timer for new base=60
+[DEBUG B] In-order delivery. expectedseqnum advanced to 61
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG A] Sent pkt 13 | base=60 | next=61
+[DEBUG B] In-order delivery. expectedseqnum advanced to 62
+[DEBUG ACK SENT] ACK=13 | SACK=[9,10,11,12,13]
+[DEBUG A] Sent pkt 14 | base=60 | next=62
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 61
+[DEBUG TIMER] Restarting timer for new base=61
+[DEBUG A] Sent pkt 15 | base=61 | next=63
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 62
+[DEBUG TIMER] Restarting timer for new base=62
+[DEBUG B] In-order delivery. expectedseqnum advanced to 63
+[DEBUG ACK SENT] ACK=14 | SACK=[10,11,12,13,14]
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 63
+[DEBUG TIMER] Restarting timer for new base=63
+[DEBUG B] In-order delivery. expectedseqnum advanced to 64
+[DEBUG ACK SENT] ACK=15 | SACK=[11,12,13,14,15]
+[DEBUG A] Sent pkt 0 | base=63 | next=64
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 64
+[DEBUG TIMER] Restarting timer for new base=64
+[DEBUG B] In-order delivery. expectedseqnum advanced to 65
+[DEBUG ACK SENT] ACK=0 | SACK=[12,13,14,15,0]
+[DEBUG A] Sent pkt 1 | base=64 | next=65
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 65
+[DEBUG TIMER] Restarting timer for new base=65
+[DEBUG A] Sent pkt 2 | base=65 | next=66
+[DEBUG B] In-order delivery. expectedseqnum advanced to 66
+[DEBUG ACK SENT] ACK=1 | SACK=[13,14,15,0,1]
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 66
+[DEBUG TIMER] Restarting timer for new base=66
+[DEBUG B] In-order delivery. expectedseqnum advanced to 67
+[DEBUG ACK SENT] ACK=2 | SACK=[14,15,0,1,2]
+[DEBUG A] Sent pkt 3 | base=66 | next=67
+[DEBUG A] Sent pkt 4 | base=66 | next=68
+[DEBUG B] In-order delivery. expectedseqnum advanced to 68
+[DEBUG ACK SENT] ACK=3 | SACK=[15,0,1,2,3]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 69
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 67
+[DEBUG TIMER] Restarting timer for new base=67
+[DEBUG A] Sent pkt 5 | base=67 | next=69
+[DEBUG WINDOW] ACK=3 >= base=3 | Advancing base to 68
+[DEBUG TIMER] Restarting timer for new base=68
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 69
+[DEBUG TIMER] Restarting timer for new base=69
+[DEBUG B] In-order delivery. expectedseqnum advanced to 70
+[DEBUG ACK SENT] ACK=5 | SACK=[1,2,3,4,5]
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 70
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 6 | base=70 | next=70
+[DEBUG TIMER] Starting timer for base=70
+[DEBUG A] Sent pkt 7 | base=70 | next=71
+[DEBUG B] In-order delivery. expectedseqnum advanced to 71
+[DEBUG ACK SENT] ACK=6 | SACK=[2,3,4,5,6]
+[DEBUG A] Sent pkt 8 | base=70 | next=72
+[DEBUG A] Sent pkt 9 | base=70 | next=73
+[DEBUG B] In-order delivery. expectedseqnum advanced to 72
+[DEBUG ACK SENT] ACK=7 | SACK=[3,4,5,6,7]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 71
+[DEBUG TIMER] Restarting timer for new base=71
+[DEBUG B] In-order delivery. expectedseqnum advanced to 73
+[DEBUG ACK SENT] ACK=8 | SACK=[4,5,6,7,8]
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 72
+[DEBUG TIMER] Restarting timer for new base=72
+[DEBUG B] In-order delivery. expectedseqnum advanced to 74
+[DEBUG ACK SENT] ACK=9 | SACK=[5,6,7,8,9]
+[DEBUG A] Sent pkt 10 | base=72 | next=74
+[DEBUG B] In-order delivery. expectedseqnum advanced to 75
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,8,9,10]
+[DEBUG WINDOW] ACK=8 >= base=8 | Advancing base to 73
+[DEBUG TIMER] Restarting timer for new base=73
+[DEBUG A] Sent pkt 11 | base=73 | next=75
+[DEBUG A] Sent pkt 12 | base=73 | next=76
+[DEBUG WINDOW] ACK=9 >= base=9 | Advancing base to 74
+[DEBUG TIMER] Restarting timer for new base=74
+[DEBUG B] In-order delivery. expectedseqnum advanced to 76
+[DEBUG ACK SENT] ACK=11 | SACK=[7,8,9,10,11]
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 75
+[DEBUG TIMER] Restarting timer for new base=75
+[DEBUG B] In-order delivery. expectedseqnum advanced to 77
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 76
+[DEBUG TIMER] Restarting timer for new base=76
+[DEBUG A] Sent pkt 13 | base=76 | next=77
+[DEBUG B] In-order delivery. expectedseqnum advanced to 78
+[DEBUG ACK SENT] ACK=13 | SACK=[9,10,11,12,13]
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 77
+[DEBUG TIMER] Restarting timer for new base=77
+[DEBUG A] Sent pkt 14 | base=77 | next=78
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 78
+[DEBUG TIMER] Restarting timer for new base=78
+[DEBUG B] In-order delivery. expectedseqnum advanced to 79
+[DEBUG ACK SENT] ACK=14 | SACK=[10,11,12,13,14]
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 79
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 15 | base=79 | next=79
+[DEBUG TIMER] Starting timer for base=79
+[DEBUG B] In-order delivery. expectedseqnum advanced to 80
+[DEBUG ACK SENT] ACK=15 | SACK=[11,12,13,14,15]
+[DEBUG A] Sent pkt 0 | base=79 | next=80
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 80
+[DEBUG TIMER] Restarting timer for new base=80
+[DEBUG B] In-order delivery. expectedseqnum advanced to 81
+[DEBUG ACK SENT] ACK=0 | SACK=[12,13,14,15,0]
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 81
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 1 | base=81 | next=81
+[DEBUG TIMER] Starting timer for base=81
+[DEBUG B] In-order delivery. expectedseqnum advanced to 82
+[DEBUG ACK SENT] ACK=1 | SACK=[13,14,15,0,1]
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 82
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 2 | base=82 | next=82
+[DEBUG TIMER] Starting timer for base=82
+[DEBUG A] Sent pkt 3 | base=82 | next=83
+[DEBUG B] In-order delivery. expectedseqnum advanced to 83
+[DEBUG ACK SENT] ACK=2 | SACK=[14,15,0,1,2]
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 83
+[DEBUG TIMER] Restarting timer for new base=83
+[DEBUG B] In-order delivery. expectedseqnum advanced to 84
+[DEBUG ACK SENT] ACK=3 | SACK=[15,0,1,2,3]
+[DEBUG A] Sent pkt 4 | base=83 | next=84
+[DEBUG B] In-order delivery. expectedseqnum advanced to 85
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG WINDOW] ACK=3 >= base=3 | Advancing base to 84
+[DEBUG TIMER] Restarting timer for new base=84
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 85
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 5 | base=85 | next=85
+[DEBUG TIMER] Starting timer for base=85
+[DEBUG B] In-order delivery. expectedseqnum advanced to 86
+[DEBUG ACK SENT] ACK=5 | SACK=[1,2,3,4,5]
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 86
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 6 | base=86 | next=86
+[DEBUG TIMER] Starting timer for base=86
+[DEBUG B] In-order delivery. expectedseqnum advanced to 87
+[DEBUG ACK SENT] ACK=6 | SACK=[2,3,4,5,6]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 87
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 7 | base=87 | next=87
+[DEBUG TIMER] Starting timer for base=87
+[DEBUG B] In-order delivery. expectedseqnum advanced to 88
+[DEBUG ACK SENT] ACK=7 | SACK=[3,4,5,6,7]
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 88
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 8 | base=88 | next=88
+[DEBUG TIMER] Starting timer for base=88
+[DEBUG B] In-order delivery. expectedseqnum advanced to 89
+[DEBUG ACK SENT] ACK=8 | SACK=[4,5,6,7,8]
+[DEBUG A] Sent pkt 9 | base=88 | next=89
+[DEBUG B] In-order delivery. expectedseqnum advanced to 90
+[DEBUG ACK SENT] ACK=9 | SACK=[5,6,7,8,9]
+[DEBUG WINDOW] ACK=8 >= base=8 | Advancing base to 89
+[DEBUG TIMER] Restarting timer for new base=89
+[DEBUG WINDOW] ACK=9 >= base=9 | Advancing base to 90
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 10 | base=90 | next=90
+[DEBUG TIMER] Starting timer for base=90
+[DEBUG B] In-order delivery. expectedseqnum advanced to 91
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,8,9,10]
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 91
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 11 | base=91 | next=91
+[DEBUG TIMER] Starting timer for base=91
+[DEBUG B] In-order delivery. expectedseqnum advanced to 92
+[DEBUG ACK SENT] ACK=11 | SACK=[7,8,9,10,11]
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 92
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 12 | base=92 | next=92
+[DEBUG TIMER] Starting timer for base=92
+[DEBUG B] In-order delivery. expectedseqnum advanced to 93
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG A] Sent pkt 13 | base=92 | next=93
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 93
+[DEBUG TIMER] Restarting timer for new base=93
+[DEBUG B] In-order delivery. expectedseqnum advanced to 94
+[DEBUG ACK SENT] ACK=13 | SACK=[9,10,11,12,13]
+[DEBUG A] Sent pkt 14 | base=93 | next=94
+[DEBUG B] In-order delivery. expectedseqnum advanced to 95
+[DEBUG ACK SENT] ACK=14 | SACK=[10,11,12,13,14]
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 94
+[DEBUG TIMER] Restarting timer for new base=94
+[DEBUG A] Sent pkt 15 | base=94 | next=95
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 95
+[DEBUG TIMER] Restarting timer for new base=95
+[DEBUG B] In-order delivery. expectedseqnum advanced to 96
+[DEBUG ACK SENT] ACK=15 | SACK=[11,12,13,14,15]
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 96
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 0 | base=96 | next=96
+[DEBUG TIMER] Starting timer for base=96
+[DEBUG B] In-order delivery. expectedseqnum advanced to 97
+[DEBUG ACK SENT] ACK=0 | SACK=[12,13,14,15,0]
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 97
+[DEBUG TIMER] Window empty. Stopping timer.
+[DEBUG A] Sent pkt 1 | base=97 | next=97
+[DEBUG TIMER] Starting timer for base=97
+[DEBUG A] Sent pkt 2 | base=97 | next=98
+[DEBUG A] Sent pkt 3 | base=97 | next=99
+Simulator terminated at time 959.3377483443709
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 100
+Number of retransmissions by A: 0
+Number of data packets delivered to layer 5 at B: 97
+Number of ACK packets sent by B: 97
+Number of corrupted packets: 0
+Ratio of lost packets: 0.0
+Ratio of corrupted packets: 0.0
+Average RTT: 14.972457202509801
+Average communication time: 14.972457202509801
+==================================================

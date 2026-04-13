@@ -1,0 +1,4125 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/GBN/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 500
+Enter packet loss probability (0.0 for no loss): [0.0] 0.3
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.3
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 50
+Enter window size (> 0): [8] 10
+Enter retransmission timeout (>0.0) [15.0] 40
+Enter trace level (>= 0): [0] 1
+Enter random seed: [0] 98328
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+toLayer3: packet being lost
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+toLayer3: packet being corrupted
+toLayer3: packet being lost
+Simulator terminated at time 26220.14831995605
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 458
+Number of retransmissions by A: 3737
+Number of data packets delivered to layer 5 at B: 448
+Number of ACK packets sent by B: 2913
+Number of corrupted packets: 1476
+Ratio of lost packets: 0.31809229037703995
+Ratio of corrupted packets: 0.304518258716732
+Average RTT: 15.983672597430122
+Average communication time: 407.64705084928636
+==================================================

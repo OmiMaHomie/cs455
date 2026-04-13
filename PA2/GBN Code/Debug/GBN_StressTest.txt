@@ -1,0 +1,1233 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/GBN/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 500
+Enter packet loss probability (0.0 for no loss): [0.0] 0.3
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.3
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 50
+Enter window size (> 0): [8] 10
+Enter retransmission timeout (>0.0) [15.0] 40
+Enter trace level (>= 0): [0] 0
+Enter random seed: [0] 98328
+
+... (too long)
+
+[DEBUG ACK SENT] ACK=0 | SACK=[18,19,0,3,9]
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[19,0,3,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=401 | nextseqnum=411 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=0 | SACK=[19,0,3,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[0,3,9,10,2]
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[3,9,10,2,3]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[9,10,2,3,4]
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[10,2,3,4,7]
+[DEBUG TIMEOUT] Timer expired! base=401 | nextseqnum=411 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[2,3,4,7,8]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[3,4,7,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[4,7,8,9,10]
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[7,8,9,10,2]
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG ACK SENT] ACK=0 | SACK=[7,8,9,10,2]
+[DEBUG ACK SENT] ACK=0 | SACK=[7,8,9,10,2]
+[DEBUG ACK SENT] ACK=0 | SACK=[7,8,9,10,2]
+[DEBUG TIMEOUT] Timer expired! base=401 | nextseqnum=411 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[8,9,10,2,7]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[9,10,2,7,9]
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 402
+[DEBUG ACK SENT] ACK=1 | SACK=[10,2,7,9,1]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 403
+[DEBUG ACK SENT] ACK=2 | SACK=[2,7,9,1,2]
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 402
+[DEBUG TIMER] Restarting timer for new base=402
+[DEBUG A] Sent pkt 11 | base=402 | next=411
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[7,9,1,2,4]
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 403
+[DEBUG TIMER] Restarting timer for new base=403
+[DEBUG A] Sent pkt 12 | base=403 | next=412
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[9,1,2,4,5]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[1,2,4,5,7]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[2,4,5,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[4,5,7,8,10]
+[DEBUG ACK SENT] ACK=2 | SACK=[4,5,7,8,10]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=403 | nextseqnum=413 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=2 | SACK=[4,5,7,8,10]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[5,7,8,10,4]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[7,8,10,4,5]
+[DEBUG ACK SENT] ACK=2 | SACK=[7,8,10,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG ACK SENT] ACK=2 | SACK=[7,8,10,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[8,10,4,5,12]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=403 | nextseqnum=413 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[10,4,5,12,4]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[4,5,12,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG ACK SENT] ACK=2 | SACK=[4,5,12,4,5]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[5,12,4,5,7]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[12,4,5,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[4,5,7,8,10]
+[DEBUG TIMEOUT] Timer expired! base=403 | nextseqnum=413 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 404
+[DEBUG ACK SENT] ACK=3 | SACK=[5,7,8,10,3]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 405
+[DEBUG ACK SENT] ACK=4 | SACK=[7,8,10,3,4]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[8,10,3,4,6]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[10,3,4,6,7]
+[DEBUG WINDOW] ACK=4 >= base=3 | Advancing base to 405
+[DEBUG TIMER] Restarting timer for new base=405
+[DEBUG A] Sent pkt 13 | base=405 | next=413
+[DEBUG A] Sent pkt 14 | base=405 | next=414
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[4,6,7,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[6,7,8,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[7,8,9,10,11]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[8,9,10,11,12]
+[DEBUG ACK SENT] ACK=4 | SACK=[8,9,10,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=405 | nextseqnum=415 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 406
+[DEBUG ACK SENT] ACK=5 | SACK=[9,10,11,12,5]
+[DEBUG ACK SENT] ACK=5 | SACK=[9,10,11,12,5]
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 406
+[DEBUG TIMER] Restarting timer for new base=406
+[DEBUG A] Sent pkt 15 | base=406 | next=415
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[10,11,12,5,7]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,5,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[12,5,7,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[5,7,8,9,10]
+[DEBUG ACK SENT] ACK=5 | SACK=[5,7,8,9,10]
+[DEBUG ACK SENT] ACK=5 | SACK=[5,7,8,9,10]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[7,8,9,10,15]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=406 | nextseqnum=416 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[8,9,10,15,8]
+[DEBUG ACK SENT] ACK=5 | SACK=[8,9,10,15,8]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[9,10,15,8,11]
+[DEBUG ACK SENT] ACK=5 | SACK=[9,10,15,8,11]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=406 | nextseqnum=416 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[10,15,8,11,7]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[15,8,11,7,9]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[8,11,7,9,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,7,9,10,11]
+[DEBUG TIMEOUT] Timer expired! base=406 | nextseqnum=416 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[7,9,10,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[9,10,11,12,14]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[10,11,12,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,14,15,8]
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,14,15,8]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,14,15,8]
+[DEBUG TIMEOUT] Timer expired! base=406 | nextseqnum=416 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,14,15,8]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,14,15,8]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[12,14,15,8,8]
+[DEBUG ACK SENT] ACK=5 | SACK=[12,14,15,8,8]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[14,15,8,8,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[15,8,8,10,11]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[8,8,10,11,12]
+[DEBUG TIMEOUT] Timer expired! base=406 | nextseqnum=416 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[8,10,11,12,15]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK SENT] ACK=5 | SACK=[8,10,11,12,15]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[10,11,12,15,7]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,15,7,11]
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,15,7,11]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,15,7,11]
+[DEBUG TIMEOUT] Timer expired! base=406 | nextseqnum=416 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[12,15,7,11,14]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 407
+[DEBUG ACK SENT] ACK=6 | SACK=[15,7,11,14,6]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 408
+[DEBUG ACK SENT] ACK=7 | SACK=[7,11,14,6,7]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 409
+[DEBUG ACK SENT] ACK=8 | SACK=[11,14,6,7,8]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 407
+[DEBUG TIMER] Restarting timer for new base=407
+[DEBUG A] Sent pkt 16 | base=407 | next=416
+[DEBUG ACK SENT] ACK=8 | SACK=[11,14,6,7,8]
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=8 | SACK=[14,6,7,8,13]
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 408
+[DEBUG TIMER] Restarting timer for new base=408
+[DEBUG A] Sent pkt 17 | base=408 | next=417
+[DEBUG ACK SENT] ACK=8 | SACK=[14,6,7,8,13]
+[DEBUG WINDOW] ACK=8 >= base=8 | Advancing base to 409
+[DEBUG TIMER] Restarting timer for new base=409
+[DEBUG A] Sent pkt 18 | base=409 | next=418
+[DEBUG ACK] Duplicate/Invalid ACK (8). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=8 | SACK=[6,7,8,13,15]
+[DEBUG ACK SENT] ACK=8 | SACK=[6,7,8,13,15]
+[DEBUG ACK] Duplicate/Invalid ACK (8). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=8 | SACK=[7,8,13,15,18]
+[DEBUG TIMEOUT] Timer expired! base=409 | nextseqnum=419 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=8 | SACK=[7,8,13,15,18]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=8 | SACK=[8,13,15,18,11]
+[DEBUG ACK SENT] ACK=8 | SACK=[8,13,15,18,11]
+[DEBUG ACK SENT] ACK=8 | SACK=[8,13,15,18,11]
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=8 | SACK=[13,15,18,11,14]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=8 | SACK=[15,18,11,14,15]
+[DEBUG TIMEOUT] Timer expired! base=409 | nextseqnum=419 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=8 | SACK=[15,18,11,14,15]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 410
+[DEBUG ACK SENT] ACK=9 | SACK=[18,11,14,15,9]
+[DEBUG ACK] Duplicate/Invalid ACK (8). Ignoring.
+[DEBUG WINDOW] ACK=9 >= base=9 | Advancing base to 410
+[DEBUG TIMER] Restarting timer for new base=410
+[DEBUG A] Sent pkt 19 | base=410 | next=419
+[DEBUG B] In-order delivery. expectedseqnum advanced to 411
+[DEBUG ACK SENT] ACK=10 | SACK=[11,14,15,9,10]
+[DEBUG ACK SENT] ACK=10 | SACK=[11,14,15,9,10]
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[14,15,9,10,13]
+[DEBUG ACK SENT] ACK=10 | SACK=[14,15,9,10,13]
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 411
+[DEBUG TIMER] Restarting timer for new base=411
+[DEBUG A] Sent pkt 0 | base=411 | next=420
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[15,9,10,13,15]
+[DEBUG ACK SENT] ACK=10 | SACK=[15,9,10,13,15]
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[9,10,13,15,0]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=411 | nextseqnum=421 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[10,13,15,0,12]
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[13,15,0,12,14]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[15,0,12,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG ACK SENT] ACK=10 | SACK=[15,0,12,14,15]
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[0,12,14,15,18]
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[12,14,15,18,19]
+[DEBUG TIMEOUT] Timer expired! base=411 | nextseqnum=421 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[14,15,18,19,0]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 412
+[DEBUG ACK SENT] ACK=11 | SACK=[15,18,19,0,11]
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 412
+[DEBUG TIMER] Restarting timer for new base=412
+[DEBUG A] Sent pkt 1 | base=412 | next=421
+[DEBUG B] In-order delivery. expectedseqnum advanced to 413
+[DEBUG ACK SENT] ACK=12 | SACK=[18,19,0,11,12]
+[DEBUG ACK SENT] ACK=12 | SACK=[18,19,0,11,12]
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 413
+[DEBUG TIMER] Restarting timer for new base=413
+[DEBUG A] Sent pkt 2 | base=413 | next=422
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[19,0,11,12,14]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[0,11,12,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=12 | SACK=[0,11,12,14,15]
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[11,12,14,15,19]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=12 | SACK=[11,12,14,15,19]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[12,14,15,19,1]
+[DEBUG TIMEOUT] Timer expired! base=413 | nextseqnum=423 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=12 | SACK=[12,14,15,19,1]
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[14,15,19,1,16]
+[DEBUG B] Out-of-order/Duplicate pkt 17. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[15,19,1,16,17]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[19,1,16,17,18]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=12 | SACK=[19,1,16,17,18]
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[1,16,17,18,0]
+[DEBUG ACK SENT] ACK=12 | SACK=[1,16,17,18,0]
+[DEBUG ACK SENT] ACK=12 | SACK=[1,16,17,18,0]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=413 | nextseqnum=423 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 414
+[DEBUG ACK SENT] ACK=13 | SACK=[16,17,18,0,13]
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 414
+[DEBUG TIMER] Restarting timer for new base=414
+[DEBUG A] Sent pkt 3 | base=414 | next=423
+[DEBUG ACK SENT] ACK=13 | SACK=[16,17,18,0,13]
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[17,18,0,13,16]
+[DEBUG ACK SENT] ACK=13 | SACK=[17,18,0,13,16]
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[18,0,13,16,18]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG ACK SENT] ACK=13 | SACK=[18,0,13,16,18]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[0,13,16,18,0]
+[DEBUG ACK SENT] ACK=13 | SACK=[0,13,16,18,0]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[13,16,18,0,2]
+[DEBUG ACK SENT] ACK=13 | SACK=[13,16,18,0,2]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=414 | nextseqnum=424 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG ACK SENT] ACK=13 | SACK=[13,16,18,0,2]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[16,18,0,2,15]
+[DEBUG ACK SENT] ACK=13 | SACK=[16,18,0,2,15]
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[18,0,2,15,18]
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[0,2,15,18,19]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[2,15,18,19,1]
+[DEBUG TIMEOUT] Timer expired! base=414 | nextseqnum=424 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[15,18,19,1,2]
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[18,19,1,2,3]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 415
+[DEBUG ACK SENT] ACK=14 | SACK=[19,1,2,3,14]
+[DEBUG ACK SENT] ACK=14 | SACK=[19,1,2,3,14]
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=14 | SACK=[1,2,3,14,16]
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 415
+[DEBUG TIMER] Restarting timer for new base=415
+[DEBUG A] Sent pkt 4 | base=415 | next=424
+[DEBUG ACK] Duplicate/Invalid ACK (14). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 17. Discarding.
+[DEBUG ACK SENT] ACK=14 | SACK=[2,3,14,16,17]
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=14 | SACK=[3,14,16,17,0]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=14 | SACK=[14,16,17,0,1]
+[DEBUG ACK SENT] ACK=14 | SACK=[14,16,17,0,1]
+[DEBUG ACK] Duplicate/Invalid ACK (14). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=14 | SACK=[16,17,0,1,3]
+[DEBUG ACK] Duplicate/Invalid ACK (14). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=415 | nextseqnum=425 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 416
+[DEBUG ACK SENT] ACK=15 | SACK=[17,0,1,3,15]
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 416
+[DEBUG TIMER] Restarting timer for new base=416
+[DEBUG A] Sent pkt 5 | base=416 | next=425
+[DEBUG B] In-order delivery. expectedseqnum advanced to 417
+[DEBUG ACK SENT] ACK=16 | SACK=[0,1,3,15,16]
+[DEBUG ACK SENT] ACK=16 | SACK=[0,1,3,15,16]
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[1,3,15,16,19]
+[DEBUG WINDOW] ACK=16 >= base=16 | Advancing base to 417
+[DEBUG TIMER] Restarting timer for new base=417
+[DEBUG A] Sent pkt 6 | base=417 | next=426
+[DEBUG ACK SENT] ACK=16 | SACK=[1,3,15,16,19]
+[DEBUG ACK] Duplicate/Invalid ACK (16). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[3,15,16,19,2]
+[DEBUG ACK] Duplicate/Invalid ACK (16). Ignoring.
+[DEBUG ACK SENT] ACK=16 | SACK=[3,15,16,19,2]
+[DEBUG ACK SENT] ACK=16 | SACK=[3,15,16,19,2]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[15,16,19,2,5]
+[DEBUG TIMEOUT] Timer expired! base=417 | nextseqnum=427 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[16,19,2,5,19]
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[19,2,5,19,0]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[2,5,19,0,1]
+[DEBUG ACK SENT] ACK=16 | SACK=[2,5,19,0,1]
+[DEBUG ACK] Duplicate/Invalid ACK (16). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[5,19,0,1,3]
+[DEBUG ACK] Duplicate/Invalid ACK (16). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[19,0,1,3,5]
+[DEBUG ACK] Duplicate/Invalid ACK (16). Ignoring.
+[DEBUG ACK SENT] ACK=16 | SACK=[19,0,1,3,5]
+[DEBUG TIMEOUT] Timer expired! base=417 | nextseqnum=427 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 418
+[DEBUG ACK SENT] ACK=17 | SACK=[0,1,3,5,17]
+[DEBUG ACK SENT] ACK=17 | SACK=[0,1,3,5,17]
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[1,3,5,17,0]
+[DEBUG WINDOW] ACK=17 >= base=17 | Advancing base to 418
+[DEBUG TIMER] Restarting timer for new base=418
+[DEBUG A] Sent pkt 7 | base=418 | next=427
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[3,5,17,0,1]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[5,17,0,1,3]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[17,0,1,3,5]
+[DEBUG ACK SENT] ACK=17 | SACK=[17,0,1,3,5]
+[DEBUG ACK SENT] ACK=17 | SACK=[17,0,1,3,5]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=418 | nextseqnum=428 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 419
+[DEBUG ACK SENT] ACK=18 | SACK=[0,1,3,5,18]
+[DEBUG WINDOW] ACK=18 >= base=18 | Advancing base to 419
+[DEBUG TIMER] Restarting timer for new base=419
+[DEBUG A] Sent pkt 8 | base=419 | next=428
+[DEBUG B] In-order delivery. expectedseqnum advanced to 420
+[DEBUG ACK SENT] ACK=19 | SACK=[1,3,5,18,19]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 421
+[DEBUG ACK SENT] ACK=0 | SACK=[3,5,18,19,0]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 422
+[DEBUG ACK SENT] ACK=1 | SACK=[5,18,19,0,1]
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[18,19,0,1,3]
+[DEBUG WINDOW] ACK=0 >= base=19 | Advancing base to 421
+[DEBUG TIMER] Restarting timer for new base=421
+[DEBUG A] Sent pkt 9 | base=421 | next=429
+[DEBUG A] Sent pkt 10 | base=421 | next=430
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[19,0,1,3,4]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[0,1,3,4,5]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[1,3,4,5,7]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[3,4,5,7,8]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[4,5,7,8,9]
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 422
+[DEBUG TIMER] Restarting timer for new base=422
+[DEBUG A] Sent pkt 11 | base=422 | next=431
+[DEBUG ACK SENT] ACK=1 | SACK=[4,5,7,8,9]
+[DEBUG ACK SENT] ACK=1 | SACK=[4,5,7,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=422 | nextseqnum=432 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=1 | SACK=[4,5,7,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[5,7,8,9,4]
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[7,8,9,4,5]
+[DEBUG ACK SENT] ACK=1 | SACK=[7,8,9,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG ACK SENT] ACK=1 | SACK=[7,8,9,4,5]
+[DEBUG ACK SENT] ACK=1 | SACK=[7,8,9,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=422 | nextseqnum=432 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[8,9,4,5,11]
+[DEBUG ACK SENT] ACK=1 | SACK=[8,9,4,5,11]
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[9,4,5,11,3]
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[4,5,11,3,4]
+[DEBUG ACK SENT] ACK=1 | SACK=[4,5,11,3,4]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[5,11,3,4,7]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[11,3,4,7,8]
+[DEBUG TIMEOUT] Timer expired! base=422 | nextseqnum=432 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[3,4,7,8,11]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 423
+[DEBUG ACK SENT] ACK=2 | SACK=[4,7,8,11,2]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 424
+[DEBUG ACK SENT] ACK=3 | SACK=[7,8,11,2,3]
+[DEBUG WINDOW] ACK=3 >= base=2 | Advancing base to 424
+[DEBUG TIMER] Restarting timer for new base=424
+[DEBUG A] Sent pkt 12 | base=424 | next=432
+[DEBUG A] Sent pkt 13 | base=424 | next=433
+[DEBUG B] In-order delivery. expectedseqnum advanced to 425
+[DEBUG ACK SENT] ACK=4 | SACK=[8,11,2,3,4]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[11,2,3,4,6]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[2,3,4,6,8]
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 425
+[DEBUG TIMER] Restarting timer for new base=425
+[DEBUG A] Sent pkt 14 | base=425 | next=434
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,6,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,6,8,9]
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,6,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[4,6,8,9,12]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=425 | nextseqnum=435 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=4 | SACK=[4,6,8,9,12]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[6,8,9,12,7]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[8,9,12,7,9]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[9,12,7,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[12,7,9,10,11]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK SENT] ACK=4 | SACK=[12,7,9,10,11]
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[7,9,10,11,13]
+[DEBUG TIMEOUT] Timer expired! base=425 | nextseqnum=435 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK SENT] ACK=4 | SACK=[7,9,10,11,13]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[9,10,11,13,6]
+[DEBUG ACK SENT] ACK=4 | SACK=[9,10,11,13,6]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK SENT] ACK=4 | SACK=[9,10,11,13,6]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[10,11,13,6,10]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[11,13,6,10,12]
+[DEBUG TIMEOUT] Timer expired! base=425 | nextseqnum=435 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[13,6,10,12,13]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[6,10,12,13,14]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 426
+[DEBUG ACK SENT] ACK=5 | SACK=[10,12,13,14,5]
+[DEBUG ACK SENT] ACK=5 | SACK=[10,12,13,14,5]
+[DEBUG ACK SENT] ACK=5 | SACK=[10,12,13,14,5]
+[DEBUG TIMEOUT] Timer expired! base=425 | nextseqnum=435 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=5 | SACK=[10,12,13,14,5]
+[DEBUG ACK SENT] ACK=5 | SACK=[10,12,13,14,5]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[12,13,14,5,11]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[13,14,5,11,12]
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[14,5,11,12,14]
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 426
+[DEBUG TIMER] Restarting timer for new base=426
+[DEBUG A] Sent pkt 15 | base=426 | next=435
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[5,11,12,14,5]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK SENT] ACK=5 | SACK=[5,11,12,14,5]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,14,5,7]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[12,14,5,7,8]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[14,5,7,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK SENT] ACK=5 | SACK=[14,5,7,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[5,7,8,9,11]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[7,8,9,11,12]
+[DEBUG ACK SENT] ACK=5 | SACK=[7,8,9,11,12]
+[DEBUG TIMEOUT] Timer expired! base=426 | nextseqnum=436 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[8,9,11,12,14]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 427
+[DEBUG ACK SENT] ACK=6 | SACK=[9,11,12,14,6]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=6 | SACK=[11,12,14,6,8]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=6 | SACK=[12,14,6,8,10]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK SENT] ACK=6 | SACK=[12,14,6,8,10]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=6 | SACK=[14,6,8,10,12]
+[DEBUG ACK SENT] ACK=6 | SACK=[14,6,8,10,12]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 427
+[DEBUG TIMER] Restarting timer for new base=427
+[DEBUG A] Sent pkt 16 | base=427 | next=436
+[DEBUG ACK] Duplicate/Invalid ACK (6). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=6 | SACK=[6,8,10,12,14]
+[DEBUG ACK] Duplicate/Invalid ACK (6). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=6 | SACK=[8,10,12,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (6). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (6). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=6 | SACK=[10,12,14,15,16]
+[DEBUG ACK] Duplicate/Invalid ACK (6). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=427 | nextseqnum=437 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 428
+[DEBUG ACK SENT] ACK=7 | SACK=[12,14,15,16,7]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[14,15,16,7,9]
+[DEBUG ACK SENT] ACK=7 | SACK=[14,15,16,7,9]
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 428
+[DEBUG TIMER] Restarting timer for new base=428
+[DEBUG A] Sent pkt 17 | base=428 | next=437
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[15,16,7,9,11]
+[DEBUG ACK SENT] ACK=7 | SACK=[15,16,7,9,11]
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[16,7,9,11,13]
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG ACK SENT] ACK=7 | SACK=[16,7,9,11,13]
+[DEBUG ACK SENT] ACK=7 | SACK=[16,7,9,11,13]
+[DEBUG TIMEOUT] Timer expired! base=428 | nextseqnum=438 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[7,9,11,13,10]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[9,11,13,10,12]
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG ACK SENT] ACK=7 | SACK=[9,11,13,10,12]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[11,13,10,12,15]
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[13,10,12,15,16]
+[DEBUG TIMEOUT] Timer expired! base=428 | nextseqnum=438 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 17. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[10,12,15,16,17]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 429
+[DEBUG ACK SENT] ACK=8 | SACK=[12,15,16,17,8]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 430
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,8,9]
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,8,9]
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,8,9]
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,8,9]
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,8,9]
+[DEBUG WINDOW] ACK=9 >= base=8 | Advancing base to 430
+[DEBUG TIMER] Restarting timer for new base=430
+[DEBUG A] Sent pkt 18 | base=430 | next=438
+[DEBUG A] Sent pkt 19 | base=430 | next=439
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[16,17,8,9,19]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=430 | nextseqnum=440 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[17,8,9,19,11]
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[8,9,19,11,13]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[9,19,11,13,15]
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[19,11,13,15,16]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 17. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[11,13,15,16,17]
+[DEBUG ACK SENT] ACK=9 | SACK=[11,13,15,16,17]
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[13,15,16,17,19]
+[DEBUG TIMEOUT] Timer expired! base=430 | nextseqnum=440 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=9 | SACK=[13,15,16,17,19]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,19,12]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,19,12]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[16,17,19,12,16]
+[DEBUG B] Out-of-order/Duplicate pkt 17. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[17,19,12,16,17]
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[19,12,16,17,18]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=430 | nextseqnum=440 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[12,16,17,18,11]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[16,17,18,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[17,18,11,12,13]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[18,11,12,13,14]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[11,12,13,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[12,13,14,15,16]
+[DEBUG B] Out-of-order/Duplicate pkt 17. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[13,14,15,16,17]
+[DEBUG TIMEOUT] Timer expired! base=430 | nextseqnum=440 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[14,15,16,17,18]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,18,19]
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,18,19]
+[DEBUG ACK SENT] ACK=9 | SACK=[15,16,17,18,19]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[16,17,18,19,12]
+[DEBUG ACK SENT] ACK=9 | SACK=[16,17,18,19,12]
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[17,18,19,12,14]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[18,19,12,14,15]
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[19,12,14,15,18]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=430 | nextseqnum=440 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 431
+[DEBUG ACK SENT] ACK=10 | SACK=[12,14,15,18,10]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 432
+[DEBUG ACK SENT] ACK=11 | SACK=[14,15,18,10,11]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 433
+[DEBUG ACK SENT] ACK=12 | SACK=[15,18,10,11,12]
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 431
+[DEBUG TIMER] Restarting timer for new base=431
+[DEBUG A] Sent pkt 0 | base=431 | next=440
+[DEBUG ACK SENT] ACK=12 | SACK=[15,18,10,11,12]
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[18,10,11,12,16]
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[10,11,12,16,18]
+[DEBUG ACK SENT] ACK=12 | SACK=[10,11,12,16,18]
+[DEBUG WINDOW] ACK=12 >= base=11 | Advancing base to 433
+[DEBUG TIMER] Restarting timer for new base=433
+[DEBUG A] Sent pkt 1 | base=433 | next=441
+[DEBUG A] Sent pkt 2 | base=433 | next=442
+[DEBUG ACK SENT] ACK=12 | SACK=[10,11,12,16,18]
+[DEBUG ACK SENT] ACK=12 | SACK=[10,11,12,16,18]
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[11,12,16,18,2]
+[DEBUG TIMEOUT] Timer expired! base=433 | nextseqnum=443 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=12 | SACK=[11,12,16,18,2]
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[12,16,18,2,14]
+[DEBUG B] Out-of-order/Duplicate pkt 17. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[16,18,2,14,17]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[18,2,14,17,18]
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[2,14,17,18,19]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[14,17,18,19,0]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=12 | SACK=[14,17,18,19,0]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=433 | nextseqnum=443 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 434
+[DEBUG ACK SENT] ACK=13 | SACK=[17,18,19,0,13]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 435
+[DEBUG ACK SENT] ACK=14 | SACK=[18,19,0,13,14]
+[DEBUG WINDOW] ACK=14 >= base=13 | Advancing base to 435
+[DEBUG TIMER] Restarting timer for new base=435
+[DEBUG A] Sent pkt 3 | base=435 | next=443
+[DEBUG A] Sent pkt 4 | base=435 | next=444
+[DEBUG B] In-order delivery. expectedseqnum advanced to 436
+[DEBUG ACK SENT] ACK=15 | SACK=[19,0,13,14,15]
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 436
+[DEBUG TIMER] Restarting timer for new base=436
+[DEBUG A] Sent pkt 5 | base=436 | next=445
+[DEBUG ACK SENT] ACK=15 | SACK=[19,0,13,14,15]
+[DEBUG ACK SENT] ACK=15 | SACK=[19,0,13,14,15]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[0,13,14,15,1]
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[13,14,15,1,2]
+[DEBUG ACK SENT] ACK=15 | SACK=[13,14,15,1,2]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[14,15,1,2,5]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=436 | nextseqnum=446 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 18. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[15,1,2,5,18]
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[1,2,5,18,19]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[2,5,18,19,0]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[5,18,19,0,1]
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[18,19,0,1,2]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=436 | nextseqnum=446 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=15 | SACK=[18,19,0,1,2]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[19,0,1,2,5]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 437
+[DEBUG ACK SENT] ACK=16 | SACK=[0,1,2,5,16]
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[1,2,5,16,3]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[2,5,16,3,4]
+[DEBUG TIMEOUT] Timer expired! base=436 | nextseqnum=446 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[5,16,3,4,5]
+[DEBUG B] Out-of-order/Duplicate pkt 16. Discarding.
+[DEBUG ACK SENT] ACK=16 | SACK=[16,3,4,5,16]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 438
+[DEBUG ACK SENT] ACK=17 | SACK=[3,4,5,16,17]
+[DEBUG ACK SENT] ACK=17 | SACK=[3,4,5,16,17]
+[DEBUG WINDOW] ACK=17 >= base=16 | Advancing base to 438
+[DEBUG TIMER] Restarting timer for new base=438
+[DEBUG A] Sent pkt 6 | base=438 | next=446
+[DEBUG A] Sent pkt 7 | base=438 | next=447
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[4,5,16,17,1]
+[DEBUG ACK SENT] ACK=17 | SACK=[4,5,16,17,1]
+[DEBUG ACK SENT] ACK=17 | SACK=[4,5,16,17,1]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[5,16,17,1,5]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[16,17,1,5,6]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[17,1,5,6,7]
+[DEBUG TIMEOUT] Timer expired! base=438 | nextseqnum=448 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=17 | SACK=[17,1,5,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG ACK SENT] ACK=17 | SACK=[17,1,5,6,7]
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[1,5,6,7,0]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[5,6,7,0,1]
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[6,7,0,1,2]
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[7,0,1,2,3]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[0,1,2,3,5]
+[DEBUG TIMEOUT] Timer expired! base=438 | nextseqnum=448 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=17 | SACK=[0,1,2,3,5]
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[1,2,3,5,19]
+[DEBUG ACK SENT] ACK=17 | SACK=[1,2,3,5,19]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[2,3,5,19,4]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[3,5,19,4,5]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[5,19,4,5,6]
+[DEBUG ACK SENT] ACK=17 | SACK=[5,19,4,5,6]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=438 | nextseqnum=448 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 19. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[19,4,5,6,19]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[4,5,6,19,1]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[5,6,19,1,4]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG ACK SENT] ACK=17 | SACK=[5,6,19,1,4]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[6,19,1,4,6]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=17 | SACK=[19,1,4,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (17). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=438 | nextseqnum=448 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 439
+[DEBUG ACK SENT] ACK=18 | SACK=[1,4,6,7,18]
+[DEBUG WINDOW] ACK=18 >= base=18 | Advancing base to 439
+[DEBUG TIMER] Restarting timer for new base=439
+[DEBUG A] Sent pkt 8 | base=439 | next=448
+[DEBUG B] In-order delivery. expectedseqnum advanced to 440
+[DEBUG ACK SENT] ACK=19 | SACK=[4,6,7,18,19]
+[DEBUG ACK SENT] ACK=19 | SACK=[4,6,7,18,19]
+[DEBUG WINDOW] ACK=19 >= base=19 | Advancing base to 440
+[DEBUG TIMER] Restarting timer for new base=440
+[DEBUG A] Sent pkt 9 | base=440 | next=449
+[DEBUG ACK] Duplicate/Invalid ACK (19). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=19 | SACK=[6,7,18,19,2]
+[DEBUG ACK] Duplicate/Invalid ACK (19). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=19 | SACK=[7,18,19,2,3]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=19 | SACK=[18,19,2,3,4]
+[DEBUG ACK] Duplicate/Invalid ACK (19). Ignoring.
+[DEBUG ACK SENT] ACK=19 | SACK=[18,19,2,3,4]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=19 | SACK=[19,2,3,4,6]
+[DEBUG TIMEOUT] Timer expired! base=440 | nextseqnum=450 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=19 | SACK=[2,3,4,6,8]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=19 | SACK=[3,4,6,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (19). Ignoring.
+[DEBUG ACK SENT] ACK=19 | SACK=[3,4,6,8,9]
+[DEBUG ACK SENT] ACK=19 | SACK=[3,4,6,8,9]
+[DEBUG ACK SENT] ACK=19 | SACK=[3,4,6,8,9]
+[DEBUG ACK SENT] ACK=19 | SACK=[3,4,6,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (19). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=440 | nextseqnum=450 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=19 | SACK=[3,4,6,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (19). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 441
+[DEBUG ACK SENT] ACK=0 | SACK=[4,6,8,9,0]
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 441
+[DEBUG TIMER] Restarting timer for new base=441
+[DEBUG A] Sent pkt 10 | base=441 | next=450
+[DEBUG B] In-order delivery. expectedseqnum advanced to 442
+[DEBUG ACK SENT] ACK=1 | SACK=[6,8,9,0,1]
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[8,9,0,1,3]
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 442
+[DEBUG TIMER] Restarting timer for new base=442
+[DEBUG A] Sent pkt 11 | base=442 | next=451
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[9,0,1,3,4]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[0,1,3,4,6]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[1,3,4,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG ACK SENT] ACK=1 | SACK=[1,3,4,6,7]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[3,4,6,7,9]
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=442 | nextseqnum=452 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[4,6,7,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (1). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=1 | SACK=[6,7,9,10,11]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 443
+[DEBUG ACK SENT] ACK=2 | SACK=[7,9,10,11,2]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[9,10,11,2,5]
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 443
+[DEBUG TIMER] Restarting timer for new base=443
+[DEBUG A] Sent pkt 12 | base=443 | next=452
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[10,11,2,5,6]
+[DEBUG ACK SENT] ACK=2 | SACK=[10,11,2,5,6]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[11,2,5,6,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[2,5,6,10,11]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[5,6,10,11,12]
+[DEBUG TIMEOUT] Timer expired! base=443 | nextseqnum=453 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=2 | SACK=[5,6,10,11,12]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[6,10,11,12,4]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[10,11,12,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG ACK SENT] ACK=2 | SACK=[10,11,12,4,5]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[11,12,4,5,8]
+[DEBUG ACK SENT] ACK=2 | SACK=[11,12,4,5,8]
+[DEBUG TIMEOUT] Timer expired! base=443 | nextseqnum=453 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 444
+[DEBUG ACK SENT] ACK=3 | SACK=[12,4,5,8,3]
+[DEBUG WINDOW] ACK=3 >= base=3 | Advancing base to 444
+[DEBUG TIMER] Restarting timer for new base=444
+[DEBUG A] Sent pkt 13 | base=444 | next=453
+[DEBUG ACK SENT] ACK=3 | SACK=[12,4,5,8,3]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[4,5,8,3,5]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[5,8,3,5,7]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[8,3,5,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[3,5,7,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[5,7,8,9,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[7,8,9,10,11]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[8,9,10,11,12]
+[DEBUG TIMEOUT] Timer expired! base=444 | nextseqnum=454 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[9,10,11,12,13]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 445
+[DEBUG ACK SENT] ACK=4 | SACK=[10,11,12,13,4]
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 445
+[DEBUG TIMER] Restarting timer for new base=445
+[DEBUG A] Sent pkt 14 | base=445 | next=454
+[DEBUG B] In-order delivery. expectedseqnum advanced to 446
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,13,4,5]
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 446
+[DEBUG TIMER] Restarting timer for new base=446
+[DEBUG A] Sent pkt 15 | base=446 | next=455
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,13,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK SENT] ACK=5 | SACK=[11,12,13,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[12,13,4,5,11]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[13,4,5,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[4,5,11,12,14]
+[DEBUG TIMEOUT] Timer expired! base=446 | nextseqnum=456 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 447
+[DEBUG ACK SENT] ACK=6 | SACK=[5,11,12,14,6]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 448
+[DEBUG ACK SENT] ACK=7 | SACK=[11,12,14,6,7]
+[DEBUG ACK SENT] ACK=7 | SACK=[11,12,14,6,7]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[12,14,6,7,9]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[14,6,7,9,10]
+[DEBUG WINDOW] ACK=7 >= base=6 | Advancing base to 448
+[DEBUG TIMER] Restarting timer for new base=448
+[DEBUG A] Sent pkt 16 | base=448 | next=456
+[DEBUG A] Sent pkt 17 | base=448 | next=457
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[6,7,9,10,11]
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[7,9,10,11,12]
+Simulator terminated at time 26220.14831995605
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 458
+Number of retransmissions by A: 3737
+Number of data packets delivered to layer 5 at B: 448
+Number of ACK packets sent by B: 2913
+Number of corrupted packets: 1476
+Ratio of lost packets: 0.31809229037703995
+Ratio of corrupted packets: 0.304518258716732
+Average RTT: 15.983672597430122
+Average communication time: 407.64705084928636
+==================================================

@@ -1,0 +1,998 @@
+omimahomie@LAPTOP-CEUFRM7P:~/cs455/PA2$ java -cp PA2_helper/GBN/ Project
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] 100
+Enter packet loss probability (0.0 for no loss): [0.0] 0
+Enter packet corruption probability (0.0 for no corruption): [0.0] 0.2
+Enter average time between messages from sender's layer 5 (> 0.0): [1000] 15
+Enter window size (> 0): [8] 8
+Enter retransmission timeout (>0.0) [15.0] 30
+Enter trace level (>= 0): [0] 1
+Enter random seed: [0] 13428790
+[DEBUG A] Sent pkt 0 | base=0 | next=0
+[DEBUG TIMER] Starting timer for base=0
+[DEBUG B] In-order delivery. expectedseqnum advanced to 1
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=0 | SACK=[-1,-1,-1,-1,0]
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 1 | base=0 | next=1
+[DEBUG ACK SENT] ACK=0 | SACK=[-1,-1,-1,-1,0]
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 1
+[DEBUG TIMER] Restarting timer for new base=1
+[DEBUG A] Sent pkt 2 | base=1 | next=2
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[-1,-1,-1,0,2]
+[DEBUG A] Sent pkt 3 | base=1 | next=3
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=0 | SACK=[-1,-1,0,2,3]
+[DEBUG ACK] Duplicate/Invalid ACK (0). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=1 | nextseqnum=4 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 2
+[DEBUG ACK SENT] ACK=1 | SACK=[-1,0,2,3,1]
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 4 | base=1 | next=4
+[DEBUG B] In-order delivery. expectedseqnum advanced to 3
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=2 | SACK=[0,2,3,1,2]
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 2
+[DEBUG TIMER] Restarting timer for new base=2
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 5 | base=2 | next=5
+[DEBUG B] In-order delivery. expectedseqnum advanced to 4
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=3 | SACK=[2,3,1,2,3]
+[DEBUG ACK SENT] ACK=3 | SACK=[2,3,1,2,3]
+[DEBUG WINDOW] ACK=3 >= base=2 | Advancing base to 4
+[DEBUG TIMER] Restarting timer for new base=4
+[DEBUG ACK SENT] ACK=3 | SACK=[2,3,1,2,3]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG A] Sent pkt 6 | base=4 | next=6
+[DEBUG A] Sent pkt 7 | base=4 | next=7
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[3,1,2,3,6]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG A] Sent pkt 8 | base=4 | next=8
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[1,2,3,6,7]
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 9 | base=4 | next=9
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=4 | nextseqnum=10 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[2,3,6,7,8]
+[DEBUG ACK SENT] ACK=3 | SACK=[2,3,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG A] Sent pkt 10 | base=4 | next=10
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=3 | SACK=[2,3,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG ACK SENT] ACK=3 | SACK=[2,3,6,7,8]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[3,6,7,8,6]
+[DEBUG TIMEOUT] Timer expired! base=4 | nextseqnum=11 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[6,7,8,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG A] Sent pkt 11 | base=4 | next=11
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[7,8,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[8,6,7,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=3 | SACK=[6,7,8,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (3). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=4 | nextseqnum=12 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 5
+[DEBUG ACK SENT] ACK=4 | SACK=[7,8,9,10,4]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 6
+[DEBUG ACK SENT] ACK=5 | SACK=[8,9,10,4,5]
+[DEBUG ACK SENT] ACK=5 | SACK=[8,9,10,4,5]
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 5
+[DEBUG TIMER] Restarting timer for new base=5
+[DEBUG A] Sent pkt 12 | base=5 | next=12
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 6
+[DEBUG TIMER] Restarting timer for new base=6
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[9,10,4,5,7]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[10,4,5,7,8]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=5 | SACK=[4,5,7,8,9]
+[DEBUG A] Sent pkt 13 | base=6 | next=13
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[5,7,8,9,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[7,8,9,10,11]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=5 | SACK=[8,9,10,11,4]
+[DEBUG TIMEOUT] Timer expired! base=6 | nextseqnum=14 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[9,10,11,4,5]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 7
+[DEBUG ACK SENT] ACK=6 | SACK=[10,11,4,5,6]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 8
+[DEBUG ACK SENT] ACK=7 | SACK=[11,4,5,6,7]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 9
+[DEBUG ACK SENT] ACK=8 | SACK=[4,5,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 10
+[DEBUG ACK SENT] ACK=9 | SACK=[5,6,7,8,9]
+[DEBUG TIMEOUT] Timer expired! base=6 | nextseqnum=14 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=9 | SACK=[5,6,7,8,9]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 7
+[DEBUG TIMER] Restarting timer for new base=7
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 14 | base=7 | next=14
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 8
+[DEBUG TIMER] Restarting timer for new base=8
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 15 | base=8 | next=15
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[6,7,8,9,11]
+[DEBUG WINDOW] ACK=8 >= base=8 | Advancing base to 9
+[DEBUG TIMER] Restarting timer for new base=9
+[DEBUG A] Sent pkt 0 | base=9 | next=16
+[DEBUG WINDOW] ACK=9 >= base=9 | Advancing base to 10
+[DEBUG TIMER] Restarting timer for new base=10
+[DEBUG A] Sent pkt 1 | base=10 | next=17
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[7,8,9,11,12]
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[8,9,11,12,13]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=9 | SACK=[9,11,12,13,6]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[11,12,13,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[12,13,6,7,8]
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[13,6,7,8,9]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 11
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,8,9,10]
+[DEBUG TIMEOUT] Timer expired! base=10 | nextseqnum=18 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 12
+[DEBUG ACK SENT] ACK=11 | SACK=[7,8,9,10,11]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 13
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 14
+[DEBUG ACK SENT] ACK=13 | SACK=[9,10,11,12,13]
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 11
+[DEBUG TIMER] Restarting timer for new base=11
+[DEBUG A] Sent pkt 2 | base=11 | next=18
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[10,11,12,13,6]
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 12
+[DEBUG TIMER] Restarting timer for new base=12
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 3 | base=12 | next=19
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=13 | SACK=[10,11,12,13,6]
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=13 | SACK=[10,11,12,13,6]
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 13
+[DEBUG TIMER] Restarting timer for new base=13
+[DEBUG A] Sent pkt 4 | base=13 | next=20
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[11,12,13,6,9]
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 14
+[DEBUG TIMER] Restarting timer for new base=14
+[DEBUG A] Sent pkt 5 | base=14 | next=21
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=13 | SACK=[12,13,6,9,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[13,6,9,10,11]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[6,9,10,11,12]
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=13 | SACK=[6,9,10,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=13 | SACK=[6,9,10,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=14 | nextseqnum=22 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK SENT] ACK=13 | SACK=[6,9,10,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[9,10,11,12,0]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[10,11,12,0,1]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[11,12,0,1,10]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=14 | nextseqnum=22 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[12,0,1,10,11]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[0,1,10,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[1,10,11,12,13]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 15
+[DEBUG ACK SENT] ACK=14 | SACK=[10,11,12,13,14]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 16
+[DEBUG ACK SENT] ACK=15 | SACK=[11,12,13,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=14 | nextseqnum=22 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 17
+[DEBUG ACK SENT] ACK=0 | SACK=[12,13,14,15,0]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 18
+[DEBUG ACK SENT] ACK=1 | SACK=[13,14,15,0,1]
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 15
+[DEBUG TIMER] Restarting timer for new base=15
+[DEBUG A] Sent pkt 6 | base=15 | next=22
+[DEBUG B] In-order delivery. expectedseqnum advanced to 19
+[DEBUG ACK SENT] ACK=2 | SACK=[14,15,0,1,2]
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 16
+[DEBUG TIMER] Restarting timer for new base=16
+[DEBUG A] Sent pkt 7 | base=16 | next=23
+[DEBUG ACK SENT] ACK=2 | SACK=[14,15,0,1,2]
+[DEBUG WINDOW] ACK=0 >= base=0 | Advancing base to 17
+[DEBUG TIMER] Restarting timer for new base=17
+[DEBUG A] Sent pkt 8 | base=17 | next=24
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[15,0,1,2,4]
+[DEBUG WINDOW] ACK=1 >= base=1 | Advancing base to 18
+[DEBUG TIMER] Restarting timer for new base=18
+[DEBUG A] Sent pkt 9 | base=18 | next=25
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[0,1,2,4,5]
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 19
+[DEBUG TIMER] Restarting timer for new base=19
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 10 | base=19 | next=26
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[1,2,4,5,14]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG ACK SENT] ACK=2 | SACK=[1,2,4,5,14]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[2,4,5,14,0]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=2 | SACK=[4,5,14,0,1]
+[DEBUG TIMEOUT] Timer expired! base=19 | nextseqnum=27 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=2 | SACK=[5,14,0,1,2]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 20
+[DEBUG ACK SENT] ACK=3 | SACK=[14,0,1,2,3]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 21
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[1,2,3,4,14]
+[DEBUG ACK] Duplicate/Invalid ACK (2). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[2,3,4,14,15]
+[DEBUG TIMEOUT] Timer expired! base=19 | nextseqnum=27 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG WINDOW] ACK=3 >= base=3 | Advancing base to 20
+[DEBUG TIMER] Restarting timer for new base=20
+[DEBUG A] Sent pkt 11 | base=20 | next=27
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,14,15,0]
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 21
+[DEBUG TIMER] Restarting timer for new base=21
+[DEBUG A] Sent pkt 12 | base=21 | next=28
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,14,15,0]
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[4,14,15,0,2]
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[14,15,0,2,3]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[15,0,2,3,4]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 22
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=5 | SACK=[0,2,3,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=21 | nextseqnum=29 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[2,3,4,5,14]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[3,4,5,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[4,5,14,15,0]
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 22
+[DEBUG TIMER] Restarting timer for new base=22
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 13 | base=22 | next=29
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[5,14,15,0,1]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK SENT] ACK=5 | SACK=[5,14,15,0,1]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=5 | SACK=[5,14,15,0,1]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=5 | SACK=[14,15,0,1,4]
+[DEBUG ACK SENT] ACK=5 | SACK=[14,15,0,1,4]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 23
+[DEBUG ACK SENT] ACK=6 | SACK=[15,0,1,4,6]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 24
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=7 | SACK=[0,1,4,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=22 | nextseqnum=30 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 25
+[DEBUG ACK SENT] ACK=8 | SACK=[1,4,6,7,8]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 26
+[DEBUG ACK SENT] ACK=9 | SACK=[4,6,7,8,9]
+[DEBUG ACK SENT] ACK=9 | SACK=[4,6,7,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[6,7,8,9,3]
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[7,8,9,3,4]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[8,9,3,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 23
+[DEBUG TIMER] Restarting timer for new base=23
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 14 | base=23 | next=30
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[9,3,4,5,6]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[3,4,5,6,7]
+[DEBUG ACK SENT] ACK=9 | SACK=[3,4,5,6,7]
+[DEBUG WINDOW] ACK=8 >= base=7 | Advancing base to 25
+[DEBUG TIMER] Restarting timer for new base=25
+[DEBUG A] Sent pkt 15 | base=25 | next=31
+[DEBUG A] Sent pkt 0 | base=25 | next=32
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=9 | SACK=[4,5,6,7,9]
+[DEBUG WINDOW] ACK=9 >= base=9 | Advancing base to 26
+[DEBUG TIMER] Restarting timer for new base=26
+[DEBUG A] Sent pkt 1 | base=26 | next=33
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 27
+[DEBUG ACK SENT] ACK=10 | SACK=[5,6,7,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=10 | SACK=[5,6,7,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,9,10,4]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=10 | SACK=[7,9,10,4,5]
+[DEBUG TIMEOUT] Timer expired! base=26 | nextseqnum=34 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[9,10,4,5,6]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[10,4,5,6,7]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[4,5,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (9). Ignoring.
+[DEBUG WINDOW] ACK=10 >= base=10 | Advancing base to 27
+[DEBUG TIMER] Restarting timer for new base=27
+[DEBUG A] Sent pkt 2 | base=27 | next=34
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[5,6,7,8,9]
+[DEBUG ACK SENT] ACK=10 | SACK=[5,6,7,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 28
+[DEBUG ACK SENT] ACK=11 | SACK=[6,7,8,9,11]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 29
+[DEBUG ACK SENT] ACK=12 | SACK=[7,8,9,11,12]
+[DEBUG TIMEOUT] Timer expired! base=27 | nextseqnum=35 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,11,12,5]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[9,11,12,5,6]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG ACK SENT] ACK=12 | SACK=[9,11,12,5,6]
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 28
+[DEBUG TIMER] Restarting timer for new base=28
+[DEBUG A] Sent pkt 3 | base=28 | next=35
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 29
+[DEBUG TIMER] Restarting timer for new base=29
+[DEBUG A] Sent pkt 4 | base=29 | next=36
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[11,12,5,6,8]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[12,5,6,8,9]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[5,6,8,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=12 | SACK=[5,6,8,9,10]
+[DEBUG TIMEOUT] Timer expired! base=29 | nextseqnum=37 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[6,8,9,10,12]
+[DEBUG ACK SENT] ACK=12 | SACK=[6,8,9,10,12]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,12,6]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[9,10,12,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[10,12,6,7,8]
+[DEBUG TIMEOUT] Timer expired! base=29 | nextseqnum=37 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=12 | SACK=[10,12,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[12,6,7,8,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[6,7,8,10,11]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[7,8,10,11,12]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 30
+[DEBUG ACK SENT] ACK=13 | SACK=[8,10,11,12,13]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=13 | SACK=[8,10,11,12,13]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[10,11,12,13,15]
+[DEBUG TIMEOUT] Timer expired! base=29 | nextseqnum=37 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 30
+[DEBUG TIMER] Restarting timer for new base=30
+[DEBUG A] Sent pkt 5 | base=30 | next=37
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[11,12,13,15,0]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=13 | SACK=[12,13,15,0,1]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[13,15,0,1,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[15,0,1,10,11]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG ACK SENT] ACK=13 | SACK=[15,0,1,10,11]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=13 | SACK=[0,1,10,11,13]
+[DEBUG TIMEOUT] Timer expired! base=30 | nextseqnum=38 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 31
+[DEBUG ACK SENT] ACK=14 | SACK=[1,10,11,13,14]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 32
+[DEBUG ACK SENT] ACK=15 | SACK=[10,11,13,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG ACK SENT] ACK=15 | SACK=[10,11,13,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (13). Ignoring.
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 31
+[DEBUG TIMER] Restarting timer for new base=31
+[DEBUG A] Sent pkt 6 | base=31 | next=38
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[11,13,14,15,1]
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 32
+[DEBUG TIMER] Restarting timer for new base=32
+[DEBUG A] Sent pkt 7 | base=32 | next=39
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[13,14,15,1,2]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[14,15,1,2,11]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG ACK SENT] ACK=15 | SACK=[14,15,1,2,11]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[15,1,2,11,13]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[1,2,11,13,14]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[2,11,13,14,15]
+[DEBUG TIMEOUT] Timer expired! base=32 | nextseqnum=40 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 33
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=0 | SACK=[11,13,14,15,0]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 34
+[DEBUG ACK SENT] ACK=1 | SACK=[13,14,15,0,1]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 35
+[DEBUG ACK SENT] ACK=2 | SACK=[14,15,0,1,2]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 36
+[DEBUG ACK SENT] ACK=3 | SACK=[15,0,1,2,3]
+[DEBUG WINDOW] ACK=1 >= base=0 | Advancing base to 34
+[DEBUG TIMER] Restarting timer for new base=34
+[DEBUG A] Sent pkt 8 | base=34 | next=40
+[DEBUG A] Sent pkt 9 | base=34 | next=41
+[DEBUG WINDOW] ACK=2 >= base=2 | Advancing base to 35
+[DEBUG TIMER] Restarting timer for new base=35
+[DEBUG A] Sent pkt 10 | base=35 | next=42
+[DEBUG B] In-order delivery. expectedseqnum advanced to 37
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[1,2,3,4,13]
+[DEBUG WINDOW] ACK=3 >= base=3 | Advancing base to 36
+[DEBUG TIMER] Restarting timer for new base=36
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 11 | base=36 | next=43
+[DEBUG WINDOW] ACK=4 >= base=4 | Advancing base to 37
+[DEBUG TIMER] Restarting timer for new base=37
+[DEBUG A] Sent pkt 12 | base=37 | next=44
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=4 | SACK=[2,3,4,13,14]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,13,14,15]
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[4,13,14,15,0]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[13,14,15,0,1]
+[DEBUG TIMEOUT] Timer expired! base=37 | nextseqnum=45 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[14,15,0,1,2]
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[15,0,1,2,3]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[1,2,3,4,13]
+[DEBUG ACK SENT] ACK=4 | SACK=[1,2,3,4,13]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[2,3,4,13,15]
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,13,15,0]
+[DEBUG TIMEOUT] Timer expired! base=37 | nextseqnum=45 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[4,13,15,0,1]
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[13,15,0,1,2]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=4 | SACK=[15,0,1,2,3]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[0,1,2,3,4]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[1,2,3,4,13]
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[2,3,4,13,14]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=37 | nextseqnum=45 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,13,14,15]
+[DEBUG ACK SENT] ACK=4 | SACK=[3,4,13,14,15]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=4 | SACK=[4,13,14,15,1]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[13,14,15,1,2]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[14,15,1,2,3]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=37 | nextseqnum=45 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=4 | SACK=[15,1,2,3,4]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 38
+[DEBUG ACK SENT] ACK=5 | SACK=[1,2,3,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (4). Ignoring.
+[DEBUG WINDOW] ACK=5 >= base=5 | Advancing base to 38
+[DEBUG TIMER] Restarting timer for new base=38
+toLayer3: packet being corrupted
+[DEBUG A] Sent pkt 13 | base=38 | next=45
+[DEBUG B] Out-of-order/Duplicate pkt 14. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[2,3,4,5,14]
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=5 | SACK=[3,4,5,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 0. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[4,5,14,15,0]
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[5,14,15,0,1]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 2. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[14,15,0,1,2]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=5 | SACK=[14,15,0,1,2]
+[DEBUG TIMEOUT] Timer expired! base=38 | nextseqnum=46 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=5 | SACK=[15,0,1,2,4]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=5 | SACK=[0,1,2,4,5]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 39
+[DEBUG ACK SENT] ACK=6 | SACK=[1,2,4,5,6]
+[DEBUG ACK] Duplicate/Invalid ACK (5). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 40
+[DEBUG ACK SENT] ACK=7 | SACK=[2,4,5,6,7]
+[DEBUG ACK SENT] ACK=7 | SACK=[2,4,5,6,7]
+[DEBUG WINDOW] ACK=6 >= base=6 | Advancing base to 39
+[DEBUG TIMER] Restarting timer for new base=39
+[DEBUG A] Sent pkt 14 | base=39 | next=46
+[DEBUG B] Out-of-order/Duplicate pkt 1. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[4,5,6,7,1]
+[DEBUG ACK SENT] ACK=7 | SACK=[4,5,6,7,1]
+[DEBUG WINDOW] ACK=7 >= base=7 | Advancing base to 40
+[DEBUG TIMER] Restarting timer for new base=40
+[DEBUG A] Sent pkt 15 | base=40 | next=47
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 3. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[5,6,7,1,3]
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 4. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[6,7,1,3,4]
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[7,1,3,4,5]
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=40 | nextseqnum=48 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[1,3,4,5,6]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=7 | SACK=[3,4,5,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 41
+[DEBUG ACK SENT] ACK=8 | SACK=[4,5,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (7). Ignoring.
+[DEBUG WINDOW] ACK=8 >= base=8 | Advancing base to 41
+[DEBUG TIMER] Restarting timer for new base=41
+[DEBUG A] Sent pkt 0 | base=41 | next=48
+[DEBUG B] In-order delivery. expectedseqnum advanced to 42
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=9 | SACK=[5,6,7,8,9]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 43
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,8,9,10]
+[DEBUG ACK SENT] ACK=10 | SACK=[6,7,8,9,10]
+[DEBUG WINDOW] ACK=10 >= base=9 | Advancing base to 43
+[DEBUG TIMER] Restarting timer for new base=43
+[DEBUG A] Sent pkt 1 | base=43 | next=49
+[DEBUG A] Sent pkt 2 | base=43 | next=50
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[7,8,9,10,12]
+[DEBUG ACK SENT] ACK=10 | SACK=[7,8,9,10,12]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[8,9,10,12,6]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[9,10,12,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[10,12,6,7,8]
+[DEBUG TIMEOUT] Timer expired! base=43 | nextseqnum=51 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=10 | SACK=[12,6,7,8,9]
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=10 | SACK=[12,6,7,8,9]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 44
+[DEBUG ACK SENT] ACK=11 | SACK=[6,7,8,9,11]
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (10). Ignoring.
+[DEBUG B] In-order delivery. expectedseqnum advanced to 45
+[DEBUG ACK SENT] ACK=12 | SACK=[7,8,9,11,12]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,11,12,5]
+[DEBUG WINDOW] ACK=11 >= base=11 | Advancing base to 44
+[DEBUG TIMER] Restarting timer for new base=44
+[DEBUG A] Sent pkt 3 | base=44 | next=51
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[9,11,12,5,6]
+[DEBUG WINDOW] ACK=12 >= base=12 | Advancing base to 45
+[DEBUG TIMER] Restarting timer for new base=45
+[DEBUG A] Sent pkt 4 | base=45 | next=52
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[11,12,5,6,7]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[12,5,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[5,6,7,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[6,7,8,9,10]
+[DEBUG ACK SENT] ACK=12 | SACK=[6,7,8,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[7,8,9,10,12]
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,12,5]
+[DEBUG TIMEOUT] Timer expired! base=45 | nextseqnum=53 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[9,10,12,5,6]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[10,12,5,6,7]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[12,5,6,7,8]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[5,6,7,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[6,7,8,9,10]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[7,8,9,10,11]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=45 | nextseqnum=53 | timerRunning=true
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 5. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[9,10,11,12,5]
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[10,11,12,5,6]
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[11,12,5,6,7]
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[12,5,6,7,8]
+[DEBUG TIMEOUT] Timer expired! base=45 | nextseqnum=53 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[5,6,7,8,9]
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[6,7,8,9,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[7,8,9,10,11]
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[8,9,10,11,12]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 6. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[9,10,11,12,6]
+[DEBUG TIMEOUT] Timer expired! base=45 | nextseqnum=53 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 7. Discarding.
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[10,11,12,6,7]
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[10,11,12,6,7]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 9. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[11,12,6,7,9]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=12 | SACK=[12,6,7,9,10]
+[DEBUG TIMEOUT] Timer expired! base=45 | nextseqnum=53 | timerRunning=true
+toLayer3: packet being corrupted
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=12 | SACK=[12,6,7,9,10]
+toLayer3: packet being corrupted
+[DEBUG ACK SENT] ACK=12 | SACK=[12,6,7,9,10]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 46
+[DEBUG ACK SENT] ACK=13 | SACK=[6,7,9,10,13]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 47
+[DEBUG ACK SENT] ACK=14 | SACK=[7,9,10,13,14]
+[DEBUG B] In-order delivery. expectedseqnum advanced to 48
+[DEBUG ACK SENT] ACK=15 | SACK=[9,10,13,14,15]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG TIMEOUT] Timer expired! base=45 | nextseqnum=53 | timerRunning=true
+toLayer3: packet being corrupted
+stopTimer: Warning: Unable to cancel your timer
+[DEBUG TIMEOUT] Retransmitted window. Timer restarted.
+[DEBUG B] Out-of-order/Duplicate pkt 8. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[10,13,14,15,8]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG ACK SENT] ACK=15 | SACK=[10,13,14,15,8]
+[DEBUG ACK] Duplicate/Invalid ACK (12). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 10. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[13,14,15,8,10]
+[DEBUG B] Out-of-order/Duplicate pkt 11. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[14,15,8,10,11]
+[DEBUG WINDOW] ACK=13 >= base=13 | Advancing base to 46
+[DEBUG TIMER] Restarting timer for new base=46
+[DEBUG A] Sent pkt 5 | base=46 | next=53
+[DEBUG WINDOW] ACK=14 >= base=14 | Advancing base to 47
+[DEBUG TIMER] Restarting timer for new base=47
+[DEBUG A] Sent pkt 6 | base=47 | next=54
+[DEBUG B] Out-of-order/Duplicate pkt 12. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[15,8,10,11,12]
+[DEBUG B] Out-of-order/Duplicate pkt 13. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[8,10,11,12,13]
+[DEBUG WINDOW] ACK=15 >= base=15 | Advancing base to 48
+[DEBUG TIMER] Restarting timer for new base=48
+[DEBUG A] Sent pkt 7 | base=48 | next=55
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG ACK SENT] ACK=15 | SACK=[8,10,11,12,13]
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG ACK] Duplicate/Invalid ACK (15). Ignoring.
+[DEBUG B] Out-of-order/Duplicate pkt 15. Discarding.
+[DEBUG ACK SENT] ACK=15 | SACK=[10,11,12,13,15]
+Simulator terminated at time 1496.8156987212737
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 56
+Number of retransmissions by A: 264
+Number of data packets delivered to layer 5 at B: 48
+Number of ACK packets sent by B: 256
+Number of corrupted packets: 96
+Ratio of lost packets: 0.2916666666666667
+Ratio of corrupted packets: 0.23529411764705882
+Average RTT: 21.699179052095097
+Average communication time: 204.33528969695112
+==================================================
